@@ -1,0 +1,75 @@
+{
+ "all_ok": false,
+ "checks": [
+  {
+   "name": "schema_completeness",
+   "ok": true,
+   "missing": []
+  },
+  {
+   "name": "conservation",
+   "ok": false,
+   "absent_chunks": [
+    17
+   ],
+   "over_allotment": []
+  },
+  {
+   "name": "monotonicity",
+   "ok": true,
+   "rows": 7101,
+   "papers": 679,
+   "prior_rows": 0,
+   "prior_papers": 0
+  },
+  {
+   "name": "no_model_emitted_ids",
+   "ok": true,
+   "violations": {}
+  },
+  {
+   "name": "id_provenance",
+   "ok": true,
+   "id_without_source": {}
+  },
+  {
+   "name": "enum_drift",
+   "ok": true,
+   "flagged": {
+    "evidence_tier": {
+     "case-report/case-series": 2
+    }
+   },
+   "note": "flagged for adjudication, never auto-remapped"
+  },
+  {
+   "name": "duplicates",
+   "ok": true,
+   "fully_identical_rows": 0,
+   "loose_key_groups": 22,
+   "note": "loose>full is expected and NOT a defect; only fully-identical rows are duplicates"
+  },
+  {
+   "name": "hpo_multivalue",
+   "ok": true,
+   "mismatch": 0,
+   "n_with_ids": 3236,
+   "n_multi": 1031
+  },
+  {
+   "name": "authority_prefix_match_v4",
+   "mismatches": {},
+   "n_mismatched_rows": 0,
+   "n_mismatched_ids": 0,
+   "n_rows_checked": 4315,
+   "n_ids_checked": 5973,
+   "n_undeclared_tag_rows": 0,
+   "n_minting_column_disagreements": 0,
+   "columns_checked": [
+    "hpo_ids_verified",
+    "entity_ontology_id_resolved"
+   ],
+   "ok": true
+  }
+ ]
+}

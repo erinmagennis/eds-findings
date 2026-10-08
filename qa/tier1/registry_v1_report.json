@@ -1,0 +1,85 @@
+{
+ "schema": "registry-v1 (2026-10-08)",
+ "rows": 22805,
+ "by_corpus_status": {
+  "eds-findings": {
+   "planned": 5362,
+   "referenced": 1718,
+   "extracted": 679,
+   "excluded_screen": 569,
+   "not_extractable": 128,
+   "dispatched_no_yield": 87
+  },
+  "pots-findings": {
+   "extracted": 11519,
+   "dispatched_no_yield": 2743
+  }
+ },
+ "invariants": {
+  "inv_counts_sum": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "per corpus: \u03a3_status distinct pmids == distinct pmids; registry vs expected (MANIFEST papers)"
+  },
+  "inv_generation_provenance": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "extracted/referenced rows: pipeline_generation non-null and prompt_ref != unpinned; one (generation, prompt_sha256) per package"
+  },
+  "inv_key_unique": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "no two rows share ['pmid', 'corpus', 'tier', 'pipeline_generation', 'prompt_ref', 'chunk_id', 'extraction_status']"
+  },
+  "inv_n_findings_by_status": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "extracted => n_findings >= 1; every other status => n_findings == 0"
+  },
+  "inv_no_reextraction_of_sibling_paper": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "rows with extraction_status=extracted grouped by pmid: distinct corpus <= 1, minus documented exceptions"
+  },
+  "inv_one_extraction_per_pmid_per_generation": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "rows with extraction_status=extracted, grouped by (pmid, pipeline_generation): distinct corpus <= 1, minus rows listed in the documented exceptions table"
+  },
+  "inv_partition_within_corpus": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "extracted rows grouped by (corpus, pmid): distinct package <= 1"
+  },
+  "inv_reference_only_consistent": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "reference_only is true exactly on rows with extraction_status=referenced"
+  },
+  "inv_referenced_exists_in_sibling": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "referenced rows: each shared_with sibling has an extracted row for the pmid"
+  },
+  "inv_shared_with_consistent": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "shared_with == {corpora with an extracted row for the pmid} minus own corpus, on every row"
+  },
+  "inv_status_enum": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "extraction_status in ('extracted', 'dispatched_no_yield', 'referenced', 'planned', 'excluded_screen', 'not_extractable'); universe_status null or in ('shared', 'new')"
+  },
+  "inv_universe_status_consistent": {
+   "ok": true,
+   "n_violations": 0,
+   "basis": "shared & not sibling_dispatched_no_yield <=> referenced; shared & sibling_dispatched_no_yield => not referenced; new => never referenced"
+  }
+ },
+ "notes": [
+  "v1 adds statuses excluded_screen/not_extractable and the sibling_dispatched_no_yield rule for shared papers re-extracted here (223 POTS no-yield papers -> 88 in roster v3 -> 49 extracted).",
+  "88 fresh-draw papers (27 rostered, 61 screen-excluded) were absent from the Tier-5 universe parquet and are added with universe_status=new.",
+  "tier stored as string ('1' / POTS tier labels)."
+ ]
+}

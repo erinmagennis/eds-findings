@@ -1,0 +1,114 @@
+{
+ "findings": 7101,
+ "papers": 679,
+ "roster": 766,
+ "condition_rows": {
+  "EDS_other_type": 2410,
+  "general": 1200,
+  "hypermobility_unspecified": 1141,
+  "multiple": 978,
+  "EDS_unspecified_or_mixed": 646,
+  "hEDS": 529,
+  "HSD": 197
+ },
+ "eds_type_rows": {
+  "null": 4408,
+  "vascular": 806,
+  "classical": 427,
+  "brittle cornea syndrome": 311,
+  "not specified": 287,
+  "classical-like": 195,
+  "kyphoscoliotic": 177,
+  "other named type": 118,
+  "musculocontractural": 111,
+  "spondylodysplastic": 92,
+  "periodontal": 65,
+  "dermatosparaxis": 36,
+  "myopathic": 24,
+  "cardiac-valvular": 23,
+  "arthrochalasia": 20,
+  "arthrochalasis": 1
+ },
+ "eds_type_leak_rows": 283,
+ "finding_type": {
+  "mechanism/biomarker": 2355,
+  "comorbidity": 1474,
+  "treatment/intervention": 1231,
+  "symptom-burden": 1027,
+  "diagnostic/screening": 1014
+ },
+ "evidence_tier": {
+  "cross-sectional": 1382,
+  "case-report": 1294,
+  "review/expert-opinion": 1210,
+  "case-series": 1026,
+  "cohort": 1017,
+  "mechanistic/in-vitro": 567,
+  "case-control": 521,
+  "meta-analysis": 43,
+  "RCT": 39,
+  "case-report/case-series": 2
+ },
+ "entity_kind": {
+  "physiological-measure": 1788,
+  "gene/protein": 1510,
+  "null": 1387,
+  "other": 1243,
+  "anatomical-structure": 825,
+  "chemical/metabolite": 293,
+  "cell-type": 50,
+  "pathogen": 4,
+  "device": 1
+ },
+ "papers_by_condition": {
+  "EDS_other_type": 296,
+  "EDS_unspecified_or_mixed": 163,
+  "HSD": 30,
+  "general": 199,
+  "hEDS": 94,
+  "hypermobility_unspecified": 185,
+  "multiple": 151
+ },
+ "screen_flag_rows": {
+  "false": 6175,
+  "true": 926
+ },
+ "uncertain_papers_yielding": 106,
+ "uncertain_papers": 132,
+ "yield_by_fulltext_expected": {
+  "False": {
+   "yielded": 390,
+   "n": 458,
+   "rate": 0.852
+  },
+  "True": {
+   "yielded": 289,
+   "n": 308,
+   "rate": 0.938
+  }
+ },
+ "yield_chunks_25_29": {
+  "yielded": 49,
+  "n": 88
+ },
+ "output_tokens_extraction_total": 8762318,
+ "projected_total_tokens": 7990480,
+ "gene_marker_rows": 1041,
+ "top_gene_markers": {
+  "COL3A1": 69,
+  "TNXB": 35,
+  "ZNF469": 25,
+  "COL5A1": 21,
+  "CHST14": 17,
+  "FLNA": 15,
+  "ZFP469 P.GLY634* (RECAPITULATING HUMAN ZNF469 P.GLY677*)": 15,
+  "B4GALT7": 13,
+  "COL1A1": 13,
+  "COL12A1": 12,
+  "FBN1": 12,
+  "PRDM5": 12,
+  "COL1A2": 11,
+  "FKBP14 P.MET48LYS": 9,
+  "COL5A2": 9
+ }
+}

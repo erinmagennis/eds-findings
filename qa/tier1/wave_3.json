@@ -1,0 +1,323 @@
+{
+ "run_tag": "wave3",
+ "unit_plan": {
+  "17": {
+   "n_parts": 1,
+   "expected_fulltext": 2,
+   "papers": 6,
+   "max_fulltext_per_unit": 12
+  },
+  "18": {
+   "n_parts": 2,
+   "expected_fulltext": 10,
+   "papers": 29,
+   "max_fulltext_per_unit": 12
+  },
+  "19": {
+   "n_parts": 1,
+   "expected_fulltext": 7,
+   "papers": 23,
+   "max_fulltext_per_unit": 12
+  },
+  "20": {
+   "n_parts": 1,
+   "expected_fulltext": 10,
+   "papers": 24,
+   "max_fulltext_per_unit": 12
+  },
+  "21": {
+   "n_parts": 1,
+   "expected_fulltext": 4,
+   "papers": 10,
+   "max_fulltext_per_unit": 12
+  }
+ },
+ "chunks_done": [
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "deferred_units": [],
+ "dispatch_deadline": 1791490500,
+ "stalled": false,
+ "stall_threshold_s": 3000,
+ "completed_unit_walls_s": [
+  361,
+  601,
+  1435,
+  1074,
+  833,
+  361,
+  481,
+  329
+ ],
+ "chunks_missing": [],
+ "n_done": 5,
+ "n_targets": 5,
+ "gate_log": [
+  {
+   "chunk": 17,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.00<0.6",
+   "yield": 0.0,
+   "findings": 0,
+   "blocked_frac": 0.3333,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 3428,
+   "retained_fulltext": 0,
+   "n_expected": 6,
+   "archive_file": "eds_chunk_017_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 4205,
+   "archive_gz_mb": 0.0042,
+   "archive_gz_mib": 0.004,
+   "archive_compression_ratio": 2.383,
+   "archive_error": null
+  },
+  {
+   "chunk": 18,
+   "part": [
+    1,
+    2
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 110,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 119350,
+   "retained_fulltext": 2,
+   "n_expected": 14,
+   "archive_file": "eds_chunk_018_part1of2_fulltext.json.gz",
+   "archive_gz_bytes": 23179,
+   "archive_gz_mb": 0.0232,
+   "archive_gz_mib": 0.0221,
+   "archive_compression_ratio": 3.061,
+   "archive_error": null
+  },
+  {
+   "chunk": 18,
+   "part": [
+    0,
+    2
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.8667,
+   "findings": 255,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 226623,
+   "retained_fulltext": 8,
+   "n_expected": 15,
+   "archive_file": "eds_chunk_018_part0of2_fulltext.json.gz",
+   "archive_gz_bytes": 82886,
+   "archive_gz_mb": 0.0829,
+   "archive_gz_mib": 0.079,
+   "archive_compression_ratio": 3.247,
+   "archive_error": null
+  },
+  {
+   "chunk": 19,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 239,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 263233,
+   "retained_fulltext": 7,
+   "n_expected": 23,
+   "archive_file": "eds_chunk_019_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 69086,
+   "archive_gz_mb": 0.0691,
+   "archive_gz_mib": 0.0659,
+   "archive_compression_ratio": 3.221,
+   "archive_error": null
+  },
+  {
+   "chunk": 20,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 212,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 260670,
+   "retained_fulltext": 10,
+   "n_expected": 24,
+   "archive_file": "eds_chunk_020_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 74477,
+   "archive_gz_mb": 0.0745,
+   "archive_gz_mib": 0.071,
+   "archive_compression_ratio": 3.238,
+   "archive_error": null
+  },
+  {
+   "chunk": 17,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.00<0.6",
+   "yield": 0.0,
+   "findings": 0,
+   "blocked_frac": 0.3333,
+   "guard_violations": 0,
+   "attempt": 2,
+   "tokens_out": 2070,
+   "retained_fulltext": 0,
+   "n_expected": 6,
+   "archive_file": "eds_chunk_017_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 4205,
+   "archive_gz_mb": 0.0042,
+   "archive_gz_mib": 0.004,
+   "archive_compression_ratio": 2.383,
+   "archive_error": null
+  },
+  {
+   "chunk": 21,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 92,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 118907,
+   "retained_fulltext": 4,
+   "n_expected": 10,
+   "archive_file": "eds_chunk_021_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 37366,
+   "archive_gz_mb": 0.0374,
+   "archive_gz_mib": 0.0356,
+   "archive_compression_ratio": 3.144,
+   "archive_error": null
+  },
+  {
+   "chunk": 17,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.00<0.6",
+   "yield": 0.0,
+   "findings": 0,
+   "blocked_frac": 0.3333,
+   "guard_violations": 0,
+   "attempt": 3,
+   "tokens_out": 2316,
+   "retained_fulltext": 0,
+   "n_expected": 6,
+   "archive_file": "eds_chunk_017_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 4205,
+   "archive_gz_mb": 0.0042,
+   "archive_gz_mib": 0.004,
+   "archive_compression_ratio": 2.383,
+   "archive_error": null
+  }
+ ],
+ "guard_violations": [],
+ "enum_violations": [],
+ "ceiling_events": [],
+ "part_files": {
+  "17": [
+   [
+    0,
+    1
+   ]
+  ],
+  "21": [
+   [
+    0,
+    1
+   ]
+  ],
+  "19": [
+   [
+    0,
+    1
+   ]
+  ],
+  "18": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "20": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "archives_whole": [],
+ "archive_parts": {
+  "17": [
+   [
+    0,
+    1
+   ]
+  ],
+  "21": [
+   [
+    0,
+    1
+   ]
+  ],
+  "19": [
+   [
+    0,
+    1
+   ]
+  ],
+  "18": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "20": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "chunks_without_archive": [],
+ "wall_s": 2125
+}

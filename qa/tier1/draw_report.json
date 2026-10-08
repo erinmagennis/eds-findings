@@ -1,0 +1,37 @@
+{
+ "resampled_from": [
+  "../../run/eds_roster_universe.parquet",
+  "../../run/eds_roster_excluded.parquet"
+ ],
+ "unique_pmids": 2312,
+ "flagged_contamination": 10,
+ "api_calls": 0,
+ "sample_plan": {
+  "fulltext_rich": {
+   "requested": 25,
+   "drawn": 25,
+   "pool": 1165
+  },
+  "mixed": {
+   "requested": 25,
+   "drawn": 25,
+   "pool": 2287
+  },
+  "abstract_heavy": {
+   "requested": 25,
+   "drawn": 25,
+   "pool": 982
+  }
+ },
+ "roster_rows": 75,
+ "chunks": [
+  0,
+  1,
+  2
+ ],
+ "chunk_sizes": {
+  "0": 25,
+  "1": 25,
+  "2": 25
+ }
+}

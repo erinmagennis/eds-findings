@@ -1,0 +1,170 @@
+{
+ "run_tag": "wave5",
+ "unit_plan": {
+  "27": {
+   "n_parts": 1,
+   "expected_fulltext": 5,
+   "papers": 16,
+   "max_fulltext_per_unit": 12
+  },
+  "28": {
+   "n_parts": 1,
+   "expected_fulltext": 10,
+   "papers": 19,
+   "max_fulltext_per_unit": 12
+  },
+  "29": {
+   "n_parts": 1,
+   "expected_fulltext": 8,
+   "papers": 16,
+   "max_fulltext_per_unit": 12
+  }
+ },
+ "chunks_done": [
+  27,
+  28,
+  29
+ ],
+ "deferred_units": [],
+ "dispatch_deadline": 1791490500,
+ "stalled": false,
+ "stall_threshold_s": 2999,
+ "completed_unit_walls_s": [
+  601,
+  601,
+  1200
+ ],
+ "chunks_missing": [],
+ "n_done": 3,
+ "n_targets": 3,
+ "gate_log": [
+  {
+   "chunk": 27,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.6875,
+   "findings": 120,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 147527,
+   "retained_fulltext": 5,
+   "n_expected": 16,
+   "archive_file": "eds_chunk_027_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 44835,
+   "archive_gz_mb": 0.0448,
+   "archive_gz_mib": 0.0428,
+   "archive_compression_ratio": 3.047,
+   "archive_error": null
+  },
+  {
+   "chunk": 29,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.4375,
+   "findings": 72,
+   "blocked_frac": 0.125,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 94638,
+   "retained_fulltext": 5,
+   "n_expected": 16,
+   "archive_file": "eds_chunk_029_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 37584,
+   "archive_gz_mb": 0.0376,
+   "archive_gz_mib": 0.0358,
+   "archive_compression_ratio": 3.108,
+   "archive_error": null
+  },
+  {
+   "chunk": 28,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.5789,
+   "findings": 194,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 146908,
+   "retained_fulltext": 7,
+   "n_expected": 19,
+   "archive_file": "eds_chunk_028_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 61964,
+   "archive_gz_mb": 0.062,
+   "archive_gz_mib": 0.0591,
+   "archive_compression_ratio": 3.049,
+   "archive_error": null
+  }
+ ],
+ "guard_violations": [],
+ "enum_violations": [
+  {
+   "chunk": 28,
+   "part": [
+    0,
+    1
+   ],
+   "violations": {
+    "evidence_tier": {
+     "case-report/case-series": 2
+    }
+   }
+  }
+ ],
+ "ceiling_events": [],
+ "part_files": {
+  "28": [
+   [
+    0,
+    1
+   ]
+  ],
+  "27": [
+   [
+    0,
+    1
+   ]
+  ],
+  "29": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "archives_whole": [],
+ "archive_parts": {
+  "28": [
+   [
+    0,
+    1
+   ]
+  ],
+  "27": [
+   [
+    0,
+    1
+   ]
+  ],
+  "29": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "chunks_without_archive": [],
+ "wall_s": 1200
+}

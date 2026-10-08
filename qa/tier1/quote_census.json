@@ -1,0 +1,171 @@
+{
+ "strata": [
+  {
+   "stratum": "abstract-only",
+   "n_rows_with_quote": 2215,
+   "n_checked": 2215,
+   "n_traceable": 2210,
+   "n_untraceable": 5,
+   "n_no_source_text": 0,
+   "traceable_pct": 99.77,
+   "basis": "CENSUS of abstract-only rows with a non-null quote; 2215 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 400,
+    "n_false_positives": 0,
+    "false_positive_pct": 0.0,
+    "basis": "400 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "matcher discriminates"
+   },
+   "untraceable_examples": [
+    {
+     "pmid": "30287287",
+     "quote": "There was also no difference in hemorrhagic (47% vs 43%), pulmonary (9% vs 16%), renal (12% vs 14%), or neurologic (5% vs 6%) complications between teaching and"
+    },
+    {
+     "pmid": "30287287",
+     "quote": "There was also no difference in hemorrhagic (47% vs 43%), pulmonary (9% vs 16%), renal (12% vs 14%), or neurologic (5% vs 6%) complications between teaching and"
+    },
+    {
+     "pmid": "30287287",
+     "quote": "There was also no difference in hemorrhagic (47% vs 43%), pulmonary (9% vs 16%), renal (12% vs 14%), or neurologic (5% vs 6%) complications between teaching and"
+    },
+    {
+     "pmid": "30287287",
+     "quote": "There was also no difference in hemorrhagic (47% vs 43%), pulmonary (9% vs 16%), renal (12% vs 14%), or neurologic (5% vs 6%) complications between teaching and"
+    },
+    {
+     "pmid": "32631015",
+     "quote": "1,55% of those presented a non-reducible thoracic hyperkyphosis"
+    }
+   ],
+   "source": "retained archive (text as handed to the model); roster abstract only as fallback",
+   "n_papers_from_roster_fallback": 0
+  },
+  {
+   "stratum": "full-text (archive-backed)",
+   "n_rows_with_quote": 4886,
+   "n_checked": 4886,
+   "n_traceable": 4859,
+   "n_untraceable": 27,
+   "n_no_source_text": 0,
+   "traceable_pct": 99.45,
+   "basis": "CENSUS of full-text (archive-backed) rows with a non-null quote; 4886 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 400,
+    "n_false_positives": 0,
+    "false_positive_pct": 0.0,
+    "basis": "400 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "matcher discriminates"
+   },
+   "untraceable_examples": [
+    {
+     "pmid": "31388534",
+     "quote": "presented to the dermatology clinic for evaluation of an asymptomatic eruption on her lower legs that developed several hours after shaving... history of Ehlers"
+    },
+    {
+     "pmid": "31409039",
+     "quote": "and PRLR, showing a decreased expression in hEDS/HSD cells, which encode the prolactin receptor implicated in inflammatory responses and immune cells regulation"
+    },
+    {
+     "pmid": "31885932",
+     "quote": "A review of 111 vEDS patients with vascular complications found only 10% suffering from aortic dissection."
+    },
+    {
+     "pmid": "32426553",
+     "quote": "Cazzato et al. postulated that dry-eye symptoms could be part of an underlying small nerve fiber disease in these patients.19"
+    },
+    {
+     "pmid": "32879817",
+     "quote": "She reported multiple prior drug trials (durations and doses unknown) with adverse side effects, including paroxetine (suicidality), sertraline (suicidality)..."
+    },
+    {
+     "pmid": "32879817",
+     "quote": "For example, one study found that 29% of patients with chronic pain also suffer from depression."
+    },
+    {
+     "pmid": "32879817",
+     "quote": "Overall, these patients were ten times more likely to suffer from anxiety than patients without joint hypermobility."
+    },
+    {
+     "pmid": "32879817",
+     "quote": "51.2% of participants were categorized as experiencing a high level of anxiety."
+    },
+    {
+     "pmid": "32879817",
+     "quote": "These patients were also found to score lower in social functioning when compared to similar patients without anxiety."
+    },
+    {
+     "pmid": "32879817",
+     "quote": "It was also noted to have a quicker clinical response even when used at low doses averaging 0.53 mg/day."
+    },
+    {
+     "pmid": "32879817",
+     "quote": "In studies done using rat models, Risperidone use at low doses has been shown to enhance antidepressant and anxiolytic effects of antidepressants."
+    },
+    {
+     "pmid": "33112246",
+     "quote": "Ehlers-Danlos syndrome was the most common specific condition mentioned, followed by fibromyalgia, chronic fatigue syndrome (also known as myalgic encephalitis)"
+    },
+    {
+     "pmid": "33112246",
+     "quote": "Ehlers-Danlos syndrome was the most common specific condition mentioned, followed by fibromyalgia, chronic fatigue syndrome (also known as myalgic encephalitis)"
+    },
+    {
+     "pmid": "33112246",
+     "quote": "Ehlers-Danlos syndrome was the most common specific condition mentioned, followed by fibromyalgia, chronic fatigue syndrome (also known as myalgic encephalitis)"
+    },
+    {
+     "pmid": "33112246",
+     "quote": "Ehlers-Danlos syndrome was the most common specific condition mentioned, followed by fibromyalgia, chronic fatigue syndrome (also known as myalgic encephalitis)"
+    },
+    {
+     "pmid": "33112246",
+     "quote": "Ehlers-Danlos syndrome was the most common specific condition mentioned, followed by fibromyalgia, chronic fatigue syndrome (also known as myalgic encephalitis)"
+    },
+    {
+     "pmid": "33468574",
+     "quote": "A retrospective analysis by Murray et al23 reported a pregnancy-related maternal mortality rate of 4.9% per delivery."
+    },
+    {
+     "pmid": "35918752",
+     "quote": "Connective tissue Eyeobs = 34; exp = 303.621.89 (0.98, 3.66)0.060.58"
+    },
+    {
+     "pmid": "41511357",
+     "quote": "The COL3A1 gene encodes type III collagen, primarily found in the tunica media of blood vessels and hollow organs."
+    },
+    {
+     "pmid": "31564821",
+     "quote": "Postoperative topical steroid drops must be tapered off very quickly to induce more inflammation and cause faster healing of the wound."
+    }
+   ]
+  },
+  {
+   "stratum": "blocked (fetch failed; extracted from title+abstract)",
+   "n_rows_with_quote": 0,
+   "n_checked": 0,
+   "n_traceable": 0,
+   "n_untraceable": 0,
+   "n_no_source_text": 0,
+   "traceable_pct": null,
+   "basis": "CENSUS of blocked (fetch failed; extracted from title+abstract) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 0,
+    "n_false_positives": 0,
+    "false_positive_pct": null,
+    "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+   },
+   "untraceable_examples": []
+  }
+ ],
+ "n_archive_papers": 762,
+ "coverage": {
+  "n_rows_with_quote": 7101,
+  "n_verifiable": 7101,
+  "verifiable_pct_of_quote_rows": 100.0,
+  "n_traceable": 7069,
+  "traceable_pct_of_verifiable": 99.55,
+  "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+ }
+}

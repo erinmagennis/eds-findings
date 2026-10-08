@@ -1,0 +1,243 @@
+{
+ "waves": [
+  {
+   "wave": 0,
+   "chunks": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "chunks_done": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "chunks_missing": [],
+   "projected_tokens": 1919246,
+   "measured_tokens": 1930308,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 2640,
+   "units_ok": 10,
+   "findings": 1643,
+   "source": "controller stdout 2026-10-07 (workspace ledger lost to sweep)"
+  },
+  {
+   "wave": 1,
+   "chunks": [
+    6,
+    7,
+    9,
+    10,
+    11
+   ],
+   "chunks_done": [
+    6,
+    7,
+    9,
+    10,
+    11
+   ],
+   "chunks_missing": [],
+   "projected_tokens": 1823768,
+   "measured_tokens": 1952397,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 3253,
+   "units_ok": 10,
+   "source": "controller stdout 2026-10-07"
+  },
+  {
+   "wave": 2,
+   "attempt": 1,
+   "chunks": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "chunks_done": [],
+   "outcome": "system stall 12:07-15:09Z: 6 units watchdog-killed at 3000 s unsaved, 2 orphaned when the controller died on a transient list_artifacts failure; nothing saved; no findings lost (chunks 0-11 intact)",
+   "measured_tokens": null
+  },
+  {
+   "wave": 2,
+   "chunks": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "chunks_done": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 1118754,
+   "measured_tokens": 1285150,
+   "units_ok": 7,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1925,
+   "findings": 1105,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    842,
+    962,
+    962,
+    482,
+    602,
+    723,
+    601
+   ],
+   "finished_at": "2026-10-08T16:43:35Z",
+   "measured_tokens_ok_units": 1285150,
+   "measured_tokens_all_attempts": 1285150
+  },
+  {
+   "wave": 3,
+   "chunks": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "chunks_done": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 909026,
+   "measured_tokens": 996597,
+   "units_ok": 5,
+   "n_gate_fail": 3,
+   "guard_violations": 0,
+   "wall_s": 2125,
+   "findings": 908,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    361,
+    601,
+    1435,
+    1074,
+    833,
+    361,
+    481,
+    329
+   ],
+   "finished_at": "2026-10-08T17:19:19Z",
+   "measured_tokens_ok_units": 988783,
+   "measured_tokens_all_attempts": 996597
+  },
+  {
+   "wave": 4,
+   "chunks": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "chunks_done": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 939326,
+   "measured_tokens": 1492113,
+   "units_ok": 4,
+   "n_gate_fail": 5,
+   "guard_violations": 0,
+   "wall_s": 3696,
+   "findings": 561,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    481,
+    721,
+    721,
+    602,
+    817,
+    456,
+    602,
+    1282,
+    875
+   ],
+   "finished_at": "2026-10-08T18:21:09Z",
+   "measured_tokens_ok_units": 739045,
+   "measured_tokens_all_attempts": 1492113
+  },
+  {
+   "wave": 5,
+   "chunks": [
+    27,
+    28,
+    29
+   ],
+   "chunks_done": [
+    27,
+    28,
+    29
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 563680,
+   "measured_tokens": 389073,
+   "units_ok": 3,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1200,
+   "findings": 386,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    601,
+    601,
+    1200
+   ],
+   "finished_at": "2026-10-08T18:41:37Z"
+  }
+ ],
+ "stopped": null,
+ "spent_measured_tokens": 8045638,
+ "spent_projected_tokens": 7273800,
+ "pilot": {
+  "chunks": [
+   8,
+   0
+  ],
+  "measured_tokens": 716680,
+  "findings": 616
+ },
+ "notes": [
+  "2026-10-08: measured_tokens now includes failed/retried attempts (waves 2-4 recomputed from gate logs); waves 0-1 values are from controller stdout and already covered all units (no retries occurred).",
+  "Chunks 25-29 hold the 223 POTS no-yield papers by construction; min_yield 0.60 (calibrated on anchor-drawn chunks) is structurally too high there. Chunk 25 passed on attempt 3 (0.60), chunk 26 failed 3x (0.41-0.47) but is saved; wave 5 (27-29) runs with min_yield 0.40.",
+  "Where retries produced several saved versions of one unit file, the build uses the LATEST version (done-detection and packaging both read latest_version_id).",
+  "Chunk 17 (6 papers; 5 abbreviation collisions + 1 erratum) yielded 0 on 3 attempts: correct zero, under-yield gate false alarm (~7.6k tokens total)."
+ ]
+}

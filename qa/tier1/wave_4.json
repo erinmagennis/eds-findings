@@ -1,0 +1,352 @@
+{
+ "run_tag": "wave4",
+ "unit_plan": {
+  "22": {
+   "n_parts": 1,
+   "expected_fulltext": 10,
+   "papers": 19,
+   "max_fulltext_per_unit": 12
+  },
+  "23": {
+   "n_parts": 1,
+   "expected_fulltext": 5,
+   "papers": 11,
+   "max_fulltext_per_unit": 12
+  },
+  "24": {
+   "n_parts": 1,
+   "expected_fulltext": 9,
+   "papers": 14,
+   "max_fulltext_per_unit": 12
+  },
+  "25": {
+   "n_parts": 1,
+   "expected_fulltext": 8,
+   "papers": 20,
+   "max_fulltext_per_unit": 12
+  },
+  "26": {
+   "n_parts": 1,
+   "expected_fulltext": 8,
+   "papers": 17,
+   "max_fulltext_per_unit": 12
+  }
+ },
+ "chunks_done": [
+  22,
+  23,
+  24,
+  25,
+  26
+ ],
+ "deferred_units": [],
+ "dispatch_deadline": 1791490500,
+ "stalled": false,
+ "stall_threshold_s": 3000,
+ "completed_unit_walls_s": [
+  481,
+  721,
+  721,
+  602,
+  817,
+  456,
+  602,
+  1282,
+  875
+ ],
+ "chunks_missing": [],
+ "n_done": 5,
+ "n_targets": 5,
+ "gate_log": [
+  {
+   "chunk": 23,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 110,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 141559,
+   "retained_fulltext": 5,
+   "n_expected": 11,
+   "archive_file": "eds_chunk_023_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 48041,
+   "archive_gz_mb": 0.048,
+   "archive_gz_mib": 0.0458,
+   "archive_compression_ratio": 3.077,
+   "archive_error": null
+  },
+  {
+   "chunk": 22,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 181,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 233045,
+   "retained_fulltext": 10,
+   "n_expected": 19,
+   "archive_file": "eds_chunk_022_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 73830,
+   "archive_gz_mb": 0.0738,
+   "archive_gz_mib": 0.0704,
+   "archive_compression_ratio": 3.241,
+   "archive_error": null
+  },
+  {
+   "chunk": 24,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 1.0,
+   "findings": 151,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 208369,
+   "retained_fulltext": 9,
+   "n_expected": 14,
+   "archive_file": "eds_chunk_024_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 85605,
+   "archive_gz_mb": 0.0856,
+   "archive_gz_mib": 0.0816,
+   "archive_compression_ratio": 3.406,
+   "archive_error": null
+  },
+  {
+   "chunk": 25,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.55<0.6",
+   "yield": 0.55,
+   "findings": 101,
+   "blocked_frac": 0.05,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 132656,
+   "retained_fulltext": 7,
+   "n_expected": 20,
+   "archive_file": "eds_chunk_025_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 47020,
+   "archive_gz_mb": 0.047,
+   "archive_gz_mib": 0.0448,
+   "archive_compression_ratio": 3.043,
+   "archive_error": null
+  },
+  {
+   "chunk": 26,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.41<0.6",
+   "yield": 0.4118,
+   "findings": 144,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 156033,
+   "retained_fulltext": 8,
+   "n_expected": 17,
+   "archive_file": "eds_chunk_026_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 75889,
+   "archive_gz_mb": 0.0759,
+   "archive_gz_mib": 0.0724,
+   "archive_compression_ratio": 3.232,
+   "archive_error": null
+  },
+  {
+   "chunk": 25,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.55<0.6",
+   "yield": 0.55,
+   "findings": 93,
+   "blocked_frac": 0.05,
+   "guard_violations": 0,
+   "attempt": 2,
+   "tokens_out": 133382,
+   "retained_fulltext": 7,
+   "n_expected": 20,
+   "archive_file": "eds_chunk_025_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 47020,
+   "archive_gz_mb": 0.047,
+   "archive_gz_mib": 0.0448,
+   "archive_compression_ratio": 3.043,
+   "archive_error": null
+  },
+  {
+   "chunk": 25,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.6,
+   "findings": 119,
+   "blocked_frac": 0.05,
+   "guard_violations": 0,
+   "attempt": 3,
+   "tokens_out": 156072,
+   "retained_fulltext": 7,
+   "n_expected": 20,
+   "archive_file": "eds_chunk_025_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 47020,
+   "archive_gz_mb": 0.047,
+   "archive_gz_mib": 0.0448,
+   "archive_compression_ratio": 3.043,
+   "archive_error": null
+  },
+  {
+   "chunk": 26,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.47<0.6",
+   "yield": 0.4706,
+   "findings": 220,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 2,
+   "tokens_out": 168772,
+   "retained_fulltext": 8,
+   "n_expected": 17,
+   "archive_file": "eds_chunk_026_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 75889,
+   "archive_gz_mb": 0.0759,
+   "archive_gz_mib": 0.0724,
+   "archive_compression_ratio": 3.232,
+   "archive_error": null
+  },
+  {
+   "chunk": 26,
+   "part": [
+    0,
+    1
+   ],
+   "ok": false,
+   "reason": "under-yield 0.47<0.6",
+   "yield": 0.4706,
+   "findings": 166,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 3,
+   "tokens_out": 162225,
+   "retained_fulltext": 8,
+   "n_expected": 17,
+   "archive_file": "eds_chunk_026_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 75889,
+   "archive_gz_mb": 0.0759,
+   "archive_gz_mib": 0.0724,
+   "archive_compression_ratio": 3.232,
+   "archive_error": null
+  }
+ ],
+ "guard_violations": [],
+ "enum_violations": [
+  {
+   "chunk": 26,
+   "part": [
+    0,
+    1
+   ],
+   "violations": {
+    "evidence_tier": {
+     "case-report/case-series": 7
+    }
+   }
+  }
+ ],
+ "ceiling_events": [],
+ "part_files": {
+  "26": [
+   [
+    0,
+    1
+   ]
+  ],
+  "25": [
+   [
+    0,
+    1
+   ]
+  ],
+  "22": [
+   [
+    0,
+    1
+   ]
+  ],
+  "24": [
+   [
+    0,
+    1
+   ]
+  ],
+  "23": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "archives_whole": [],
+ "archive_parts": {
+  "26": [
+   [
+    0,
+    1
+   ]
+  ],
+  "25": [
+   [
+    0,
+    1
+   ]
+  ],
+  "22": [
+   [
+    0,
+    1
+   ]
+  ],
+  "24": [
+   [
+    0,
+    1
+   ]
+  ],
+  "23": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "chunks_without_archive": [],
+ "wall_s": 3696
+}

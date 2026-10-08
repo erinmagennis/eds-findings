@@ -1,0 +1,4 @@
+{
+ "note": "gate logs for waves 2-5 (per unit, all attempts). Pilot (chunks 8, 0) and waves 0-1 unit stats were lost with the workspace sweep of 2026-10-08; their totals are in build_state.json and the units' own stats remain in the worker frames.",
+ "pilot_units_chunk8": "lost with workspace sweep; totals in build_state.json"
+}

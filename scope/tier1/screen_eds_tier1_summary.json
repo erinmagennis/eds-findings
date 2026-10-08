@@ -1,0 +1,106 @@
+{
+ "n_screened": 1463,
+ "pass1_final": {
+  "in_scope": 738,
+  "uncertain": 541,
+  "off_topic": 184
+ },
+ "pass2_population_check_over_uncertain": {
+  "NaN": "925",
+  "false": "485",
+  "true": "53"
+ },
+ "exclusion_classes_v2": {
+  "topical_drift": 406,
+  "wrong_abbreviation_sense": 163
+ },
+ "title_only_not_extractable": 128,
+ "roster_v3_papers": 766,
+ "two_pass_rule": "final = pass-1 two-arm reconcile, then pass-2 population check over pass-1 uncertain; excluded only where pass-1 LLM off_topic AND pass-2 'no listed population studied' (both with verbatim spans), or both pass-1 arms agree; remaining uncertain extracted and flagged",
+ "final": {
+  "in_scope": 738,
+  "off_topic": 569,
+  "uncertain": 156
+ },
+ "rule": {
+  "anchor": 1224,
+  "no_anchor": 235,
+  "off_topic": 4
+ },
+ "llm": {
+  "in_scope": "758",
+  "off_topic": "619",
+  "uncertain": "85",
+  "NaN": "1"
+ },
+ "llm_span_verbatim_rate": {
+  "n": 1462,
+  "ok": 1411
+ },
+ "exclusion_classes": {
+  "wrong_abbreviation_sense": 104,
+  "topical_drift": 80
+ },
+ "n_unclassified_exclusions": 0,
+ "instrument_alarm": {
+  "n_screened": 1463,
+  "rule_off_topic": 4,
+  "llm_off_topic": 619,
+  "ratio": 154.75,
+  "alarm": true,
+  "action": "STOP - audit the screening prompt for a closed in-scope list before trusting either arm"
+ },
+ "instrument_alarm_note": "screen_instrument_alarm floors each arm at 1, so with an anchor-drawn roster (rule off_topic == 0 by construction) ANY llm off_topic count >= 3 fires. Audit the LLM off_topic list by title before treating the alarm as a prompt fault.",
+ "per_theme": {
+  "eds_core": {
+   "n": 764,
+   "off_topic": 101,
+   "uncertain": 84,
+   "off_topic_pct": 13.22
+  },
+  "eds_general": {
+   "n": 5,
+   "off_topic": 1,
+   "uncertain": 0,
+   "off_topic_pct": 20.0
+  },
+  "eds_other_types": {
+   "n": 7,
+   "off_topic": 1,
+   "uncertain": 0,
+   "off_topic_pct": 14.29
+  },
+  "eds_subtype_terms": {
+   "n": 175,
+   "off_topic": 136,
+   "uncertain": 8,
+   "off_topic_pct": 77.71
+  },
+  "gjh": {
+   "n": 3,
+   "off_topic": 3,
+   "uncertain": 0,
+   "off_topic_pct": 100.0
+  },
+  "gjh_trait": {
+   "n": 397,
+   "off_topic": 265,
+   "uncertain": 51,
+   "off_topic_pct": 66.75
+  },
+  "heds_hsd": {
+   "n": 73,
+   "off_topic": 56,
+   "uncertain": 9,
+   "off_topic_pct": 76.71
+  },
+  "hsd_jhs": {
+   "n": 39,
+   "off_topic": 6,
+   "uncertain": 4,
+   "off_topic_pct": 15.38
+  }
+ },
+ "n_llm_offtopic_flagged_not_excluded": 50,
+ "basis": "denominator = every rostered paper in the target chunks. final_verdict follows helpers.screen_reconcile: off_topic ONLY when both arms agree (or LLM off_topic with no rule anchor) -> excluded and listed in *_excluded_pmids.csv; an LLM off_topic against a rule-arm anchor -> uncertain -> EXTRACTED and flagged (screen_verdict_uncertain) and listed in *_llm_offtopic_flagged.csv for adjudication; LLM uncertain -> uncertain."
+}
