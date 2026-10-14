@@ -1,0 +1,542 @@
+{
+ "rostered_v1": 3859,
+ "excluded_v2": 1125,
+ "rostered_v2": 2734,
+ "fulltext_expected_v2": 275,
+ "uncertain_v2": 340,
+ "final_v2": {
+  "in_scope": 2394,
+  "off_topic": 1125,
+  "uncertain": 340
+ },
+ "exclusion_basis_v2": {
+  "pass1 LLM off_topic + pass2 no listed population studied (both with verbatim spans); rule-arm anchor was a mention": 848,
+  "pass1 both arms (reconcile)": 277
+ },
+ "exclusion_class_v2": {
+  "topical_drift": 1012,
+  "wrong_abbreviation_sense": 113
+ },
+ "pass2": {
+  "n": 1188,
+  "no_population": 1073,
+  "population": 113,
+  "errors": 2,
+  "span_verbatim_ok": 1171
+ },
+ "chunks": [
+  30,
+  36,
+  37,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137
+ ],
+ "per_chunk": {
+  "30": {
+   "papers": 1,
+   "fulltext": 1
+  },
+  "36": {
+   "papers": 1,
+   "fulltext": 0
+  },
+  "37": {
+   "papers": 2,
+   "fulltext": 0
+  },
+  "39": {
+   "papers": 3,
+   "fulltext": 0
+  },
+  "40": {
+   "papers": 1,
+   "fulltext": 0
+  },
+  "41": {
+   "papers": 3,
+   "fulltext": 0
+  },
+  "42": {
+   "papers": 13,
+   "fulltext": 0
+  },
+  "43": {
+   "papers": 22,
+   "fulltext": 0
+  },
+  "44": {
+   "papers": 15,
+   "fulltext": 0
+  },
+  "45": {
+   "papers": 21,
+   "fulltext": 0
+  },
+  "46": {
+   "papers": 20,
+   "fulltext": 0
+  },
+  "47": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "48": {
+   "papers": 23,
+   "fulltext": 0
+  },
+  "49": {
+   "papers": 23,
+   "fulltext": 0
+  },
+  "50": {
+   "papers": 20,
+   "fulltext": 0
+  },
+  "51": {
+   "papers": 22,
+   "fulltext": 0
+  },
+  "52": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "53": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "54": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "55": {
+   "papers": 26,
+   "fulltext": 1
+  },
+  "56": {
+   "papers": 30,
+   "fulltext": 0
+  },
+  "57": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "58": {
+   "papers": 29,
+   "fulltext": 0
+  },
+  "59": {
+   "papers": 35,
+   "fulltext": 0
+  },
+  "60": {
+   "papers": 36,
+   "fulltext": 0
+  },
+  "61": {
+   "papers": 24,
+   "fulltext": 0
+  },
+  "62": {
+   "papers": 37,
+   "fulltext": 0
+  },
+  "63": {
+   "papers": 26,
+   "fulltext": 0
+  },
+  "64": {
+   "papers": 28,
+   "fulltext": 0
+  },
+  "65": {
+   "papers": 30,
+   "fulltext": 0
+  },
+  "66": {
+   "papers": 25,
+   "fulltext": 0
+  },
+  "67": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "68": {
+   "papers": 23,
+   "fulltext": 0
+  },
+  "69": {
+   "papers": 29,
+   "fulltext": 0
+  },
+  "70": {
+   "papers": 24,
+   "fulltext": 0
+  },
+  "71": {
+   "papers": 26,
+   "fulltext": 0
+  },
+  "72": {
+   "papers": 33,
+   "fulltext": 1
+  },
+  "73": {
+   "papers": 31,
+   "fulltext": 0
+  },
+  "74": {
+   "papers": 22,
+   "fulltext": 0
+  },
+  "75": {
+   "papers": 20,
+   "fulltext": 0
+  },
+  "76": {
+   "papers": 32,
+   "fulltext": 0
+  },
+  "77": {
+   "papers": 23,
+   "fulltext": 0
+  },
+  "78": {
+   "papers": 21,
+   "fulltext": 0
+  },
+  "79": {
+   "papers": 19,
+   "fulltext": 0
+  },
+  "80": {
+   "papers": 23,
+   "fulltext": 0
+  },
+  "81": {
+   "papers": 29,
+   "fulltext": 0
+  },
+  "82": {
+   "papers": 26,
+   "fulltext": 0
+  },
+  "83": {
+   "papers": 24,
+   "fulltext": 0
+  },
+  "84": {
+   "papers": 32,
+   "fulltext": 0
+  },
+  "85": {
+   "papers": 31,
+   "fulltext": 0
+  },
+  "86": {
+   "papers": 33,
+   "fulltext": 0
+  },
+  "87": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "88": {
+   "papers": 30,
+   "fulltext": 1
+  },
+  "89": {
+   "papers": 36,
+   "fulltext": 1
+  },
+  "90": {
+   "papers": 29,
+   "fulltext": 0
+  },
+  "91": {
+   "papers": 31,
+   "fulltext": 0
+  },
+  "92": {
+   "papers": 29,
+   "fulltext": 0
+  },
+  "93": {
+   "papers": 30,
+   "fulltext": 2
+  },
+  "94": {
+   "papers": 32,
+   "fulltext": 1
+  },
+  "95": {
+   "papers": 27,
+   "fulltext": 0
+  },
+  "96": {
+   "papers": 24,
+   "fulltext": 3
+  },
+  "97": {
+   "papers": 32,
+   "fulltext": 1
+  },
+  "98": {
+   "papers": 23,
+   "fulltext": 0
+  },
+  "99": {
+   "papers": 33,
+   "fulltext": 3
+  },
+  "100": {
+   "papers": 30,
+   "fulltext": 5
+  },
+  "101": {
+   "papers": 35,
+   "fulltext": 2
+  },
+  "102": {
+   "papers": 26,
+   "fulltext": 3
+  },
+  "103": {
+   "papers": 31,
+   "fulltext": 2
+  },
+  "104": {
+   "papers": 29,
+   "fulltext": 6
+  },
+  "105": {
+   "papers": 25,
+   "fulltext": 3
+  },
+  "106": {
+   "papers": 33,
+   "fulltext": 4
+  },
+  "107": {
+   "papers": 25,
+   "fulltext": 3
+  },
+  "108": {
+   "papers": 29,
+   "fulltext": 5
+  },
+  "109": {
+   "papers": 30,
+   "fulltext": 8
+  },
+  "110": {
+   "papers": 29,
+   "fulltext": 4
+  },
+  "111": {
+   "papers": 32,
+   "fulltext": 5
+  },
+  "112": {
+   "papers": 34,
+   "fulltext": 7
+  },
+  "113": {
+   "papers": 36,
+   "fulltext": 9
+  },
+  "114": {
+   "papers": 29,
+   "fulltext": 1
+  },
+  "115": {
+   "papers": 34,
+   "fulltext": 6
+  },
+  "116": {
+   "papers": 35,
+   "fulltext": 6
+  },
+  "117": {
+   "papers": 33,
+   "fulltext": 10
+  },
+  "118": {
+   "papers": 37,
+   "fulltext": 13
+  },
+  "119": {
+   "papers": 31,
+   "fulltext": 3
+  },
+  "120": {
+   "papers": 32,
+   "fulltext": 7
+  },
+  "121": {
+   "papers": 36,
+   "fulltext": 18
+  },
+  "122": {
+   "papers": 32,
+   "fulltext": 10
+  },
+  "123": {
+   "papers": 34,
+   "fulltext": 1
+  },
+  "124": {
+   "papers": 29,
+   "fulltext": 4
+  },
+  "125": {
+   "papers": 31,
+   "fulltext": 6
+  },
+  "126": {
+   "papers": 31,
+   "fulltext": 15
+  },
+  "127": {
+   "papers": 25,
+   "fulltext": 8
+  },
+  "128": {
+   "papers": 40,
+   "fulltext": 5
+  },
+  "129": {
+   "papers": 34,
+   "fulltext": 4
+  },
+  "130": {
+   "papers": 34,
+   "fulltext": 10
+  },
+  "131": {
+   "papers": 24,
+   "fulltext": 7
+  },
+  "132": {
+   "papers": 28,
+   "fulltext": 7
+  },
+  "133": {
+   "papers": 35,
+   "fulltext": 9
+  },
+  "134": {
+   "papers": 32,
+   "fulltext": 9
+  },
+  "135": {
+   "papers": 27,
+   "fulltext": 12
+  },
+  "136": {
+   "papers": 36,
+   "fulltext": 19
+  },
+  "137": {
+   "papers": 9,
+   "fulltext": 4
+  }
+ },
+ "basis": "roster v2 = roster v1 minus screen_final_verdict_v2 == off_topic; chunk ids unchanged; uncertain papers kept and flagged"
+}

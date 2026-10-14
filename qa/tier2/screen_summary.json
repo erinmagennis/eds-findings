@@ -1,0 +1,121 @@
+{
+ "n": 3859,
+ "partial": false,
+ "n_missing": 0,
+ "n_llm_error": 2,
+ "llm_error_pmids_routed_to_uncertain": [
+  "29439661",
+  "29472931"
+ ],
+ "final": {
+  "in_scope": 2394,
+  "uncertain": 1188,
+  "off_topic": 277
+ },
+ "rule": {
+  "anchor": 3513,
+  "no_anchor": 345,
+  "off_topic": 1
+ },
+ "llm": {
+  "in_scope": "2444",
+  "off_topic": "1187",
+  "uncertain": "226",
+  "null": "2"
+ },
+ "llm_span_verbatim": {
+  "n": 3859,
+  "ok": 3774
+ },
+ "exclusion_classes": {
+  "topical_drift": 170,
+  "wrong_abbreviation_sense": 107
+ },
+ "n_llm_offtopic_flagged_not_excluded": 910,
+ "instrument_alarm": {
+  "n_screened": 3859,
+  "rule_off_topic": 1,
+  "llm_off_topic": 1187,
+  "ratio": 1187.0,
+  "alarm": true,
+  "action": "STOP - audit the screening prompt for a closed in-scope list before trusting either arm",
+  "audit": "degenerate on an anchor-drawn roster (rule off_topic ~0 by construction); 20-span audit of LLM off-topic calls on 2026-10-13: 20/20 topical drift or incidental mention; pass-2 is the independent arm"
+ },
+ "per_theme": {
+  "eds_core": {
+   "n": 2463,
+   "off_topic": 116,
+   "uncertain": 405
+  },
+  "eds_subtype_terms": {
+   "n": 294,
+   "off_topic": 148,
+   "uncertain": 109
+  },
+  "gjh_trait": {
+   "n": 910,
+   "off_topic": 13,
+   "uncertain": 637
+  },
+  "hsd_jhs": {
+   "n": 192,
+   "off_topic": 0,
+   "uncertain": 37
+  }
+ },
+ "per_decade": {
+  "1940": {
+   "n": 1,
+   "off_topic": 0,
+   "uncertain": 0
+  },
+  "1960": {
+   "n": 3,
+   "off_topic": 0,
+   "uncertain": 0
+  },
+  "1970": {
+   "n": 122,
+   "off_topic": 12,
+   "uncertain": 35
+  },
+  "1980": {
+   "n": 394,
+   "off_topic": 12,
+   "uncertain": 118
+  },
+  "1990": {
+   "n": 704,
+   "off_topic": 45,
+   "uncertain": 221
+  },
+  "2000": {
+   "n": 979,
+   "off_topic": 73,
+   "uncertain": 336
+  },
+  "2010": {
+   "n": 1656,
+   "off_topic": 135,
+   "uncertain": 478
+  }
+ },
+ "pass2_units": {
+  "n_units": 6,
+  "sizes": [
+   200,
+   200,
+   195,
+   200,
+   197,
+   196
+  ]
+ },
+ "basis": "denominator = every rostered paper in the merged reports; final_verdict per helpers.screen_reconcile recomputed by screen.reconcile from the saved reports",
+ "final_v2": {
+  "in_scope": 2394,
+  "off_topic": 1125,
+  "uncertain": 340
+ },
+ "two_pass_rule": "pass-1 two-arm reconcile; pass-2 population check over pass-1 uncertain; exclude only where pass-1 LLM off_topic AND pass-2 no listed population (verbatim spans) or both pass-1 arms agree; rest extracted and flagged"
+}
