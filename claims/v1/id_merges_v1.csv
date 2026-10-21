@@ -1,0 +1,710 @@
+authority_id,spellings,n_spellings,token_disjoint
+CHEBI:10033,Warfarin | warfarin,2,False
+CHEBI:10072,Xanthurenic acid | xanthurenic acid,2,False
+CHEBI:10415,Beta-endorphin | beta-endorphin,2,False
+CHEBI:10650,Sumatriptan | sumatriptan,2,False
+CHEBI:127342,Atomoxetine | atomoxetine,2,False
+CHEBI:12777,Vitamin A | vitamin A,2,False
+CHEBI:131389,Magnesium citrate | magnesium citrate,2,False
+CHEBI:132153,Hyaluronan | hyaluronan,2,False
+CHEBI:135005,Milnacipran | milnacipran,2,False
+CHEBI:135530,Solifenacin | solifenacin,2,False
+CHEBI:135552,Prucalopride | prucalopride,2,False
+CHEBI:135574,Nabilone | nabilone,2,False
+CHEBI:135652,Flunarizine | flunarizine,2,False
+CHEBI:135925,Lisdexamfetamine | lisdexamfetamine,2,False
+CHEBI:135939,Lacosamide | lacosamide,2,False
+CHEBI:135983,Teriparatide | teriparatide,2,False
+CHEBI:137113,(+)-JQ1 | JQ1,2,False
+CHEBI:138152,Serum amyloid A | serum Amyloid A | serum amyloid A,3,False
+CHEBI:1387,"3,4-Dihydroxyphenylglycol | 3,4-dihydroxyphenylglycol",2,False
+CHEBI:140487,BC 007 | BC007,2,True
+CHEBI:142058,F2-isoprostane | F2-isoprostanes,2,False
+CHEBI:145810,Insulin | insulin,2,False
+CHEBI:145924,Lopinavir/ritonavir | lopinavir-ritonavir | lopinavir/ritonavir,3,False
+CHEBI:145994,Remdesivir | remdesivir,2,False
+CHEBI:15318,Xanthine | xanthine,2,False
+CHEBI:15354,Choline | choline,2,False
+CHEBI:15355,Acetylcholine | acetylcholine,2,False
+CHEBI:15361,Pyruvate | pyruvate,2,False
+CHEBI:15365,Acetylsalicylic acid | acetylsalicylic acid,2,False
+CHEBI:15377,Water | water,2,False
+CHEBI:15422,ATP | adenosine triphosphate,2,True
+CHEBI:15428,Glycine | glycine,2,False
+CHEBI:15443,Inulin | inulin,2,False
+CHEBI:1547,3-Hydroxykynurenine | 3-hydroxykynurenine,2,False
+CHEBI:15551,Prostaglandin E2 | prostaglandin E2,2,False
+CHEBI:15600,(+) catechin | (+)-catechin | Catechin | catechin,4,False
+CHEBI:15611,Sarcosine | sarcosine,2,False
+CHEBI:15724,Trimethylamine N-oxide | trimethylamine N-oxide,2,False
+CHEBI:15727,Carnosine | carnosine,2,False
+CHEBI:15765,Levodopa | levodopa,2,False
+CHEBI:15843,Arachidonic acid | arachidonic acid,2,False
+CHEBI:15864,Luteolin | luteolin,2,False
+CHEBI:15891,Taurine | taurine,2,False
+CHEBI:16015,Glutamate | glutamate,2,False
+CHEBI:16113,Cholesterol | cholesterol,2,False
+CHEBI:16118,Berberine | berberine,2,False
+CHEBI:16170,Mercury | mercury,2,False
+CHEBI:16199,Urea | urea,2,False
+CHEBI:16240,Hydrogen peroxide | hydrogen peroxide,2,False
+CHEBI:16243,Quercetin | quercetin,2,False
+CHEBI:16336,Hyaluronic acid | hyaluronic acid,2,False
+CHEBI:16344,Guanidinoacetic acid | guanidinoacetic acid,2,False
+CHEBI:16412,Lipopolysaccharide | lipopolysaccharide,2,False
+CHEBI:16452,Oxaloacetate | oxaloacetate,2,False
+CHEBI:16480,Nitric Oxide | Nitric oxide | nitric oxide,3,False
+CHEBI:16494,Alpha-Lipoic Acid | Alpha-lipoic acid | alpha-lipoic acid,3,False
+CHEBI:16526,Carbon dioxide | carbon dioxide,2,False
+CHEBI:16675,Quinolinic acid | quinolinic acid,2,False
+CHEBI:16684,Atropine | atropine,2,False
+CHEBI:16737,Creatinine | creatinine,2,False
+CHEBI:16765,Tryptamine | tryptamine,2,False
+CHEBI:16796,Melatonin | melatonin,2,False
+CHEBI:16811,Methionine | methionine,2,False
+CHEBI:16827,Corticosterone | corticosterone,2,False
+CHEBI:16828,L-Tryptophan | L-tryptophan | l-tryptophan,3,False
+CHEBI:16856,Glutathione | glutathione | reduced glutathione,3,False
+CHEBI:16919,Creatine | creatine,2,False
+CHEBI:16946,L-kynurenine | l-kynurenine,2,False
+CHEBI:16958,Beta-alanine | beta-alanine,2,False
+CHEBI:16962,Cortisone | cortisone,2,False
+CHEBI:16990,Bilirubin | bilirubin,2,False
+CHEBI:170007,Nirmatrelvir | nirmatrelvir,2,False
+CHEBI:17015,Riboflavin | riboflavin,2,False
+CHEBI:17026,Progesterone | progesterone,2,False
+CHEBI:17126,Carnitine | carnitine,2,False
+CHEBI:17154,Niacin | niacin | nicotinamide,3,True
+CHEBI:17230,Homocysteine | homocysteine,2,False
+CHEBI:17234,Glucose | glucose,2,False
+CHEBI:17282,Indole-3-lactate | indole-3-lactate,2,False
+CHEBI:17303,Morphine | morphine,2,False
+CHEBI:17347,Testosterone | testosterone,2,False
+CHEBI:17351,Linoleic acid | linoleic acid,2,False
+CHEBI:17634,Dextrose | dextrose,2,False
+CHEBI:17650,Cortisol | Hydrocortisone | cortisol | hydrocortisone,4,False
+CHEBI:176783,Vitamin C | vitamin C,2,False
+CHEBI:176843,Vitamin B12 | vitamin B12,2,False
+CHEBI:17761,Ceramide | ceramide,2,False
+CHEBI:17855,Triglyceride | Triglycerides | triglyceride | triglycerides,4,False
+CHEBI:17968,Butyrate | butyrate,2,False
+CHEBI:180653,Molnupiravir | molnupiravir,2,False
+CHEBI:180664,TEMPOL | Tempol | tempol,3,False
+CHEBI:18085,glycosaminoglycan | glycosaminoglycans,2,True
+CHEBI:18089,Hippuric acid | hippuric acid,2,False
+CHEBI:18211,Citrulline | citrulline,2,False
+CHEBI:18237,Glutamic acid | glutamic acid,2,False
+CHEBI:18243,Dopamine | dopamine,2,False
+CHEBI:18258,Triiodothyronine | triiodothyronine,2,False
+CHEBI:18295,Histamine | histamine,2,False
+CHEBI:18344,Kynurenic acid | kynurenic acid,2,False
+CHEBI:18357,Norepinephrine | norepinephrine,2,False
+CHEBI:18376,Dermatan sulfate | dermatan sulfate,2,False
+CHEBI:18385,Thiamine | thiamine,2,False
+CHEBI:18723,Nicotine | nicotine,2,False
+CHEBI:192712,Nirmatrelvir-Ritonavir | Nirmatrelvir-ritonavir | Paxlovid | nirmatrelvir plus ritonavir | nirmatrelvir-ritonavir | nirmatrelvir/ritonavir,6,True
+CHEBI:197440,Tumor necrosis factor alpha | Tumor necrosis factor-alpha | tumor necrosis factor alpha | tumor necrosis factor-alpha,4,False
+CHEBI:22652,Ascorbic acid | ascorbic acid,2,False
+CHEBI:22653,Asparagine | asparagine,2,False
+CHEBI:22660,Aspartic acid | aspartic acid,2,False
+CHEBI:22907,Bleomycin | bleomycin,2,False
+CHEBI:22977,Cadmium | cadmium,2,False
+CHEBI:231032,Brincidofovir | brincidofovir,2,False
+CHEBI:231683,Anakinra | anakinra,2,False
+CHEBI:233446,Suzetrigine | suzetrigine,2,False
+CHEBI:23359,Colchicine | colchicine,2,False
+CHEBI:23965,Estradiol | estradiol,2,False
+CHEBI:24261,Glucocorticoids | glucocorticoid | glucocorticoids,3,True
+CHEBI:2453,Acyclovir | acyclovir,2,False
+CHEBI:24741,Hydroxyproline | hydroxyproline,2,False
+CHEBI:24996,Lactate | lactate,2,False
+CHEBI:26020,Phosphate | phosphate,2,False
+CHEBI:2618,Amantadine | amantadine,2,False
+CHEBI:26523,Reactive oxygen species | reactive oxygen species,2,False
+CHEBI:2663,Amiodarone | amiodarone,2,False
+CHEBI:2666,Amitriptyline | amitriptyline,2,False
+CHEBI:26666,Short-chain fatty acids | short chain fatty acids | short-chain fatty acids,3,False
+CHEBI:26710,Sodium chloride | sodium chloride,2,False
+CHEBI:2700,Anandamide | anandamide,2,False
+CHEBI:27226,Uric acid | uric acid,2,False
+CHEBI:27300,Vitamin D | vitamin D,2,False
+CHEBI:27470,Folic acid | folic acid,2,False
+CHEBI:27568,Selenium | selenium,2,False
+CHEBI:27584,Aldosterone | aldosterone,2,False
+CHEBI:27732,Caffeine | caffeine,2,False
+CHEBI:2788,Apraclonidine | apraclonidine,2,False
+CHEBI:27881,Resveratrol | resveratrol,2,False
+CHEBI:27897,Tryptophan | tryptophan,2,False
+CHEBI:27958,Cocaine | cocaine,2,False
+CHEBI:28001,Vancomycin | vancomycin,2,False
+CHEBI:28087,Glycogen | glycogen,2,False
+CHEBI:28115,Methylcobalamin | methylcobalamin,2,False
+CHEBI:28300,Glutamine | glutamine,2,False
+CHEBI:28304,Heparin | enoxaparin | heparin,3,True
+CHEBI:28364,Eicosapentaenoic acid | eicosapentaenoic acid,2,False
+CHEBI:28487,Reserpine | reserpine,2,False
+CHEBI:28494,Cardiolipin | cardiolipin,2,False
+CHEBI:28499,Kaempferol | kaempferol,2,False
+CHEBI:28670,Neopterin | neopterin,2,False
+CHEBI:28683,Kynurenine | kynurenine,2,False
+CHEBI:28689,Dehydroepiandrosterone | dehydroepiandrosterone,2,False
+CHEBI:28787,Nitroglycerin | Nitroglycerine | glyceryl trinitrate | nitroglycerin | nitroglycerine,5,True
+CHEBI:28793,Beta-D-glucan | beta-glucan,2,False
+CHEBI:28821,Piperine | piperine,2,False
+CHEBI:28834,Deoxycholic acid | deoxycholic acid,2,False
+CHEBI:28918,Epinephrine | epinephrine,2,False
+CHEBI:28939,N-Acetylcysteine | N-acetyl cysteine | N-acetylcysteine,3,False
+CHEBI:28940,Vitamin D3 | vitamin D3,2,False
+CHEBI:2955,Azithromycin | azithromycin,2,False
+CHEBI:2972,Baclofen | baclofen,2,False
+CHEBI:29807,Glycyrrhizin | glycyrrhizin,2,False
+CHEBI:2981,Baicalin | baicalin,2,False
+CHEBI:29864,Mannitol | mannitol,2,False
+CHEBI:30089,Acetate | acetate,2,False
+CHEBI:30145,Lithium | lithium,2,False
+CHEBI:30660,Thyroxine | thyroxine,2,False
+CHEBI:30772,Butyric acid | butyric acid,2,False
+CHEBI:30879,Alcohol | alcohol,2,False
+CHEBI:31011,Valerate | valerate,2,False
+CHEBI:31236,Aripiprazole | aripiprazole,2,False
+CHEBI:3127,Bisoprolol | bisoprolol,2,False
+CHEBI:31401,Cilostazol | cilostazol,2,False
+CHEBI:31524,Droxidopa | droxidopa,2,False
+CHEBI:31530,Edaravone | edaravone,2,False
+CHEBI:3160,Botulinum toxin type A | botulinum toxin type A,2,False
+CHEBI:3165,Bradykinin | bradykinin,2,False
+CHEBI:31859,Modafinil | modafinil,2,False
+CHEBI:3207,Budesonide | budesonide,2,False
+CHEBI:3213,Bumetanide | bumetanide,2,False
+CHEBI:3215,Bupivacaine | bupivacaine,2,False
+CHEBI:3219,Bupropion | bupropion,2,False
+CHEBI:32599,Magnesium sulfate | magnesium sulfate,2,False
+CHEBI:33281,Antibiotics | antibiotics,2,False
+CHEBI:3347,Candesartan | candesartan,2,False
+CHEBI:33567,Catecholamines | catecholamines,2,False
+CHEBI:33568,Adrenaline | adrenaline,2,False
+CHEBI:33569,Noradrenaline | noradrenaline,2,False
+CHEBI:3374,Capsaicin | capsaicin,2,False
+CHEBI:3387,Carbamazepine | carbamazepine,2,False
+CHEBI:34385,4-aminopyridine | fampridine,2,True
+CHEBI:34543,Arginine vasopressin | arginine vasopressin,2,False
+CHEBI:35143,Hemoglobin | haemoglobin | hemoglobin,3,True
+CHEBI:35457,ACE inhibitors | angiotensin-converting enzyme inhibitors,2,False
+CHEBI:35469,Antidepressants | antidepressants,2,False
+CHEBI:35475,NSAID | NSAIDs | Non-steroidal anti-inflammatory drugs | Nonsteroidal anti-inflammatory drugs | non-steroidal anti-inflammatory drugs | nonsteroidal anti-inflammatory drugs | nonsteroidal antiinflammatory drugs,7,True
+CHEBI:35482,Opioid analgesics | opioid analgesics,2,False
+CHEBI:35530,Beta blocker | Beta blockers | Beta-blockers | beta blocker | beta blockers | beta-adrenergic blocker | beta-adrenergic blockers | beta-blocker,9,False
+CHEBI:35623,Anticonvulsants | anticonvulsants,2,False
+CHEBI:35854,Valacyclovir | valacyclovir,2,False
+CHEBI:36333,local anaesthetic | local anesthetics,2,False
+CHEBI:36791,Escitalopram | escitalopram,2,False
+CHEBI:36796,Duloxetine | duloxetine,2,False
+CHEBI:3723,Citalopram | citalopram,2,False
+CHEBI:3738,Clemastine | clemastine,2,False
+CHEBI:37396,proteoglycan | proteoglycans,2,True
+CHEBI:37397,Chondroitin sulfate | chondroitin sulfate,2,False
+CHEBI:37550,Sphingosine-1-Phosphate | Sphingosine-1-phosphate | sphingosine-1-phosphate,3,False
+CHEBI:3756,Clonazepam | clonazepam,2,False
+CHEBI:37941,Clopidogrel | clopidogrel,2,False
+CHEBI:37956,Antihistamines | antihistamine | antihistamines,3,True
+CHEBI:38215,Calcium channel blockers | Calcium-channel blockers | calcium channel blockers,3,False
+CHEBI:3892,Adrenocorticotropic hormone | adrenocorticotropic hormone,2,False
+CHEBI:39462,Pilocarpine | pilocarpine,2,False
+CHEBI:3962,Curcumin | curcumin,2,False
+CHEBI:4027,Cyclophosphamide | cyclophosphamide,2,False
+CHEBI:4031,Cyclosporin A | cyclosporin A,2,False
+CHEBI:4046,Cyproheptadine | cyproheptadine,2,False
+CHEBI:41879,Dexamethasone | dexamethasone,2,False
+CHEBI:42797,Gabapentin | gabapentin,2,False
+CHEBI:44185,Methotrexate | methotrexate,2,False
+CHEBI:4450,Desmopressin | desmopressin,2,False
+CHEBI:4466,Dexmedetomidine | dexmedetomidine,2,False
+CHEBI:4470,Dextromethorphan | dextromethorphan,2,False
+CHEBI:45783,Imatinib | imatinib,2,False
+CHEBI:46195,Acetaminophen | acetaminophen | paracetamol,3,True
+CHEBI:46245,Coenzyme Q10 | coenzyme Q10,2,False
+CHEBI:46631,Clonidine | clonidine,2,False
+CHEBI:46859,Polidocanol | polidocanol,2,False
+CHEBI:47381,Diclofenac | diclofenac,2,False
+CHEBI:474053,Cefazolin | cefazolin,2,False
+CHEBI:47499,Imipramine | imipramine,2,False
+CHEBI:47774,LDL cholesterol | LDL-cholesterol | Low-density lipoprotein cholesterol | low-density lipoprotein cholesterol,4,False
+CHEBI:47775,HDL cholesterol | High-density lipoprotein cholesterol | high-density lipoprotein cholesterol,3,False
+CHEBI:47780,Clomipramine | clomipramine,2,False
+CHEBI:47781,Desipramine | desipramine,2,False
+CHEBI:48432,Angiotensin II | angiotensin II,2,False
+CHEBI:48669,Tranexamic acid | tranexamic acid,2,False
+CHEBI:49200,Proton pump inhibitors | proton pump inhibitors,2,False
+CHEBI:49662,Indomethacin | indomethacin,2,False
+CHEBI:4975,Famotidine | famotidine,2,False
+CHEBI:499361,Aprepitant | aprepitant,2,False
+CHEBI:50114,Estrogen | estrogen,2,False
+CHEBI:50249,Anticoagulants | anticoagulants,2,False
+CHEBI:5058,Fibronectin | fibronectin,2,False
+CHEBI:50694,Minocycline | minocycline,2,False
+CHEBI:50730,Montelukast | montelukast,2,False
+CHEBI:50845,Doxycycline | doxycycline,2,False
+CHEBI:50858,Corticosteroids | corticosteroid | corticosteroids,3,True
+CHEBI:50885,Fludrocortisone | fludrocortisone,2,False
+CHEBI:5118,Fluoxetine | fluoxetine,2,False
+CHEBI:5138,Fluvoxamine | fluvoxamine,2,False
+CHEBI:52392,2-Arachidonoylglycerol | 2-arachidonoylglycerol,2,False
+CHEBI:52717,Bortezomib | bortezomib,2,False
+CHEBI:52722,Lactacystin | lactacystin,2,False
+CHEBI:53289,Donepezil | donepezil,2,False
+CHEBI:5417,Glucosamine | glucosamine,2,False
+CHEBI:5558,Guanfacine | guanfacine,2,False
+CHEBI:5613,Haloperidol | haloperidol,2,False
+CHEBI:566274,Malondialdehyde | malondialdehyde,2,False
+CHEBI:567361,Cladribine | cladribine,2,False
+CHEBI:57589,Acetyl-L-carnitine | acetyl-L-carnitine,2,False
+CHEBI:5801,Hydroxychloroquine | hydroxychloroquine,2,False
+CHEBI:582124,Myriocin | myriocin,2,False
+CHEBI:584020,Methysergide | methysergide,2,False
+CHEBI:5855,Ibuprofen | ibuprofen,2,False
+CHEBI:5885,Imperatorin | imperatorin,2,False
+CHEBI:59204,Carbetocin | carbetocin,2,False
+CHEBI:5959,Irbesartan | irbesartan,2,False
+CHEBI:59773,Cromolyn | cromolyn,2,False
+CHEBI:6030,Isoniazid | isoniazid,2,False
+CHEBI:60654,Valproate | valproate,2,False
+CHEBI:6078,Ivermectin | ivermectin,2,False
+CHEBI:60802,Ropivacaine | ropivacaine,2,False
+CHEBI:6121,Ketamine | ketamine,2,False
+CHEBI:63450,Masitinib | masitinib,2,False
+CHEBI:63452,Midostaurin | midostaurin,2,False
+CHEBI:63629,Tizanidine | tizanidine,2,False
+CHEBI:63631,Topiramate | topiramate,2,False
+CHEBI:63635,Valganciclovir | valganciclovir,2,False
+CHEBI:6367,Lamotrigine | lamotrigine,2,False
+CHEBI:64022,Nebivolol | nebivolol,2,False
+CHEBI:64356,Pregabalin | pregabalin,2,False
+CHEBI:64482,Phosphatidylcholine | phosphatidylcholine,2,False
+CHEBI:6456,Lidocaine | lidocaine,2,False
+CHEBI:64583,Sphingomyelin | sphingomyelin,2,False
+CHEBI:64628,Somatostatin | somatostatin,2,False
+CHEBI:64645,Amyloid beta | Amyloid-beta | amyloid beta | amyloid-beta,4,False
+CHEBI:65311,Corticotropin-releasing factor | corticotropin-releasing factor,2,False
+CHEBI:6539,Lorazepam | lorazepam,2,False
+CHEBI:6541,Losartan | losartan,2,False
+CHEBI:65585,Carnosic acid | carnosic acid,2,False
+CHEBI:6618,met-enkephalin | methionine-enkephalin,2,False
+CHEBI:66964,Dronabinol | Tetrahydrocannabinol | dronabinol | tetrahydrocannabinol,4,False
+CHEBI:67194,Cannabinoids | cannabinoids,2,False
+CHEBI:6775,Mesalazine | mesalazine,2,False
+CHEBI:6801,Metformin | metformin,2,False
+CHEBI:68551,Linaclotide | linaclotide,2,False
+CHEBI:6887,Methylphenidate | methylphenidate,2,False
+CHEBI:6888,Methylprednisolone | methylprednisolone,2,False
+CHEBI:6904,Metoprolol | metoprolol,2,False
+CHEBI:6931,Midazolam | midazolam,2,False
+CHEBI:6933,Midodrine | midodrine,2,False
+CHEBI:69478,Cannabidiol | cannabidiol,2,False
+CHEBI:6950,Mirtazapine | mirtazapine,2,False
+CHEBI:7009,Moxonidine | moxonidine,2,False
+CHEBI:71193,Liraglutide | liraglutide,2,False
+CHEBI:71196,GLP-1 receptor agonist | Glucagon-like peptide-1 receptor agonist | glucagon-like peptide-1 receptor agonist,3,False
+CHEBI:71464,Palmitoylethanolamide | palmitoylethanolamide,2,False
+CHEBI:72544,Flavonoids | flavonoids,2,False
+CHEBI:73024,Acetylcarnitine | acetylcarnitine,2,False
+CHEBI:73693,Ketone bodies | ketone bodies,2,False
+CHEBI:7444,Nadolol | nadolol,2,False
+CHEBI:7465,Naltrexone | naltrexone,2,False
+CHEBI:747921,Isoproterenol | isoproterenol,2,False
+CHEBI:748072,Celiprolol | celiprolol,2,False
+CHEBI:748220,Cyclosporine | cyclosporine,2,False
+CHEBI:748257,Copper | copper,2,False
+CHEBI:749010,Azvudine | azvudine,2,False
+CHEBI:749277,Lactic acid | lactic acid,2,False
+CHEBI:749298,Sodium oxybate | sodium oxybate,2,False
+CHEBI:749380,Lubiprostone | lubiprostone,2,False
+CHEBI:749424,Onabotulinum toxin A | Onabotulinumtoxin A | OnabotulinumtoxinA | onabotulinum toxin A | onabotulinumtoxinA,5,True
+CHEBI:749470,Polyethylene glycol | polyethylene glycol,2,False
+CHEBI:749495,Bevacizumab | bevacizumab,2,False
+CHEBI:749497,Omalizumab | omalizumab,2,False
+CHEBI:749571,Infliximab | infliximab,2,False
+CHEBI:749665,Gadolinium | gadolinium,2,False
+CHEBI:75246,Rifaximin | rifaximin,2,False
+CHEBI:752905,Rintatolimod | rintatolimod,2,False
+CHEBI:75295,Compound 48/80 | compound 48/80,2,False
+CHEBI:753101,Sulodexide | sulodexide,2,False
+CHEBI:753213,lavender essential oil | lavender oil,2,False
+CHEBI:753266,Transforming growth factor beta 2 | transforming growth factor beta 2 | transforming growth factor-beta 2,3,False
+CHEBI:753473,interferon beta | interferon-beta,2,False
+CHEBI:753623,Dupilumab | dupilumab,2,False
+CHEBI:7542,Neurotensin | neurotensin,2,False
+CHEBI:75431,Ghrelin | ghrelin,2,False
+CHEBI:754827,Rimegepant | rimegepant,2,False
+CHEBI:754848,Procalcitonin | procalcitonin,2,False
+CHEBI:7549,L-NAME | l-NAME,2,False
+CHEBI:7550,Nicardipine | nicardipine,2,False
+CHEBI:755472,Mirogabalin | mirogabalin,2,False
+CHEBI:755804,Galcanezumab | galcanezumab,2,False
+CHEBI:755917,Eptinezumab | eptinezumab,2,False
+CHEBI:755924,Erenumab | erenumab,2,False
+CHEBI:755928,Sativex | nabiximols,2,True
+CHEBI:756389,Tacrolimus | tacrolimus,2,False
+CHEBI:756431,Dapansutrile | OLT1177,2,True
+CHEBI:7565,Nifedipine | nifedipine,2,False
+CHEBI:756628,Avapritinib | avapritinib,2,False
+CHEBI:757112,Ampreloxetine | ampreloxetine,2,False
+CHEBI:757206,Fremanezumab | fremanezumab,2,False
+CHEBI:757242,Nerve Growth Factor | Nerve growth factor | nerve growth factor,3,False
+CHEBI:757488,Omega-3 fatty acids | omega-3 fatty acids,2,False
+CHEBI:758911,Interleukin-12 | interleukin-12,2,False
+CHEBI:75984,Flecainide | flecainide,2,False
+CHEBI:7640,Nortriptyline | nortriptyline,2,False
+CHEBI:76612,Ibrutinib | ibrutinib,2,False
+CHEBI:7726,Octreotide | octreotide,2,False
+CHEBI:7735,Olanzapine | olanzapine,2,False
+CHEBI:77383,Bisphosphonates | bisphosphonate | bisphosphonates,3,True
+CHEBI:7772,Omeprazole | omeprazole,2,False
+CHEBI:7773,Ondansetron | ondansetron,2,False
+CHEBI:7824,Oxcarbazepine | oxcarbazepine,2,False
+CHEBI:7872,Oxytocin | oxytocin,2,False
+CHEBI:7936,Paroxetine | paroxetine,2,False
+CHEBI:80201,Neuropeptide Y | neuropeptide Y,2,False
+CHEBI:80308,Substance P | substance P,2,False
+CHEBI:80319,Orexin A | orexin A,2,False
+CHEBI:80331,VIP | Vasoactive intestinal peptide | vasoactive intestinal peptide,3,False
+CHEBI:80334,Relaxin-2 | relaxin-2,2,False
+CHEBI:8081,Phentolamine | phentolamine,2,False
+CHEBI:81567,Thyroid-stimulating hormone | thyroid stimulating hormone | thyroid-stimulating hormone,3,False
+CHEBI:82594,Ferritin | ferritin,2,False
+CHEBI:82720,Empagliflozin | empagliflozin,2,False
+CHEBI:82914,P-cresol sulfate | p-cresol sulfate,2,False
+CHEBI:83531,Moclobemide | moclobemide,2,False
+CHEBI:8356,Pramipexole | pramipexole,2,False
+CHEBI:8378,Prednisolone | prednisolone,2,False
+CHEBI:8382,Prednisone | prednisone,2,False
+CHEBI:84123,Advanced glycation end products | advanced glycation end products | advanced glycation end-products,3,False
+CHEBI:8430,Procaine | procaine,2,False
+CHEBI:84491,Poly I-C | poly I:C | polyinosinic:polycytidylic acid,3,True
+CHEBI:84883,Icosapent ethyl | icosapent ethyl,2,False
+CHEBI:8499,Propranolol | propranolol,2,False
+CHEBI:85078,Dapagliflozin | dapagliflozin,2,False
+CHEBI:85164,Nintedanib | nintedanib,2,False
+CHEBI:85966,Ivabradine | ivabradine,2,False
+CHEBI:86267,Nitrotyrosine | nitrotyrosine,2,False
+CHEBI:86498,Hydroxylysine | hydroxylysine,2,False
+CHEBI:8665,Pyridostigmine | pyridostigmine,2,False
+CHEBI:8707,Quetiapine | quetiapine,2,False
+CHEBI:87631,Statin | Statins | statin | statins,4,False
+CHEBI:8764,Mycophenolate mofetil | mycophenolate mofetil,2,False
+CHEBI:8776,Ranitidine | ranitidine,2,False
+CHEBI:88539,hydroxylysylpyridinoline | pyridinoline,2,True
+CHEBI:8871,Risperidone | risperidone,2,False
+CHEBI:89510,deoxypyridinoline | lysylpyridinoline,2,True
+CHEBI:9123,Sertraline | sertraline,2,False
+CHEBI:9168,Sirolimus | sirolimus,2,False
+CHEBI:9241,Spironolactone | spironolactone,2,False
+CHEBI:92511,Ketotifen | ketotifen,2,False
+CHEBI:95341,Baricitinib | baricitinib,2,False
+CHEBI:9574,Thrombin | thrombin,2,False
+CHEBI:9648,Tramadol | tramadol,2,False
+CHEBI:9654,Trazodone | trazodone,2,False
+CHEBI:9667,Triamcinolone | triamcinolone,2,False
+CHEBI:9937,Vasopressin | vasopressin,2,False
+CHEBI:9943,Venlafaxine | venlafaxine,2,False
+CHEBI:9948,Verapamil | verapamil,2,False
+CL:0000057,Fibroblast | fibroblast,2,False
+CL:0000084,T cell | T-cell,2,False
+CL:0000097,Mast cell | mast cell,2,False
+CL:0000129,Microglia | microglia,2,False
+CL:0000134,Mesenchymal stromal cells | mesenchymal stem cell | mesenchymal stromal cells,3,False
+CL:0000232,erythrocyte | red blood cell,2,True
+CL:0000236,B cell | B-cell,2,False
+CL:0000623,Natural killer cell | natural killer cell,2,False
+CL:0000771,Eosinophil | eosinophil,2,False
+CL:0000815,Regulatory T cell | regulatory T cell,2,False
+GO:0015629,Actin cytoskeleton | actin cytoskeleton,2,False
+GO:0019230,Proprioception | proprioception,2,False
+GO:0070527,Platelet aggregation | platelet aggregation,2,False
+HP:0000012,Overactive bladder | overactive bladder,2,False
+HP:0000020,Urinary incontinence | urinary incontinence,2,False
+HP:0000093,Proteinuria | proteinuria,2,False
+HP:0000365,Hearing loss | hearing impairment | hearing loss,3,False
+HP:0000458,Anosmia | anosmia | loss of smell,3,True
+HP:0000501,Glaucoma | glaucoma,2,False
+HP:0000545,Myopia | myopia,2,False
+HP:0000716,Depression | depression,2,False
+HP:0000739,Anxiety | anxiety,2,False
+HP:0000789,Infertility | infertility,2,False
+HP:0000819,Diabetes Mellitus | Diabetes mellitus | diabetes mellitus,3,False
+HP:0000822,Arterial hypertension | Hypertension | arterial hypertension | hypertension,4,False
+HP:0000855,Insulin resistance | insulin resistance,2,False
+HP:0000975,Hyperhidrosis | hyperhidrosis,2,False
+HP:0000988,Rash | rash,2,False
+HP:0001097,Xerophthalmia | xerophthalmia,2,False
+HP:0001102,Angioid streaks | angioid streaks,2,False
+HP:0001262,Excessive daytime sleepiness | excessive daytime sleepiness,2,False
+HP:0001278,Orthostatic Hypotension | Orthostatic hypotension | orthostatic hypotension,3,False
+HP:0001279,Syncope | syncope,2,False
+HP:0001324,Muscle weakness | muscle weakness,2,False
+HP:0001382,Joint hypermobility | Joint laxity | Ligamentous laxity | joint hyperextensibility | joint hyperlaxity | joint hypermobility | joint instability | joint laxity,9,False
+HP:0001513,Obesity | obesity,2,False
+HP:0001519,Marfanoid habitus | marfanoid habitus,2,False
+HP:0001618,Dysphonia | dysphonia,2,False
+HP:0001622,preterm birth | preterm delivery,2,False
+HP:0001634,Mitral valve prolapse | mitral valve prolapse,2,False
+HP:0001635,Heart failure | heart failure,2,False
+HP:0001649,Tachycardia | tachycardia,2,False
+HP:0001653,Mitral regurgitation | mitral regurgitation,2,False
+HP:0001658,Myocardial infarction | myocardial infarction,2,False
+HP:0001698,Pericardial effusion | pericardial effusion,2,False
+HP:0001903,Anemia | anemia,2,False
+HP:0001919,Acute kidney injury | acute kidney injury,2,False
+HP:0001945,Fever | fever,2,False
+HP:0001962,Palpitations | heart palpitations | palpitations,3,False
+HP:0002014,Diarrhea | diarrhea | diarrhoea,3,True
+HP:0002019,Constipation | constipation,2,False
+HP:0002020,Gastroesophageal reflux | gastroesophageal reflux,2,False
+HP:0002027,Abdominal pain | abdominal pain | stomach pain,3,False
+HP:0002076,Migraine | migraine,2,False
+HP:0002094,Dyspnea | Dyspnoea | Shortness of breath | abnormal breathing | dyspnea | dyspnoea | shortness of breath,7,True
+HP:0002099,Asthma | asthma,2,False
+HP:0002140,ischaemic stroke | ischemic stroke,2,False
+HP:0002204,Pulmonary embolism | pulmonary embolism,2,False
+HP:0002315,Headache | headache,2,False
+HP:0002321,Dizziness | dizziness,2,False
+HP:0002354,Memory loss | Memory problems | amnesia | memory loss | memory problems | poor memory,6,True
+HP:0002360,Sleep disturbance | sleep disturbance | sleep disturbances,3,False
+HP:0002578,Gastroparesis | delayed gastric emptying | gastroparesis,3,True
+HP:0002607,anal incontinence | faecal incontinence,2,False
+HP:0002615,hypotension | low blood pressure,2,True
+HP:0002621,Atherosclerosis | atherosclerosis,2,False
+HP:0002625,Deep vein thrombosis | deep vein thrombosis | deep venous thrombosis,3,False
+HP:0002758,Osteoarthritis | osteoarthritis,2,False
+HP:0002761,Generalized Joint Hypermobility | Generalized joint hypermobility | generalized joint hypermobility | generalized joint laxity,4,False
+HP:0002829,Arthralgia | Joint pain | arthralgia | joint pain,4,False
+HP:0002870,Obstructive sleep apnea | obstructive sleep apnea,2,False
+HP:0003270,Bloating | bloating,2,False
+HP:0003326,Muscle pain | Myalgia | muscle pain | myalgia,4,False
+HP:0003401,Paresthesia | paresthesia,2,False
+HP:0004756,Ventricular tachycardia | ventricular tachycardia,2,False
+HP:0004942,Aortic aneurysm | aortic aneurysm,2,False
+HP:0005110,Atrial fibrillation | atrial fibrillation,2,False
+HP:0007018,attention deficit | attention deficits,2,False
+HP:0010535,Sleep apnea | sleep apnea,2,False
+HP:0011675,Arrhythmia | Cardiac arrhythmia | arrhythmia | cardiac arrhythmia | cardiac arrhythmias,5,False
+HP:0011703,Sinus tachycardia | sinus tachycardia,2,False
+HP:0011711,left anterior fascicular block | left anterior hemiblock,2,False
+HP:0012173,Orthostatic tachycardia | orthostatic tachycardia | postural tachycardia,3,False
+HP:0012332,Autonomic dysfunction | Dysautonomia | autonomic dysfunction | autonomic dysregulation | dysautonomia,5,False
+HP:0012378,Fatigue | fatigue | tiredness,3,True
+HP:0012432,Chronic fatigue | chronic fatigue,2,False
+HP:0012531,Pain | pain,2,False
+HP:0012735,Cough | cough,2,False
+HP:0012819,Myocarditis | myocarditis,2,False
+HP:0030833,Neck pain | neck pain,2,False
+HP:0030839,Knee pain | knee pain,2,False
+HP:0030973,Post-Exertional Malaise | Post-exertional malaise | Postexertional malaise | post-exertional malaise | postexertional malaise,5,False
+HP:0031249,Dysgeusia | dysgeusia,2,False
+HP:0031417,Runny nose | runny nose,2,False
+HP:0031546,cardiac conduction abnormalities | cardiac conduction abnormality,2,False
+HP:0031607,Pelvic organ prolapse | pelvic organ prolapse,2,False
+HP:0031987,Concentration problems | concentration problems | lack of concentration,3,False
+HP:0032654,Endothelial dysfunction | endothelial dysfunction,2,False
+HP:0033236,central fatigue | cognitive fatigue,2,False
+HP:0033345,Neuralgia | neuralgia,2,False
+HP:0033630,Brain fog | brain fog | mental fatigue,3,True
+HP:0033675,Frailty | frailty,2,False
+HP:0033843,Postprandial fullness | postprandial fullness,2,False
+HP:0033992,Chronotropic incompetence | chronotropic incompetence,2,False
+HP:0041051,Ageusia | ageusia,2,False
+HP:0100543,Cognitive impairment | cognitive impairment,2,False
+HP:0100749,Chest pain | chest pain | thoracic pain,3,False
+HP:0100785,Insomnia | insomnia,2,False
+HP:0100851,Psychological distress | mood disturbance | psychological distress,3,True
+HP:4000009,Kinesiophobia | kinesiophobia,2,False
+HP:5200292,Unrefreshing sleep | unrefreshing sleep,2,False
+HP:6000040,Neuropathic pain | neuropathic pain,2,False
+NCBITaxon:10298,Herpes simplex virus 1 | herpes simplex virus 1,2,False
+NCBITaxon:10310,Herpes simplex virus 2 | herpes simplex virus 2,2,False
+NCBITaxon:10335,Varicella Zoster Virus | Varicella zoster virus | Varicella-zoster virus | varicella zoster virus | varicella-zoster virus,5,False
+NCBITaxon:10358,Cytomegalovirus | cytomegalovirus,2,False
+NCBITaxon:10359,Human cytomegalovirus | human cytomegalovirus,2,False
+NCBITaxon:10368,Human Herpesvirus 6 | Human herpesvirus 6 | human herpesvirus 6,3,False
+NCBITaxon:10376,Epstein-Barr Virus | Epstein-Barr virus,2,False
+NCBITaxon:10798,Parvovirus B19 | parvovirus B19,2,False
+NCBITaxon:11234,Measles virus | measles virus,2,False
+NCBITaxon:11309,Influenza virus | influenza virus,2,False
+NCBITaxon:11320,Influenza A virus | influenza A virus,2,False
+NCBITaxon:11676,HIV | HIV-1,2,False
+NCBITaxon:12637,Dengue virus | dengue virus,2,False
+NCBITaxon:12721,Human immunodeficiency virus | human immunodeficiency virus,2,False
+NCBITaxon:3052230,Hepatitis C virus | hepatitis C virus,2,False
+PATO:0000119,Height | height,2,False
+UBERON:0000007,Pituitary gland | pituitary gland,2,False
+UBERON:0000011,Parasympathetic nervous system | parasympathetic nervous system,2,False
+UBERON:0000013,Sympathetic nervous system | sympathetic nervous system,2,False
+UBERON:0000120,Blood brain barrier | Blood-brain barrier | blood-brain barrier,3,False
+UBERON:0000381,detrusor | muscularis propria,2,True
+UBERON:0000946,cardiac valve | heart valve,2,False
+UBERON:0000947,Aorta | aorta,2,False
+UBERON:0000965,lens | ocular lens,2,False
+UBERON:0000995,Uterus | uterus,2,False
+UBERON:0001072,Inferior vena cava | inferior vena cava,2,False
+UBERON:0001103,Diaphragm | diaphragm,2,False
+UBERON:0001105,Clavicle | clavicle,2,False
+UBERON:0001134,skeletal muscle | skeletal muscle tissue,2,False
+UBERON:0001375,Semitendinosus muscle | semitendinosus,2,False
+UBERON:0001377,quadriceps | quadriceps femoris muscle | quadriceps muscle,3,False
+UBERON:0001379,Vastus lateralis | vastus lateralis,2,False
+UBERON:0001380,Vastus medialis | vastus medialis,2,False
+UBERON:0001456,Face | face,2,False
+UBERON:0001515,Thoracic aorta | thoracic aorta,2,False
+UBERON:0001529,brachiocephalic artery | brachiocephalic trunk | innominate artery,3,False
+UBERON:0001532,Internal carotid artery | internal carotid artery,2,False
+UBERON:0001586,Internal jugular vein | internal jugular vein,2,False
+UBERON:0001625,Right coronary artery | right coronary artery,2,False
+UBERON:0001640,Celiac artery | celiac artery,2,False
+UBERON:0001649,Glossopharyngeal nerve | glossopharyngeal nerve,2,False
+UBERON:0001751,dentin | dentine,2,True
+UBERON:0001752,enamel | tooth enamel,2,False
+UBERON:0001759,Vagus nerve | vagal nerve | vagus nerve,3,False
+UBERON:0001773,Sclera | sclera,2,False
+UBERON:0001870,Frontal cortex | frontal cortex,2,False
+UBERON:0001873,Caudate nucleus | caudate nucleus,2,False
+UBERON:0001874,Putamen | putamen,2,False
+UBERON:0001876,Amygdala | amygdala,2,False
+UBERON:0001882,Nucleus Accumbens | nucleus accumbens,2,False
+UBERON:0001896,Medulla oblongata | medulla oblongata,2,False
+UBERON:0001897,Thalamus | thalamus,2,False
+UBERON:0001898,Hypothalamus | hypothalamus,2,False
+UBERON:0001905,Pineal gland | pineal gland,2,False
+UBERON:0001954,Hippocampus | hippocampus,2,False
+UBERON:0001986,Endothelium | endothelium,2,False
+UBERON:0002020,gray matter | grey matter,2,False
+UBERON:0002038,Substantia nigra | substantia nigra,2,False
+UBERON:0002106,Spleen | spleen,2,False
+UBERON:0002135,Mitral valve | mitral valve,2,False
+UBERON:0002148,Locus coeruleus | locus coeruleus,2,False
+UBERON:0002190,subcutaneous adipose tissue | subcutaneous fat,2,False
+UBERON:0002240,Spinal cord | spinal cord,2,False
+UBERON:0002298,Brainstem | brainstem,2,False
+UBERON:0002369,Adrenal gland | adrenal gland,2,False
+UBERON:0002410,Autonomic nervous system | autonomic nervous system,2,False
+UBERON:0002413,cervical vertebra | cervical vertebrae,2,False
+UBERON:0002441,Stellate ganglion | stellate ganglion,2,False
+UBERON:0002456,internal thoracic artery | mammary artery,2,False
+UBERON:0003027,Cingulate cortex | cingulate cortex,2,False
+UBERON:0003625,5th finger | little finger,2,False
+UBERON:0003671,Anterior cruciate ligament | anterior cruciate ligament,2,False
+UBERON:0003676,Patellar tendon | patellar tendon,2,False
+UBERON:0003694,atlanto-axial joint | atlantoaxial joint,2,False
+UBERON:0003696,metatarsal-phalangeal joint | metatarsophalangeal joint,2,False
+UBERON:0003957,Bruch membrane | Bruch's membrane,2,False
+UBERON:0004367,Descemet membrane | Descemet's membrane,2,False
+UBERON:0006094,superior parietal cortex | superior parietal lobule,2,False
+UBERON:0006637,celiac trunk | coeliac trunk,2,False
+UBERON:0006689,Lingual frenulum | frenulum | lingual frenulum,3,False
+UBERON:0008260,Spine | spine,2,False
+UBERON:0009050,Nucleus of the Solitary Tract | nucleus of the solitary tract,2,False
+UBERON:0009835,Anterior Cingulate Cortex | Anterior cingulate cortex | anterior cingulate cortex,3,False
+UBERON:0011265,trapezio-metacarpal joint | trapeziometacarpal joint,2,False
+UBERON:0011392,Internal elastic lamina | internal elastic lamina | internal elastic membrane,3,False
+UBERON:0013725,Anterior talofibular ligament | anterior talofibular ligament,2,False
+UBERON:0034891,Insular cortex | insular cortex,2,False
+UBERON:0035652,Peroneal nerve | peroneal nerve,2,False
+UBERON:0035965,blood vessel wall | vascular wall,2,False
+UniProt:O00182,Galectin 9 | Galectin-9,2,False
+UniProt:O00206,Toll-like receptor 4 | toll-like receptor 4,2,False
+UniProt:O00501,Claudin-5 | claudin-5,2,False
+UniProt:O14786,Neuropilin 1 | Neuropilin-1 | neuropilin-1,3,False
+UniProt:O15123,Angiopoietin-2 | angiopoietin-2,2,False
+UniProt:O43612,hypocretin | prepro-orexin,2,True
+UniProt:O60602,Toll-like receptor 5 | toll-like receptor 5,2,False
+UniProt:O60603,Toll-like receptor 2 | toll-like receptor 2,2,False
+UniProt:O95450,procollagen I N-proteinase | procollagen-I-N-proteinase,2,False
+UniProt:O95760,Interleukin-33 | interleukin-33,2,False
+UniProt:P00441,Superoxide dismutase 1 | superoxide dismutase 1,2,False
+UniProt:P00450,Ceruloplasmin | ceruloplasmin,2,False
+UniProt:P00746,Complement factor D | complement factor D,2,False
+UniProt:P01009,Alpha-1-antitrypsin | alpha-1 antitrypsin | alpha-1-antitrypsin,3,False
+UniProt:P01024,Complement C3 | complement C3,2,False
+UniProt:P01241,Growth Hormone | Growth hormone | growth hormone,3,False
+UniProt:P01563,Interferon alpha-2 | interferon alpha-2 | interferon-alpha 2,3,False
+UniProt:P01579,Interferon gamma | interferon gamma | interferon-gamma,3,False
+UniProt:P01584,Interleukin-1 beta | Interleukin-1-beta | interleukin-1 beta,3,False
+UniProt:P02452,Collagen alpha-1(I) chain | collagen alpha-1(I) chain,2,False
+UniProt:P02649,Apolipoprotein E | apolipoprotein E,2,False
+UniProt:P02741,C-Reactive Protein | C-reactive protein,2,False
+UniProt:P02748,Complement component C9 | complement component C9,2,False
+UniProt:P02766,Transthyretin | transthyretin,2,False
+UniProt:P02776,Platelet factor 4 | platelet factor 4,2,False
+UniProt:P02788,Lactotransferrin | lactotransferrin,2,False
+UniProt:P04275,Von Willebrand Factor | Von Willebrand factor | von Willebrand Factor | von Willebrand factor,4,False
+UniProt:P05019,Insulin-like growth factor 1 | insulin-like growth factor 1 | insulin-like growth factor-1,3,False
+UniProt:P05112,Interleukin-4 | interleukin-4,2,False
+UniProt:P05113,Interleukin-5 | interleukin-5,2,False
+UniProt:P05164,Myeloperoxidase | myeloperoxidase,2,False
+UniProt:P05231,Interleukin 6 | Interleukin-6 | interleukin 6 | interleukin-6,4,False
+UniProt:P05556,Integrin beta-1 | integrin beta-1 | integrin beta1,3,False
+UniProt:P06401,Progesterone receptor | progesterone receptor,2,False
+UniProt:P07550,Beta-2 adrenergic receptor | beta-2 adrenergic receptor,2,False
+UniProt:P07996,Thrombospondin-1 | thrombospondin 1 | thrombospondin-1,3,False
+UniProt:P08123,Collagen alpha-2(I) chain | collagen alpha-2(I) chain,2,False
+UniProt:P08253,Matrix metalloproteinase 2 | matrix metalloproteinase 2 | matrix metalloproteinase-2,3,False
+UniProt:P08588,Beta-1 adrenergic receptor | beta-1 adrenergic receptor,2,False
+UniProt:P08603,Complement Factor H | Complement factor H | complement factor H,3,False
+UniProt:P08697,alpha-2-antiplasmin | alpha2-antiplasmin,2,False
+UniProt:P09038,basic fibroblast growth factor | fibroblast growth factor 2,2,False
+UniProt:P09172,Dopamine beta-hydroxylase | dopamine beta-hydroxylase,2,False
+UniProt:P09486,SPARC | secreted protein acidic and rich in cysteine,2,True
+UniProt:P0DUB6,Salivary alpha-amylase | salivary alpha-amylase,2,False
+UniProt:P10145,Interleukin-8 | interleukin-8,2,False
+UniProt:P10451,Osteopontin | osteopontin,2,False
+UniProt:P10909,Clusterin | clusterin,2,False
+UniProt:P11226,Mannose-binding lectin | mannose-binding lectin,2,False
+UniProt:P12104,Fatty Acid Binding Protein 2 | fatty acid-binding protein 2,2,False
+UniProt:P12724,Eosinophil cationic protein | Eosinophil-cationic protein | eosinophil cationic protein,3,False
+UniProt:P12821,angiotensin converting enzyme | angiotensin-converting enzyme,2,False
+UniProt:P13232,Interleukin-7 | interleukin-7,2,False
+UniProt:P13497,bone morphogenetic protein 1 | procollagen C-proteinase,2,True
+UniProt:P13726,Tissue factor | tissue factor,2,False
+UniProt:P14136,Glial fibrillary acidic protein | glial fibrillary acidic protein,2,False
+UniProt:P14416,Dopamine D2 receptor | dopamine D2 receptor,2,False
+UniProt:P14780,Matrix Metalloproteinase-9 | Matrix metalloproteinase-9 | matrix metalloproteinase 9 | matrix metalloproteinase-9,4,False
+UniProt:P15104,Glutamine synthetase | glutamine synthetase,2,False
+UniProt:P15502,Tropoelastin | elastin | tropoelastin,3,True
+UniProt:P16471,Prolactin receptor | prolactin receptor,2,False
+UniProt:P16581,E-Selectin | E-selectin,2,False
+UniProt:P18428,lipopolysaccharide binding protein | lipopolysaccharide-binding protein,2,False
+UniProt:P18621,PD-1 | PD1,2,True
+UniProt:P22105,Tenascin-X | tenascin-X,2,False
+UniProt:P22301,Interleukin 10 | Interleukin-10 | interleukin-10,3,False
+UniProt:P23284,cyclophilin B | peptidyl-prolyl cis-trans isomerase B,2,False
+UniProt:P23560,Brain Derived Neurotrophic Factor | Brain-derived neurotrophic factor | brain-derived neurotrophic factor,3,False
+UniProt:P23975,Norepinephrine transporter | norepinephrine transporter,2,False
+UniProt:P24821,Tenascin-C | tenascin | tenascin-C,3,False
+UniProt:P25021,Histamine H2 receptor | histamine H2 receptor,2,False
+UniProt:P28300,Lysyl oxidase | lysyl oxidase,2,False
+UniProt:P30536,Translocator protein | translocator protein,2,False
+UniProt:P30559,Oxytocin receptor | oxytocin receptor,2,False
+UniProt:P35225,Interleukin-13 | interleukin-13,2,False
+UniProt:P35354,Cyclooxygenase 2 | Cyclooxygenase-2 | cyclooxygenase-2,3,False
+UniProt:P35367,Histamine H1 receptor | histamine H1 receptor,2,False
+UniProt:P35555,Fibrillin-1 | fibrillin 1 | fibrillin-1,3,False
+UniProt:P35556,Fibrillin-2 | fibrillin 2 | fibrillin-2,3,False
+UniProt:P35869,Aryl hydrocarbon receptor | aryl hydrocarbon receptor,2,False
+UniProt:P37840,Alpha-synuclein | alpha-synuclein,2,False
+UniProt:P41159,Leptin | leptin,2,False
+UniProt:P49747,Cartilage oligomeric matrix protein | cartilage oligomeric matrix protein,2,False
+UniProt:P55087,Aquaporin-4 | aquaporin-4,2,False
+UniProt:P60568,Interleukin-2 | interleukin-2,2,False
+UniProt:P80188,Lipocalin-2 | lipocalin-2,2,False
+UniProt:Q02809,"lysyl hydroxylase 1 | lysylhydroxylase 1 | procollagen-lysine,2-oxoglutarate 5-dioxygenase 1",3,False
+UniProt:Q05940,Vesicular monoamine transporter 2 | vesicular monoamine transporter 2,2,False
+UniProt:Q08380,Galectin-3 binding protein | galectin-3-binding protein,2,False
+UniProt:Q14116,Interleukin-18 | interleukin-18,2,False
+UniProt:Q14126,Desmoglein-2 | desmoglein-2,2,False
+UniProt:Q16552,Interleukin-17A | interleukin-17A,2,False
+UniProt:Q16625,Occludin | occludin,2,False
+UniProt:Q7Z434,mitochondrial antiviral signaling protein | mitochondrial antiviral-signaling protein,2,False
+UniProt:Q92752,Tenascin-R | tenascin-R,2,False
+UniProt:Q92819,Hyaluronan synthase 2 | hyaluronan synthase 2,2,False
+UniProt:Q96L58,"beta-1,3-galactosyltransferase 6 | galactosyltransferase II",2,False
+UniProt:Q99608,Necdin | necdin,2,False
+UniProt:Q9BYF1,angiotensin converting enzyme 2 | angiotensin-converting enzyme 2,2,False
+UniProt:Q9NYK1,Toll-like receptor 7 | toll-like receptor 7,2,False

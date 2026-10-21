@@ -1,0 +1,35 @@
+{
+ "basis": "claim graph v1 (2026-10-21): v0 plus authority-id entity merging. Only AUTHORITY-VERIFIED ids drive merging (POTS v1.1: ontology_id_verification == authority_verified, 5,727 rows; the 16,662 unverified_model_emitted ids are ignored \u2014 they contain wrong ids, e.g. CHEBI:145994 shared by remdesivir, pembrolizumab and nirmatrelvir-ritonavir; EDS ids are all authority-resolved). Strings resolving to the same id are one entity; unresolved strings keep the v0 skeleton. Supplement rows included. support_frac_of_condition_papers = supporting papers / papers in that corpus x condition cell. Verified ids are propagated to spellings that share the same v0 skeleton as a resolved spelling (case/punctuation variants), so an unresolved 'warfarin' joins a resolved 'Warfarin'.",
+ "rows_with_entity": 105298,
+ "canonical_entities_v0": 40321,
+ "canonical_entities_v1": 40195,
+ "verified_id_strings": 2002,
+ "authority_ids_merging_multiple_spellings": 709,
+ "token_disjoint_merges_listed_for_audit": 44,
+ "skeletons_with_multiple_ids": 2,
+ "claims": 44873,
+ "claims_support": {
+  "1 paper": 40095,
+  "2": 2740,
+  "3-4": 1246,
+  "5-9": 549,
+  "10+": 243
+ },
+ "contradicted_cells": 1313,
+ "contradicted_strength_ge2": 273,
+ "contradicted_strength_ge3": 112,
+ "entities_in_both_corpora": 817,
+ "v0_for_comparison": {
+  "claims": 44974,
+  "contradicted_cells": 1303,
+  "contradicted_strength_ge2": 272,
+  "entities_in_both_corpora": 822
+ },
+ "finding_about_pots_v1_1": "A first pass that used ALL POTS ids (including unverified_model_emitted) produced 454 merges with no shared token among the spellings; restricting to authority_verified removed them. The unverified ids are already flagged as such in the POTS package; this is a concrete reason never to use them for joins.",
+ "caveats": [
+  "merging covers only entity rows with a verified id (~24% of POTS entity rows with any id are verified; EDS ~28% of entity rows resolved); unresolved spellings remain separate",
+  "token-disjoint merges are mostly legitimate abbreviation/synonym pairs (PGE2 / prostaglandin E2, DOPA / levodopa) but are listed for audit",
+  "contradictions remain candidates for reading, not verdicts"
+ ],
+ "rows_keyed_by_verified_id": 21268
+}
