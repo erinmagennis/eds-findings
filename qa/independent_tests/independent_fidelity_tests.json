@@ -36,7 +36,7 @@
     "rct paper, case/review tier": 6
    }
   },
-  "reading": "metadata-authoritative; ~1% of rows in both corpora carry an evidence tier incompatible with the paper's indexed publication type; 'meta paper, case tier' may be legitimate (a review quoting a case) and needs a reader. Judge Q4 flags were on papers the metadata test cannot adjudicate (research articles)."
+  "reading": "metadata-authoritative; ~1% of rows in both corpora carry an evidence tier incompatible with the paper's indexed publication type; 'meta paper, case tier' may be legitimate (a review quoting a case) and needs a reader. Of the judge's Q4 flags, the metadata test confirmed 0/4 (EDS; flagged rows sit on pubtypes other/research x2, review, case report) and 0/6 (POTS; other/research x3, clinical trial, meta/systematic, review): for the research-article rows the test has no rule, and for the rest the asserted tier was not one the hard-mismatch rules reject (e.g. 'review/expert-opinion' on a review paper is compatible). The test is therefore conservative \u2014 it cannot confirm a judge flag that turns on study-design reading rather than publication type."
  },
  "Q6_numbers_in_source": {
   "test": "multi-digit numeric tokens in quantitative_detail located in the retained source text (normalize both sides)",
@@ -66,6 +66,8 @@
   "eds_Q2_flags_confirmed_by_cue_test": "1/4",
   "pots_Q2": "0/3",
   "eds_Q4_flags_confirmed_by_metadata": "0/4",
-  "pots_Q4": "0/6"
- }
+  "pots_Q4": "0/6",
+  "note": "non-confirmation means the mechanical test had no applicable rule or found the tier compatible with the pubtype; it does not mean the judge was wrong"
+ },
+ "correction": "2026-10-21: Q4 reading corrected \u2014 an earlier save stated all judge Q4 flags were on research articles; the flagged rows' pubtypes are listed above"
 }
