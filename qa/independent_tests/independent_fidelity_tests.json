@@ -1,0 +1,71 @@
+{
+ "basis": "Model-free, source- or metadata-grounded tests applied to whole corpora (not samples), 2026-10-21. They do not replace the human fidelity read; they bound defect classes independently of any LLM judge.",
+ "Q2_direction_without_comparison_cue": {
+  "test": "direction in {elevated, depleted/reduced, no significant difference, dysregulated} AND provenance_quote contains no comparison/quantity cue (vs, than, compared, higher/lower, increase/decrease, significant, p<, correlat/associat, %, rate, ...)",
+  "pots": {
+   "directional_rows": 110955,
+   "flagged": 15956,
+   "pct": 14.4
+  },
+  "eds": {
+   "directional_rows": 12890,
+   "flagged": 2973,
+   "pct": 23.1
+  },
+  "reading": "an UPPER BOUND on 'direction asserted without stated comparison' \u2014 the regex misses cues like 'indistinguishable' or 'no difference'; use as a sampling stratum, not a verdict; agreement with judge Q2 flags was 1/4 (EDS), 0/3 (POTS)"
+ },
+ "Q4_tier_vs_publication_type": {
+  "test": "Europe PMC pubType metadata vs evidence_tier: case-report paper with a cohort/RCT/case-control/cross-sectional/meta tier; meta-analysis/systematic-review paper with a case tier; RCT paper with case/review tier",
+  "pots": {
+   "rows_with_pubtype_pct": 99.1,
+   "hard_mismatch_rows": 1432,
+   "pct": 0.97,
+   "by_pattern": {
+    "case-report paper, high tier": 653,
+    "meta paper, case tier": 574,
+    "rct paper, case/review tier": 205
+   }
+  },
+  "eds": {
+   "rows_with_pubtype_pct": 100.0,
+   "hard_mismatch_rows": 279,
+   "pct": 1.15,
+   "by_pattern": {
+    "case-report paper, high tier": 140,
+    "meta paper, case tier": 133,
+    "rct paper, case/review tier": 6
+   }
+  },
+  "reading": "metadata-authoritative; ~1% of rows in both corpora carry an evidence tier incompatible with the paper's indexed publication type; 'meta paper, case tier' may be legitimate (a review quoting a case) and needs a reader. Judge Q4 flags were on papers the metadata test cannot adjudicate (research articles)."
+ },
+ "Q6_numbers_in_source": {
+  "test": "multi-digit numeric tokens in quantitative_detail located in the retained source text (normalize both sides)",
+  "eds_t2_sup_rec": {
+   "rows": 6528,
+   "classes": {
+    "all in quote": 4215,
+    "no numeric token": 1091,
+    "all in source, not all in quote": 854,
+    "some in source": 223,
+    "none in source": 145
+   }
+  },
+  "pots_200_sample_fresh_text": {
+   "rows": 124,
+   "classes": {
+    "all in quote": 53,
+    "all in source, not all in quote": 46,
+    "no numeric token": 20,
+    "none in source": 3,
+    "some in source": 2
+   }
+  },
+  "reading": "'all in source, not all in quote' (EDS 854, 13%) is narrow quoting, not fabrication; 'none in source' (EDS 145, 2.2%) is an upper bound inflated by tokenization ('1/5,000', '2 of 15')"
+ },
+ "applied_to_judge_flags": {
+  "eds_Q2_flags_confirmed_by_cue_test": "1/4",
+  "pots_Q2": "0/3",
+  "eds_Q4_flags_confirmed_by_metadata": "0/4",
+  "pots_Q4": "0/6"
+ }
+}
