@@ -1,0 +1,274 @@
+{
+ "entity_ids": {
+  "n_ids": 3134,
+  "label_equals_name": 2577,
+  "source_tags": {
+   "authority_lookup_ols_uberon_exact": 956,
+   "authority_lookup_ols_hp_exact": 578,
+   "authority_lookup_uniprot_exact": 503,
+   "authority_lookup_ols_chebi_exact": 415,
+   "authority_lookup_ols_uberon_synonym": 269,
+   "authority_lookup_uniprot_synonym": 131,
+   "authority_lookup_ols_hp_synonym": 99,
+   "authority_lookup_ols_chebi_synonym": 55,
+   "authority_lookup_ols_cl_exact": 55,
+   "authority_lookup_ols_hp_via_go_exact": 26,
+   "authority_lookup_ols_uberon_via_go_exact": 22,
+   "authority_lookup_ols_ncbitaxon_exact": 8,
+   "authority_lookup_ols_hp_via_chebi_exact": 6,
+   "authority_lookup_ols_hp_via_pato_exact": 4,
+   "authority_lookup_ols_hp_via_uberon_exact": 3,
+   "authority_lookup_ols_cl_synonym": 2,
+   "authority_lookup_ols_cl_via_go_exact": 1,
+   "authority_lookup_ols_ncbitaxon_synonym": 1
+  },
+  "label_ne_name_examples": [
+   [
+    "lysyl oxidase",
+    "Protein-lysine 6-oxidase",
+    "authority_lookup_uniprot_synonym"
+   ],
+   [
+    "papillary muscle",
+    "papillary muscle of heart",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "carotid artery",
+    "carotid artery segment",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "glycosaminoglycans",
+    "glycosaminoglycan",
+    "authority_lookup_ols_chebi_synonym"
+   ],
+   [
+    "cardiac conduction system",
+    "conducting system of heart",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "generalized joint laxity",
+    "Generalized joint hypermobility",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "Achilles tendon",
+    "calcaneal tendon",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "brachial plexus",
+    "brachial nerve plexus",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "aortic root",
+    "bulb of aorta",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "occipito-atlantal joint",
+    "atlanto-occipital joint",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "quadriceps muscle",
+    "quadriceps femoris",
+    "authority_lookup_ols_uberon_synonym"
+   ],
+   [
+    "skeletal muscle",
+    "skeletal muscle tissue",
+    "authority_lookup_ols_uberon_synonym"
+   ]
+  ],
+  "interpretation": "2,577/3,134 ids have label == name; the other 557 are authority-asserted synonyms. Where the worker's own resolver and the stage both resolved (467 rows) they agree 466/467; the one disagreement is 'niacin' (worker CHEBI:15940 nicotinic acid; stage CHEBI:17154 nicotinamide) \u2014 both ChEBI entries assert 'niacin' as a synonym, so this is an authority-synonym ambiguity, not a fuzzy match. Synonym matches are listed in synonym_match_candidates_t2.csv for human spot-check."
+ },
+ "hpo": {
+  "rows_with_hpo": 7317,
+  "all_labels_overlap_a_term": 7000,
+  "examples_no_overlap": [
+   [
+    "maternal death; fetal death",
+    "Stillbirth",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "intracranial aneurysm; carotid arterial dissection",
+    "Dilatation of the cerebral artery",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "chronic obstructive lung disease; skin hyperextensibility; joint hyperlaxity",
+    "Hyperextensible skin;Joint hypermobility",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "chronic obstructive lung disease; skin hyperextensibility; joint hyperlaxity",
+    "Hyperextensible skin;Joint hypermobility",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "marfanoid body habitus",
+    "Disproportionate tall stature",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "skin fragility; loose skin",
+    "Fragile skin;Cutis laxa",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "cardiac abnormality; great vessel abnormality",
+    "Abnormal heart morphology",
+    "authority_lookup_ols_hp_synonym"
+   ],
+   [
+    "clubfoot",
+    "Talipes equinovarus",
+    "authority_lookup_ols_hp_synonym"
+   ]
+  ],
+  "interpretation": "7,000/7,317 rows have every verified label sharing a token with a row term; the 317 others are authority synonyms (e.g. clubfoot -> Talipes equinovarus, marfanoid habitus -> Disproportionate tall stature). Worker vs stage HPO id sets equal 7,307/7,317."
+ },
+ "number_in_quote": {
+  "rows_with_quantitative_detail": 6218,
+  "value_counts": {
+   "True": 5288,
+   "False": 603,
+   "None": 327
+  },
+  "t1_value_counts": {
+   "True": 3529,
+   "False": 324,
+   "None": 91
+  }
+ },
+ "within_paper_dups": {
+  "same_pmid_same_finding_text": 23,
+  "same_pmid_same_quote": 3004,
+  "same_pmid_same_quote_t1": 1186
+ },
+ "worker_ids": {
+  "rows_worker_emitted_id": 467,
+  "of_which_authority_resolved": 467,
+  "agree": 466,
+  "disagree_examples": [
+   [
+    "niacin",
+    "CHEBI:15940",
+    "CHEBI:17154",
+    "nicotinamide"
+   ]
+  ]
+ },
+ "worker_hpo": {
+  "rows_worker_hpo": 7317,
+  "both": 7317,
+  "set_equal": 7307,
+  "worker_hpo_ids_total": 7317
+ },
+ "hEDS_rows_by_period": {
+  "pre_2017": 693,
+  "2017_2018": 362,
+  "papers_pre_2017": 143
+ },
+ "fresh_fetch_census_sample": {
+  "basis": "quotes of abstract-only rows checked against abstracts fetched FRESH from Europe PMC on 2026-10-21 (not the retention archive); up to 60 papers per decade, all rows of those papers",
+  "papers_sampled": 304,
+  "papers_fetched": 304,
+  "rows_checked": 1420,
+  "traceable": 1414,
+  "pct": 99.58,
+  "by_decade": {
+   "1960": {
+    "rows": 10,
+    "traceable": 10
+   },
+   "1970": {
+    "rows": 227,
+    "traceable": 225
+   },
+   "1980": {
+    "rows": 219,
+    "traceable": 219
+   },
+   "1990": {
+    "rows": 302,
+    "traceable": 302
+   },
+   "2000": {
+    "rows": 358,
+    "traceable": 354
+   },
+   "2010": {
+    "rows": 304,
+    "traceable": 304
+   }
+  },
+  "wrong_paper_control": {
+   "n": 400,
+   "false_positives": 0
+  },
+  "untraceable_examples": [
+   [
+    "942505",
+    "One had a \"floppy\" mitral valve and the other had an aortic aneurysm due to cystic medionecrosis of the aorta; both findings provide evidence that cardiovascular disease may be a significant feature of this syndrome."
+   ],
+   [
+    "942505",
+    "One had a \"floppy\" mitral valve and the other had an aortic aneurysm due to cystic medionecrosis of the aorta; both findings provide evidence that cardiovascular disease may be a significant feature of this syndrome."
+   ],
+   [
+    "10796876",
+    "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+   ],
+   [
+    "10796876",
+    "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+   ],
+   [
+    "10796876",
+    "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+   ],
+   [
+    "10796876",
+    "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+   ]
+  ],
+  "note": "first pass without strip_tags on the fresh text reported 1413/1420; one paper (30249733, <i>CHST14</i>) was a harness artifact, fixed by normalizing both sides (PITFALLS \u00a73). Remaining untraceable rows are near-verbatim paraphrases: 942505 'One had a floppy mitral valve' vs source 'One patient had a floppy mitral valve'; 10796876 'such failure to detect mutations, since' vs source 'such failure, since'.",
+  "untraceable_rows": [
+   [
+    "942505",
+    "One had a \"floppy\" mitral valve and the other had an aortic aneurysm due to cystic medionecrosis of the aorta; both findings provide evidence that cardiovascular disease may be a significant feature of this syndrome."
+   ],
+   [
+    "10796876",
+    "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+   ]
+  ]
+ },
+ "byte_reproducibility": {
+  "rebuilt_with_same_build_utc": true,
+  "checksum_lines_differing": 0,
+  "tarball_sha256_identical": true,
+  "note": "first rebuild differed by one extra file because package_stats_t2.json had been copied into qa_t2 after the build; removed and rebuilt \u2014 identical"
+ },
+ "rates_vs_tier1": {
+  "number_in_quote_false_pct": {
+   "t2": 9.7,
+   "t1": 8.2,
+   "basis": "rows with a quantitative_detail whose numbers are absent from the quote (POTS's largest measured defect class)"
+  },
+  "rows_sharing_a_quote_within_paper_pct": {
+   "t2": 18.9,
+   "t1": 16.7,
+   "basis": "rows whose normalized provenance_quote repeats within the same pmid; several findings per sentence, not duplicates (0 exact duplicate rows)"
+  },
+  "synonym_matched_entity_ids_pct": 17.8,
+  "synonym_matched_hpo_rows": 2296
+ },
+ "basis": "Additional verification passes run 2026-10-21 after packaging, taken from the POTS/Tier-1 QA catalogue (RUNBOOK stages 5-6, 9; PITFALLS \u00a73); all local except the fresh Europe PMC fetch. None of them measures scientific fidelity (FIDELITY.md)."
+}

@@ -1,0 +1,210 @@
+{
+ "basis": "FIDELITY.md / CALIBRATION_HARNESS.md planted arm on the EDS 200-finding sample pool (133 rows whose quote traces in freshly fetched text and whose source is <= 40k chars); judge reads freshly fetched Europe PMC text, never the retention archive",
+ "judge_model": "claude-sonnet-5",
+ "seed": 20261021,
+ "rows_judged": 80,
+ "planted_per_class": 5,
+ "clean_controls": 40,
+ "unparsed_after_3_attempts": [
+  [
+   65,
+   "direction_flip"
+  ]
+ ],
+ "catch_rate_by_class": {
+  "tier_upgrade": {
+   "question": "Q4_tier_justified",
+   "n_planted": 5,
+   "n_caught": 5,
+   "n_unparsed": 0,
+   "catch_rate_pct": 100.0
+  },
+  "direction_flip": {
+   "question": "Q2_direction_correct",
+   "n_planted": 5,
+   "n_caught": 4,
+   "n_unparsed": 1,
+   "catch_rate_pct": 100.0
+  },
+  "hpo_inject": {
+   "question": "Q9_hpo_terms_complete_and_correct",
+   "n_planted": 5,
+   "n_caught": 5,
+   "n_unparsed": 0,
+   "catch_rate_pct": 100.0
+  },
+  "number_perturb": {
+   "question": "Q6_numbers_correct",
+   "n_planted": 5,
+   "n_caught": 5,
+   "n_unparsed": 0,
+   "catch_rate_pct": 100.0
+  },
+  "quote_swap": {
+   "question": "Q1_quote_verbatim",
+   "n_planted": 5,
+   "n_caught": 5,
+   "n_unparsed": 0,
+   "catch_rate_pct": 100.0
+  },
+  "condition_relabel": {
+   "question": "Q7_condition_correct",
+   "n_planted": 5,
+   "n_caught": 5,
+   "n_unparsed": 0,
+   "catch_rate_pct": 100.0
+  },
+  "causal_upgrade": {
+   "question": "Q5_causality_not_overstated",
+   "n_planted": 5,
+   "n_caught": 4,
+   "n_unparsed": 0,
+   "catch_rate_pct": 80.0
+  },
+  "entity_label_swap": {
+   "question": "Q8_entity_id_correct",
+   "n_planted": 5,
+   "n_caught": 5,
+   "n_unparsed": 0,
+   "catch_rate_pct": 100.0
+  }
+ },
+ "flag_rate_unadjudicated_by_question": {
+  "Q1_quote_verbatim": {
+   "n_clean": 40,
+   "n_flagged": 0,
+   "flag_rate_pct": 0.0
+  },
+  "Q2_direction_correct": {
+   "n_clean": 40,
+   "n_flagged": 4,
+   "flag_rate_pct": 10.0
+  },
+  "Q3_quote_supports_finding": {
+   "n_clean": 40,
+   "n_flagged": 2,
+   "flag_rate_pct": 5.0
+  },
+  "Q4_tier_justified": {
+   "n_clean": 40,
+   "n_flagged": 4,
+   "flag_rate_pct": 10.0
+  },
+  "Q5_causality_not_overstated": {
+   "n_clean": 40,
+   "n_flagged": 3,
+   "flag_rate_pct": 7.5
+  },
+  "Q6_numbers_correct": {
+   "n_clean": 40,
+   "n_flagged": 1,
+   "flag_rate_pct": 2.5
+  },
+  "Q7_condition_correct": {
+   "n_clean": 40,
+   "n_flagged": 7,
+   "flag_rate_pct": 17.5
+  },
+  "Q8_entity_id_correct": {
+   "n_clean": 40,
+   "n_flagged": 0,
+   "flag_rate_pct": 0.0
+  },
+  "Q9_hpo_terms_complete_and_correct": {
+   "n_clean": 40,
+   "n_flagged": 6,
+   "flag_rate_pct": 15.0
+  },
+  "Q10_paper_in_scope": {
+   "n_clean": 40,
+   "n_flagged": 2,
+   "flag_rate_pct": 5.0
+  }
+ },
+ "machine_extendable_before_adjudication": [
+  {
+   "question": "Q1_quote_verbatim",
+   "defect_class": "quote_swap",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 0.0,
+   "verdict": "machine-extendable"
+  },
+  {
+   "question": "Q2_direction_correct",
+   "defect_class": "direction_flip",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 10.0,
+   "verdict": "needs flag adjudication"
+  },
+  {
+   "question": "Q3_quote_supports_finding",
+   "defect_class": null,
+   "catch_rate_pct": null,
+   "flag_rate_unadjudicated_pct": 5.0,
+   "verdict": "UNTESTED - keep human"
+  },
+  {
+   "question": "Q4_tier_justified",
+   "defect_class": "tier_upgrade",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 10.0,
+   "verdict": "needs flag adjudication"
+  },
+  {
+   "question": "Q5_causality_not_overstated",
+   "defect_class": "causal_upgrade",
+   "catch_rate_pct": 80.0,
+   "flag_rate_unadjudicated_pct": 7.5,
+   "verdict": "keep human - misses its own defect class"
+  },
+  {
+   "question": "Q6_numbers_correct",
+   "defect_class": "number_perturb",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 2.5,
+   "verdict": "needs flag adjudication"
+  },
+  {
+   "question": "Q7_condition_correct",
+   "defect_class": "condition_relabel",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 17.5,
+   "verdict": "needs flag adjudication"
+  },
+  {
+   "question": "Q8_entity_id_correct",
+   "defect_class": "entity_label_swap",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 0.0,
+   "verdict": "machine-extendable"
+  },
+  {
+   "question": "Q9_hpo_terms_complete_and_correct",
+   "defect_class": "hpo_inject",
+   "catch_rate_pct": 100.0,
+   "flag_rate_unadjudicated_pct": 15.0,
+   "verdict": "needs flag adjudication"
+  },
+  {
+   "question": "Q10_paper_in_scope",
+   "defect_class": null,
+   "catch_rate_pct": null,
+   "flag_rate_unadjudicated_pct": 5.0,
+   "verdict": "UNTESTED - keep human"
+  }
+ ],
+ "n_flags_for_human_adjudication": 29,
+ "q7_text": "Is the condition label the right BUCKET for this finding? The field is a coarse enum, not a precise diagnosis, and `condition` means (population): `condition` names the patient POPULATION the paper studied. A collagen-biology paper with no EDS/HSD cohort is `general` even if it informs EDS; a paper that carries an EDS/HSD label without studying that population is a bucket violation, recorded in the additive annotations table and never corrected in place. Bucket definitions (eds dry-run v1 (2026-09-30); EDS_hypermobility inherited from CONDITION_BUCKET_DEFINITIONS.md v1 and split): hEDS = Hypermobile Ehlers-Danlos syndrome as the studied population: cohorts diagnosed under the 2017 hEDS criteria, and pre-2017 cohorts the paper labels \"EDS hypermobility type\" / \"EDS type III\". Includes hEDS comorbid with POTS, MCAS or GI dysmotility when hEDS is the specific subject. Nearest exclusions: hypermobility spectrum disorder goes to `HSD`; a cohort pooling hEDS and HSD without separate reporting goes to `multiple`; \"joint hypermobility syndrome\" cohorts without an EDS label go to `hypermobility_unspecified`.; HSD = Hypermobility spectrum disorder (generalized, historical, localized or peripheral HSD, 2017 framework) as the studied population. Nearest exclusions: hEDS goes to `hEDS`; a pooled \"hEDS/HSD\" cohort goes to `multiple`; Beighton-assessed hypermobility without an HSD diagnosis goes to `hypermobility_unspecified`.; EDS_other_type = Any 2017-classification EDS type OTHER than hypermobile, as the studied population, with the type named in `eds_type`: classical (cEDS), classical-like (clEDS), cardiac-valvular (cvEDS), vascular (vEDS), arthrochalasia (aEDS), dermatosparaxis (dEDS), kyphoscoliotic (kEDS), brittle cornea syndrome (BCS), spondylodysplastic (spEDS), musculocontractural (mcEDS), myopathic (mEDS), periodontal (pEDS), or a newer molecularly defined type. Includes single-family and case reports of a named type. Nearest exclusions: hypermobile EDS goes to `hEDS`; a cohort of mixed or unstated EDS type goes to `EDS_unspecified_or_mixed`.; EDS_unspecified_or_mixed = An Ehlers-Danlos cohort whose type is not stated, or that pools several EDS types without reporting them separately (e.g. registry, survey or claims-code \"EDS\" cohorts). Nearest exclusions: a single named type goes to `hEDS` or `EDS_other_type`; a cohort that ALSO includes HSD or GJH as a separately described group goes to `multiple`.; hypermobility_unspecified = Generalized or joint hypermobility assessed by Beighton score or an equivalent instrument WITHOUT an EDS or HSD diagnosis, including pre-2017 \"joint hypermobility syndrome\" (JHS/BJHS) cohorts not labelled EDS, and hypermobility studied as a trait in athletes, dancers or general-population samples. Inherited from CONDITION_BUCKET_DEFINITIONS.md v1 (EDS_hypermobility: \"generalized joint hypermobility assessed by Beighton score WITHOUT an EDS diagnosis\"). Nearest exclusion: orthopaedic single-joint laxity/instability with no hypermobility-as-condition question is `general` (and usually topical drift).; multiple = Several listed conditions are subjects of the paper and reported as distinct groups \u2014 the typical case is a pooled or side-by-side hEDS and HSD cohort, or an EDS-types comparison that includes hEDS.; general = The correct answer when no listed condition is the paper's subject: connective-tissue or collagen biology without an EDS/HSD cohort, other heritable connective-tissue disorders (Marfan, Loeys-Dietz, osteogenesis imperfecta) studied alone, and comparison groups. A catch-all by design; \"too vague\" is not a defect.. Answer N only if the finding does not belong in the assigned bucket at all.",
+ "q10_text": "Is this paper in scope for a biomarker/mechanism corpus on Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder? In-scope families (illustrative, not exhaustive): hypermobile Ehlers-Danlos syndrome and hypermobility spectrum disorders: hypermobile EDS (hEDS, 2017 criteria), EDS hypermobility type / EDS type III (pre-2017 label), joint hypermobility syndrome (JHS/BJHS), hypermobility spectrum disorder (HSD), generalized/historical/localized/peripheral HSD (G-HSD, H-HSD, L-HSD, P-HSD); classical, vascular and rare molecularly defined EDS types (2017 classification): classical EDS (cEDS; COL5A1/COL5A2/COL1A1), classical-like EDS (clEDS; TNXB, AEBP1), cardiac-valvular EDS (cvEDS; COL1A2), vascular EDS (vEDS; COL3A1, COL1A1), arthrochalasia EDS (aEDS), dermatosparaxis EDS (dEDS; ADAMTS2), kyphoscoliotic EDS (kEDS; PLOD1, FKBP14), brittle cornea syndrome (BCS; ZNF469, PRDM5), spondylodysplastic EDS (spEDS; B4GALT7, B3GALT6, SLC39A13), musculocontractural EDS (mcEDS; CHST14, DSE), myopathic EDS (mEDS; COL12A1), periodontal EDS (pEDS; C1R, C1S), unclassified or novel molecularly defined EDS variants (e.g. AEBP1, THBS2 reports), historical Villefranche and Berlin nosology (EDS types I-XI, EDS-HT), EDS of unspecified or mixed type; generalized joint hypermobility without a syndromic diagnosis: generalized joint hypermobility (GJH) by Beighton score, joint laxity assessed as a trait in a clinical cohort, hypermobility in athletes/dancers when studied as a health outcome, hEDS/HSD diagnostic criteria, nosology and classification debates; multisystem comorbidity and mechanism in EDS/HSD populations: POTS/dysautonomia in EDS or HSD, mast cell activation in EDS or HSD, gastrointestinal dysmotility in EDS/HSD, chronic pain/fatigue/proprioception in EDS/HSD, migraine and headache in EDS/HSD, psychiatric and neurodevelopmental comorbidity (anxiety, neurodivergence) in EDS/HSD, pelvic floor/obstetric and pregnancy outcomes, craniocervical instability, tethered cord, Chiari in EDS/HSD, dental/periodontal, ocular and vascular events in EDS/HSD, anaesthesia and surgery outcomes IN EDS/HSD patients, connective-tissue biomarkers/collagen/extracellular matrix in EDS, fibroblast, skin and dermal-ultrastructure studies, tenascin-X, genetics and variant interpretation / genotype-phenotype in EDS, animal models of EDS genes (veterinary dermatosparaxis when framed as a model of human EDS), epidemiology, natural history, registries, diagnostic delay, quality of life, patient-reported outcomes, physiotherapy/rehabilitation in EDS/HSD; differential-diagnosis neighbours studied comparatively with EDS or hypermobility: Marfan syndrome, Loeys-Dietz syndrome, osteogenesis imperfecta, cutis laxa, Stickler syndrome, pseudoxanthoma elasticum and other heritable connective-tissue disorders WHEN EDS or hypermobility is studied, compared or discussed (a paper solely about one of them with no EDS/hypermobility content is `general` and off topic); POTS or other cohorts reporting hEDS/HSD prevalence (cross-mention data is used).",
+ "reading": "Catch 100% on 7 of 8 planted classes (5/5 each; direction_flip 4/4 parsed, 1 unparsed); causal_upgrade 4/5 (80%) so Q5 stays human. Q1 and Q8 are machine-extendable now (0 flags on clean rows). Q2, Q4, Q6, Q7, Q9 catch their defect but flag 1-7 clean rows each and need the flags adjudicated before machine scoring. Q3 and Q10 stay human by design. With 5 per class the catch-rate lower bound is wide (~48-100%); this is a directional calibration, as the POTS pilot was.",
+ "flags_by_question": {
+  "Q7_condition_correct": 7,
+  "Q9_hpo_terms_complete_and_correct": 6,
+  "Q4_tier_justified": 4,
+  "Q2_direction_correct": 4,
+  "Q5_causality_not_overstated": 3,
+  "Q3_quote_supports_finding": 2,
+  "Q10_paper_in_scope": 2,
+  "Q6_numbers_correct": 1
+ }
+}

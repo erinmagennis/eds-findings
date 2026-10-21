@@ -96,6 +96,30 @@ Tier 2 is pre-2019 by construction and the POTS corpus's shared-paper window beg
 - **All-or-nothing worker save**: a worker that stalled after partial extraction saved nothing; its re-run paid the full unit cost. Measured only as wall time and tokens, not as findings.
 - **Population mapping between the POTS and EDS condition enums, and the connections layer (`CONNECTIONS_DESIGN.md`), are not started.**
 
+## 7a. Additional verification passes (run 2026-10-21 after packaging; `qa_t2/extra_checks_2026-10-21.json`)
+
+Checks taken from the POTS / Tier-1 QA catalogue that had not yet been applied to Tier 2. All local except the fresh fetch; none measures scientific fidelity.
+
+| pass | result | reading |
+|---|---|---|
+| Byte reproducibility (RUNBOOK stage 9) | rebuilt with the same `--build-utc`: 0 of 162 checksum lines differ; tarball sha256 identical | the package is a deterministic function of its inputs |
+| Fresh-fetch quote census (PITFALLS §3: judge text ≠ extractor text) | 304 abstract-only papers (≤60 per decade), 1,420 rows checked against abstracts fetched fresh from Europe PMC: **1,414 traceable (99.58%)**; wrong-paper control 0/400 | the retention archive was not the only witness; the 6 untraceable rows (2 papers) are near-verbatim paraphrases ("One had a floppy mitral valve" vs "One patient had…"; "such failure to detect mutations, since" vs "such failure, since") |
+| Identifier correspondence (RUNBOOK stage 5: denotes, not exists) | 3,134 entity ids: 2,577 label == name, 557 authority-asserted synonyms (never fuzzy); worker-side vs stage-side resolution agree 466/467 where both resolved; HPO id sets equal 7,307/7,317 | the one disagreement is an authority-synonym ambiguity: "niacin" → CHEBI:15940 (nicotinic acid, worker) vs CHEBI:17154 (nicotinamide, stage); both ChEBI entries assert the synonym |
+| Numbers not in quote (POTS's largest defect class) | 603/6,218 rows with a quantitative detail have numbers absent from the quote (9.7%); Tier 1: 324/3,944 (8.2%) | same magnitude as Tier 1; this stratum belongs in any fidelity sample |
+| Within-paper repeats | 0 exact duplicate rows; 23 rows repeat another row's finding text within the same paper; 3,004 rows (18.9%) share a provenance quote with another row of the same paper (Tier 1: 16.7%) | several findings per source sentence, by design; not duplicates |
+| hEDS label by period | 693 of 1,055 hEDS rows (143 papers) are pre-2017 | consistent with the written bucket definition, which admits pre-2017 "EDS hypermobility type / type III" cohorts; readers wanting 2017-criteria cohorts only must filter on year |
+
+A worksheet of every synonym-matched identifier (213 entity pairs + 527 distinct HPO term→label pairs, `synonym_match_candidates_t2.csv`) is provided for a human spot-check; a 30-pair read takes ~15 minutes and is the cheapest fidelity-adjacent check available.
+
+## 7b. Fidelity audit — opened 2026-10-21, awaiting human scoring
+
+Per FIDELITY.md this is the only instrument that tests whether findings state what the papers found, and it cannot be completed by a model. State at this writing:
+
+- **Samples drawn (seed 20261021).** Pass-2 exclusion audit: 100 excluded papers (50 per tier; 40 per tier on the pass-1-LLM + pass-2 rule, 10 on both-arms), fresh abstracts attached (`exclusion_audit_100_worksheet.csv`). Fidelity sample: 200 findings, 100 per tier, strata per tier — core full-text 30, core abstract-only 20, numbers-not-in-quote 20, earliest period 12 (Tier 2 <1990; Tier 1 2019–2020), mechanistic/in-vitro 10, screen-uncertain 8 (`fidelity_worksheet_200.csv`, with the Q7 bucket definitions printed in the header). Source text for all 180 papers was fetched fresh from Europe PMC (89 full texts, 180 abstracts); 193/200 quotes trace in the fresh text — the 7 that do not are table-cell quotes glued by the extractor's text flattening or "vs"/"vs." differences, all traceable against the retention archive.
+- **Judge calibration run (planted arm; judge `claude-sonnet-5`; 80 rows = 5 per defect class × 8 + 40 clean controls; 1 row unparsed after 3 attempts).** Catch rate 5/5 on quote_swap, tier_upgrade, number_perturb, condition_relabel, entity_label_swap, hpo_inject; 4/4 parsed on direction_flip; **4/5 on causal_upgrade → Q5 stays human**. Flags on clean rows: Q1 0, Q8 0 (→ machine-extendable now); Q2 4, Q4 4, Q6 1, Q7 7, Q9 6 (→ need adjudication); Q3 2, Q10 2 (human by design). 29 flags listed with the judge's reason in `fidelity_flag_adjudication.csv`. With 5 per class the catch-rate lower bound is ~48%, so this is directional, as the POTS pilot was.
+- **Pre-registered thresholds** are the FIDELITY.md table (Q2 ≥95% per stratum; Q3 ≥90%; Q6 ≥90% in numbers-not-in-quote; Q8 ≥95% where id-resolved; Q9 ≥90% multi-term; Q10 ≥85% screen-uncertain; Q1/Q4/Q5/Q7 ≥85%). A blocking failure means that stratum is not published.
+- **Not claimable until scoring returns:** that findings faithfully state what the papers found. The README of every shipped package says so above the data.
+
 ## 8. Reproduction
 
 Unpack the repo tarball, then (paths as used in this build):

@@ -1,0 +1,75 @@
+{
+ "basis": "quotes of abstract-only rows checked against abstracts fetched FRESH from Europe PMC on 2026-10-21 (not the retention archive); up to 60 papers per decade, all rows of those papers",
+ "papers_sampled": 304,
+ "papers_fetched": 304,
+ "rows_checked": 1420,
+ "traceable": 1414,
+ "pct": 99.58,
+ "by_decade": {
+  "1960": {
+   "rows": 10,
+   "traceable": 10
+  },
+  "1970": {
+   "rows": 227,
+   "traceable": 225
+  },
+  "1980": {
+   "rows": 219,
+   "traceable": 219
+  },
+  "1990": {
+   "rows": 302,
+   "traceable": 302
+  },
+  "2000": {
+   "rows": 358,
+   "traceable": 354
+  },
+  "2010": {
+   "rows": 304,
+   "traceable": 304
+  }
+ },
+ "wrong_paper_control": {
+  "n": 400,
+  "false_positives": 0
+ },
+ "untraceable_examples": [
+  [
+   "942505",
+   "One had a \"floppy\" mitral valve and the other had an aortic aneurysm due to cystic medionecrosis of the aorta; both findings provide evidence that cardiovascular disease may be a significant feature of this syndrome."
+  ],
+  [
+   "942505",
+   "One had a \"floppy\" mitral valve and the other had an aortic aneurysm due to cystic medionecrosis of the aorta; both findings provide evidence that cardiovascular disease may be a significant feature of this syndrome."
+  ],
+  [
+   "10796876",
+   "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+  ],
+  [
+   "10796876",
+   "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+  ],
+  [
+   "10796876",
+   "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+  ],
+  [
+   "10796876",
+   "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+  ]
+ ],
+ "note": "first pass without strip_tags on the fresh text reported 1413/1420; one paper (30249733, <i>CHST14</i>) was a harness artifact, fixed by normalizing both sides (PITFALLS \u00a73). Remaining untraceable rows are near-verbatim paraphrases: 942505 'One had a floppy mitral valve' vs source 'One patient had a floppy mitral valve'; 10796876 'such failure to detect mutations, since' vs source 'such failure, since'.",
+ "untraceable_rows": [
+  [
+   "942505",
+   "One had a \"floppy\" mitral valve and the other had an aortic aneurysm due to cystic medionecrosis of the aorta; both findings provide evidence that cardiovascular disease may be a significant feature of this syndrome."
+  ],
+  [
+   "10796876",
+   "Genetic heterogeneity has been confirmed as an explanation for such failure to detect mutations, since causative mutations have been identified in the COL5A1, COL5A2, and tenascin X genes and since they have been inferred in the COL1A2 gene."
+  ]
+ ]
+}
