@@ -1,0 +1,823 @@
+canon,entity,pots_papers,eds_papers,pots_dirs,eds_dirs,pots_conditions,eds_conditions,joint_papers,disease_state_majority_pots,disease_state_majority_eds,concordant
+heartrate,heart rate,220,21,down|null|up,down|null|up,ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type|HSD|general|hEDS|hypermobility_unspecified|multiple,241,up,up,True
+fatigue,fatigue,202,16,down|null|up,down|null|up,EDS_hypermobility|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type|EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,218,up,up,True
+interleukin6,interleukin-6,204,5,down|null|up,down|null|up,IBS_gut|MCAS|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type|general|hEDS|hypermobility_unspecified|multiple,209,up,up,True
+creactiveprotein,C-reactive protein,182,11,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|MCAS|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,193,up,up,True
+norepinephrine,norepinephrine,171,3,down|null|up,down|null|up,IBS_gut|MCAS|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type|general,174,up,down,False
+heartratevariability,heart rate variability,164,4,down|null|up,down|null,IBS_gut|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,hEDS|hypermobility_unspecified,168,down,down,True
+jointhypermobility,joint hypermobility,31,133,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|ME_CFS|autism|fibromyalgia|multiple,EDS_other_type|HSD|general|hEDS|hypermobility_unspecified|multiple,164,up,up,True
+age,age,132,27,down|null|up,down|null|up,EDS_hypermobility|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,159,up,down,False
+bodymassindex,body mass index,118,22,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|MCAS|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|hypermobility_unspecified|multiple,140,up,up,True
+beightonscore,Beighton score,36,97,down|null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,133,up,up,True
+depression,depression,95,9,down|null|up,null|up,EDS_hypermobility|IBS_gut|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_unspecified_or_mixed|HSD|hEDS|hypermobility_unspecified|multiple,104,up,up,True
+G:COL3A1,COL3A1,55,45,down|null|up,down|null|up,EDS_hypermobility|general|multiple,EDS_other_type|EDS_unspecified_or_mixed|HSD|general,100,up,down,False
+generalizedjointhypermobility,generalized joint hypermobility,24,67,down|null|up,down|null|up,EDS_hypermobility,EDS_other_type|HSD|hEDS|hypermobility_unspecified|multiple,91,up,up,True
+systolicbloodpressure,systolic blood pressure,84,6,down|null|up,down|null|up,POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type|general|hypermobility_unspecified,90,down,down,True
+mastcell,mast cell,82,3,down|null|up,up,EDS_hypermobility|IBS_gut|MCAS|autism|general|long_COVID|migraine,EDS_unspecified_or_mixed|general|hEDS,85,up,up,True
+typeiiicollagen,type III collagen,6,79,down|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,85,down,down,True
+anxiety,anxiety,76,9,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_unspecified_or_mixed|HSD|hEDS|hypermobility_unspecified|multiple,85,up,up,True
+lfhfratio,LF/HF ratio,79,2,down|null|up,up,EDS_hypermobility|IBS_gut|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,hEDS|multiple,81,up,up,True
+orthostatichypotension,orthostatic hypotension,78,3,down|null|up,null|up,dysautonomia|long_COVID,general|hEDS|multiple,81,up,up,True
+G:collagen,collagen,14,66,down|null|up,down|null|up,EDS_hypermobility|dysautonomia|fibromyalgia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified|multiple,80,down,down,True
+femalesex,female sex,72,5,down|null|up,up,dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type|HSD|general|hypermobility_unspecified,77,up,up,True
+intraepidermalnervefiberdensity,intraepidermal nerve fiber density,74,3,down|null|up,down,POTS|fibromyalgia|long_COVID|multiple|small_fiber_neuropathy,EDS_unspecified_or_mixed|multiple,77,down,down,True
+ddimer,D-dimer,73,1,down|null|up,up,EDS_hypermobility|MCAS|POTS|dysautonomia|general|long_COVID|multiple,EDS_other_type,74,up,up,True
+fibromyalgia,fibromyalgia,67,6,down|null|up,null|up,IBS_gut|ME_CFS|fibromyalgia|long_COVID|migraine|multiple,HSD|hEDS|hypermobility_unspecified|multiple,73,up,up,True
+calcitoningenerelatedpeptide,calcitonin gene-related peptide,65,1,down|null|up,null|up,IBS_gut|dysautonomia|fibromyalgia|general|migraine|small_fiber_neuropathy,EDS_other_type,66,up,up,True
+tumornecrosisfactoralpha,tumor necrosis factor-alpha,62,2,down|null|up,down|up,IBS_gut|MCAS|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,general,64,up,up,True
+migraine,migraine,55,8,down|null|up,up,EDS_hypermobility|POTS|fibromyalgia|long_COVID|migraine|multiple,EDS_unspecified_or_mixed|hEDS|hypermobility_unspecified|multiple,63,up,up,True
+diastolicbloodpressure,diastolic blood pressure,58,4,down|null|up,down|null|up,EDS_hypermobility|ME_CFS|POTS|dysautonomia|general|long_COVID|migraine|multiple,EDS_other_type|general|hypermobility_unspecified|multiple,62,up,down,False
+bloodpressure,blood pressure,51,10,down|null|up,null|up,EDS_hypermobility|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type|general|hEDS|multiple,61,up,up,True
+hypertension,hypertension,57,2,down|null|up,up,EDS_hypermobility|IBS_gut|MCAS|dysautonomia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type,59,up,up,True
+G:tryptase,tryptase,54,5,down|null|up,null|up,IBS_gut|MCAS|POTS|general|long_COVID|migraine|multiple,EDS_unspecified_or_mixed|general|hEDS|multiple,59,up,up,True
+vitamind,vitamin D,48,8,down|null|up,down|null,EDS_hypermobility|MCAS|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type|general|hEDS|multiple,56,down,down,True
+rmssd,RMSSD,53,1,down|null|up,up,IBS_gut|ME_CFS|POTS|autism|dysautonomia|general|long_COVID|migraine|multiple,multiple,54,,,
+G:COL5A1,COL5A1,20,33,down|null|up,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified,53,down,down,True
+lactate,lactate,52,1,down|null|up,up,EDS_hypermobility|MCAS|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|multiple|small_fiber_neuropathy,EDS_unspecified_or_mixed,53,up,up,True
+headache,headache,44,4,down|null|up,up,general|long_COVID|migraine,hEDS|hypermobility_unspecified,48,up,up,True
+interleukin1beta,interleukin-1 beta,45,2,down|null|up,null|up,EDS_hypermobility|ME_CFS|autism|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type|hypermobility_unspecified,47,up,up,True
+collagentypeiii,collagen type III,9,36,down|null|up,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,45,down,down,True
+G:TPSAB1,TPSAB1,44,1,down|null|up,up,EDS_hypermobility|IBS_gut|MCAS|POTS|general|multiple,general|hypermobility_unspecified,45,up,up,True
+G:TNXB,TNXB,25,19,down|null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|hypermobility_unspecified|multiple,44,up,down,False
+ferritin,ferritin,36,5,down|null|up,down|null|up,IBS_gut|MCAS|ME_CFS|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|multiple,EDS_other_type|general|hypermobility_unspecified,41,up,up,True
+G:tenascinX,tenascin-X,1,40,down|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|hypermobility_unspecified|multiple,41,up,down,False
+bonemineraldensity,bone mineral density,9,32,down|null,down|null|up,EDS_hypermobility|MCAS|dysautonomia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,41,down,down,True
+midodrine,midodrine,40,1,down|null|up,null,POTS|dysautonomia|general|long_COVID,HSD,41,,,
+sex,sex,30,9,down|null|up,null|up,EDS_hypermobility|POTS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine,EDS_unspecified_or_mixed|HSD|general|hypermobility_unspecified|multiple,39,up,up,True
+hemoglobin,hemoglobin,30,8,down|null|up,down|null,EDS_hypermobility|IBS_gut|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|hEDS,38,down,down,True
+G:COL1A1,COL1A1,23,14,down|null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified|multiple,37,up,down,False
+typeicollagen,type I collagen,4,33,up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,37,up,down,False
+reactiveoxygenspecies,reactive oxygen species,35,2,down|null|up,up,IBS_gut|MCAS|ME_CFS|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_unspecified_or_mixed|general,37,up,up,True
+qualityoflife,quality of life,28,8,down|null|up,down|up,EDS_hypermobility|POTS|general|long_COVID|migraine,EDS_unspecified_or_mixed|HSD|hEDS|hypermobility_unspecified|multiple,36,down,down,True
+irritablebowelsyndrome,irritable bowel syndrome,28,7,null|up,null|up,EDS_hypermobility|IBS_gut|fibromyalgia|multiple,EDS_unspecified_or_mixed|HSD|hEDS|multiple,35,up,up,True
+coenzymeq10,coenzyme Q10,34,1,down|null|up,down,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,general,35,,,
+G:TGFB1,TGFB1,33,1,down|null|up,up,EDS_hypermobility|MCAS|ME_CFS|fibromyalgia|general|long_COVID|small_fiber_neuropathy,EDS_other_type,34,up,up,True
+diabetesmellitus,diabetes mellitus,33,1,down|null|up,down,IBS_gut|ME_CFS|dysautonomia|general|long_COVID|migraine,EDS_unspecified_or_mixed,34,up,down,False
+obesity,obesity,31,2,down|null|up,null|up,MCAS|ME_CFS|fibromyalgia|general|long_COVID|migraine,general|hypermobility_unspecified,33,up,up,True
+interleukin8,interleukin-8,31,2,down|null|up,down|up,IBS_gut|ME_CFS|POTS|autism|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type|hypermobility_unspecified,33,up,down,False
+G:decorin,decorin,2,30,down|null,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general|multiple,32,down,down,True
+fibronectin,fibronectin,14,18,down|up,down|null|up,EDS_hypermobility|MCAS|ME_CFS|fibromyalgia|general|long_COVID|multiple,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,32,up,down,False
+handgripstrength,handgrip strength,30,1,down|null|up,null,ME_CFS|autism|dysautonomia|fibromyalgia|general|long_COVID|multiple,multiple,31,,,
+proinflammatorycytokines,pro-inflammatory cytokines,30,1,down|up,up,IBS_gut|MCAS|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID,multiple,31,up,up,True
+corticosteroids,corticosteroids,28,2,down|null|up,null,autism|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,hypermobility_unspecified,30,,,
+zinc,zinc,18,12,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|ME_CFS|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified,30,down,down,True
+interferongamma,interferon gamma,28,1,down|null|up,down,ME_CFS|POTS|autism|general|long_COVID|migraine,EDS_other_type,29,up,down,False
+creatinekinase,creatine kinase,26,3,down|null|up,null|up,EDS_hypermobility|ME_CFS|autism|dysautonomia|fibromyalgia|general|long_COVID|multiple,EDS_other_type,29,up,up,True
+celiprolol,celiprolol,15,14,down|null|up,down|null|up,EDS_hypermobility,EDS_other_type|general,29,up,down,False
+eosinophils,eosinophils,28,1,down|null|up,null,IBS_gut|MCAS|ME_CFS|dysautonomia|general|long_COVID,EDS_unspecified_or_mixed,29,,,
+ehlersdanlossyndrome,Ehlers-Danlos syndrome,23,5,down|null|up,up,EDS_hypermobility|POTS|multiple,EDS_unspecified_or_mixed,28,up,up,True
+healthrelatedqualityoflife,health-related quality of life,19,9,down|null|up,down|null|up,EDS_hypermobility|general|long_COVID,EDS_unspecified_or_mixed|general|hEDS|hypermobility_unspecified,28,down,down,True
+asthma,asthma,25,3,null|up,null|up,MCAS|POTS|autism|dysautonomia|general|long_COVID|migraine,hEDS|multiple,28,up,up,True
+G:FBN1,FBN1,23,5,down|null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|general|multiple,28,up,up,True
+transforminggrowthfactorbeta,transforming growth factor beta,19,8,down|null|up,down|up,EDS_hypermobility|autism|fibromyalgia|general|long_COVID|migraine,EDS_other_type|general,27,up,up,True
+vonwillebrandfactor,von Willebrand factor,22,5,down|null|up,down|null|up,EDS_hypermobility|POTS|dysautonomia|long_COVID|multiple,EDS_other_type|EDS_unspecified_or_mixed,27,up,down,False
+angiotensinii,angiotensin II,26,1,down|null|up,null|up,EDS_hypermobility|POTS|dysautonomia|general|long_COVID,EDS_other_type,27,,,
+vitaminb12,vitamin B12,26,1,down|null|up,down,ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|multiple|small_fiber_neuropathy,hEDS,27,down,down,True
+orthostaticintolerance,orthostatic intolerance,16,11,down|null|up,down|null|up,EDS_hypermobility|ME_CFS|dysautonomia|long_COVID|migraine,HSD|general|hEDS|multiple,27,up,up,True
+posturalorthostatictachycardiasyndrome,postural orthostatic tachycardia syndrome,15,12,null|up,null|up,ME_CFS|POTS|multiple,EDS_unspecified_or_mixed|HSD|general|hEDS|multiple,27,up,up,True
+insulin,insulin,26,1,down|null|up,up,EDS_hypermobility|MCAS|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine,HSD,27,up,up,True
+neutrophils,neutrophils,26,1,down|null|up,up,MCAS|ME_CFS|POTS|fibromyalgia|general|long_COVID|multiple,EDS_other_type,27,up,up,True
+mitralvalveprolapse,mitral valve prolapse,10,16,null|up,null|up,EDS_hypermobility|IBS_gut|dysautonomia|general|multiple,EDS_other_type|EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,26,up,up,True
+typevcollagen,type V collagen,3,23,down|up,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general|multiple,26,down,down,True
+bodyweight,body weight,19,7,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|MCAS|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|small_fiber_neuropathy,EDS_other_type|general|hypermobility_unspecified|multiple,26,down,up,False
+microglia,microglia,25,1,down|null|up,up,IBS_gut|MCAS|ME_CFS|autism|fibromyalgia|general|long_COVID|multiple,EDS_unspecified_or_mixed,26,up,up,True
+anxietydisorder,anxiety disorder,21,4,down|null|up,up,EDS_hypermobility|ME_CFS|autism|fibromyalgia|general|long_COVID|migraine,HSD|hEDS|hypermobility_unspecified,25,up,up,True
+collagentypei,collagen type I,11,14,down|null|up,down|null|up,EDS_hypermobility|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS,25,up,down,False
+lymphocytes,lymphocytes,24,1,down|null|up,down,MCAS|ME_CFS|fibromyalgia|general|long_COVID,hEDS,25,down,down,True
+pain,pain,14,11,down|null|up,down|null|up,EDS_hypermobility|dysautonomia|fibromyalgia|long_COVID|small_fiber_neuropathy,EDS_other_type|EDS_unspecified_or_mixed|HSD|general|hEDS|hypermobility_unspecified|multiple,25,up,up,True
+baroreflexsensitivity,baroreflex sensitivity,23,1,down|null|up,null|up,POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine,hEDS,24,down,up,False
+immunoglobuling,Immunoglobulin G,22,2,down|null|up,down|up,ME_CFS|autism|fibromyalgia|general|long_COVID,EDS_other_type|general|hEDS,24,up,up,True
+growthhormone,growth hormone,22,2,down|null|up,down|null|up,ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine,HSD|general|hypermobility_unspecified,24,down,up,False
+restingheartrate,Resting heart rate,22,1,down|null|up,up,EDS_hypermobility|POTS|dysautonomia|long_COVID|migraine|multiple,multiple,23,up,up,True
+painintensity,pain intensity,16,7,down|null|up,down|null|up,EDS_hypermobility|fibromyalgia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,HSD|hEDS|hypermobility_unspecified|multiple,23,up,up,True
+fludrocortisone,fludrocortisone,22,1,down|null|up,null,POTS|dysautonomia|long_COVID,HSD,23,,,
+25hydroxyvitamind,25-hydroxyvitamin D,22,1,down|null|up,down|null|up,EDS_hypermobility|IBS_gut|ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|small_fiber_neuropathy,EDS_unspecified_or_mixed|general|multiple,23,down,up,False
+G:TenascinX,Tenascin-X,8,15,down|null,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS,23,down,down,True
+lactatedehydrogenase,lactate dehydrogenase,21,1,down|null|up,null,MCAS|ME_CFS|general|long_COVID,EDS_unspecified_or_mixed,22,,,
+oxytocin,oxytocin,21,1,down|null|up,down,IBS_gut|autism|dysautonomia|fibromyalgia|general|long_COVID|migraine,EDS_other_type,22,,,
+leftventricularejectionfraction,left ventricular ejection fraction,20,1,down|null|up,down|up,EDS_hypermobility|POTS|dysautonomia|general|long_COVID,hEDS,21,down,down,True
+dermatansulfate,dermatan sulfate,8,13,down,down|null,EDS_hypermobility,EDS_other_type,21,down,down,True
+G:MMP9,MMP-9,20,1,down|null|up,up,EDS_hypermobility|MCAS|general|long_COVID|small_fiber_neuropathy,EDS_other_type,21,up,up,True
+autoantibodies,autoantibodies,19,2,down|null|up,null|up,MCAS|ME_CFS|POTS|fibromyalgia|general|long_COVID,EDS_other_type|general,21,up,up,True
+estrogen,estrogen,19,2,down|null|up,down|up,EDS_hypermobility|IBS_gut|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|migraine,EDS_other_type|general,21,down,up,False
+propranolol,propranolol,18,3,down|null|up,down,EDS_hypermobility|POTS|autism|dysautonomia|general|migraine,general,21,,,
+antinuclearantibody,antinuclear antibody,20,1,null|up,up,ME_CFS|POTS|fibromyalgia|general|long_COVID|small_fiber_neuropathy,general,21,up,up,True
+magnesium,magnesium,18,2,down|null|up,down|null,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|migraine|small_fiber_neuropathy,general|hypermobility_unspecified,20,down,down,True
+homocysteine,homocysteine,19,1,down|up,null,ME_CFS|autism|dysautonomia|general|long_COVID|migraine|multiple|small_fiber_neuropathy,EDS_other_type,20,,,
+musclesympatheticnerveactivity,muscle sympathetic nerve activity,19,1,down|null|up,up,IBS_gut|POTS|dysautonomia|fibromyalgia|long_COVID,general,20,,,
+malondialdehyde,malondialdehyde,19,1,down|up,down|up,IBS_gut|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,EDS_other_type,20,up,up,True
+depressivesymptoms,depressive symptoms,19,1,down|null|up,up,ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,multiple,20,up,up,True
+aorticroot,aortic root,5,15,down|null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,20,up,up,True
+G:COL1A2,COL1A2,8,12,down|null|up,down|null|up,EDS_hypermobility|general|multiple,EDS_other_type|EDS_unspecified_or_mixed|general,20,down,down,True
+fibrinogen,fibrinogen,19,1,down|null|up,null,ME_CFS|fibromyalgia|general|long_COVID|multiple,EDS_other_type,20,,,
+whitebloodcellcount,white blood cell count,16,4,down|null|up,up,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|hEDS,20,up,up,True
+dysautonomia,dysautonomia,19,1,null|up,up,EDS_hypermobility|dysautonomia|multiple,multiple,20,up,up,True
+erythrocytesedimentationrate,erythrocyte sedimentation rate,15,5,down|up,null|up,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|multiple,EDS_other_type|general|hEDS|hypermobility_unspecified|multiple,20,up,up,True
+musclestrength,muscle strength,9,11,down|null|up,down|null|up,EDS_hypermobility|dysautonomia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified|multiple,20,down,down,True
+intravenousimmunoglobulin,intravenous immunoglobulin,19,1,down|null|up,up,ME_CFS|POTS|dysautonomia|fibromyalgia|general|long_COVID|multiple|small_fiber_neuropathy,hEDS,20,,,
+6minutewalktestdistance,6-minute walk test distance,18,1,down|null|up,up,ME_CFS|long_COVID|multiple,hEDS,19,,,
+jointhypermobilitysyndrome,joint hypermobility syndrome,8,11,up,null|up,EDS_hypermobility,HSD|hypermobility_unspecified,19,up,up,True
+brainderivedneurotrophicfactor,brain-derived neurotrophic factor,18,1,down|null|up,null,IBS_gut|ME_CFS|autism|dysautonomia|fibromyalgia|general|long_COVID|multiple,general,19,,,
+G:ZNF469,ZNF469,5,14,null|up,down|null|up,EDS_hypermobility|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|HSD|general,19,up,up,True
+sleepdisturbance,sleep disturbance,18,1,down|null|up,up,ME_CFS|POTS|fibromyalgia|general|long_COVID,general,19,up,up,True
+elasticfibers,elastic fibers,2,17,null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general|multiple,19,up,down,False
+mitralvalve,mitral valve,4,15,up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|hEDS|hypermobility_unspecified|multiple,19,up,up,True
+constipation,constipation,14,5,down|up,down|up,EDS_hypermobility|IBS_gut|POTS|dysautonomia|long_COVID|migraine,HSD|general|hypermobility_unspecified,19,up,up,True
+pressurepainthreshold,pressure pain threshold,14,5,down|null|up,down,EDS_hypermobility|ME_CFS|fibromyalgia|general|migraine|multiple,EDS_other_type|HSD|general|hEDS,19,down,down,True
+sodium,sodium,17,2,down|null|up,down|up,IBS_gut|ME_CFS|POTS|autism|dysautonomia|general,general|multiple,19,down,up,False
+physicalactivity,physical activity,15,4,down|null|up,down|null|up,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|migraine,general|hEDS|hypermobility_unspecified,19,down,down,True
+plateletcount,platelet count,15,4,down|null|up,down|null,EDS_hypermobility|MCAS|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed,19,down,down,True
+complementc4,Complement C4,15,3,down|null|up,down|up,EDS_hypermobility|ME_CFS|fibromyalgia|general|long_COVID,EDS_other_type|general|hEDS,18,down,up,False
+G:elastin,elastin,1,17,up,down|null|up,general,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,18,up,down,False
+mastcellactivationsyndrome,mast cell activation syndrome,16,2,null|up,down|up,EDS_hypermobility|MCAS|multiple,EDS_unspecified_or_mixed|multiple,18,up,up,True
+physicalactivitylevel,physical activity level,12,6,down|null,down|null,EDS_hypermobility|POTS|dysautonomia|general|long_COVID,hypermobility_unspecified|multiple,18,down,down,True
+transforminggrowthfactorbeta1,transforming growth factor beta 1,8,10,down|null|up,down|null|up,EDS_hypermobility|autism|fibromyalgia|general|long_COVID|small_fiber_neuropathy,EDS_other_type|general,18,up,up,True
+sleepquality,sleep quality,16,2,down|null|up,null|up,POTS|autism|general|long_COVID|migraine,EDS_unspecified_or_mixed|HSD,18,up,up,True
+G:TGFB2,TGFB2,14,4,down|null|up,down,EDS_hypermobility|ME_CFS|general,EDS_other_type|general,18,down,down,True
+complementc3,complement C3,14,3,down|null|up,up,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID,EDS_other_type,17,down,up,False
+lysyloxidase,lysyl oxidase,3,14,down|up,down|null|up,EDS_hypermobility,EDS_other_type|general|multiple,17,,,
+iron,iron,15,2,down|null|up,down|up,ME_CFS|autism|dysautonomia|fibromyalgia|general|long_COVID,EDS_other_type|general,17,down,down,True
+G:TGFBR2,TGFBR2,15,2,down|null|up,up,EDS_hypermobility|ME_CFS|general|long_COVID,general,17,up,up,True
+amygdala,Amygdala,15,2,down|null|up,up,EDS_hypermobility|autism|dysautonomia|fibromyalgia|general|migraine|multiple,hypermobility_unspecified,17,up,up,True
+dizziness,dizziness,14,3,down|null|up,null|up,EDS_hypermobility|dysautonomia|long_COVID|migraine,hypermobility_unspecified|multiple,17,up,up,True
+gastrointestinalsymptoms,gastrointestinal symptoms,12,4,down|null|up,down|up,ME_CFS|dysautonomia|long_COVID|migraine,hEDS|multiple,16,up,up,True
+collagenfibril,collagen fibril,1,15,down,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|hypermobility_unspecified|multiple,16,down,down,True
+alkalinephosphatase,alkaline phosphatase,13,3,down|null|up,down|up,EDS_hypermobility|MCAS|ME_CFS|dysautonomia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|general,16,up,up,True
+p38mapk,p38 MAPK,14,2,down|null|up,null|up,MCAS|fibromyalgia|general|long_COVID,EDS_other_type|general,16,up,up,True
+opioids,opioids,12,4,down|null|up,down|up,EDS_hypermobility|MCAS|fibromyalgia|general|long_COVID|migraine,EDS_unspecified_or_mixed|multiple,16,up,up,True
+skin,skin,1,15,down,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|hEDS|hypermobility_unspecified,16,down,down,True
+alanineaminotransferase,alanine aminotransferase,15,1,down|null|up,up,ME_CFS|fibromyalgia|long_COVID|migraine|multiple,general,16,up,up,True
+platelets,platelets,13,3,down|null|up,down|null|up,ME_CFS|dysautonomia|general|long_COVID,EDS_other_type|general|hEDS,16,up,up,True
+endothelin1,endothelin-1,14,1,null|up,down,ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|migraine|multiple,general,15,up,down,False
+chronicfatiguesyndrome,chronic fatigue syndrome,14,1,null|up,up,ME_CFS|multiple,multiple,15,up,up,True
+pulsewavevelocity,pulse wave velocity,8,7,down|null|up,down|null|up,dysautonomia|general|long_COVID,EDS_other_type|general|multiple,15,up,down,False
+G:COL5A2,COL5A2,4,11,down|null|up,down|null|up,EDS_hypermobility,EDS_other_type|HSD|general,15,up,up,True
+G:SMAD3,SMAD3,14,1,down|null|up,up,EDS_hypermobility|general|long_COVID,general,15,up,up,True
+sympatheticnervoussystemactivity,sympathetic nervous system activity,14,1,down|up,up,IBS_gut|autism|dysautonomia|fibromyalgia|long_COVID|migraine,general,15,up,up,True
+hydroxyproline,hydroxyproline,7,8,down|up,down|null|up,EDS_hypermobility|dysautonomia|general,EDS_other_type|general|multiple,15,up,down,False
+uricacid,uric acid,13,2,down|null|up,up,IBS_gut|MCAS|ME_CFS|dysautonomia|fibromyalgia|general|long_COVID|small_fiber_neuropathy,EDS_other_type|EDS_unspecified_or_mixed,15,down,up,False
+copper,copper,5,9,up,down|null|up,ME_CFS|fibromyalgia|general,EDS_other_type|general,14,up,down,False
+hydroxylysine,hydroxylysine,1,13,down,down|null|up,EDS_hypermobility,EDS_other_type|general,14,down,down,True
+abdominalpain,abdominal pain,10,4,down|up,down|up,EDS_hypermobility|IBS_gut|POTS|fibromyalgia|general|long_COVID,HSD|hEDS|hypermobility_unspecified|multiple,14,up,up,True
+temporomandibularjoint,temporomandibular joint,3,11,down|null|up,null|up,EDS_hypermobility|migraine,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|hypermobility_unspecified|multiple,14,up,up,True
+jointpain,joint pain,9,5,null|up,null|up,EDS_hypermobility|long_COVID,hEDS|hypermobility_unspecified|multiple,14,up,up,True
+losartan,losartan,10,4,down|null|up,down|null,EDS_hypermobility|dysautonomia|general,EDS_other_type|general,14,,,
+bloodvolume,blood volume,13,1,down|null|up,down,ME_CFS|POTS|dysautonomia|long_COVID,general,14,down,down,True
+widespreadpainindex,Widespread Pain Index,12,2,down|null|up,up,fibromyalgia|long_COVID,hEDS|multiple,14,up,up,True
+rheumatoidarthritis,rheumatoid arthritis,13,1,null|up,up,ME_CFS|POTS|general|long_COVID,hEDS,14,up,up,True
+dexamethasone,dexamethasone,13,1,down|null|up,up,IBS_gut|MCAS|dysautonomia|general|long_COVID|small_fiber_neuropathy,EDS_other_type,14,,,
+fatigueseverity,fatigue severity,13,1,down|null|up,up,ME_CFS|POTS|fibromyalgia|long_COVID,multiple,14,up,up,True
+G:ADAMTS2,ADAMTS2,3,11,down|null|up,down|null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed|general,14,down,down,True
+G:PLOD1,PLOD1,5,9,down,down|null,EDS_hypermobility,EDS_other_type,14,down,down,True
+cerebralbloodflowvelocity,cerebral blood flow velocity,13,1,down|null|up,null,MCAS|POTS|dysautonomia|long_COVID|migraine|multiple,EDS_other_type,14,,,
+type2diabetesmellitus,type 2 diabetes mellitus,13,1,null|up,up,MCAS|ME_CFS|dysautonomia|general|long_COVID,general,14,up,up,True
+amitriptyline,Amitriptyline,13,1,down|null|up,null,IBS_gut|fibromyalgia|general|long_COVID|migraine,EDS_unspecified_or_mixed,14,,,
+painseverity,pain severity,10,4,down|null|up,up,dysautonomia|fibromyalgia|general|long_COVID|migraine,EDS_other_type|HSD|hEDS|multiple,14,up,up,True
+aorta,aorta,1,12,up,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified|multiple,13,up,up,True
+G:CD68,CD68,12,1,down|up,up,EDS_hypermobility|dysautonomia|general|long_COVID,EDS_other_type,13,up,up,True
+forcedvitalcapacity,forced vital capacity,10,3,down|null|up,down|up,long_COVID,EDS_other_type,13,down,down,True
+quinolinicacid,quinolinic acid,12,1,down|null|up,up,IBS_gut|ME_CFS|fibromyalgia|general|long_COVID|migraine,multiple,13,up,up,True
+gripstrength,grip strength,8,5,down|null|up,down|null|up,EDS_hypermobility|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|hypermobility_unspecified|multiple,13,down,down,True
+paincatastrophizing,pain catastrophizing,11,2,down|null|up,up,EDS_hypermobility|fibromyalgia|general|migraine|multiple,hEDS|multiple,13,up,up,True
+G:MMP2,MMP-2,12,1,down|null|up,up,EDS_hypermobility|ME_CFS|general|long_COVID,EDS_other_type,13,up,up,True
+albumin,albumin,10,3,down|null|up,down|null,ME_CFS|autism|dysautonomia|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed,13,down,down,True
+alphasmoothmuscleactin,alpha-smooth muscle actin,7,6,down|up,down|null|up,EDS_hypermobility|IBS_gut|general|long_COVID,EDS_other_type|general|multiple,13,up,up,True
+compass31totalscore,COMPASS-31 total score,12,1,null|up,down,dysautonomia|long_COVID,hEDS,13,,,
+G:B4GALT7,B4GALT7,3,10,down,down|null|up,EDS_hypermobility,EDS_other_type|general,13,down,down,True
+rheumatoidfactor,rheumatoid factor,12,1,down|null|up,null,POTS|dysautonomia|fibromyalgia|general|long_COVID,general,13,,,
+generalisedjointhypermobility,generalised joint hypermobility,9,4,down|null|up,null|up,EDS_hypermobility|autism|general|long_COVID,HSD|hypermobility_unspecified,13,up,up,True
+aldosterone,aldosterone,12,1,down|null|up,up,ME_CFS|POTS|dysautonomia|general,EDS_other_type,13,down,up,False
+obstructivesleepapnea,obstructive sleep apnea,11,2,down|null|up,up,EDS_hypermobility|autism|general|long_COVID|migraine,EDS_unspecified_or_mixed|general|multiple,13,up,up,True
+valsalvaratio,Valsalva ratio,11,1,down|null,null,dysautonomia|long_COVID,hEDS,12,,,
+G:SMAD2,SMAD2,9,3,down|up,down|up,EDS_hypermobility|general|long_COVID,general,12,up,up,True
+generalizedjointlaxity,generalized joint laxity,1,11,up,down|null|up,EDS_hypermobility,hypermobility_unspecified,12,up,up,True
+chronicpain,chronic pain,6,6,null|up,null|up,general|long_COVID,EDS_unspecified_or_mixed|general|hEDS|hypermobility_unspecified|multiple,12,up,up,True
+celiacdisease,celiac disease,9,3,null|up,null|up,EDS_hypermobility|IBS_gut|MCAS|POTS|fibromyalgia|general,EDS_unspecified_or_mixed|hEDS|hypermobility_unspecified|multiple,12,up,up,True
+endometriosis,endometriosis,11,1,null|up,up,EDS_hypermobility|ME_CFS|general|migraine|multiple,multiple,12,up,up,True
+troponint,troponin T,11,1,null|up,up,dysautonomia|general|long_COVID,EDS_other_type,12,up,up,True
+kynurenicacid,kynurenic acid,11,1,down|null|up,down|up,IBS_gut|ME_CFS|general|long_COVID|migraine|multiple,multiple,12,down,up,False
+vitaminc,vitamin C,8,4,down|null|up,down|null,ME_CFS|autism|dysautonomia|fibromyalgia|general,EDS_other_type|general,12,down,down,True
+myalgia,myalgia,11,1,null|up,up,ME_CFS|long_COVID,hEDS,12,up,up,True
+insulinlikegrowthfactor1,insulin-like growth factor-1,9,3,down|null|up,up,autism|dysautonomia|general|long_COVID,HSD|general|hEDS|hypermobility_unspecified,12,down,up,False
+G:B3GALT6,B3GALT6,8,4,down|null|up,down|up,EDS_hypermobility,EDS_other_type|general,12,down,down,True
+regulatorytcells,regulatory T cells,11,1,down|null|up,down,dysautonomia|general|long_COVID|migraine,general,12,down,down,True
+anxietyanddepression,anxiety and depression,10,1,down|null|up,up,dysautonomia|general|long_COVID,hypermobility_unspecified,11,up,up,True
+sympatheticnervoussystem,sympathetic nervous system,9,2,down|null|up,down|up,IBS_gut|dysautonomia|fibromyalgia|migraine,general,11,up,up,True
+arthralgia,arthralgia,4,7,down|up,null|up,IBS_gut|ME_CFS|fibromyalgia|long_COVID,HSD|hEDS|hypermobility_unspecified|multiple,11,up,up,True
+lidocaine,lidocaine,7,4,down|null|up,down,EDS_hypermobility|MCAS|ME_CFS|general|migraine|multiple,EDS_unspecified_or_mixed|hEDS|multiple,11,up,down,False
+gabapentin,gabapentin,9,2,null|up,null|up,IBS_gut|dysautonomia|general|small_fiber_neuropathy,EDS_other_type|EDS_unspecified_or_mixed,11,,,
+collagenv,collagen V,2,9,down|null,down|null|up,EDS_hypermobility,EDS_other_type|general,11,down,down,True
+macrophages,macrophages,10,1,down|null|up,null,MCAS|fibromyalgia|general|migraine|multiple|small_fiber_neuropathy,EDS_other_type,11,,,
+collagenfibrildiameter,collagen fibril diameter,1,10,down,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general,11,down,down,True
+smallfiberneuropathy,small fiber neuropathy,10,1,up,null,fibromyalgia|long_COVID|small_fiber_neuropathy,multiple,11,,,
+insularcortex,insular cortex,9,2,down|up,up,ME_CFS|POTS|autism|fibromyalgia|general|migraine|multiple,hypermobility_unspecified,11,down,up,False
+totalperipheralresistance,total peripheral resistance,10,1,down|null|up,down,POTS|dysautonomia|fibromyalgia|migraine,hEDS,11,down,down,True
+G:FKBP14,FKBP14,7,4,down|null|up,down|null|up,EDS_hypermobility,EDS_other_type,11,down,up,False
+chondroitinsulfate,chondroitin sulfate,3,8,null|up,down|null|up,EDS_hypermobility|fibromyalgia,EDS_other_type|EDS_unspecified_or_mixed|general,11,up,up,True
+anteriorcingulatecortex,Anterior cingulate cortex,8,2,down|up,down,ME_CFS|fibromyalgia|general|long_COVID|migraine,hypermobility_unspecified,10,down,down,True
+G:TGFBR1,TGFBR1,9,1,down|null|up,down,EDS_hypermobility|general,general,10,down,down,True
+cholesterol,cholesterol,9,1,down|null|up,up,EDS_hypermobility|MCAS|ME_CFS|general|long_COVID|migraine,general,10,up,up,True
+G:FMR1,FMR1,8,2,down|null|up,up,EDS_hypermobility|autism|general,general|hEDS,10,up,up,True
+paininterference,pain interference,8,2,down|null|up,up,POTS|fibromyalgia|long_COVID|migraine|multiple,EDS_unspecified_or_mixed|multiple,10,up,up,True
+mortality,mortality,7,3,null|up,null|up,dysautonomia|general|long_COVID,EDS_other_type|general,10,up,up,True
+collagenfibrils,collagen fibrils,2,8,down,down|null|up,EDS_hypermobility,EDS_other_type,10,down,down,True
+desmopressin,desmopressin,6,4,down|up,down|null|up,POTS|dysautonomia,EDS_other_type|EDS_unspecified_or_mixed|general,10,,,
+gastroesophagealrefluxdisease,gastroesophageal reflux disease,9,1,down|up,null,EDS_hypermobility|IBS_gut|fibromyalgia|general|long_COVID|migraine,multiple,10,,,
+doxycycline,doxycycline,5,5,down|null,down|up,MCAS|ME_CFS|long_COVID,EDS_other_type|general|hEDS,10,,,
+cd4tcell,CD4+ T cell,9,1,down|null|up,down,MCAS|general|long_COVID,multiple,10,,,
+G:DSE,DSE,3,7,down|up,down|null|up,EDS_hypermobility|general,EDS_other_type|general,10,down,down,True
+betablockers,beta-blockers,9,1,down|null|up,down,POTS|dysautonomia|general|migraine,general,10,,,
+G:ICAM1,ICAM-1,9,1,null|up,null,MCAS|ME_CFS|long_COVID,general,10,,,
+myeloperoxidase,myeloperoxidase,9,1,down|null|up,null|up,IBS_gut|MCAS|general|long_COVID,EDS_other_type,10,up,up,True
+proprioception,proprioception,1,9,null,down|null|up,EDS_hypermobility,HSD|general|hEDS|hypermobility_unspecified,10,,,
+prostaglandine2,prostaglandin E2,8,2,down|up,up,IBS_gut|MCAS|dysautonomia|general|long_COVID|migraine,general|hypermobility_unspecified,10,up,up,True
+psychologicaldistress,psychological distress,6,4,null|up,up,fibromyalgia|general|long_COVID|multiple,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified,10,up,up,True
+benignjointhypermobilitysyndrome,benign joint hypermobility syndrome,3,7,null|up,down|null|up,EDS_hypermobility,HSD|hypermobility_unspecified|multiple,10,up,up,True
+matrixmetalloproteinase9,matrix metalloproteinase-9,4,6,down|up,null|up,ME_CFS|general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed|general|hEDS|multiple,10,up,up,True
+plasmavolume,plasma volume,9,1,down|up,down,POTS|dysautonomia|general,general,10,down,down,True
+collageniii,collagen III,1,8,down,down|null|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general,9,down,down,True
+vo2max,VO2max,8,1,down|up,up,EDS_hypermobility|ME_CFS|POTS|long_COVID,hypermobility_unspecified,9,down,up,False
+sleepdisorder,sleep disorder,8,1,null|up,up,EDS_hypermobility|general|long_COVID|migraine,general,9,up,up,True
+diseaseduration,disease duration,7,2,down|null|up,null|up,dysautonomia|fibromyalgia|general|multiple|small_fiber_neuropathy,general|hypermobility_unspecified,9,up,up,True
+G:COL2A1,COL2A1,5,4,down|null|up,null|up,EDS_hypermobility|general,EDS_other_type|general,9,up,up,True
+G:leptin,leptin,8,1,down|up,up,IBS_gut|dysautonomia|fibromyalgia|general|long_COVID|migraine,EDS_other_type,9,up,up,True
+cytokines,cytokines,8,1,down|up,up,EDS_hypermobility|ME_CFS|autism|fibromyalgia|general|long_COVID,general,9,up,up,True
+collageni,collagen I,5,4,down|up,down,EDS_hypermobility|general,EDS_other_type,9,up,down,False
+G:COL12A1,COL12A1,8,1,down|null|up,up,EDS_hypermobility|general,hypermobility_unspecified,9,up,up,True
+temporomandibulardisorder,temporomandibular disorder,7,2,null|up,up,EDS_hypermobility|fibromyalgia|general|migraine|multiple,hEDS|multiple,9,up,up,True
+peakoxygenuptake,peak oxygen uptake,8,1,down|null|up,down,POTS|dysautonomia|general|long_COVID,hEDS,9,down,down,True
+G:MTHFR,MTHFR,8,1,down|null|up,up,EDS_hypermobility|fibromyalgia|general|migraine,general,9,up,up,True
+dyslipidemia,dyslipidemia,8,1,null|up,up,MCAS|ME_CFS|long_COVID|migraine|small_fiber_neuropathy,multiple,9,up,up,True
+nonsteroidalantiinflammatorydrugs,nonsteroidal anti-inflammatory drugs,8,1,down|null|up,null,EDS_hypermobility|MCAS|ME_CFS|fibromyalgia|general|migraine,EDS_unspecified_or_mixed,9,,,
+neuronalnitricoxidesynthasennos,neuronal nitric oxide synthase (nNOS),8,1,down|null|up,up,IBS_gut|dysautonomia|general,EDS_other_type,9,down,up,False
+thyroidstimulatinghormone,thyroid-stimulating hormone,7,1,down|null|up,up,ME_CFS|general|long_COVID|multiple,hypermobility_unspecified,8,down,up,False
+creatinephosphokinase,creatine phosphokinase,7,1,down|null|up,null,ME_CFS|dysautonomia|fibromyalgia|general,EDS_other_type,8,,,
+antidepressants,antidepressants,7,1,down|null|up,up,EDS_hypermobility|fibromyalgia|general|long_COVID|multiple,multiple,8,up,up,True
+factorviii,factor VIII,7,1,up,down,general|long_COVID,EDS_unspecified_or_mixed,8,up,down,False
+ceruloplasmin,ceruloplasmin,3,5,down|up,down|null,ME_CFS|fibromyalgia|general,EDS_other_type,8,down,down,True
+minocycline,minocycline,7,1,down|null|up,null,ME_CFS|dysautonomia|long_COVID|multiple,general,8,,,
+lengthofhospitalstay,length of hospital stay,7,1,down|up,null,general|long_COVID,EDS_unspecified_or_mixed,8,,,
+induciblenitricoxidesynthase,inducible nitric oxide synthase,7,1,down|null|up,down,IBS_gut|dysautonomia|general|long_COVID|migraine,general,8,,,
+autismspectrumdisorder,autism spectrum disorder,6,2,null|up,up,EDS_hypermobility|autism,EDS_unspecified_or_mixed|HSD,8,up,up,True
+attentiondeficithyperactivitydisorder,attention deficit/hyperactivity disorder,7,1,up,up,EDS_hypermobility|fibromyalgia|general|long_COVID|migraine,hypermobility_unspecified,8,up,up,True
+ascorbicacid,ascorbic acid,2,6,down|null|up,down|null|up,ME_CFS|general,EDS_other_type|general,8,,,
+fibrillin1,fibrillin-1,2,6,down|up,down|null|up,general,EDS_other_type|general,8,up,down,False
+immunoglobulinm,immunoglobulin M,7,1,down|null|up,down,ME_CFS|dysautonomia|long_COVID,general,8,up,down,False
+hit6score,HIT-6 score,7,1,down|null|up,up,migraine|multiple,hEDS,8,up,up,True
+fibroblast,fibroblast,2,6,null|up,down|null,EDS_hypermobility|multiple,EDS_other_type|general,8,up,down,False
+visualacuity,visual acuity,1,7,down|up,down|up,general|migraine,EDS_other_type|general|multiple,8,down,down,True
+jointlaxity,joint laxity,2,6,up,null|up,EDS_hypermobility,general|hypermobility_unspecified|multiple,8,up,up,True
+epworthsleepinessscalescore,Epworth Sleepiness Scale score,7,1,down|null|up,up,EDS_hypermobility|long_COVID,EDS_unspecified_or_mixed,8,up,up,True
+nausea,nausea,7,1,down|null|up,up,ME_CFS|POTS|long_COVID|migraine,EDS_unspecified_or_mixed,8,up,up,True
+vitamind3,vitamin D3,6,2,down|null,down,ME_CFS|autism|long_COVID,EDS_other_type|multiple,8,down,down,True
+painintensityvas,pain intensity (VAS),5,3,down|null|up,down|up,fibromyalgia|general|migraine,general|hypermobility_unspecified|multiple,8,up,up,True
+height,height,4,4,down|null|up,down|up,POTS|dysautonomia|long_COVID,general|hypermobility_unspecified,8,down,down,True
+centralsensitization,central sensitization,7,1,down|up,up,fibromyalgia|general|long_COVID|migraine|multiple,hypermobility_unspecified,8,up,up,True
+G:biglycan,biglycan,1,7,down,down|null|up,general,EDS_other_type|general,8,down,up,False
+betacatenin,beta-catenin,6,2,down|up,down|up,ME_CFS|general,EDS_unspecified_or_mixed|general,8,up,down,False
+ketamine,ketamine,6,1,down|null|up,down,MCAS|ME_CFS|fibromyalgia|general|migraine|multiple,EDS_unspecified_or_mixed|general,7,,,
+pulmonaryartery,pulmonary artery,2,5,down|up,null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed,7,down,up,False
+G:prolactin,prolactin,6,1,down|up,up,ME_CFS|POTS|fibromyalgia|long_COVID|migraine,general,7,up,up,True
+G:Bcl2,Bcl-2,5,2,down|up,down,general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed,7,down,down,True
+panicdisorder,panic disorder,2,5,null,null|up,general|long_COVID,HSD|hEDS|hypermobility_unspecified|multiple,7,,,
+intraepidermalnervefibredensity,intraepidermal nerve fibre density,6,1,down|null|up,down,EDS_hypermobility|fibromyalgia|multiple|small_fiber_neuropathy,hEDS,7,down,down,True
+G:CHST14,CHST14,4,3,down|null,down,EDS_hypermobility,EDS_other_type,7,down,down,True
+alcohol,alcohol,6,1,down|null,up,general|long_COVID|migraine,hypermobility_unspecified,7,down,up,False
+musclepain,muscle pain,6,1,down|up,up,fibromyalgia|long_COVID,multiple,7,up,up,True
+pelvicorganprolapse,pelvic organ prolapse,3,4,up,null|up,EDS_hypermobility|IBS_gut,general|hEDS|hypermobility_unspecified|multiple,7,up,up,True
+skinthickness,skin thickness,1,6,down,down|null,EDS_hypermobility,EDS_other_type|hEDS|hypermobility_unspecified|multiple,7,down,down,True
+ascendingaorta,ascending aorta,2,5,up,up,general,EDS_other_type|EDS_unspecified_or_mixed|general,7,up,up,True
+norepinephrinetransporter,norepinephrine transporter,5,2,down|up,down|null,POTS|dysautonomia|general,general,7,down,down,True
+collagenfibers,collagen fibers,2,5,down|up,down|null,general,EDS_other_type|EDS_unspecified_or_mixed,7,up,down,False
+hearingloss,hearing loss,5,2,down|up,up,EDS_hypermobility|autism|fibromyalgia|general,EDS_other_type|EDS_unspecified_or_mixed,7,up,up,True
+integrinalpha2beta1,integrin alpha2beta1,1,6,down,down|null,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|multiple,7,down,down,True
+cerebellum,cerebellum,5,2,down|up,down|up,dysautonomia|fibromyalgia|long_COVID,EDS_other_type|hypermobility_unspecified,7,down,up,False
+bmi,BMI,6,1,down|null|up,up,ME_CFS|general|long_COVID,general,7,up,up,True
+indomethacin,indomethacin,6,1,down|null,null,EDS_hypermobility|general|migraine,EDS_other_type,7,,,
+bisoprolol,bisoprolol,6,1,down|null|up,down|null,EDS_hypermobility|POTS|dysautonomia|long_COVID,EDS_other_type,7,up,down,False
+aorticrootdiameter,aortic root diameter,4,3,null|up,null|up,EDS_hypermobility|general,general|hEDS|multiple,7,up,up,True
+naturalkillercell,natural killer cell,6,1,down|up,down,ME_CFS|fibromyalgia|long_COVID,general,7,down,down,True
+corpuscallosum,corpus callosum,5,2,down|null|up,down|up,autism|dysautonomia|migraine|multiple,EDS_other_type|hEDS,7,up,up,True
+anteriortalofibularligament,anterior talofibular ligament,4,3,down|null|up,down|null|up,EDS_hypermobility|general,general|hypermobility_unspecified,7,up,up,True
+ccn2ctgf,CCN2/CTGF,6,1,down|null|up,up,general,general|multiple,7,up,up,True
+lumbarlordosis,lumbar lordosis,1,5,down,down|null|up,general,general|hypermobility_unspecified,6,down,up,False
+lymphocyte,lymphocyte,5,1,down|null|up,up,dysautonomia|long_COVID,EDS_other_type,6,down,up,False
+cerebrospinalfluidpressure,cerebrospinal fluid pressure,4,2,null|up,up,ME_CFS|fibromyalgia|migraine,general,6,up,up,True
+symptomduration,symptom duration,5,1,null|up,up,POTS|dysautonomia|fibromyalgia|general|multiple,HSD,6,up,up,True
+myopia,myopia,3,3,up,null|up,EDS_hypermobility,general|hEDS|hypermobility_unspecified,6,up,up,True
+crohnsdisease,Crohn's disease,5,1,up,up,IBS_gut|ME_CFS|fibromyalgia,hEDS,6,up,up,True
+carotidintimamediathickness,carotid intima-media thickness,5,1,null|up,down,dysautonomia|fibromyalgia|migraine,EDS_other_type,6,up,down,False
+tenascinxtnx,tenascin-X (TNX),5,1,down|null|up,null,EDS_hypermobility|general,EDS_other_type,6,,,
+bortezomib,bortezomib,5,1,down|null|up,up,MCAS|dysautonomia|general|small_fiber_neuropathy,EDS_other_type,6,,,
+G:ELN,ELN,4,2,down|null,null|up,EDS_hypermobility|general,EDS_other_type|EDS_unspecified_or_mixed,6,down,up,False
+printerval,PR interval,5,1,down|null|up,up,dysautonomia|general|migraine,EDS_other_type,6,up,up,True
+epilepsy,epilepsy,5,1,null|up,null|up,general|long_COVID,multiple,6,up,up,True
+glycosaminoglycans,glycosaminoglycans,3,3,down|up,null,EDS_hypermobility|general,EDS_other_type|general,6,,,
+intraocularpressure,intraocular pressure,3,3,null|up,null|up,EDS_hypermobility|general|long_COVID,EDS_other_type|hypermobility_unspecified,6,up,up,True
+procollageninproteinase,procollagen I N-proteinase,1,5,down,down|null,EDS_hypermobility,EDS_other_type,6,down,down,True
+aorticvalve,aortic valve,3,3,up,up,EDS_hypermobility|general,EDS_other_type|general|hypermobility_unspecified,6,up,up,True
+alphatryptasetpsab1,alpha-tryptase (TPSAB1),5,1,up,up,EDS_hypermobility|MCAS|multiple,hypermobility_unspecified,6,up,up,True
+adverseevents,adverse events,5,1,down|null|up,up,long_COVID|migraine,HSD,6,,,
+lowbackpain,low back pain,3,3,up,down|null|up,EDS_hypermobility|general|migraine,HSD|general|hypermobility_unspecified,6,up,up,True
+parathyroidhormone,parathyroid hormone,4,2,down|up,up,general,EDS_other_type|EDS_unspecified_or_mixed,6,up,up,True
+methylphenidate,methylphenidate,5,1,down|null|up,null,ME_CFS|dysautonomia|fibromyalgia|general,HSD,6,,,
+G:COL11A1,COL11A1,2,4,null|up,down|up,EDS_hypermobility|general,EDS_other_type|general,6,up,down,False
+sertraline,Sertraline,4,2,down|null,null,POTS|fibromyalgia|multiple,EDS_unspecified_or_mixed,6,,,
+scoliosis,scoliosis,3,3,null|up,up,dysautonomia|general,general|hypermobility_unspecified|multiple,6,up,up,True
+salivarycortisol,salivary cortisol,5,1,down|up,down|up,ME_CFS|POTS|fibromyalgia,multiple,6,up,down,False
+salivaryalphaamylase,salivary alpha-amylase,5,1,down|up,up,ME_CFS|autism|dysautonomia|fibromyalgia,multiple,6,up,up,True
+allergicrhinitis,allergic rhinitis,5,1,up,up,IBS_gut|general|long_COVID,hEDS,6,up,up,True
+G:CYP21A2,CYP21A2,4,2,down|null|up,up,general,EDS_other_type|general,6,up,up,True
+connectivetissuedisease,connective tissue disease,4,2,down|null|up,up,EDS_hypermobility|general,EDS_unspecified_or_mixed|general,6,up,up,True
+oxygenconsumption,oxygen consumption,5,1,down|up,down,EDS_hypermobility|general|long_COVID,multiple,6,down,down,True
+skinhyperextensibility,skin hyperextensibility,1,5,up,down|null|up,EDS_hypermobility,EDS_other_type,6,up,up,True
+collagenxii,collagen XII,5,1,down|null|up,down|up,EDS_hypermobility|general,EDS_other_type,6,up,up,True
+G:FN1,FN1,5,1,down|null|up,null,general|long_COVID,EDS_unspecified_or_mixed,6,,,
+lithium,lithium,5,1,down|null|up,down,EDS_hypermobility|autism|general,general,6,,,
+G:COL4A1,COL4A1,4,2,down|null|up,down,EDS_hypermobility|general,general,6,down,down,True
+G:TLR2,TLR2,5,1,down|null|up,up,MCAS|ME_CFS|general|long_COVID,EDS_other_type,6,up,up,True
+kneejoint,knee joint,1,5,null|up,down|null|up,EDS_hypermobility,EDS_unspecified_or_mixed|HSD|hypermobility_unspecified,6,up,up,True
+kneehyperextension,knee hyperextension,3,3,null|up,down|null|up,EDS_hypermobility,hypermobility_unspecified,6,up,up,True
+gastricemptying,gastric emptying,2,4,down|up,down|up,dysautonomia|general,HSD|general|hEDS,6,up,up,True
+beckdepressioninventoryscore,Beck Depression Inventory score,5,1,down|up,down,general|long_COVID|migraine,hEDS,6,,,
+triglyceride,triglyceride,5,1,up,down|up,fibromyalgia|general|small_fiber_neuropathy,EDS_other_type,6,up,up,True
+G:IGFBP2,IGFBP2,2,3,up,up,EDS_hypermobility|general,EDS_other_type,5,up,up,True
+peakoxygenconsumption,peak oxygen consumption,3,2,down|null,down|up,ME_CFS|long_COVID,general|hypermobility_unspecified|multiple,5,down,up,False
+phosphatidylcholine,phosphatidylcholine,4,1,down|up,null,ME_CFS|long_COVID,EDS_other_type,5,,,
+integrinalphavbeta3,integrin alphaVbeta3,2,3,down|up,up,EDS_hypermobility,EDS_other_type|hEDS|multiple,5,up,up,True
+gastricemptyingtime,gastric emptying time,3,2,down|up,null|up,IBS_gut|dysautonomia|migraine,hEDS,5,up,up,True
+gaitspeed,gait speed,3,2,down|null|up,down|null,EDS_hypermobility|general|long_COVID,HSD|multiple,5,down,down,True
+patentforamenovale,patent foramen ovale,4,1,down|up,null,general|migraine,multiple,5,,,
+functionalimpairment,functional impairment,2,3,down|up,up,long_COVID,EDS_other_type|EDS_unspecified_or_mixed|multiple,5,up,up,True
+G:FBN2,FBN2,4,1,down|null|up,down,EDS_hypermobility|general,general,5,up,down,False
+patellartendon,patellar tendon,1,4,up,down|null|up,EDS_hypermobility,EDS_unspecified_or_mixed|HSD|multiple,5,up,down,False
+gadolinium,gadolinium,3,2,down|null|up,down|null|up,general|small_fiber_neuropathy,EDS_unspecified_or_mixed|general|hEDS,5,up,up,True
+G:prolidase,prolidase,1,4,up,down|null|up,EDS_hypermobility,HSD|hypermobility_unspecified,5,up,up,True
+G:PRDM5,PRDM5,1,4,up,down|null,EDS_hypermobility,EDS_other_type|general,5,up,down,False
+tgfbr1tgfbr2,TGFBR1/TGFBR2,4,1,down|null|up,up,EDS_hypermobility|general,general,5,up,up,True
+neckpain,neck pain,3,2,down|up,up,POTS|migraine,hEDS|hypermobility_unspecified,5,down,up,False
+bipolardisorder,bipolar disorder,4,1,up,null|up,fibromyalgia|long_COVID|migraine,EDS_unspecified_or_mixed|HSD,5,up,up,True
+matrixmetalloproteinase2,matrix metalloproteinase-2,1,4,down,null|up,general,EDS_other_type|general,5,,,
+bilirubin,bilirubin,3,2,down,up,MCAS|ME_CFS,hypermobility_unspecified,5,down,up,False
+beightonhypermobilityscore,Beighton hypermobility score,1,4,null,down|null|up,EDS_hypermobility,hypermobility_unspecified,5,,,
+autonomicsymptoms,autonomic symptoms,4,1,down|up,up,general|long_COVID,hEDS,5,up,up,True
+autonomicnervoussystem,autonomic nervous system,4,1,null|up,up,dysautonomia|long_COVID|migraine,EDS_other_type,5,up,up,True
+autoimmunethyroiditis,autoimmune thyroiditis,4,1,up,up,autism|general,hEDS,5,up,up,True
+autoimmunedisease,autoimmune disease,3,2,null|up,up,long_COVID,general,5,up,up,True
+musculoskeletalpain,musculoskeletal pain,4,1,null|up,down,dysautonomia|general|long_COVID,HSD,5,,,
+arterialstiffness,arterial stiffness,4,1,down|null|up,null,ME_CFS|autism|dysautonomia|general,hEDS,5,,,
+urinaryincontinence,urinary incontinence,2,3,up,up,EDS_hypermobility|dysautonomia,HSD|general|hEDS,5,up,up,True
+aorticdissection,aortic dissection,2,3,null|up,up,dysautonomia|general,EDS_unspecified_or_mixed|general,5,up,up,True
+urinarytractinfection,Urinary tract infection,3,2,up,up,EDS_hypermobility|dysautonomia|general,HSD|hypermobility_unspecified,5,up,up,True
+anxietydisorders,anxiety disorders,4,1,null|up,up,EDS_hypermobility|autism|fibromyalgia|general,HSD,5,up,up,True
+anxietydepression,anxiety/depression,4,1,up,null,long_COVID,hypermobility_unspecified,5,,,
+anteriortibialtranslation,anterior tibial translation,2,3,up,null|up,EDS_hypermobility,hypermobility_unspecified,5,up,up,True
+midasscore,MIDAS score,4,1,down|up,up,migraine,hEDS,5,up,up,True
+ankledorsiflexionrangeofmotion,ankle dorsiflexion range of motion,1,4,down,down|null|up,autism,general|hypermobility_unspecified,5,down,up,False
+vitaminb12cobalamin,vitamin B12 (cobalamin),4,1,down,down,IBS_gut|POTS|dysautonomia|small_fiber_neuropathy,general,5,down,down,True
+adhd,ADHD,2,3,up,null|up,EDS_hypermobility|general,EDS_unspecified_or_mixed|HSD|hypermobility_unspecified,5,up,up,True
+activatedpartialthromboplastintime,activated partial thromboplastin time,4,1,down|null|up,null,dysautonomia|general|long_COVID,EDS_other_type,5,,,
+achillestendon,Achilles tendon,1,4,down,down|up,EDS_hypermobility,EDS_other_type|HSD|hEDS,5,down,down,True
+G:vimentin,vimentin,1,4,down,down|null|up,EDS_hypermobility,EDS_other_type|general,5,down,down,True
+G:tenascinC,tenascin-C,1,4,up,down|null|up,general,general,5,up,up,True
+thrombospondin1,thrombospondin-1,3,2,down|up,down|up,ME_CFS|general|long_COVID,EDS_other_type|general,5,up,down,False
+bodyfatpercentage,body fat percentage,4,1,down|up,up,ME_CFS|fibromyalgia|general|long_COVID,multiple,5,up,up,True
+neuropathicpain,neuropathic pain,4,1,up,up,general|small_fiber_neuropathy,multiple,5,up,up,True
+skeletalmuscle,skeletal muscle,2,3,down|up,down|null|up,long_COVID,EDS_other_type,5,up,up,True
+prothrombintime,prothrombin time,4,1,down|null|up,null,dysautonomia|general|long_COVID,EDS_other_type,5,,,
+psoriasis,psoriasis,4,1,null|up,up,MCAS|general|long_COVID|migraine,hEDS,5,up,up,True
+jointrangeofmotion,joint range of motion,1,4,up,down|up,EDS_hypermobility,general|hypermobility_unspecified,5,up,up,True
+endothelialnitricoxidesynthase,endothelial nitric oxide synthase,4,1,down|up,down,dysautonomia|general|migraine,general,5,up,down,False
+keratoconus,keratoconus,1,4,up,null|up,general,EDS_other_type|EDS_unspecified_or_mixed|general|hypermobility_unspecified,5,up,up,True
+kneeextensormusclestrength,knee extensor muscle strength,1,4,null,down|null|up,EDS_hypermobility,EDS_other_type|HSD|hypermobility_unspecified|multiple,5,,,
+osteoarthritis,osteoarthritis,2,3,up,down|null|up,general,HSD|hypermobility_unspecified,5,up,up,True
+olfactoryfunction,olfactory function,4,1,down|null,up,dysautonomia|long_COVID,hypermobility_unspecified,5,down,up,False
+leftventricle,left ventricle,3,2,down|null|up,down|up,POTS|general,EDS_other_type,5,up,up,True
+G:TGFB3,TGFB3,4,1,down|null|up,up,general,general,5,down,up,False
+coronaryarterydisease,coronary artery disease,4,1,up,down,general|long_COVID,EDS_unspecified_or_mixed,5,up,down,False
+sixminutewalktestdistance,six-minute walk test distance,3,2,down|up,down|up,EDS_hypermobility|long_COVID,hypermobility_unspecified,5,down,up,False
+sf36totalscore,SF-36 total score,4,1,down|null|up,up,fibromyalgia|long_COVID|migraine|multiple,hEDS,5,,,
+sleepproblems,sleep problems,4,1,up,null,long_COVID,general,5,,,
+col3a1mrna,COL3A1 mRNA,4,1,down|null|up,up,EDS_hypermobility,EDS_other_type,5,down,up,False
+cartilageoligomericmatrixprotein,cartilage oligomeric matrix protein,1,4,down,down|up,POTS,EDS_other_type|HSD|general|hypermobility_unspecified,5,down,down,True
+lung,lung,1,4,down,down|null|up,long_COVID,EDS_other_type|EDS_unspecified_or_mixed,5,down,down,True
+stateanxiety,state anxiety,1,4,down,up,general,hypermobility_unspecified,5,,,
+lowdensitylipoproteincholesterol,low-density lipoprotein cholesterol,4,1,down|null|up,down|null,dysautonomia|general|long_COVID,general,5,,,
+hypermobileehlersdanlossyndrome,hypermobile Ehlers-Danlos syndrome,4,1,up,up,EDS_hypermobility,hEDS,5,up,up,True
+smallintestinalbacterialovergrowth,small intestinal bacterial overgrowth,4,1,up,up,IBS_gut|dysautonomia|fibromyalgia,hEDS,5,up,up,True
+G:FKBP22,FKBP22,1,3,null|up,down|null|up,EDS_hypermobility,EDS_other_type,4,up,down,False
+leftventricularhypertrophy,left ventricular hypertrophy,3,1,null|up,up,dysautonomia|migraine|small_fiber_neuropathy,multiple,4,up,up,True
+matrixmetalloproteinases,matrix metalloproteinases,3,1,up,up,EDS_hypermobility|MCAS,EDS_other_type,4,up,up,True
+G:FLNA,FLNA,2,2,null|up,null|up,general|long_COVID,EDS_other_type|EDS_unspecified_or_mixed,4,up,up,True
+osteopontin,osteopontin,1,3,up,down,general,EDS_other_type,4,,,
+monocyte,monocyte,3,1,null|up,down,long_COVID,general,4,up,down,False
+monocytechemoattractantprotein1,monocyte chemoattractant protein-1,2,2,up,up,EDS_hypermobility|long_COVID,EDS_other_type|multiple,4,up,up,True
+malnutrition,malnutrition,3,1,up,up,dysautonomia|long_COVID,hypermobility_unspecified,4,up,up,True
+immunoglobulin,immunoglobulin,2,2,down|null|up,down|null,ME_CFS|long_COVID,EDS_other_type|hEDS,4,down,down,True
+G:COLEC12,COLEC12,3,1,up,up,long_COVID,hEDS,4,up,up,True
+jointhypermobilitybeightonscore,joint hypermobility (Beighton score),1,3,down,null|up,EDS_hypermobility,EDS_unspecified_or_mixed|hypermobility_unspecified,4,down,up,False
+mhcclassii,MHC class II,3,1,down|up,up,IBS_gut|fibromyalgia|general,general,4,,,
+lowfrequencypowerlf,low-frequency power (LF),3,1,down,up,dysautonomia|long_COVID|migraine,multiple,4,,,
+dopaminebetahydroxylase,dopamine beta-hydroxylase,3,1,down|null,up,dysautonomia|general,general,4,down,up,False
+hypermobilitysyndrome,hypermobility syndrome,2,2,up,up,EDS_hypermobility,hypermobility_unspecified,4,up,up,True
+corticalthickness,cortical thickness,3,1,down,down,EDS_hypermobility|general|multiple,multiple,4,down,down,True
+staphylococcusaureus,Staphylococcus aureus,3,1,up,up,MCAS|ME_CFS|dysautonomia,general,4,up,up,True
+chroniclowbackpain,chronic low back pain,3,1,down|up,up,ME_CFS|general,hypermobility_unspecified,4,up,up,True
+somaticsymptoms,Somatic Symptoms,2,2,down|up,up,ME_CFS|multiple,hEDS|hypermobility_unspecified,4,up,up,True
+collagentypeiandiii,collagen type I and III,2,2,down|up,null|up,general,general,4,up,up,True
+G:THBS1,THBS1,3,1,up,up,ME_CFS|general|long_COVID,general,4,up,up,True
+sleepapnea,sleep apnea,2,2,up,null,dysautonomia|general,EDS_unspecified_or_mixed|multiple,4,,,
+complementfactord,complement factor D,2,2,up,up,general|long_COVID,hEDS|multiple,4,up,up,True
+corticosteroid,corticosteroid,3,1,null|up,down,long_COVID|migraine,hEDS,4,,,
+easybruising,easy bruising,1,3,up,null|up,general,general|hypermobility_unspecified,4,up,up,True
+csgalnact1,CSGALNACT1,1,3,down,down|up,EDS_hypermobility,EDS_other_type|EDS_unspecified_or_mixed|general,4,down,up,False
+sadenosylmethionine,S-adenosylmethionine,3,1,down,down,autism|long_COVID,multiple,4,,,
+diarrhea,diarrhea,3,1,up,down,POTS|dysautonomia|long_COVID,HSD,4,,,
+disordersofgutbraininteraction,disorders of gut-brain interaction,2,2,down|null|up,null|up,IBS_gut|fibromyalgia|multiple,multiple,4,up,up,True
+raynaudsphenomenon,Raynaud's phenomenon,3,1,up,down,MCAS|dysautonomia|general,hypermobility_unspecified,4,up,down,False
+musclecrosssectionalarea,muscle cross-sectional area,2,2,down,down|null,EDS_hypermobility|general,EDS_other_type|multiple,4,down,down,True
+rateofforcedevelopment,rate of force development,3,1,down|up,up,EDS_hypermobility|long_COVID,hypermobility_unspecified,4,down,up,False
+cerebrovascularresistance,cerebrovascular resistance,3,1,down|up,up,ME_CFS|dysautonomia,hEDS,4,up,up,True
+syncope,syncope,3,1,down|up,up,dysautonomia,hypermobility_unspecified,4,up,up,True
+tearfilmbreakuptime,tear film break-up time,1,3,down,down|null,general,EDS_unspecified_or_mixed|hEDS|hypermobility_unspecified,4,down,down,True
+c1rc1s,"C1R, C1S",2,2,null|up,null,EDS_hypermobility,EDS_other_type|general,4,,,
+acromiohumeraldistance,acromiohumeral distance,1,3,up,down|null|up,EDS_hypermobility,hypermobility_unspecified|multiple,4,up,up,True
+adenosinetriphosphate,adenosine triphosphate,3,1,down,up,ME_CFS|migraine,general,4,down,up,False
+3hydroxykynurenine,3-hydroxykynurenine,3,1,down|up,up,IBS_gut|ME_CFS,multiple,4,up,up,True
+alcoholuse,alcohol use,3,1,down|null|up,up,EDS_hypermobility|general,hypermobility_unspecified,4,up,up,True
+alpha1antitrypsin,alpha-1-antitrypsin,1,3,up,down|null,long_COVID,EDS_other_type|EDS_unspecified_or_mixed,4,up,down,False
+vitamincascorbicacid,vitamin C (ascorbic acid),3,1,down,down,EDS_hypermobility|general|small_fiber_neuropathy,hEDS,4,,,
+G:fibrin,fibrin,3,1,up,up,long_COVID,EDS_other_type,4,up,up,True
+visualanalogscalepainscore,visual analog scale pain score,3,1,down|null|up,down,fibromyalgia|migraine|multiple,hEDS,4,,,
+typevicollagen,type VI collagen,1,3,up,null|up,EDS_hypermobility,EDS_other_type|general,4,,,
+G:AEBP1,AEBP1,3,1,down|null,down|null,EDS_hypermobility|ME_CFS,EDS_other_type,4,down,down,True
+atopicdermatitis,atopic dermatitis,3,1,down|up,null,MCAS|autism|long_COVID,hEDS,4,,,
+autonomicsymptomburden,autonomic symptom burden,3,1,up,null|up,dysautonomia|long_COVID,EDS_other_type|hEDS,4,up,up,True
+baclofen,baclofen,3,1,down|null,down,IBS_gut|ME_CFS|general,general,4,,,
+betablocker,beta-blocker,3,1,down|null,down|null,dysautonomia|general,general,4,,,
+thoracickyphosis,thoracic kyphosis,1,3,null,down|null|up,general,general|hypermobility_unspecified|multiple,4,,,
+dyspareunia,dyspareunia,2,2,up,up,EDS_hypermobility|migraine,HSD|hEDS,4,up,up,True
+muscledensity,muscle density,2,2,down,down|null,EDS_hypermobility,multiple,4,down,down,True
+plateletaggregation,platelet aggregation,1,3,up,down|null|up,general,EDS_other_type|EDS_unspecified_or_mixed|general,4,up,up,True
+prucalopride,prucalopride,3,1,down|null|up,up,IBS_gut|general,EDS_other_type,4,,,
+growthdifferentiationfactor15,growth differentiation factor 15,3,1,null|up,down,long_COVID,EDS_other_type,4,up,down,False
+fibromusculardysplasia,fibromuscular dysplasia,3,1,up,null,EDS_hypermobility|general,general,4,,,
+G:CD34,CD34,3,1,up,null,EDS_hypermobility|IBS_gut|MCAS,EDS_other_type,4,,,
+gastroesophagealreflux,gastroesophageal reflux,1,3,null,up,long_COVID,hEDS,4,,,
+G:NR4A1,NR4A1,2,2,down|up,down,MCAS|long_COVID,hEDS|multiple,4,up,down,False
+excessivedaytimesleepiness,excessive daytime sleepiness,3,1,null|up,up,dysautonomia|general|long_COVID,multiple,4,up,up,True
+peripheraloxygensaturation,peripheral oxygen saturation,3,1,down,down,long_COVID,EDS_other_type,4,down,down,True
+G:HLAB27,HLA-B27,3,1,up,up,EDS_hypermobility|general,hEDS,4,up,up,True
+G:FOS,FOS,3,1,down|null|up,down,general,hEDS,4,up,down,False
+highfrequencypowerhf,high-frequency power (HF),3,1,down|null|up,up,IBS_gut|long_COVID|migraine,multiple,4,,,
+functionaldyspepsia,functional dyspepsia,2,2,up,up,EDS_hypermobility|IBS_gut|multiple,HSD|multiple,4,up,up,True
+pulmonaryarterypressure,pulmonary artery pressure,1,3,up,up,long_COVID,EDS_unspecified_or_mixed|multiple,4,up,up,True
+painthreshold,pain threshold,3,1,down|null,up,general|migraine,hEDS,4,down,up,False
+pyruvate,pyruvate,3,1,down|up,up,ME_CFS|fibromyalgia,EDS_unspecified_or_mixed,4,down,up,False
+physicalfunctioning,physical functioning,3,1,down|up,up,ME_CFS|long_COVID,hEDS,4,,,
+traitanxiety,trait anxiety,1,2,up,up,autism,hypermobility_unspecified,3,up,up,True
+myalgiaarthralgia,myalgia/arthralgia,2,1,up,null,long_COVID,hypermobility_unspecified,3,,,
+trabecularbonescore,trabecular bone score,2,1,down|up,down,dysautonomia|general,multiple,3,down,down,True
+G:B3GAT3,B3GAT3,2,1,down,down,EDS_hypermobility|general,general,3,down,down,True
+plasminogen,plasminogen,2,1,null|up,down,long_COVID,EDS_other_type,3,up,down,False
+transforminggrowthfactorbeta2,transforming growth factor-beta 2,1,2,up,up,EDS_hypermobility,EDS_other_type,3,up,up,True
+tobaccouse,tobacco use,2,1,null|up,up,general|long_COVID,hypermobility_unspecified,3,up,up,True
+trochleardysplasia,trochlear dysplasia,1,2,up,up,general,general|hypermobility_unspecified,3,up,up,True
+myofibroblast,myofibroblast,1,2,down|up,down|up,EDS_hypermobility|fibromyalgia|general,EDS_other_type|general,3,up,up,True
+ventriculartachycardia,ventricular tachycardia,2,1,null|up,down|up,general,EDS_other_type|multiple,3,up,down,False
+physicalfitness,physical fitness,2,1,down|null,down,EDS_hypermobility|fibromyalgia,hypermobility_unspecified,3,down,down,True
+perniciousanemia,pernicious anemia,2,1,up,up,EDS_hypermobility|general,hEDS,3,up,up,True
+ulnarnerve,ulnar nerve,1,2,null|up,up,EDS_hypermobility|general,HSD|hEDS,3,up,up,True
+tissuetransglutaminaseigaantibody,tissue transglutaminase IgA antibody,2,1,down|up,up,IBS_gut|general,hypermobility_unspecified,3,up,up,True
+peripheralvasculardisease,peripheral vascular disease,2,1,up,down,EDS_hypermobility|dysautonomia,EDS_unspecified_or_mixed,3,up,down,False
+musculoskeletalinjury,musculoskeletal injury,1,2,null,null|up,EDS_hypermobility,hypermobility_unspecified,3,,,
+vitalcapacity,vital capacity,2,1,down,down,long_COVID|multiple,general,3,down,down,True
+peakplantarpressure,peak plantar pressure,1,2,up,up,EDS_hypermobility,hypermobility_unspecified,3,up,up,True
+water,water,1,2,up,down,dysautonomia,multiple,3,,,
+parasympatheticnervoussystem,parasympathetic nervous system,2,1,down|null,down,IBS_gut|general,general,3,down,down,True
+windupratio,wind-up ratio,1,2,null,up,multiple,hEDS,3,,,
+neurodevelopmentaldisorder,neurodevelopmental disorder,2,1,null|up,up,autism|multiple,hEDS,3,up,up,True
+G:C1s,C1s,2,1,up,down,EDS_hypermobility,EDS_other_type,3,up,down,False
+platelet,platelet,2,1,down|up,up,general|long_COVID,EDS_other_type,3,up,up,True
+posturalsway,postural sway,2,1,down|up,up,autism|dysautonomia,hEDS,3,up,up,True
+opticnervesheathdiameter,optic nerve sheath diameter,2,1,null|up,up,ME_CFS|POTS,general,3,up,up,True
+purkinjecell,Purkinje cell,2,1,down,down,autism|dysautonomia,EDS_unspecified_or_mixed,3,down,down,True
+rectalhyposensitivity,Rectal hyposensitivity,2,1,null|up,up,EDS_hypermobility|dysautonomia,multiple,3,up,up,True
+opticnervesheath,optic nerve sheath,2,1,up,up,EDS_hypermobility|ME_CFS,general,3,,,
+psychologicalwellbeing,psychological well-being,2,1,down,up,long_COVID,EDS_unspecified_or_mixed,3,down,up,False
+psmad2,p-Smad-2,2,1,down|up,down,general,general,3,up,down,False
+opiates,opiates,1,2,up,null|up,multiple,multiple,3,up,up,True
+G:BCL2,BCL2,1,2,up,down|up,dysautonomia,EDS_other_type,3,,,
+proteingeneproduct95,protein gene product 9.5,2,1,down,up,small_fiber_neuropathy,EDS_other_type,3,down,up,False
+painrelatedfear,pain-related fear,1,2,down,null|up,fibromyalgia,hypermobility_unspecified|multiple,3,,,
+shoulderexternalrotation,shoulder external rotation,1,2,up,down|null,EDS_hypermobility,EDS_unspecified_or_mixed|general,3,up,down,False
+shouldermusclestrength,shoulder muscle strength,1,2,up,down|up,EDS_hypermobility,multiple,3,,,
+prolactinreceptor,prolactin receptor,1,2,down|up,down,migraine,hEDS|multiple,3,up,down,False
+G:CD44,CD44,2,1,down|null|up,up,general,general,3,,,
+thoracicaorta,thoracic aorta,2,1,null|up,down,EDS_hypermobility|long_COVID,EDS_other_type,3,up,down,False
+somatosensoryamplification,Somatosensory amplification,1,2,up,up,fibromyalgia,HSD|hEDS,3,up,up,True
+spinalcord,spinal cord,2,1,down|up,null,EDS_hypermobility|general,HSD,3,,,
+postprandialfullness,postprandial fullness,1,2,up,up,POTS,HSD|hEDS,3,up,up,True
+niacin,niacin,2,1,down,down,MCAS|fibromyalgia,hEDS,3,down,down,True
+postpartumhemorrhage,postpartum hemorrhage,1,2,down,up,autism,EDS_unspecified_or_mixed|hEDS,3,down,up,False
+stridelength,stride length,1,2,down,down,general,HSD|multiple,3,down,down,True
+p38mitogenactivatedproteinkinase,p38 mitogen-activated protein kinase,2,1,down,up,MCAS,general,3,,,
+paincatastrophising,pain catastrophising,2,1,null|up,down,EDS_hypermobility|general|migraine|multiple,hypermobility_unspecified,3,,,
+systemiclupuserythematosus,systemic lupus erythematosus,2,1,null|up,up,POTS|general,hEDS,3,up,up,True
+tarlovcyst,Tarlov cyst,1,2,up,up,fibromyalgia|multiple,EDS_unspecified_or_mixed|general,3,up,up,True
+tearbreakuptime,tear break-up time,1,2,down,down,fibromyalgia,EDS_unspecified_or_mixed|general,3,down,down,True
+oxidativestressindex,oxidative stress index,2,1,up,up,EDS_hypermobility|fibromyalgia,hypermobility_unspecified,3,up,up,True
+tenascinxb,tenascin-XB,2,1,down|up,up,EDS_hypermobility,EDS_other_type,3,up,up,True
+sexfemale,sex (female),2,1,up,up,long_COVID,hypermobility_unspecified,3,up,up,True
+hormonereplacementtherapy,hormone replacement therapy,2,1,null|up,null,general|long_COVID,hypermobility_unspecified,3,,,
+insulinlikegrowthfactori,insulin-like growth factor-I,2,1,null|up,null|up,long_COVID,EDS_other_type|general,3,,,
+f480,F4/80,1,2,up,down|up,general,EDS_other_type,3,up,up,True
+idiopathicintracranialhypertension,idiopathic intracranial hypertension,2,1,up,up,EDS_hypermobility,EDS_unspecified_or_mixed,3,up,up,True
+fibromyalgiasyndrome,fibromyalgia syndrome,2,1,down|null|up,up,fibromyalgia|multiple,hypermobility_unspecified,3,down,up,False
+integrinalpha5beta1,integrin alpha5beta1,1,2,down,down|null,EDS_hypermobility,EDS_other_type,3,down,down,True
+armspantoheightratio,arm span-to-height ratio,1,2,up,up,general,general|multiple,3,up,up,True
+integrinbeta1,integrin beta-1,1,2,down|up,down|null|up,general,general,3,down,up,False
+G:EMILIN1,EMILIN1,2,1,up,down,ME_CFS,general,3,up,down,False
+apoptosis,apoptosis,2,1,up,null,EDS_hypermobility|long_COVID,EDS_other_type,3,,,
+dystonia,dystonia,2,1,up,up,dysautonomia|general,EDS_unspecified_or_mixed,3,up,up,True
+intracranialaneurysm,intracranial aneurysm,1,2,up,up,general,EDS_unspecified_or_mixed|general,3,up,up,True
+intraepidermalnervefibers,intraepidermal nerve fibers,2,1,down|up,down,small_fiber_neuropathy,EDS_other_type,3,down,down,True
+G:DSEL,DSEL,1,2,down,down|null|up,EDS_hypermobility,general,3,down,up,False
+col1a1col1a2,COL1A1/COL1A2,2,1,null|up,null,general|multiple,general,3,,,
+anteroposteriorposturalsway,anteroposterior postural sway,1,2,up,down|null|up,EDS_hypermobility,hEDS|hypermobility_unspecified,3,up,up,True
+gaitvelocity,gait velocity,1,2,down,down,EDS_hypermobility,hEDS|multiple,3,down,down,True
+arthritis,arthritis,2,1,up,null,general|long_COVID,hypermobility_unspecified,3,,,
+brainnatriureticpeptide,brain natriuretic peptide,2,1,null|up,down,dysautonomia|long_COVID,EDS_unspecified_or_mixed,3,,,
+epidermalthickness,epidermal thickness,2,1,down|up,up,MCAS|general,EDS_other_type,3,up,up,True
+G:Wnt3a,Wnt3a,2,1,down|up,null,MCAS|general,EDS_unspecified_or_mixed,3,,,
+bloating,bloating,2,1,up,down,EDS_hypermobility|POTS,HSD|general,3,,,
+G:XYLT1,XYLT1,1,2,down,down,EDS_hypermobility,general,3,down,down,True
+birthweight,birth weight,2,1,down|null,down,dysautonomia|general,hEDS,3,down,down,True
+epiduralbloodpatch,epidural blood patch,1,2,null,null|up,migraine,hypermobility_unspecified,3,,,
+heatpainthreshold,heat pain threshold,2,1,down,down,small_fiber_neuropathy,hEDS,3,down,down,True
+hipextensormoment,hip extensor moment,1,2,down,down,EDS_hypermobility,HSD|hypermobility_unspecified,3,down,down,True
+estrogenprogesterone,estrogen/progesterone,2,1,up,down,POTS|general,HSD,3,up,down,False
+G:TenascinC,Tenascin-C,1,2,up,down|null|up,general,EDS_other_type|general,3,up,up,True
+endtidalcarbondioxide,end-tidal carbon dioxide,2,1,null|up,down,autism|dysautonomia,hEDS,3,,,
+glucocorticoidreceptor,glucocorticoid receptor,2,1,down|null,up,autism|general,general,3,down,up,False
+cervicalrangeofmotion,cervical range of motion,1,2,null,null|up,migraine,hypermobility_unspecified,3,,,
+augmentationindex,Augmentation index,1,2,down,up,long_COVID,EDS_other_type|multiple,3,down,up,False
+elbowhyperextension,elbow hyperextension,2,1,up,up,EDS_hypermobility,hypermobility_unspecified,3,up,up,True
+bonedensity,bone density,2,1,down,down,EDS_hypermobility|long_COVID,general,3,down,down,True
+coldpainthreshold,cold pain threshold,2,1,down|up,down,EDS_hypermobility|fibromyalgia,hEDS,3,up,down,False
+kneeflexormusclestrength,knee flexor muscle strength,1,2,null,down|up,EDS_hypermobility,EDS_other_type|multiple,3,,,
+complementc4a,Complement C4A,2,1,down|null|up,down|up,ME_CFS|fibromyalgia,general,3,up,up,True
+magnesiumsulfate,magnesium sulfate,2,1,down|null,up,dysautonomia|general|migraine,general,3,,,
+maternalage,maternal age,2,1,null|up,up,dysautonomia|long_COVID,general,3,up,up,True
+c1inhibitor,C1 inhibitor,2,1,down,null,MCAS|ME_CFS,EDS_other_type,3,,,
+maximummouthopening,maximum mouth opening,1,2,up,down|up,EDS_hypermobility|multiple,hEDS|hypermobility_unspecified,3,up,up,True
+meanplateletvolume,mean platelet volume,1,2,null,null|up,long_COVID,EDS_other_type,3,,,
+mechanicalpainsensitivity,mechanical pain sensitivity,2,1,up,up,fibromyalgia,EDS_other_type,3,up,up,True
+fibromodulin,fibromodulin,1,2,up,down,EDS_hypermobility,EDS_other_type|general,3,up,down,False
+flatfeet,flat feet,1,2,up,up,autism|general|multiple,general|hypermobility_unspecified,3,up,up,True
+catechin,(+) catechin,1,2,down,down,dysautonomia,EDS_other_type,3,,,
+medialgastrocnemius,medial gastrocnemius,1,2,null,down|up,dysautonomia,hypermobility_unspecified|multiple,3,,,
+filaggrinflg,filaggrin (FLG),2,1,down,down,EDS_hypermobility|general,hEDS,3,down,down,True
+mentaldisorders,mental disorders,2,1,up,up,EDS_hypermobility|long_COVID,multiple,3,up,up,True
+G:ubiquitin,ubiquitin,2,1,up,up,general|migraine,EDS_other_type,3,up,up,True
+cardiacfunction,cardiac function,2,1,null,null,long_COVID,hEDS,3,,,
+cyclosporine,cyclosporine,2,1,down|up,null,MCAS|general,EDS_other_type,3,,,
+carotidcavernousfistula,carotid-cavernous fistula,1,2,up,null|up,EDS_hypermobility,EDS_other_type|multiple,3,up,up,True
+mastcellactivationdisorder,mast cell activation disorder,2,1,up,up,MCAS,multiple,3,up,up,True
+G:MECP2,MECP2,2,1,down|up,down,autism|general,hypermobility_unspecified,3,down,down,True
+leftventricularmassindex,left ventricular mass index,2,1,down|null,up,POTS|general,hEDS,3,,,
+anklejoint,ankle joint,1,2,null|up,null,EDS_hypermobility,hypermobility_unspecified|multiple,3,,,
+colonictransittime,colonic transit time,2,1,up,up,IBS_gut|dysautonomia,hEDS,3,up,up,True
+G:Chst14,Chst14,1,2,down,down|null|up,EDS_hypermobility,EDS_other_type,3,down,down,True
+langerhanscells,Langerhans cells,2,1,up,up,fibromyalgia|small_fiber_neuropathy,EDS_other_type,3,up,up,True
+catenin,β-catenin,2,1,down,up,ME_CFS|general,general,3,down,up,False
+alphaadrenergicreceptor,alpha-adrenergic receptor,2,1,down|up,up,dysautonomia,HSD,3,up,up,True
+alphaangle,alpha angle,1,2,up,down|up,general,general|hEDS,3,up,up,True
+c1esteraseinhibitor,C1-esterase inhibitor,2,1,down|null,down,dysautonomia|general,multiple,3,down,down,True
+angioidstreaks,angioid streaks,1,2,up,null|up,EDS_hypermobility,EDS_unspecified_or_mixed|general,3,up,up,True
+G:Smad3,Smad3,2,1,down,down,EDS_hypermobility|general,EDS_other_type,3,down,down,True
+fibrillin2,fibrillin 2,1,2,down,down,general,EDS_other_type,3,down,down,True
+bupivacaine,bupivacaine,2,1,null|up,down,dysautonomia|general,EDS_unspecified_or_mixed,3,up,down,False
+collagentypeiv,collagen type IV,1,2,down,down|null,general,EDS_other_type,3,down,down,True
+collagentypeialpha1col1a1,collagen type I alpha 1 (Col1a1),2,1,null,down,general,EDS_other_type,3,,,
+centralfatigue,central fatigue,1,1,up,up,EDS_hypermobility,HSD,2,up,up,True
+sympatheticnerveactivity,sympathetic nerve activity,1,1,up,up,dysautonomia,general,2,up,up,True
+sympatheticnervoussystemtone,sympathetic nervous system tone,1,1,up,up,POTS,general,2,up,up,True
+symptomaticjointhypermobility,symptomatic joint hypermobility,1,1,up,up,multiple,hypermobility_unspecified,2,up,up,True
+syringomyelia,syringomyelia,1,1,up,null,general,general,2,,,
+cerebrospinalfluid,cerebrospinal fluid,1,1,up,up,migraine,EDS_other_type,2,up,up,True
+G:TP53,TP53,1,1,up,up,ME_CFS,EDS_unspecified_or_mixed,2,up,up,True
+mucopolysaccharide,mucopolysaccharide,1,1,up,up,general,EDS_other_type,2,up,up,True
+sympatheticarousal,sympathetic arousal,1,1,up,down,autism,general,2,,,
+smad158,Smad1/5/8,1,1,down,null,fibromyalgia,EDS_other_type,2,,,
+sf36painsubscale,SF-36 Pain subscale,1,1,up,null,migraine,multiple,2,,,
+cornealnervefiber,corneal nerve fiber,1,1,down,down,migraine,general,2,down,down,True
+cornealepithelialcelldensity,corneal epithelial cell density,1,1,down,down,fibromyalgia,hEDS,2,down,down,True
+shoulderexternalrotationstrength,shoulder external rotation strength,1,1,up,up,general,HSD,2,,,
+connectivetissuedisorder,connective tissue disorder,1,1,up,up,multiple,hypermobility_unspecified,2,up,up,True
+complementfactordcfd,complement factor D (CFD),1,1,up,up,EDS_hypermobility,hEDS,2,up,up,True
+complementcomponentc9,complement component C9,1,1,down,up,ME_CFS,hEDS,2,down,up,False
+complementc4b,Complement C4B,1,1,up,down,long_COVID,general,2,up,down,False
+collagenxi,collagen XI,1,1,down|null,down,EDS_hypermobility,EDS_other_type,2,down,down,True
+collagentypevalpha1chain,collagen type V alpha 1 chain,1,1,down,down,EDS_hypermobility,EDS_other_type,2,down,down,True
+sleepdisorderedbreathing,sleep-disordered breathing,1,1,null,up,autism,EDS_unspecified_or_mixed,2,,,
+collagentypeialpha1,collagen type I alpha 1,1,1,down|up,down,general,EDS_other_type,2,up,down,False
+collagengelcontraction,collagen gel contraction,1,1,down,up,general,EDS_other_type,2,down,up,False
+superiormesentericartery,superior mesenteric artery,1,1,null,down,EDS_hypermobility,hEDS,2,,,
+socialfunctioning,social functioning,1,1,null,down,multiple,hEDS,2,,,
+G:TNXA,TNXA,1,1,null|up,null,EDS_hypermobility,EDS_unspecified_or_mixed,2,,,
+coagulationfactors,coagulation factors,1,1,up,null,general,hEDS,2,,,
+cjunnterminalkinase,c-Jun N-terminal kinase,1,1,down,up,MCAS,EDS_other_type,2,,,
+spine,spine,1,1,up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+chiarimalformation,Chiari malformation,1,1,up,null,EDS_hypermobility,general,2,,,
+cfiber,C-fiber,1,1,down,down,dysautonomia,EDS_unspecified_or_mixed|general,2,down,down,True
+statin,statin,1,1,down,down,MCAS,general,2,,,
+subjectivevisualvertical,subjective visual vertical,1,1,null|up,null|up,migraine,hEDS,2,up,up,True
+sudomotorindex,sudomotor index,1,1,down,null,dysautonomia,hypermobility_unspecified,2,,,
+suicideattempt,suicide attempt,1,1,up,down|up,general,EDS_unspecified_or_mixed|HSD,2,up,down,False
+sulcusangle,sulcus angle,1,1,null,up,general,general,2,,,
+carpaltunnelsyndrome,carpal tunnel syndrome,1,1,up,up,small_fiber_neuropathy,hypermobility_unspecified,2,up,up,True
+thumbjoint,thumb joint,1,1,up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+systolicbloodpressureresponsetocoldpressortest,Systolic blood pressure response to cold pressor test,1,1,down,null,POTS|migraine,HSD,2,,,
+ascendingaortadiameter,ascending aorta diameter,1,1,null,up,general,EDS_other_type,2,,,
+arcuatefasciculus,arcuate fasciculus,1,1,down|up,up,ME_CFS|autism,hEDS,2,up,up,True
+aorticaneurysm,aortic aneurysm,1,1,up,down,general,general,2,,,
+uveitis,uveitis,1,1,down,down,general,hypermobility_unspecified,2,down,down,True
+vascularcelladhesionmolecule1,vascular cell adhesion molecule-1,1,1,null,up,long_COVID,EDS_other_type,2,,,
+vascularehlersdanlossyndrome,vascular Ehlers-Danlos syndrome,1,1,up,up,EDS_hypermobility,EDS_other_type,2,up,up,True
+anklesprainrecurrence,ankle sprain recurrence,1,1,down,up,EDS_hypermobility,hypermobility_unspecified,2,,,
+vertebralartery,vertebral artery,1,1,up,up,general,EDS_unspecified_or_mixed,2,up,up,True
+vertebralfracture,vertebral fracture,1,1,down,up,MCAS,multiple,2,down,up,False
+vertebraltortuosityindex,Vertebral Tortuosity Index,1,1,down,null|up,EDS_hypermobility,general|multiple,2,down,up,False
+ankledorsiflexionstrength,ankle dorsiflexion strength,1,1,up,up,general,general,2,up,up,True
+visualanaloguescalepainscore,Visual Analogue Scale pain score,1,1,up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+angiotensinreceptorblocker,angiotensin receptor blocker,1,1,up,null,migraine,EDS_other_type,2,,,
+americanshoulderandelbowsurgeonsscore,American Shoulder and Elbow Surgeons score,1,1,up,up,EDS_hypermobility,multiple,2,,,
+alphaadrenergicandbetaadrenergicreceptors,alpha-adrenergic and beta-adrenergic receptors,1,1,down,up,dysautonomia,hEDS,2,down,up,False
+agoraphobia,agoraphobia,1,1,up,up,IBS_gut|fibromyalgia,HSD,2,up,up,True
+vitamind3cholecalciferol,vitamin D3 (cholecalciferol),1,1,down,down,MCAS,hEDS,2,,,
+ageatdiagnosis,age at diagnosis,1,1,up,down,MCAS,EDS_other_type,2,up,down,False
+G:filaggrin,filaggrin,1,1,up,down,MCAS,hEDS,2,,,
+adiposetissue,adipose tissue,1,1,down,down,autism,EDS_other_type,2,down,down,True
+actinstressfibers,actin stress fibers,1,1,up,down,EDS_hypermobility,EDS_other_type,2,up,down,False
+wholeguttransittime,Whole-gut transit time,1,1,up,null,IBS_gut,multiple,2,,,
+abdominalaortadiameter,abdominal aorta diameter,1,1,up,null,multiple,EDS_unspecified_or_mixed,2,,,
+wristjoint,wrist joint,1,1,up,down|up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+xerophthalmia,xerophthalmia,1,1,up,up,small_fiber_neuropathy,hEDS,2,up,up,True
+yearsofeducation,years of education,1,1,down,up,long_COVID,general,2,down,up,False
+typexivcollagen,type XIV collagen,1,1,down,down,EDS_hypermobility,EDS_other_type,2,down,down,True
+typeiiiiandvprocollagen,"type I, III, and V procollagen",1,1,null,null,EDS_hypermobility,hEDS,2,,,
+calciumphosphate,calcium phosphate,1,1,up,up,EDS_hypermobility,EDS_unspecified_or_mixed,2,up,up,True
+G:AQP9,AQP9,1,1,up,up,EDS_hypermobility,hEDS,2,up,up,True
+G:TTN,TTN,1,1,up,up,POTS,HSD,2,up,up,True
+temporomandibularjointdisorder,temporomandibular joint disorder,1,1,null|up,null,general|migraine,hypermobility_unspecified,2,,,
+temporomandibularjointdysfunction,temporomandibular joint dysfunction,1,1,up,null|up,migraine,hypermobility_unspecified,2,up,up,True
+tenascinxtnxb,Tenascin-X (TNXB),1,1,down,down,EDS_hypermobility,EDS_other_type,2,down,down,True
+tenderpointcount,tender point count,1,1,down,up,fibromyalgia,hypermobility_unspecified,2,down,up,False
+teriparatide,teriparatide,1,1,up,up,general,general,2,,,
+tgf2,TGF-β2,1,1,down,up,general,EDS_other_type,2,down,up,False
+tgfbeta2,TGF-beta2,1,1,up,up,general,EDS_other_type,2,up,up,True
+tgfbetasignalingpathway,TGF-beta signaling pathway,1,1,up,null,EDS_hypermobility,EDS_other_type,2,,,
+bruxism,bruxism,1,1,up,null,migraine,hypermobility_unspecified,2,,,
+sexratio,sex ratio,1,1,up,up,multiple,EDS_unspecified_or_mixed,2,up,up,True
+bodilypain,bodily pain,1,1,up,down,fibromyalgia,hEDS,2,,,
+tlymphocyte,T lymphocyte,1,1,up,up,general,EDS_other_type,2,up,up,True
+totaloxidantstatus,total oxidant status,1,1,up,up,fibromyalgia,hypermobility_unspecified,2,up,up,True
+bleomycin,bleomycin,1,1,up,down,general,EDS_other_type,2,,,
+biologicagents,biologic agents,1,1,null,up,EDS_hypermobility,EDS_unspecified_or_mixed,2,,,
+betaadrenergicreceptor,beta-adrenergic receptor,1,1,down,up,general,HSD,2,down,up,False
+G:ZEB1,ZEB1,1,1,up,null,ME_CFS,general,2,,,
+G:ZEB2,ZEB2,1,1,down|up,down|null,general,EDS_other_type|EDS_unspecified_or_mixed|general,2,up,down,False
+averagepainintensity,average pain intensity,1,1,down,down|null,multiple,HSD,2,,,
+autoimmunedisorder,autoimmune disorder,1,1,null|up,up,multiple,multiple,2,up,up,True
+trunkmuscleendurance,trunk muscle endurance,1,1,up,up,EDS_hypermobility,HSD,2,,,
+asthenicbodytype,asthenic body type,1,1,up,up,EDS_hypermobility,general,2,up,up,True
+typeiandtypeiiiprocollagen,type I and type III procollagen,1,1,down,null,EDS_hypermobility,EDS_other_type,2,,,
+G:ATP7A,ATP7A,1,1,down,up,general,EDS_other_type,2,down,up,False
+sf36healthrelatedqualityoflife,SF-36 health-related quality of life,1,1,up,down,fibromyalgia,multiple,2,up,down,False
+relaxin2,relaxin-2,1,1,null|up,null|up,general,hypermobility_unspecified,2,,,
+sexhormonebindingglobulin,sex-hormone-binding globulin,1,1,up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+hipjointcapsule,hip joint capsule,1,1,down|up,down|up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+G:CFD,CFD,1,1,down|null|up,up,fibromyalgia,hEDS,2,down,up,False
+painfreemouthopening,pain-free mouth opening,1,1,down,down,EDS_hypermobility,hEDS,2,down,down,True
+infertility,infertility,1,1,up,up,ME_CFS,multiple,2,up,up,True
+painselfefficacy,pain self-efficacy,1,1,up,up,multiple,hypermobility_unspecified,2,,,
+hyperhidrosis,hyperhidrosis,1,1,up,null,dysautonomia,HSD,2,,,
+hyaluronansynthase2,hyaluronan synthase 2,1,1,up,up,general,EDS_other_type,2,,,
+pancreas,pancreas,1,1,up,up,long_COVID,general,2,,,
+hvinterval,HV interval,1,1,up,up,dysautonomia,hEDS,2,up,up,True
+hospitallengthofstay,hospital length of stay,1,1,up,up,long_COVID,hypermobility_unspecified,2,up,up,True
+3015ratio,30/15 ratio,1,1,down,null,dysautonomia,hEDS,2,,,
+hmaxmmaxratio,Hmax/Mmax ratio,1,1,null,null,fibromyalgia,hypermobility_unspecified,2,,,
+patellartendonautograft,Patellar-tendon autograft,1,1,up,down|up,EDS_hypermobility,hypermobility_unspecified,2,,,
+patellartendonstiffness,patellar tendon stiffness,1,1,up,null,EDS_hypermobility,multiple,2,,,
+patientsatisfaction,Patient satisfaction,1,1,up,null,migraine,EDS_unspecified_or_mixed,2,,,
+pivotshifttest,pivot shift test,1,1,down,null,EDS_hypermobility,hypermobility_unspecified,2,,,
+hipinternalrotationrangeofmotion,hip internal rotation range of motion,1,1,down,up,general,hypermobility_unspecified,2,down,up,False
+heds,hEDS,1,1,up,up,EDS_hypermobility,hEDS,2,up,up,True
+pelvictilt,Pelvic Tilt,1,1,down,null,general,hEDS,2,,,
+periodiclimbmovements,Periodic limb movements,1,1,up,null|up,migraine,EDS_unspecified_or_mixed|general,2,up,up,True
+G:HAPLN1,HAPLN1,1,1,up,down|up,general,EDS_other_type|general,2,up,up,True
+healthrelatedqualityoflifeeqvas,health-related quality of life (EQ-VAS),1,1,up,null,EDS_hypermobility,HSD,2,,,
+personalitydisorder,personality disorder,1,1,up,up,fibromyalgia,hEDS,2,up,up,True
+halluxvalgusangle,hallux valgus angle,1,1,up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+phosphorylatederkperk,phosphorylated ERK (p-ERK),1,1,up,up,MCAS,EDS_other_type,2,up,up,True
+haematocrit,haematocrit,1,1,down|null,down,long_COVID,general,2,down,down,True
+G:MMP13,MMP13,1,1,up,up,general,EDS_unspecified_or_mixed,2,up,up,True
+glucosamine,glucosamine,1,1,up,down,multiple,multiple,2,,,
+physicalhealthrelatedqualityoflife,physical health-related quality of life,1,1,down,down,long_COVID,hEDS,2,down,down,True
+intermetatarsalangle,intermetatarsal angle,1,1,up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+G:relaxin,relaxin,1,1,up,null|up,EDS_hypermobility,HSD,2,up,up,True
+kneeanteroposteriorlaxity,knee anteroposterior laxity,1,1,down,down,EDS_hypermobility,hypermobility_unspecified,2,,,
+osteocalcin,osteocalcin,1,1,up,null,general,EDS_other_type,2,,,
+mooddisorder,mood disorder,1,1,up,up,long_COVID,multiple,2,up,up,True
+G:COL22A1,COL22A1,1,1,down|up,up,general,general,2,,,
+musculoskeletaldrugs,musculoskeletal drugs,1,1,up,up,long_COVID,multiple,2,up,up,True
+midazolam,midazolam,1,1,down,up,multiple,HSD,2,,,
+medialpatellofemoralligament,medial patellofemoral ligament,1,1,up,down|null,general,HSD|hypermobility_unspecified,2,up,down,False
+myelinatedsciaticnervefibers,myelinated sciatic nerve fibers,1,1,null,down,small_fiber_neuropathy,EDS_other_type,2,,,
+mechanicalwithdrawalthreshold,mechanical withdrawal threshold,1,1,down|null,down|up,migraine,EDS_other_type|general,2,,,
+myofascialpain,myofascial pain,1,1,down,up,multiple,multiple,2,,,
+matrixmetallopeptidase9,matrix metallopeptidase-9,1,1,up,up,migraine,hEDS,2,up,up,True
+negativeaffectpanas,Negative Affect (PANAS),1,1,up,up,long_COVID,multiple,2,,,
+neurogenicbladder,neurogenic bladder,1,1,up,up,EDS_hypermobility,HSD,2,up,up,True
+lysine,lysine,1,1,up,down,fibromyalgia,EDS_other_type,2,up,down,False
+G:COL15A1,COL15A1,1,1,null,down,general,EDS_other_type,2,,,
+loweresophagealsphincterpressure,lower esophageal sphincter pressure,1,1,null,down,dysautonomia,HSD,2,,,
+nmethyldaspartatereceptor,N-methyl-D-aspartate receptor,1,1,null|up,up,migraine,EDS_unspecified_or_mixed,2,,,
+localizedjointhypermobility,localized joint hypermobility,1,1,null,up,EDS_hypermobility,hypermobility_unspecified,2,,,
+lipidperoxidation,lipid peroxidation,1,1,up,up,ME_CFS,EDS_unspecified_or_mixed,2,up,up,True
+ligamentouslaxity,ligamentous laxity,1,1,down|null,up,EDS_hypermobility,hypermobility_unspecified,2,down,up,False
+leftventricularenddiastolicvolume,left ventricular end-diastolic volume,1,1,down,up,long_COVID,hypermobility_unspecified,2,down,up,False
+obstructivesleepapnoea,obstructive sleep apnoea,1,1,up,up,EDS_hypermobility,multiple,2,up,up,True
+olfactorybulb,olfactory bulb,1,1,down,down,long_COVID,general,2,down,down,True
+leanmass,lean mass,1,1,up,null,dysautonomia,multiple,2,,,
+lateralcenteredgeangle,lateral center-edge angle,1,1,up,down,EDS_hypermobility,hypermobility_unspecified,2,up,down,False
+kneeflexorpeaktorque,knee flexor peak torque,1,1,down,down,long_COVID,hypermobility_unspecified,2,down,down,True
+G:CHST3,CHST3,1,1,down,down,general,general,2,down,down,True
+kneeextensormuscletorque,knee extensor muscle torque,1,1,down|up,down,EDS_hypermobility,hypermobility_unspecified,2,down,down,True
+osteoblast,osteoblast,1,1,down,down,general,EDS_other_type,2,down,down,True
+physicaltherapy,physical therapy,1,1,down,null,long_COVID,hypermobility_unspecified,2,,,
+plasmablasts,plasmablasts,1,1,down,up,general,hEDS,2,down,up,False
+corticalbonearea,cortical bone area,1,1,down,down,EDS_hypermobility,multiple,2,down,down,True
+respirationrate,respiration rate,1,1,down,up,POTS|dysautonomia,hEDS,2,,,
+emotionfocusedcoping,emotion-focused coping,1,1,up,up,long_COVID,hypermobility_unspecified,2,up,up,True
+pwave,P wave,1,1,down,up,multiple,EDS_other_type,2,,,
+elbowflexionrangeofmotion,elbow flexion range of motion,1,1,down,down,autism,general,2,down,down,True
+quadricepsangle,Quadriceps angle,1,1,null|up,up,EDS_hypermobility,hypermobility_unspecified,2,up,up,True
+echistatin,echistatin,1,1,down,down,MCAS,general,2,,,
+raceethnicity,race/ethnicity,1,1,null,down,long_COVID,hypermobility_unspecified,2,,,
+dsepi1dse,DS-epi1 (Dse),1,1,down,down|null,EDS_hypermobility,EDS_other_type,2,,,
+dolichostenomelia,dolichostenomelia,1,1,up,up,EDS_hypermobility,general,2,up,up,True
+G:C1r,C1r,1,1,down,down|null,EDS_hypermobility,EDS_other_type,2,down,down,True
+dnamethyltransferase,DNA methyltransferase,1,1,up,up,general,EDS_other_type,2,,,
+rectusfemoris,rectus femoris,1,1,down,up,long_COVID,multiple,2,down,up,False
+disability,disability,1,1,down,up,long_COVID,hypermobility_unspecified,2,,,
+motorperformance,motor performance,1,1,down,null,EDS_hypermobility,hypermobility_unspecified,2,,,
+respiratoryfailure,respiratory failure,1,1,up,null,long_COVID,EDS_unspecified_or_mixed,2,,,
+plasmaviscosity,plasma viscosity,1,1,up,null|up,general,hypermobility_unspecified,2,up,up,True
+G:C1S,C1S,1,1,down,down|null|up,EDS_hypermobility,EDS_other_type,2,,,
+retina,retina,1,1,up,up,autism,EDS_other_type,2,up,up,True
+detrusoroveractivity,detrusor overactivity,1,1,up,null,dysautonomia,hypermobility_unspecified,2,,,
+dermatansulfatedisaccharides,dermatan sulfate disaccharides,1,1,down,down,EDS_hypermobility,EDS_other_type,2,down,down,True
+rolelimitationsduetophysicalhealthsf36subscale,Role Limitations due to Physical Health (SF-36 subscale),1,1,up,up,long_COVID,hEDS,2,,,
+dermalcollagencontent,dermal collagen content,1,1,down,down,general,EDS_other_type,2,,,
+depressionscore,depression score,1,1,up,up,long_COVID,multiple,2,up,up,True
+G:TAB2,TAB2,1,1,down,down,general,EDS_unspecified_or_mixed,2,down,down,True
+satisfactionwithsocialrolesandactivities,Satisfaction with social roles and activities,1,1,down,down,multiple,EDS_unspecified_or_mixed,2,down,down,True
+schirmeritest,Schirmer I test,1,1,null,down,small_fiber_neuropathy,hEDS,2,,,
+schirmertest,Schirmer test,1,1,null,null,fibromyalgia,hypermobility_unspecified,2,,,
+dendriticcell,dendritic cell,1,1,up,down|null,general,EDS_other_type,2,up,down,False
+degenerativejointdisease,degenerative joint disease,1,1,down|up,up,general,hEDS,2,up,up,True
+pulmonaryvalve,pulmonary valve,1,1,up,up,general,EDS_other_type,2,up,up,True
+eosinophilicesophagitis,eosinophilic esophagitis,1,1,up,up,EDS_hypermobility,general,2,up,up,True
+G:SELENBP1,SELENBP1,1,1,up,up,EDS_hypermobility,hEDS,2,up,up,True
+epidermalgrowthfactor,epidermal growth factor,1,1,down,down,autism,general,2,,,
+glaucoma,glaucoma,1,1,up,up,EDS_hypermobility,EDS_other_type,2,up,up,True
+gastricemptyingrate,gastric emptying rate,1,1,up,null,general,hypermobility_unspecified,2,,,
+functionaldisabilityinventoryscore,Functional Disability Inventory score,1,1,down,down,EDS_hypermobility,multiple,2,,,
+fullscaleiq,Full Scale IQ,1,1,down,null,autism,general,2,,,
+plateletdensegranules,platelet dense granules,1,1,down,down,POTS,EDS_other_type,2,down,down,True
+freefattyacids,free fatty acids,1,1,up,up,migraine,EDS_other_type,2,,,
+polycysticovarysyndrome,polycystic ovary syndrome,1,1,null,null,general,multiple,2,,,
+polymorphonuclearleukocytes,polymorphonuclear leukocytes,1,1,up,null,multiple,hEDS,2,,,
+positiveaffectpanas,Positive Affect (PANAS),1,1,up,down,long_COVID,multiple,2,,,
+flecainide,flecainide,1,1,down,down,EDS_hypermobility,multiple,2,,,
+postprandialdistresssyndrome,postprandial distress syndrome,1,1,up,up,fibromyalgia|multiple,hypermobility_unspecified,2,up,up,True
+filumterminale,filum terminale,1,1,down,null|up,EDS_hypermobility,EDS_unspecified_or_mixed|general,2,down,up,False
+posturaltachycardia,postural tachycardia,1,1,up,down,POTS|autism,EDS_other_type,2,,,
+prednisone,prednisone,1,1,down|null,down,migraine,hEDS,2,,,
+pregnancy,pregnancy,1,1,null,up,migraine,hypermobility_unspecified,2,,,
+G:NFKBIA,NFKBIA,1,1,up,down,ME_CFS,multiple,2,up,down,False
+procollageniii,procollagen III,1,1,up,down,EDS_hypermobility,EDS_other_type,2,up,down,False
+progesteronereceptor,progesterone receptor,1,1,up,up,fibromyalgia,general,2,,,
+fibroblastproliferation,fibroblast proliferation,1,1,null,down,general,EDS_other_type,2,,,
+prolactinreceptorprlr,prolactin receptor (PRLR),1,1,up,down,EDS_hypermobility,hEDS,2,up,down,False
+femoralanteversionangle,femoral anteversion angle,1,1,up,up,general,hypermobility_unspecified,2,up,up,True
+fatfreemass,fat-free mass,1,1,up,null,general,hypermobility_unspecified,2,,,
+ethnicity,ethnicity,1,1,up,up,general,hypermobility_unspecified,2,up,up,True
+proteoglycans,proteoglycans,1,1,up,up,EDS_hypermobility,general,2,up,up,True
+epworthsleepinessscale,Epworth Sleepiness Scale,1,1,down,null,dysautonomia,multiple,2,,,
+psoriaticarthritis,psoriatic arthritis,1,1,up,up,general,hEDS,2,up,up,True
+psychiatricdisorder,psychiatric disorder,1,1,null|up,up,ME_CFS|fibromyalgia|multiple,multiple,2,up,up,True
+kidney,kidney,1,1,down,down,long_COVID,EDS_other_type,2,down,down,True

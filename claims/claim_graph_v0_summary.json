@@ -1,0 +1,50 @@
+{
+ "basis": "claim graph v0 (2026-10-21): rows carrying an entity in pots-findings v1.1 (148,186 rows) and eds-findings all tiers (22,961 rows); entity canonicalized with pipeline/crosstier_vocab.group_key (punctuation/case skeleton, case-protected gene symbols; kind evidence from both corpora); claim = (corpus, canonical entity, condition bucket, reference frame in {disease-state, intervention}, direction in {up, down, null}); support = distinct papers; contradiction = same corpus/entity/condition/reference with up and down asserted by disjoint paper sets",
+ "rows_with_entity": {
+  "pots-findings": 89381,
+  "eds-findings": 15917
+ },
+ "raw_entity_strings": 43736,
+ "canonical_entities": 40321,
+ "directional_rows_with_reference": 69702,
+ "by_reference": {
+  "disease-state": 52882,
+  "intervention": 16820
+ },
+ "claims": 44974,
+ "claims_by_corpus": {
+  "pots-findings": 39872,
+  "eds-findings": 5102
+ },
+ "claims_support": {
+  "1 paper": 40196,
+  "2": 2744,
+  "3-4": 1244,
+  "5-9": 548,
+  "10+": 242
+ },
+ "entity_condition_reference_cells": 39819,
+ "contradicted_cells": 1303,
+ "contradicted_by_corpus": {
+  "pots-findings": 1177,
+  "eds-findings": 126
+ },
+ "contradicted_by_reference": {
+  "disease-state": 957,
+  "intervention": 346
+ },
+ "contradicted_strength_ge2": 272,
+ "contradicted_strength_ge3": 111,
+ "effect_vs_null_tension_cells": 1048,
+ "entities_in_both_corpora": 822,
+ "entities_in_both_ge3_each": 134,
+ "disease_state_majority_direction_pairs": 603,
+ "concordant_pairs": 465,
+ "discordant_pairs": 138,
+ "caveats": [
+  "direction and reference are the extractor's fields; a contradiction is a candidate for human reading, not a verdict",
+  "canonicalization is a punctuation/case skeleton (43,736 -> 40,321 strings); synonyms such as 'HR'/'heart rate' or 'IL-6'/'interleukin-6' are NOT merged in v0, so support counts are lower bounds and some contradictions may be split across spellings",
+  "condition buckets are not crosswalked between corpora; cross-corpus tables are by entity",
+  "a 'contradiction' between papers can be a real disagreement in the literature, a population or assay difference, or an extraction error \u2014 the human read decides which"
+ ]
+}

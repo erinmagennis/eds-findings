@@ -1,0 +1,1049 @@
+corpus,canon,condition,ref,n_up_papers,n_down_papers,n_papers_asserting_both,n_null_papers,n_effect_papers,entity_example
+pots-findings,intraepidermalnervefiberdensity,small_fiber_neuropathy,disease-state,0,52,4,3,56,intraepidermal nerve fiber density
+pots-findings,histamine,MCAS,disease-state,45,0,1,4,46,Histamine
+pots-findings,epsteinbarrvirus,long_COVID,disease-state,39,0,0,5,39,Epstein-Barr virus
+pots-findings,G:tryptase,MCAS,disease-state,37,0,0,3,37,tryptase
+eds-findings,lysylhydroxylase,EDS_other_type,disease-state,0,34,2,15,36,lysyl hydroxylase
+pots-findings,G:TPSAB1,MCAS,disease-state,36,0,0,2,36,TPSAB1
+pots-findings,dyspnea,long_COVID,disease-state,29,0,1,2,30,dyspnea
+pots-findings,mastcells,IBS_gut,disease-state,29,0,0,3,29,Mast cells
+pots-findings,alphasynuclein,dysautonomia,disease-state,27,0,1,3,28,alpha-synuclein
+eds-findings,collagentypeiii,EDS_other_type,disease-state,0,26,0,1,26,collagen type III
+pots-findings,creactiveprotein,general,disease-state,25,0,0,4,25,C-reactive protein
+pots-findings,tnfalpha,general,disease-state,22,0,0,3,22,TNF-alpha
+pots-findings,lactate,ME_CFS,disease-state,22,0,0,2,22,lactate
+pots-findings,jointhypermobility,EDS_hypermobility,disease-state,21,0,1,3,22,Joint hypermobility
+pots-findings,irritablebowelsyndrome,IBS_gut,disease-state,21,0,0,1,21,Irritable bowel syndrome
+pots-findings,depression,general,disease-state,18,0,1,1,19,depression
+pots-findings,obesity,long_COVID,disease-state,18,0,0,2,18,obesity
+pots-findings,neurofilamentlightchain,long_COVID,disease-state,17,0,0,4,17,neurofilament light chain
+pots-findings,G:Serotonin,fibromyalgia,disease-state,0,15,1,1,16,Serotonin
+pots-findings,vonwillebrandfactor,long_COVID,disease-state,16,0,0,1,16,von Willebrand factor
+pots-findings,asthma,long_COVID,disease-state,16,0,0,2,16,asthma
+pots-findings,substancep,fibromyalgia,disease-state,15,0,0,1,15,Substance P
+pots-findings,intraepidermalnervefiberdensityienfd,small_fiber_neuropathy,disease-state,0,14,0,3,14,Intraepidermal nerve fiber density (IENFD)
+pots-findings,pnn50,dysautonomia,disease-state,0,14,0,1,14,pNN50
+pots-findings,epsteinbarrvirus,ME_CFS,disease-state,14,0,0,1,14,Epstein-Barr virus
+pots-findings,supinehypertension,dysautonomia,disease-state,14,0,0,1,14,Supine hypertension
+pots-findings,insomnia,long_COVID,disease-state,13,0,0,4,13,insomnia
+pots-findings,cognitiveimpairment,long_COVID,disease-state,13,0,0,1,13,cognitive impairment
+eds-findings,dermatansulfate,EDS_other_type,disease-state,0,12,0,1,12,dermatan sulfate
+pots-findings,mastcellactivationsyndrome,MCAS,disease-state,12,0,0,1,12,Mast cell activation syndrome
+eds-findings,lysylhydroxylase1,EDS_other_type,disease-state,0,12,0,1,12,lysyl hydroxylase 1
+pots-findings,chronicfatiguesyndrome,ME_CFS,disease-state,12,0,0,2,12,Chronic fatigue syndrome
+pots-findings,neurogenicorthostatichypotension,dysautonomia,disease-state,11,0,0,1,11,neurogenic orthostatic hypotension
+pots-findings,qualityoflife,long_COVID,disease-state,0,11,0,1,11,quality of life
+eds-findings,lysyloxidase,EDS_other_type,disease-state,0,11,0,1,11,lysyl oxidase
+pots-findings,anxiety,general,disease-state,10,0,1,2,11,anxiety
+pots-findings,epsteinbarrvirus,general,disease-state,11,0,0,4,11,Epstein-Barr virus
+pots-findings,vitamind,long_COVID,disease-state,0,9,1,1,10,vitamin D
+pots-findings,monthlymigrainedays,migraine,intervention,0,9,1,1,10,monthly migraine days
+pots-findings,6minutewalkdistance,long_COVID,intervention,10,0,0,1,10,6-minute walk distance
+pots-findings,droxidopa,dysautonomia,intervention,10,0,0,1,10,droxidopa
+pots-findings,posturalorthostatictachycardiasyndrome,POTS,disease-state,10,0,0,1,10,postural orthostatic tachycardia syndrome
+pots-findings,interleukin10,general,intervention,9,0,0,1,9,interleukin-10
+pots-findings,creactiveprotein,ME_CFS,disease-state,8,0,1,3,9,C-reactive protein
+pots-findings,G:IL10,general,intervention,9,0,0,2,9,IL-10
+pots-findings,restingheartrate,dysautonomia,disease-state,9,0,0,3,9,resting heart rate
+pots-findings,compass31totalscore,dysautonomia,disease-state,9,0,0,1,9,COMPASS-31 total score
+eds-findings,cornea,EDS_other_type,disease-state,0,6,3,1,9,cornea
+pots-findings,depression,fibromyalgia,disease-state,9,0,0,1,9,Depression
+eds-findings,hydroxylysine,EDS_other_type,disease-state,0,9,0,3,9,hydroxylysine
+pots-findings,mastcelltryptase,MCAS,disease-state,9,0,0,1,9,mast cell tryptase
+pots-findings,ganglionicacetylcholinereceptorantibody,dysautonomia,disease-state,9,0,0,4,9,Ganglionic acetylcholine receptor antibody
+pots-findings,G:TNF,MCAS,intervention,0,7,2,1,9,TNF
+pots-findings,myalgia,long_COVID,disease-state,9,0,0,1,9,myalgia
+pots-findings,ntprobnp,long_COVID,disease-state,9,0,0,2,9,NT-proBNP
+pots-findings,sleepdisturbance,long_COVID,disease-state,8,0,0,2,8,sleep disturbance
+pots-findings,vo2peak,long_COVID,disease-state,0,8,0,2,8,VO2 peak
+pots-findings,widespreadpainindex,fibromyalgia,disease-state,7,0,1,1,8,Widespread Pain Index
+pots-findings,sarscov2,general,disease-state,8,0,0,1,8,SARS-CoV-2
+pots-findings,cortisol,multiple,disease-state,0,8,0,1,8,Cortisol
+pots-findings,diffusingcapacityforcarbonmonoxide,long_COVID,disease-state,0,8,0,1,8,diffusing capacity for carbon monoxide
+pots-findings,type2diabetesmellitus,long_COVID,disease-state,8,0,0,1,8,type 2 diabetes mellitus
+pots-findings,dyspnoea,long_COVID,disease-state,8,0,0,2,8,dyspnoea
+pots-findings,alanineaminotransferase,long_COVID,disease-state,8,0,0,1,8,alanine aminotransferase
+pots-findings,histamine,IBS_gut,disease-state,8,0,0,1,8,Histamine
+pots-findings,hereditaryalphatryptasemia,MCAS,disease-state,8,0,0,1,8,Hereditary alpha-tryptasemia
+pots-findings,heartratevariability,fibromyalgia,disease-state,0,8,0,1,8,Heart rate variability
+eds-findings,procollagennproteinase,EDS_other_type,disease-state,0,7,0,1,7,procollagen N-proteinase
+eds-findings,lysylpyridinolinetohydroxylysylpyridinolineratio,EDS_other_type,disease-state,7,0,0,3,7,lysyl pyridinoline to hydroxylysyl pyridinoline ratio
+pots-findings,neurofilamentlightchain,general,disease-state,7,0,0,1,7,Neurofilament light chain
+eds-findings,G:B4GALT7,EDS_other_type,disease-state,0,6,1,2,7,B4GALT7
+pots-findings,metformin,long_COVID,intervention,0,7,0,1,7,Metformin
+pots-findings,6minutewalktestdistance,long_COVID,intervention,7,0,0,1,7,6-minute walk test distance
+pots-findings,lactate,multiple,disease-state,7,0,0,1,7,lactate
+pots-findings,jointpain,long_COVID,disease-state,7,0,0,1,7,joint pain
+pots-findings,ige,general,disease-state,6,0,1,1,7,IgE
+pots-findings,hypertension,general,disease-state,7,0,0,2,7,Hypertension
+pots-findings,G:TenascinX,EDS_hypermobility,disease-state,0,7,0,1,7,Tenascin-X
+pots-findings,heartratevariability,general,intervention,7,0,0,2,7,heart rate variability
+pots-findings,glialfibrillaryacidicprotein,long_COVID,disease-state,7,0,0,1,7,glial fibrillary acidic protein
+pots-findings,dizziness,long_COVID,disease-state,7,0,0,1,7,dizziness
+pots-findings,creactiveprotein,long_COVID,intervention,0,7,0,1,7,C-reactive protein
+pots-findings,creactiveprotein,general,intervention,0,7,0,1,7,C-reactive protein
+pots-findings,catecholamines,dysautonomia,disease-state,7,0,0,1,7,catecholamines
+pots-findings,prostaglandind2,MCAS,disease-state,7,0,0,1,7,Prostaglandin D2
+pots-findings,cardiovascularautonomicneuropathy,dysautonomia,disease-state,7,0,0,2,7,cardiovascular autonomic neuropathy
+pots-findings,serotonin,fibromyalgia,disease-state,0,7,0,1,7,serotonin
+pots-findings,valsalvaratio,dysautonomia,disease-state,0,7,0,3,7,Valsalva ratio
+pots-findings,dopamine,fibromyalgia,disease-state,0,6,0,1,6,Dopamine
+pots-findings,creactiveprotein,EDS_hypermobility,disease-state,6,0,0,2,6,C-reactive protein
+eds-findings,G:PLOD1,EDS_other_type,disease-state,0,6,0,3,6,PLOD1
+pots-findings,antinuclearantibody,general,disease-state,6,0,0,2,6,antinuclear antibody
+pots-findings,heartratevariability,long_COVID,disease-state,0,5,1,1,6,heart rate variability
+pots-findings,heartratevariability,migraine,disease-state,0,6,0,2,6,heart rate variability
+pots-findings,G:TNF,ME_CFS,disease-state,6,0,0,2,6,TNF
+pots-findings,lactate,long_COVID,disease-state,6,0,0,1,6,lactate
+pots-findings,eptinezumab,migraine,intervention,0,3,3,4,6,eptinezumab
+pots-findings,icuadmission,long_COVID,disease-state,6,0,0,1,6,ICU admission
+pots-findings,montrealcognitiveassessmentscore,long_COVID,disease-state,0,6,0,1,6,Montreal Cognitive Assessment score
+pots-findings,cornealnervefiberdensitycnfd,small_fiber_neuropathy,disease-state,0,5,1,2,6,Corneal nerve fiber density (CNFD)
+pots-findings,G:IL8,fibromyalgia,disease-state,6,0,0,2,6,IL-8
+pots-findings,cortisol,IBS_gut,disease-state,6,0,0,1,6,cortisol
+pots-findings,p38mapk,MCAS,intervention,0,6,0,1,6,p38 MAPK
+pots-findings,troponin,long_COVID,disease-state,6,0,0,2,6,troponin
+pots-findings,G:COMT,fibromyalgia,disease-state,5,0,1,1,6,COMT
+pots-findings,fcri,MCAS,disease-state,3,0,3,2,6,FcεRIα
+pots-findings,rheumatoidarthritis,general,disease-state,6,0,0,1,6,rheumatoid arthritis
+pots-findings,qualityoflife,long_COVID,intervention,6,0,0,3,6,quality of life
+pots-findings,calcium,MCAS,intervention,0,5,0,1,5,Calcium
+pots-findings,depression,long_COVID,intervention,0,5,0,1,5,depression
+pots-findings,troponint,long_COVID,disease-state,5,0,0,1,5,troponin T
+pots-findings,avapritinib,MCAS,intervention,0,5,0,1,5,avapritinib
+pots-findings,sodium,dysautonomia,disease-state,0,4,1,1,5,Sodium
+pots-findings,diffusingcapacityofthelungforcarbonmonoxide,long_COVID,disease-state,0,5,0,2,5,diffusing capacity of the lung for carbon monoxide
+pots-findings,G:SCN9A,small_fiber_neuropathy,disease-state,4,0,1,1,5,SCN9A
+pots-findings,extracellularvesicles,ME_CFS,disease-state,5,0,0,1,5,Extracellular vesicles
+pots-findings,G:IL8,ME_CFS,disease-state,5,0,0,1,5,IL-8
+pots-findings,sumatriptan,migraine,intervention,0,5,0,4,5,sumatriptan
+pots-findings,comorbidities,long_COVID,disease-state,5,0,0,2,5,comorbidities
+eds-findings,jointhypermobilitysyndrome,hypermobility_unspecified,disease-state,5,0,0,1,5,joint hypermobility syndrome
+pots-findings,il13,general,disease-state,5,0,0,1,5,IL-13
+pots-findings,sarscov2vaccination,long_COVID,intervention,0,5,0,1,5,SARS-CoV-2 vaccination
+eds-findings,creactiveprotein,EDS_other_type,disease-state,5,0,0,2,5,C-reactive protein
+pots-findings,intraepidermalnervefiber,small_fiber_neuropathy,disease-state,0,5,0,1,5,Intraepidermal nerve fiber
+pots-findings,mitralvalveprolapse,EDS_hypermobility,disease-state,5,0,0,2,5,Mitral valve prolapse
+pots-findings,ampreloxetine,dysautonomia,intervention,3,0,2,1,5,ampreloxetine
+pots-findings,interleukin1beta,general,disease-state,5,0,0,1,5,interleukin-1 beta
+pots-findings,interleukin4,long_COVID,disease-state,5,0,0,1,5,interleukin-4
+pots-findings,cerebralbloodflow,long_COVID,disease-state,0,5,0,1,5,cerebral blood flow
+pots-findings,neurofilamentlightchain,small_fiber_neuropathy,disease-state,5,0,0,1,5,Neurofilament light chain
+pots-findings,G:IL10,fibromyalgia,intervention,5,0,0,1,5,IL-10
+pots-findings,gaba,fibromyalgia,disease-state,0,5,0,1,5,GABA
+pots-findings,creatine,long_COVID,disease-state,0,5,0,1,5,creatine
+pots-findings,gpcrautoantibodies,ME_CFS,disease-state,5,0,0,1,5,GPCR autoantibodies
+pots-findings,acth,ME_CFS,disease-state,0,4,1,1,5,ACTH
+pots-findings,creatinekinase,general,disease-state,5,0,0,1,5,creatine kinase
+pots-findings,cerebrospinalfluidprotein,dysautonomia,disease-state,5,0,0,1,5,Cerebrospinal fluid protein
+pots-findings,G:GBA,dysautonomia,disease-state,5,0,0,1,5,GBA
+pots-findings,rheumatoidfactor,general,disease-state,5,0,0,1,5,rheumatoid factor
+pots-findings,handgripstrength,long_COVID,intervention,5,0,0,1,5,handgrip strength
+pots-findings,oxytocin,autism,intervention,5,0,0,2,5,oxytocin
+pots-findings,helicobacterpylori,general,disease-state,5,0,0,1,5,Helicobacter pylori
+pots-findings,mentalfatigue,long_COVID,disease-state,3,0,2,2,5,mental fatigue
+pots-findings,chronickidneydisease,long_COVID,disease-state,5,0,0,1,5,chronic kidney disease
+pots-findings,olderage,long_COVID,disease-state,5,0,0,1,5,older age
+pots-findings,losartan,general,intervention,0,5,0,1,5,Losartan
+pots-findings,heartrate,general,disease-state,3,0,2,2,5,heart rate
+pots-findings,interleukin8,fibromyalgia,disease-state,5,0,0,1,5,Interleukin-8
+pots-findings,transforminggrowthfactorbeta,long_COVID,disease-state,5,0,0,1,5,transforming growth factor beta
+pots-findings,G:FGFR3,small_fiber_neuropathy,disease-state,5,0,0,1,5,FGFR3
+pots-findings,autonomicdysfunction,long_COVID,disease-state,4,0,0,2,4,autonomic dysfunction
+pots-findings,G:Chymase,MCAS,intervention,0,4,0,1,4,Chymase
+pots-findings,creatine,ME_CFS,intervention,4,0,0,1,4,Creatine
+pots-findings,sex,general,disease-state,3,0,1,2,4,sex
+pots-findings,autismspectrumdisorder,autism,disease-state,4,0,0,1,4,autism spectrum disorder
+pots-findings,interleukin8,migraine,disease-state,3,0,1,1,4,interleukin-8
+pots-findings,G:IL10,ME_CFS,intervention,4,0,0,1,4,IL-10
+pots-findings,creatine,ME_CFS,disease-state,0,4,0,1,4,Creatine
+pots-findings,G:Serotonin,fibromyalgia,intervention,4,0,0,1,4,Serotonin
+eds-findings,collagentypev,EDS_other_type,disease-state,0,4,0,1,4,collagen type V
+pots-findings,G:PACAP,migraine,disease-state,2,0,2,1,4,PACAP
+eds-findings,aorticroot,multiple,disease-state,3,0,1,1,4,aortic root
+pots-findings,alphasmoothmuscleactinsma,general,intervention,0,4,0,1,4,alpha-smooth muscle actin (α-SMA)
+pots-findings,alpha1adrenergicreceptorautoantibody,POTS,disease-state,4,0,0,1,4,alpha-1 adrenergic receptor autoantibody
+pots-findings,albumin,long_COVID,disease-state,0,4,0,1,4,albumin
+eds-findings,aorticroot,EDS_other_type,disease-state,4,0,0,2,4,aortic root
+pots-findings,transthyretin,dysautonomia,disease-state,3,0,1,2,4,Transthyretin
+pots-findings,ganglionicacetylcholinereceptorantibody,POTS,disease-state,4,0,0,2,4,ganglionic acetylcholine receptor antibody
+pots-findings,glutamate,multiple,disease-state,4,0,0,2,4,Glutamate
+pots-findings,acetylcholine,dysautonomia,disease-state,0,4,0,1,4,acetylcholine
+pots-findings,enterovirus,ME_CFS,disease-state,4,0,0,2,4,Enterovirus
+pots-findings,hba1c,general,disease-state,4,0,0,1,4,HbA1c
+pots-findings,heartrate,autism,intervention,4,0,0,1,4,heart rate
+pots-findings,heartrate,fibromyalgia,disease-state,0,3,1,1,4,Heart rate
+pots-findings,antinuclearantibody,long_COVID,disease-state,4,0,0,1,4,antinuclear antibody
+pots-findings,G:TRPM3,ME_CFS,intervention,3,0,1,1,4,TRPM3
+eds-findings,bonemineraldensity,general,disease-state,0,4,0,1,4,bone mineral density
+eds-findings,chondroitinsulfate,EDS_other_type,disease-state,4,0,0,2,4,chondroitin sulfate
+pots-findings,histamine,general,disease-state,4,0,0,1,4,Histamine
+pots-findings,hospitalizationstatus,long_COVID,disease-state,4,0,0,4,4,hospitalization status
+pots-findings,humanherpesvirus6,ME_CFS,disease-state,4,0,0,1,4,Human herpesvirus 6
+pots-findings,il1,fibromyalgia,disease-state,4,0,0,1,4,IL-1β
+pots-findings,il33,general,disease-state,3,0,1,1,4,IL-33
+pots-findings,G:PACAP38,migraine,intervention,4,0,0,1,4,PACAP-38
+pots-findings,creactiveprotein,multiple,disease-state,4,0,0,2,4,C-reactive protein
+pots-findings,epworthsleepinessscalescore,long_COVID,disease-state,4,0,0,1,4,Epworth Sleepiness Scale score
+pots-findings,myalgicencephalomyelitischronicfatiguesyndrome,ME_CFS,disease-state,4,0,0,1,4,myalgic encephalomyelitis/chronic fatigue syndrome
+pots-findings,longcovid,long_COVID,disease-state,4,0,0,1,4,long COVID
+pots-findings,mastcell,migraine,disease-state,4,0,0,1,4,mast cell
+pots-findings,mastcells,migraine,disease-state,4,0,0,3,4,mast cells
+pots-findings,monthlymigrainedays,migraine,disease-state,4,0,0,1,4,monthly migraine days
+pots-findings,cerebralbloodflow,multiple,disease-state,0,4,0,1,4,cerebral blood flow
+pots-findings,oxytocin,general,intervention,2,0,2,1,4,oxytocin
+eds-findings,hemoglobin,EDS_other_type,disease-state,0,4,0,1,4,hemoglobin
+pots-findings,musclestrength,long_COVID,disease-state,0,4,0,1,4,muscle strength
+pots-findings,ccn2ctgf,general,disease-state,3,0,1,1,4,CCN2/CTGF
+eds-findings,generalizedligamentouslaxity,hypermobility_unspecified,disease-state,4,0,0,1,4,generalized ligamentous laxity
+pots-findings,collagentypei,general,intervention,0,4,0,1,4,Collagen type I
+pots-findings,cerebralglucosemetabolism,long_COVID,disease-state,0,4,0,1,4,cerebral glucose metabolism
+pots-findings,G:COL3A1,general,disease-state,3,0,1,1,4,COL3A1
+pots-findings,melatonin,migraine,disease-state,0,4,0,2,4,melatonin
+pots-findings,midostaurin,MCAS,intervention,0,4,0,1,4,midostaurin
+pots-findings,cardiacoutput,dysautonomia,disease-state,0,4,0,1,4,cardiac output
+eds-findings,G:tenascinX,general,disease-state,0,2,2,1,4,tenascin-X
+pots-findings,vitaminb12,dysautonomia,disease-state,0,4,0,1,4,Vitamin B12
+pots-findings,G:ACTA2,general,intervention,0,3,1,1,4,ACTA2
+pots-findings,hdlcholesterol,small_fiber_neuropathy,disease-state,0,3,0,1,3,HDL cholesterol
+pots-findings,norepinephrine,general,disease-state,2,0,1,1,3,norepinephrine
+pots-findings,tnf,general,disease-state,3,0,0,1,3,TNF-α
+pots-findings,brainglucosemetabolism,long_COVID,disease-state,0,3,0,1,3,brain glucose metabolism
+pots-findings,heartratevariabilityrmssd,dysautonomia,disease-state,0,3,0,1,3,Heart rate variability (RMSSD)
+pots-findings,G:TSLP,MCAS,intervention,0,3,0,3,3,TSLP
+pots-findings,nkcellcytotoxicity,ME_CFS,disease-state,0,3,0,1,3,NK cell cytotoxicity
+pots-findings,heartratevariability,multiple,disease-state,0,3,0,1,3,heart rate variability
+pots-findings,nitricoxide,dysautonomia,disease-state,0,3,0,1,3,nitric oxide
+pots-findings,G:TREM2,dysautonomia,disease-state,3,0,0,1,3,TREM2
+eds-findings,bodymassindex,general,disease-state,3,0,0,1,3,body mass index
+pots-findings,bodymassindex,ME_CFS,disease-state,3,0,0,1,3,Body mass index
+eds-findings,generalisedjointhypermobility,hypermobility_unspecified,disease-state,3,0,0,1,3,generalised joint hypermobility
+eds-findings,ceruloplasmin,EDS_other_type,disease-state,0,3,0,2,3,ceruloplasmin
+pots-findings,antiphospholipidantibodies,general,disease-state,3,0,0,1,3,antiphospholipid antibodies
+pots-findings,levodopaequivalentdailydose,dysautonomia,disease-state,3,0,0,1,3,levodopa equivalent daily dose
+pots-findings,antinuclearantibodies,general,disease-state,3,0,0,2,3,antinuclear antibodies
+pots-findings,G:ChAT,IBS_gut,disease-state,0,3,0,1,3,ChAT
+eds-findings,beightonscore,multiple,disease-state,3,0,0,1,3,Beighton score
+pots-findings,epilepsy,general,disease-state,3,0,0,1,3,epilepsy
+eds-findings,jointlaxity,hypermobility_unspecified,disease-state,3,0,0,1,3,joint laxity
+pots-findings,respiratorysinusarrhythmia,dysautonomia,disease-state,0,2,1,1,3,respiratory sinus arrhythmia
+pots-findings,pyridostigmine,POTS,intervention,0,3,0,2,3,Pyridostigmine
+pots-findings,caspr2antibody,general,disease-state,3,0,0,1,3,CASPR2 antibody
+pots-findings,femalesex,general,disease-state,3,0,0,1,3,female sex
+pots-findings,forcedexpiratoryvolumein1second,long_COVID,disease-state,0,3,0,1,3,forced expiratory volume in 1 second
+eds-findings,hydroxyproline,EDS_other_type,disease-state,0,3,0,1,3,hydroxyproline
+pots-findings,forcedvitalcapacity,long_COVID,intervention,3,0,0,1,3,forced vital capacity
+eds-findings,healthrelatedqualityoflife,hypermobility_unspecified,disease-state,0,3,0,1,3,health-related quality of life
+pots-findings,glutathione,general,disease-state,0,3,0,1,3,Glutathione
+pots-findings,endometriosis,general,disease-state,3,0,0,1,3,endometriosis
+pots-findings,peakoxygenuptakevo2peak,long_COVID,disease-state,0,2,1,1,3,peak oxygen uptake (VO2peak)
+pots-findings,acutecovid19severity,long_COVID,disease-state,3,0,0,1,3,acute COVID-19 severity
+pots-findings,gpcrautoantibodies,long_COVID,disease-state,3,0,0,1,3,GPCR autoantibodies
+pots-findings,gproteincoupledreceptorautoantibodies,long_COVID,disease-state,3,0,0,1,3,G protein-coupled receptor autoantibodies
+pots-findings,antigq1bantibody,dysautonomia,disease-state,2,0,1,2,3,anti-GQ1b antibody
+eds-findings,mitralvalveprolapse,HSD,disease-state,3,0,0,2,3,mitral valve prolapse
+eds-findings,sex,hypermobility_unspecified,disease-state,3,0,0,3,3,sex
+pots-findings,growthhormone,ME_CFS,disease-state,0,3,0,1,3,growth hormone
+pots-findings,chromogranina,MCAS,disease-state,3,0,0,1,3,Chromogranin A
+pots-findings,gripstrength,long_COVID,disease-state,0,3,0,1,3,grip strength
+eds-findings,alphasmoothmuscleactin,multiple,disease-state,3,0,0,1,3,alpha smooth muscle actin
+eds-findings,fibroblast,EDS_other_type,disease-state,0,3,0,1,3,fibroblast
+pots-findings,modifiedmedicalresearchcouncildyspneascale,long_COVID,intervention,0,3,0,1,3,modified Medical Research Council dyspnea scale
+pots-findings,depression,EDS_hypermobility,disease-state,3,0,0,1,3,depression
+pots-findings,insulinlikegrowthfactor1,long_COVID,disease-state,0,3,0,2,3,insulin-like growth factor 1
+pots-findings,123imibg,dysautonomia,disease-state,0,3,0,1,3,123I-MIBG
+eds-findings,fibrillin1,EDS_other_type,disease-state,0,3,0,1,3,fibrillin-1
+pots-findings,cortisol,general,intervention,3,0,0,1,3,cortisol
+pots-findings,dailystepcount,long_COVID,disease-state,0,3,0,2,3,daily step count
+pots-findings,G:IL8,fibromyalgia,intervention,0,3,0,1,3,IL-8
+pots-findings,sdnn,dysautonomia,intervention,3,0,0,1,3,SDNN
+pots-findings,cytomegalovirus,general,disease-state,3,0,0,1,3,Cytomegalovirus
+pots-findings,creatinine,ME_CFS,disease-state,2,0,1,1,3,Creatinine
+pots-findings,atrialfibrillation,general,disease-state,3,0,0,1,3,atrial fibrillation
+pots-findings,G:ATF6,EDS_hypermobility,disease-state,3,0,0,1,3,ATF6
+eds-findings,dermis,EDS_other_type,disease-state,0,3,0,1,3,dermis
+pots-findings,vitamind,fibromyalgia,intervention,0,1,2,1,3,Vitamin D
+pots-findings,G:CCL2,long_COVID,disease-state,3,0,0,1,3,CCL2
+pots-findings,G:CGRP,migraine,intervention,0,3,0,1,3,CGRP
+pots-findings,G:CHST14,EDS_hypermobility,disease-state,0,3,0,1,3,CHST14
+pots-findings,G:COL1A2,EDS_hypermobility,disease-state,0,3,0,2,3,COL1A2
+eds-findings,G:collagen,EDS_unspecified_or_mixed,disease-state,0,3,0,3,3,collagen
+pots-findings,leftventricularejectionfraction,general,disease-state,0,3,0,1,3,left ventricular ejection fraction
+pots-findings,G:ERK,MCAS,intervention,0,3,0,1,3,ERK
+pots-findings,G:CRH,IBS_gut,disease-state,3,0,0,1,3,CRH
+eds-findings,G:decorin,general,intervention,3,0,0,1,3,decorin
+pots-findings,G:NTRK1,dysautonomia,disease-state,0,3,0,1,3,NTRK1
+pots-findings,reactiveoxygenspeciesros,ME_CFS,disease-state,3,0,0,1,3,Reactive oxygen species (ROS)
+eds-findings,transforminggrowthfactorbeta1,EDS_other_type,disease-state,2,0,1,2,3,transforming growth factor beta 1
+pots-findings,bifidobacteriumlongum,IBS_gut,intervention,0,3,0,1,3,Bifidobacterium longum
+eds-findings,skinhyperextensibility,EDS_other_type,disease-state,2,0,1,2,3,skin hyperextensibility
+pots-findings,mortality,long_COVID,disease-state,3,0,0,1,3,mortality
+pots-findings,diabeticautonomicneuropathy,dysautonomia,disease-state,3,0,0,1,3,diabetic autonomic neuropathy
+eds-findings,collagenfibers,EDS_other_type,disease-state,0,3,0,1,3,collagen fibers
+pots-findings,mucosalmastcells,IBS_gut,disease-state,3,0,0,1,3,Mucosal mast cells
+pots-findings,G:Renin,POTS,disease-state,0,3,0,1,3,Renin
+pots-findings,bloodpressure,long_COVID,disease-state,3,0,0,1,3,blood pressure
+pots-findings,sarscov2nucleocapsidprotein,long_COVID,disease-state,3,0,0,1,3,SARS-CoV-2 nucleocapsid protein
+pots-findings,musclesympatheticnerveactivity,POTS,disease-state,3,0,0,2,3,muscle sympathetic nerve activity
+pots-findings,centerofpressure,autism,disease-state,2,0,0,1,2,center of pressure
+pots-findings,diabetesduration,dysautonomia,disease-state,2,0,0,1,2,Diabetes duration
+pots-findings,creatinekinase,EDS_hypermobility,disease-state,2,0,0,1,2,creatine kinase
+pots-findings,catecholamines,general,disease-state,2,0,0,1,2,catecholamines
+pots-findings,epinephrine,dysautonomia,intervention,0,2,0,2,2,Epinephrine
+pots-findings,whitebloodcellcount,general,disease-state,2,0,0,1,2,White blood cell count
+pots-findings,epsteinbarrvirusebv,ME_CFS,disease-state,2,0,0,1,2,Epstein-Barr virus (EBV)
+pots-findings,compass31,dysautonomia,disease-state,2,0,0,1,2,COMPASS-31
+pots-findings,typeiinterferonautoantibodies,long_COVID,disease-state,2,0,0,1,2,type I interferon autoantibodies
+pots-findings,creatinekinase,long_COVID,disease-state,2,0,0,1,2,creatine kinase
+pots-findings,vagusnerve,IBS_gut,intervention,1,0,1,1,2,vagus nerve
+pots-findings,epinephrine,POTS,disease-state,2,0,0,2,2,Epinephrine
+pots-findings,electrodermalactivity,autism,disease-state,0,2,0,1,2,electrodermal activity
+pots-findings,electrochemicalskinconductance,small_fiber_neuropathy,disease-state,0,1,1,1,2,Electrochemical skin conductance
+pots-findings,circulatingendothelialcells,long_COVID,disease-state,2,0,0,1,2,circulating endothelial cells
+pots-findings,citratesynthase,long_COVID,disease-state,0,2,0,1,2,citrate synthase
+pots-findings,cognitivefunction,long_COVID,intervention,2,0,0,1,2,cognitive function
+pots-findings,vitamind,multiple,disease-state,0,2,0,1,2,Vitamin D
+pots-findings,cortisol,dysautonomia,intervention,0,2,0,1,2,cortisol
+pots-findings,eosinophil,MCAS,disease-state,2,0,0,1,2,eosinophil
+pots-findings,trapeziusmuscle,fibromyalgia,disease-state,2,0,0,1,2,Trapezius muscle
+pots-findings,eosinophils,MCAS,intervention,0,2,0,1,2,Eosinophils
+pots-findings,vlfpower,dysautonomia,disease-state,0,2,0,1,2,VLF power
+pots-findings,cognitiveperformance,long_COVID,disease-state,0,2,0,1,2,cognitive performance
+pots-findings,coronaryarterycalciumscore,dysautonomia,disease-state,2,0,0,1,2,coronary artery calcium score
+pots-findings,tyrosinehydroxylase,general,intervention,2,0,0,1,2,Tyrosine hydroxylase
+pots-findings,cortisol,long_COVID,intervention,2,0,0,5,2,cortisol
+pots-findings,connectivetissuedisease,general,disease-state,2,0,0,1,2,connective tissue disease
+pots-findings,tryptasetpsab1,MCAS,disease-state,2,0,0,2,2,Tryptase (TPSAB1)
+pots-findings,hhv6hhv7,ME_CFS,disease-state,2,0,0,1,2,"HHV-6, HHV-7"
+pots-findings,eq5d5lindexscore,long_COVID,disease-state,0,2,0,1,2,EQ-5D-5L index score
+pots-findings,levodopa,dysautonomia,disease-state,2,0,0,1,2,Levodopa
+pots-findings,rocuronium,MCAS,disease-state,2,0,0,1,2,rocuronium
+pots-findings,ropinirole,dysautonomia,intervention,2,0,0,1,2,Ropinirole
+pots-findings,neopterin,long_COVID,disease-state,2,0,0,1,2,Neopterin
+pots-findings,sarscov2antibody,long_COVID,disease-state,2,0,0,3,2,SARS-CoV-2 antibody
+pots-findings,morphine,general,intervention,2,0,0,1,2,morphine
+pots-findings,montrealcognitiveassessment,long_COVID,disease-state,0,2,0,1,2,Montreal Cognitive Assessment
+pots-findings,monthlyheadachedays,migraine,intervention,0,2,0,1,2,monthly headache days
+pots-findings,monocyte,long_COVID,disease-state,2,0,0,1,2,monocyte
+pots-findings,mitochondrialdna,long_COVID,disease-state,2,0,0,2,2,mitochondrial DNA
+pots-findings,melatonin,fibromyalgia,disease-state,0,2,0,1,2,Melatonin
+pots-findings,sarscov2spikeprotein,general,disease-state,2,0,0,1,2,SARS-CoV-2 spike protein
+pots-findings,masitinib,MCAS,intervention,0,2,0,1,2,Masitinib
+pots-findings,lymphocyte,long_COVID,disease-state,0,2,0,1,2,lymphocyte
+pots-findings,losartan,EDS_hypermobility,intervention,1,0,1,1,2,losartan
+pots-findings,locuscoeruleus,dysautonomia,disease-state,0,2,0,2,2,Locus coeruleus
+pots-findings,ligelizumab,MCAS,intervention,0,2,0,4,2,Ligelizumab
+pots-findings,lidocaine,general,intervention,0,2,0,1,2,lidocaine
+pots-findings,lfhfratio,multiple,disease-state,2,0,0,1,2,LF/HF ratio
+pots-findings,lfhfratio,migraine,intervention,0,2,0,2,2,LF/HF ratio
+pots-findings,neuropeptidey,migraine,disease-state,0,1,1,1,2,neuropeptide Y
+pots-findings,neutrophiltolymphocyteratio,long_COVID,disease-state,2,0,0,1,2,neutrophil-to-lymphocyte ratio
+pots-findings,norepinephrine,general,intervention,0,1,1,1,2,norepinephrine
+pots-findings,photophobia,migraine,disease-state,2,0,0,1,2,photophobia
+pots-findings,quilizumab,MCAS,intervention,0,2,0,1,2,Quilizumab
+pots-findings,respiratorysinusarrhythmia,general,disease-state,0,2,0,1,2,respiratory sinus arrhythmia
+pots-findings,prematureventricularcontractions,long_COVID,disease-state,2,0,0,1,2,premature ventricular contractions
+pots-findings,respiratorysymptoms,long_COVID,disease-state,2,0,0,2,2,respiratory symptoms
+pots-findings,posttraumaticstresssymptoms,long_COVID,disease-state,2,0,0,1,2,post-traumatic stress symptoms
+pots-findings,postexertionalmalaise,long_COVID,intervention,0,2,0,1,2,post-exertional malaise
+pots-findings,physicalactivity,long_COVID,intervention,0,2,0,1,2,physical activity
+pots-findings,physicalactivity,long_COVID,disease-state,0,2,0,3,2,physical activity
+pots-findings,painintensity,fibromyalgia,intervention,0,2,0,1,2,pain intensity
+pots-findings,ntprobnp,dysautonomia,disease-state,2,0,0,1,2,NT-proBNP
+pots-findings,painduration,general,disease-state,2,0,0,1,2,pain duration
+pots-findings,paincatastrophizing,fibromyalgia,disease-state,2,0,0,1,2,Pain catastrophizing
+pots-findings,orthostatichypotension,dysautonomia,intervention,0,2,0,4,2,orthostatic hypotension
+pots-findings,orthostaticheartrateincrement,POTS,disease-state,2,0,0,1,2,Orthostatic heart rate increment
+pots-findings,orthostaticdizziness,dysautonomia,disease-state,2,0,0,1,2,Orthostatic dizziness
+pots-findings,obstructivesleepapnea,migraine,disease-state,2,0,0,1,2,obstructive sleep apnea
+pots-findings,rifaximin,IBS_gut,intervention,0,2,0,1,2,Rifaximin
+pots-findings,rmssd,long_COVID,intervention,2,0,0,2,2,RMSSD
+pots-findings,levodopa,general,intervention,2,0,0,1,2,Levodopa
+pots-findings,leftventriculargloballongitudinalstrain,long_COVID,disease-state,0,2,0,1,2,left ventricular global longitudinal strain
+pots-findings,fatigueseverityscale,long_COVID,disease-state,2,0,0,1,2,Fatigue Severity Scale
+pots-findings,ldlcholesterol,dysautonomia,disease-state,0,2,0,1,2,LDL cholesterol
+pots-findings,hervwenv,long_COVID,disease-state,1,0,1,1,2,HERV-W ENV
+pots-findings,tnf,long_COVID,disease-state,2,0,0,1,2,TNF-α
+pots-findings,tnfalpha,fibromyalgia,intervention,0,2,0,1,2,TNF-alpha
+pots-findings,heartraterecoveryhrr,dysautonomia,disease-state,0,2,0,1,2,Heart rate recovery (HRR)
+pots-findings,heartraterecovery,dysautonomia,disease-state,0,2,0,1,2,Heart rate recovery
+pots-findings,heartpalpitations,long_COVID,disease-state,2,0,0,1,2,heart palpitations
+pots-findings,headache,general,disease-state,1,0,1,1,2,headache
+pots-findings,hba1c,IBS_gut,disease-state,2,0,0,1,2,HbA1c
+pots-findings,hadsanxietyscore,long_COVID,disease-state,2,0,0,1,2,HADS-Anxiety score
+pots-findings,growthhormone,long_COVID,intervention,0,1,1,1,2,growth hormone
+pots-findings,growthdifferentiationfactor15,long_COVID,disease-state,2,0,0,1,2,growth differentiation factor-15
+pots-findings,groundglassopacity,long_COVID,disease-state,2,0,0,1,2,ground glass opacity
+pots-findings,graymattervolume,fibromyalgia,disease-state,0,2,0,1,2,gray matter volume
+pots-findings,glucocorticoids,long_COVID,intervention,2,0,0,1,2,glucocorticoids
+pots-findings,tocilizumab,long_COVID,intervention,1,0,1,1,2,tocilizumab
+pots-findings,topiramate,migraine,disease-state,2,0,0,1,2,topiramate
+pots-findings,gad7anxietyscore,long_COVID,disease-state,2,0,0,1,2,GAD-7 anxiety score
+pots-findings,forcedexpiratoryvolumein1second,long_COVID,intervention,2,0,0,1,2,forced expiratory volume in 1 second
+pots-findings,totalcholesterol,IBS_gut,disease-state,2,0,0,1,2,Total cholesterol
+pots-findings,hervwenv,multiple,disease-state,2,0,0,1,2,HERV-W ENV
+pots-findings,hexosaminidase,MCAS,disease-state,2,0,0,2,2,β-hexosaminidase
+pots-findings,hfpowerheartratevariability,dysautonomia,disease-state,0,2,0,1,2,HF power (heart rate variability)
+pots-findings,intraepidermalnervefibredensity,fibromyalgia,disease-state,0,2,0,1,2,intraepidermal nerve fibre density
+pots-findings,larginine,general,intervention,1,0,1,1,2,L-arginine
+pots-findings,serumalbumin,dysautonomia,disease-state,0,2,0,1,2,Serum albumin
+pots-findings,lactate,long_COVID,intervention,0,2,0,1,2,lactate
+pots-findings,carvedilol,dysautonomia,intervention,0,2,0,1,2,carvedilol
+pots-findings,kynurenicacidquinolinicacidratio,ME_CFS,disease-state,0,2,0,1,2,Kynurenic acid/quinolinic acid ratio
+pots-findings,sodium,POTS,disease-state,0,1,1,1,2,Sodium
+pots-findings,stress,general,disease-state,2,0,0,1,2,Stress
+pots-findings,intravenousimmunoglobulin,small_fiber_neuropathy,intervention,0,1,1,3,2,Intravenous immunoglobulin
+pots-findings,stroke,long_COVID,disease-state,2,0,0,1,2,stroke
+pots-findings,hfpowerhighfrequencyhrv,dysautonomia,disease-state,0,2,0,1,2,HF power (high-frequency HRV)
+pots-findings,substancep,migraine,intervention,2,0,0,1,2,substance P
+pots-findings,influenzavirus,ME_CFS,disease-state,2,0,0,1,2,Influenza virus
+pots-findings,sugammadex,MCAS,intervention,0,2,0,1,2,sugammadex
+pots-findings,humanherpesvirus6hhv6,ME_CFS,disease-state,2,0,0,1,2,Human herpesvirus 6 (HHV-6)
+pots-findings,hrv,dysautonomia,disease-state,0,2,0,2,2,HRV
+pots-findings,taurine,long_COVID,disease-state,2,0,0,1,2,Taurine
+pots-findings,highfrequencyheartratevariability,dysautonomia,disease-state,0,2,0,1,2,High-frequency heart rate variability
+pots-findings,rapamycin,general,intervention,0,2,0,1,2,Rapamycin
+pots-findings,kynureninetryptophanratio,ME_CFS,disease-state,0,2,0,1,2,Kynurenine/Tryptophan ratio
+pots-findings,workloadatventilatorythreshold,ME_CFS,disease-state,2,0,0,1,2,workload at ventilatory threshold
+pots-findings,beta2adrenergicreceptorautoantibody,long_COVID,disease-state,2,0,0,1,2,beta-2 adrenergic receptor autoantibody
+pots-findings,bloodpressure,migraine,intervention,0,2,0,1,2,blood pressure
+pots-findings,G:SPTLC1,small_fiber_neuropathy,disease-state,2,0,0,1,2,SPTLC1
+pots-findings,G:TGFBR1,EDS_hypermobility,disease-state,0,2,0,2,2,TGFBR1
+eds-findings,hiprangeofmotion,hypermobility_unspecified,disease-state,2,0,0,1,2,hip range of motion
+pots-findings,G:IKBKAP,dysautonomia,disease-state,0,2,0,1,2,IKBKAP
+eds-findings,bloodpressure,EDS_other_type,disease-state,2,0,0,1,2,blood pressure
+pots-findings,G:ICAM1,ME_CFS,disease-state,2,0,0,2,2,ICAM-1
+pots-findings,alcohol,general,disease-state,0,2,0,1,2,alcohol
+pots-findings,benignjointhypermobilitysyndrome,EDS_hypermobility,disease-state,2,0,0,1,2,Benign joint hypermobility syndrome
+eds-findings,skinextensibility,hypermobility_unspecified,disease-state,2,0,0,1,2,skin extensibility
+pots-findings,age,multiple,disease-state,2,0,0,1,2,Age
+eds-findings,mitralvalve,EDS_other_type,disease-state,2,0,0,2,2,mitral valve
+pots-findings,G:GFAP,dysautonomia,disease-state,2,0,0,3,2,GFAP
+pots-findings,betaendorphin,general,intervention,2,0,0,1,2,beta-endorphin
+pots-findings,G:TNF,long_COVID,disease-state,2,0,0,1,2,TNF
+pots-findings,G:FBN1,EDS_hypermobility,disease-state,1,0,1,1,2,FBN1
+pots-findings,G:TRPM7,ME_CFS,disease-state,1,0,1,1,2,TRPM7
+eds-findings,temporomandibularjoint,hEDS,disease-state,2,0,0,1,2,temporomandibular joint
+pots-findings,age,EDS_hypermobility,disease-state,0,2,0,3,2,Age
+pots-findings,bloodpressure,migraine,disease-state,2,0,0,1,2,blood pressure
+pots-findings,G:IL8,MCAS,disease-state,2,0,0,1,2,IL-8
+pots-findings,aldosterone,dysautonomia,disease-state,0,2,0,1,2,Aldosterone
+pots-findings,G:SIRT1,ME_CFS,intervention,2,0,0,1,2,SIRT1
+pots-findings,apomorphine,dysautonomia,intervention,2,0,0,1,2,Apomorphine
+pots-findings,antinuclearantibodies,ME_CFS,disease-state,2,0,0,1,2,antinuclear antibodies
+pots-findings,antinuclearantibody,fibromyalgia,disease-state,2,0,0,1,2,antinuclear antibody
+pots-findings,antiinterferonautoantibodies,long_COVID,disease-state,2,0,0,1,2,anti-interferon autoantibodies
+eds-findings,plateletcount,EDS_other_type,disease-state,0,2,0,1,2,platelet count
+eds-findings,posturalorthostatictachycardiasyndrome,general,disease-state,2,0,0,1,2,postural orthostatic tachycardia syndrome
+pots-findings,G:PACAP38,migraine,disease-state,2,0,0,1,2,PACAP-38
+pots-findings,antiganglionicacetylcholinereceptorantibody,dysautonomia,disease-state,2,0,0,2,2,Anti-ganglionic acetylcholine receptor antibody
+pots-findings,apolipoproteinb,general,disease-state,2,0,0,1,2,Apolipoprotein B
+pots-findings,G:RFC1,dysautonomia,disease-state,2,0,0,1,2,RFC1
+eds-findings,collagenfibril,EDS_unspecified_or_mixed,disease-state,0,2,0,1,2,collagen fibril
+pots-findings,antidepressants,long_COVID,disease-state,2,0,0,1,2,antidepressants
+pots-findings,arah2,MCAS,intervention,1,0,1,1,2,Ara h 2
+pots-findings,amitriptyline,general,intervention,2,0,0,1,2,amitriptyline
+pots-findings,G:MAPK,MCAS,intervention,0,2,0,1,2,MAPK
+pots-findings,G:SCN9A,general,disease-state,0,2,0,2,2,SCN9A
+pots-findings,alkalinephosphatase,long_COVID,disease-state,2,0,0,1,2,Alkaline phosphatase
+pots-findings,G:KIF1A,general,disease-state,1,0,1,1,2,KIF1A
+pots-findings,G:JAK2,general,disease-state,2,0,0,1,2,JAK2
+pots-findings,G:Chymase,MCAS,disease-state,2,0,0,1,2,Chymase
+pots-findings,antinuclearantibodiesana,ME_CFS,disease-state,2,0,0,1,2,antinuclear antibodies (ANA)
+eds-findings,jointhypermobility,hypermobility_unspecified,intervention,2,0,0,1,2,joint hypermobility
+pots-findings,G:YAP1,general,intervention,0,1,1,1,2,YAP1
+eds-findings,vonwillebrandfactor,EDS_unspecified_or_mixed,disease-state,0,2,0,2,2,von Willebrand factor
+eds-findings,G:COL2A1,general,disease-state,2,0,0,1,2,COL2A1
+pots-findings,30secondsittostandtest,long_COVID,disease-state,0,2,0,1,2,30-second sit-to-stand test
+eds-findings,G:DSE,general,disease-state,2,0,0,1,2,DSE
+pots-findings,acetylcholinereceptorantibody,general,disease-state,2,0,0,1,2,Acetylcholine receptor antibody
+pots-findings,G:ZNF469,EDS_hypermobility,disease-state,2,0,0,1,2,ZNF469
+pots-findings,G:iNOS,general,disease-state,2,0,0,1,2,iNOS
+pots-findings,G:ADAMTS2,EDS_hypermobility,disease-state,0,2,0,1,2,ADAMTS2
+eds-findings,mandibularrangeofmotion,hypermobility_unspecified,disease-state,2,0,0,1,2,mandibular range of motion
+eds-findings,age,HSD,disease-state,0,2,0,1,2,age
+eds-findings,typevcollagen,general,disease-state,2,0,0,1,2,type V collagen
+eds-findings,G:COL1A2,general,disease-state,2,0,0,1,2,COL1A2
+pots-findings,G:syndecan1,long_COVID,disease-state,2,0,0,1,2,syndecan-1
+eds-findings,G:collagen,EDS_other_type,intervention,2,0,0,1,2,collagen
+pots-findings,carotidfemoralpulsewavevelocity,long_COVID,disease-state,2,0,0,1,2,carotid-femoral pulse wave velocity
+eds-findings,age,multiple,disease-state,0,2,0,2,2,age
+eds-findings,typeiprocollagen,general,disease-state,0,2,0,1,2,type I procollagen
+pots-findings,18fdopamine,dysautonomia,disease-state,0,2,0,1,2,18F-dopamine
+pots-findings,G:Tryptase,EDS_hypermobility,disease-state,2,0,0,1,2,Tryptase
+eds-findings,G:TNXB,hEDS,disease-state,0,2,0,2,2,TNXB
+pots-findings,bodyweight,long_COVID,intervention,0,2,0,1,2,body weight
+pots-findings,bodymassindexbmi,multiple,disease-state,2,0,0,1,2,Body mass index (BMI)
+eds-findings,kneehypermobility,hypermobility_unspecified,disease-state,2,0,0,1,2,knee hypermobility
+eds-findings,typeicollagen,EDS_unspecified_or_mixed,disease-state,0,2,0,1,2,type I collagen
+eds-findings,anxiety,hypermobility_unspecified,disease-state,2,0,0,1,2,Anxiety
+pots-findings,carbidopa,dysautonomia,intervention,0,2,0,1,2,Carbidopa
+pots-findings,pnn50,autism,disease-state,1,0,0,1,1,pNN50
+eds-findings,mortalityrate,EDS_other_type,disease-state,1,0,0,1,1,mortality rate
+pots-findings,pain,long_COVID,intervention,0,1,0,1,1,pain
+pots-findings,pnn50,general,intervention,1,0,0,1,1,pNN50
+pots-findings,ovaspecificige,general,intervention,0,1,0,1,1,OVA-specific IgE
+eds-findings,muscledensity,multiple,disease-state,0,1,0,1,1,muscle density
+pots-findings,polypharmacy,dysautonomia,disease-state,1,0,0,1,1,Polypharmacy
+pots-findings,oxytocin,fibromyalgia,disease-state,0,0,1,1,1,Oxytocin
+eds-findings,musculoskeletalinjury,hypermobility_unspecified,disease-state,1,0,0,1,1,musculoskeletal injury
+pots-findings,paincatastrophizing,fibromyalgia,intervention,0,1,0,1,1,Pain catastrophizing
+pots-findings,orthostaticsymptoms,dysautonomia,disease-state,1,0,0,1,1,orthostatic symptoms
+pots-findings,orthostaticintolerance,long_COVID,disease-state,1,0,0,1,1,Orthostatic intolerance
+pots-findings,orthostatichypotensionsymptomassessmentohsascore,dysautonomia,intervention,0,1,0,1,1,Orthostatic Hypotension Symptom Assessment (OHSA) score
+pots-findings,orthostatichypotension,long_COVID,disease-state,1,0,0,1,1,Orthostatic hypotension
+eds-findings,norepinephrinetransporter,general,disease-state,0,1,0,1,1,norepinephrine transporter
+eds-findings,osteoarthritis,hypermobility_unspecified,disease-state,0,1,0,1,1,Osteoarthritis
+eds-findings,mortality,EDS_other_type,disease-state,1,0,0,1,1,mortality
+pots-findings,plasmacells,ME_CFS,disease-state,1,0,0,1,1,Plasma cells
+pots-findings,paincatastrophizing,general,intervention,0,1,0,1,1,Pain catastrophizing
+pots-findings,painthreshold,migraine,disease-state,0,1,0,1,1,pain threshold
+pots-findings,persistentdyspnea,long_COVID,disease-state,1,0,0,1,1,persistent dyspnea
+pots-findings,peakvo2,POTS,disease-state,0,1,0,1,1,peak VO2
+pots-findings,pgp95,IBS_gut,disease-state,0,1,0,2,1,PGP9.5
+pots-findings,phosphate,ME_CFS,disease-state,0,1,0,1,1,Phosphate
+eds-findings,pain,hypermobility_unspecified,disease-state,1,0,0,1,1,pain
+pots-findings,phosphorylatedalphasynucleinpsynser129,small_fiber_neuropathy,disease-state,1,0,0,1,1,"phosphorylated alpha-synuclein (p-syn, Ser129)"
+pots-findings,peakoxygenconsumption,long_COVID,disease-state,0,1,0,1,1,peak oxygen consumption
+pots-findings,paxlovid,long_COVID,intervention,0,0,1,1,1,Paxlovid
+eds-findings,meanplateletvolume,EDS_other_type,disease-state,1,0,0,1,1,mean platelet volume
+pots-findings,patienthealthquestionnaire9score,long_COVID,intervention,1,0,0,1,1,Patient Health Questionnaire-9 score
+pots-findings,par2f2rl1,MCAS,disease-state,1,0,0,1,1,PAR2 (F2RL1)
+pots-findings,physicalactivity,fibromyalgia,disease-state,1,0,0,1,1,physical activity
+eds-findings,mitralvalveprolapse,hypermobility_unspecified,disease-state,1,0,0,3,1,mitral valve prolapse
+eds-findings,matrixmetalloproteinase9,EDS_other_type,disease-state,1,0,0,1,1,matrix metalloproteinase-9
+pots-findings,painseverity,migraine,disease-state,1,0,0,1,1,pain severity
+pots-findings,painseverity,fibromyalgia,disease-state,1,0,0,1,1,Pain Severity
+pots-findings,painintensityvas,fibromyalgia,disease-state,1,0,0,1,1,Pain intensity (VAS)
+eds-findings,matrixmetalloproteinase2,EDS_other_type,disease-state,1,0,0,1,1,matrix metalloproteinase-2
+pots-findings,painintensity,general,disease-state,1,0,0,2,1,pain intensity
+pots-findings,physicalactivitylevel,dysautonomia,disease-state,0,1,0,2,1,Physical activity level
+pots-findings,physicalactivitylevel,general,disease-state,0,1,0,1,1,Physical activity level
+pots-findings,pertussistoxin,MCAS,intervention,0,1,0,1,1,Pertussis toxin
+pots-findings,plasminogen,long_COVID,disease-state,1,0,0,1,1,plasminogen
+eds-findings,mitralvalveprolapse,general,disease-state,1,0,0,1,1,mitral valve prolapse
+pots-findings,carotidintimamediathickness,fibromyalgia,disease-state,1,0,0,1,1,carotid intima-media thickness
+eds-findings,posturaltachycardiasyndrome,hypermobility_unspecified,disease-state,1,0,0,1,1,postural tachycardia syndrome
+pots-findings,ondansetron,general,intervention,1,0,0,1,1,ondansetron
+pots-findings,nav17scn9a,small_fiber_neuropathy,disease-state,0,0,1,1,1,Nav1.7 (SCN9A)
+pots-findings,montelukast,general,intervention,0,1,0,1,1,Montelukast
+eds-findings,typeiiiprocollagenmrna,EDS_other_type,disease-state,0,1,0,1,1,type III procollagen mRNA
+eds-findings,typeiiiprocollagenaminoterminalpropeptide,EDS_other_type,disease-state,0,1,0,3,1,type III procollagen amino-terminal propeptide
+eds-findings,typeiiicollagen,EDS_unspecified_or_mixed,disease-state,0,1,0,2,1,type III collagen
+eds-findings,trunkhypermobility,hypermobility_unspecified,disease-state,0,1,0,1,1,trunk hypermobility
+pots-findings,mortality,general,disease-state,1,0,0,1,1,mortality
+eds-findings,transforminggrowthfactorbeta1,EDS_other_type,intervention,0,1,0,1,1,transforming growth factor beta 1
+pots-findings,musclejointpain,long_COVID,disease-state,1,0,0,1,1,muscle/joint pain
+eds-findings,skinthickness,multiple,disease-state,0,1,0,1,1,skin thickness
+eds-findings,skinthickness,hEDS,disease-state,0,1,0,1,1,skin thickness
+pots-findings,musclesympatheticnerveactivitymsna,POTS,intervention,0,1,0,1,1,Muscle sympathetic nerve activity (MSNA)
+pots-findings,musculoskeletalpain,general,disease-state,1,0,0,1,1,Musculoskeletal pain
+eds-findings,skinthickness,EDS_other_type,disease-state,0,1,0,1,1,skin thickness
+pots-findings,nabilone,fibromyalgia,intervention,1,0,0,1,1,Nabilone
+pots-findings,nacetylcysteine,multiple,intervention,1,0,0,2,1,N-acetylcysteine
+pots-findings,montelukast,MCAS,intervention,0,1,0,1,1,Montelukast
+pots-findings,monocytes,long_COVID,disease-state,0,1,0,1,1,monocytes
+eds-findings,typexiicollagen,EDS_other_type,disease-state,0,1,0,1,1,type XII collagen
+pots-findings,mirtazapine,ME_CFS,intervention,1,0,0,1,1,mirtazapine
+pots-findings,midodrine,POTS,disease-state,1,0,0,1,1,Midodrine
+pots-findings,midodrinefludrocortisone,dysautonomia,intervention,1,0,0,1,1,"Midodrine, Fludrocortisone"
+pots-findings,123imibgmyocardialuptake,dysautonomia,disease-state,0,1,0,1,1,123I-MIBG myocardial uptake
+pots-findings,migrainedisabilityassessmentmidastotalscore,migraine,intervention,0,1,0,1,1,Migraine Disability Assessment (MIDAS) total score
+pots-findings,minocycline,dysautonomia,intervention,1,0,0,1,1,Minocycline
+pots-findings,mirabegron,dysautonomia,intervention,0,1,0,1,1,mirabegron
+pots-findings,mirtazapine,general,intervention,0,0,1,1,1,mirtazapine
+pots-findings,modafinil,POTS,intervention,1,0,0,1,1,Modafinil
+pots-findings,mirtazapine,migraine,intervention,0,1,0,1,1,mirtazapine
+pots-findings,mitochondrialdna,ME_CFS,disease-state,1,0,0,1,1,mitochondrial DNA
+eds-findings,zinc,EDS_other_type,intervention,0,1,0,1,1,zinc
+pots-findings,mitochondrialoxygenconsumptionrateocr,ME_CFS,disease-state,0,1,0,1,1,mitochondrial oxygen consumption rate (OCR)
+pots-findings,mmse,general,disease-state,1,0,0,1,1,MMSE
+pots-findings,mocascore,long_COVID,disease-state,1,0,0,1,1,MoCA score
+pots-findings,naltrexone,multiple,intervention,1,0,0,2,1,Naltrexone
+eds-findings,skinextensibility,hEDS,disease-state,1,0,0,1,1,skin extensibility
+pots-findings,onabotulinumtoxina,migraine,disease-state,1,0,0,2,1,onabotulinumtoxinA
+pots-findings,nerveconductionvelocity,small_fiber_neuropathy,disease-state,0,1,0,1,1,nerve conduction velocity
+eds-findings,pretermbirth,multiple,disease-state,1,0,0,1,1,preterm birth
+eds-findings,lysylpyridinolinehydroxylysylpyridinolineratio,EDS_other_type,disease-state,1,0,0,1,1,lysyl pyridinoline/hydroxylysyl pyridinoline ratio
+pots-findings,norepinephrine,multiple,disease-state,0,1,0,3,1,norepinephrine
+pots-findings,nsaids,fibromyalgia,intervention,1,0,0,8,1,NSAIDs
+pots-findings,nsaids,general,intervention,1,0,0,1,1,NSAIDs
+pots-findings,numberofcovid19infections,long_COVID,disease-state,1,0,0,1,1,Number of COVID-19 infections
+eds-findings,physicalactivitylevel,hypermobility_unspecified,disease-state,0,1,0,4,1,physical activity level
+pots-findings,obstructivesleepapnea,EDS_hypermobility,disease-state,1,0,0,1,1,Obstructive sleep apnea
+eds-findings,physicalactivity,hEDS,disease-state,0,1,0,1,1,physical activity
+pots-findings,occipitalnervestimulation,migraine,intervention,0,1,0,1,1,occipital nerve stimulation
+pots-findings,occludinclaudin1,IBS_gut,intervention,1,0,0,1,1,"Occludin, Claudin 1"
+pots-findings,olcegepant,migraine,intervention,1,0,0,1,1,olcegepant
+eds-findings,panicdisorder,hypermobility_unspecified,disease-state,1,0,0,1,1,panic disorder
+pots-findings,olfactoryfunction,dysautonomia,disease-state,0,1,0,2,1,olfactory function
+pots-findings,onabotulinumtoxina,general,intervention,0,1,0,1,1,onabotulinumtoxinA
+pots-findings,noradrenaline,multiple,disease-state,0,1,0,1,1,Noradrenaline
+pots-findings,nonsteroidalantiinflammatorydrugs,ME_CFS,intervention,1,0,0,1,1,Nonsteroidal anti-inflammatory drugs
+pots-findings,nnosneurons,IBS_gut,disease-state,0,1,0,1,1,nNOS+ neurons
+pots-findings,neurogenicorthostatichypotensionnoh,dysautonomia,disease-state,1,0,0,1,1,Neurogenic orthostatic hypotension (nOH)
+pots-findings,nervegrowthfactorngf,MCAS,disease-state,0,1,0,1,1,nerve growth factor (NGF)
+eds-findings,scapulardyskinesis,hypermobility_unspecified,disease-state,1,0,0,1,1,scapular dyskinesis
+eds-findings,sacralslope,hypermobility_unspecified,disease-state,1,0,0,1,1,sacral slope
+eds-findings,rectocele,hypermobility_unspecified,disease-state,1,0,0,1,1,rectocele
+pots-findings,neurofilamentlightchainnfl,small_fiber_neuropathy,disease-state,1,0,0,1,1,Neurofilament light chain (NfL)
+eds-findings,pyridinoline,EDS_other_type,disease-state,0,1,0,3,1,pyridinoline
+pots-findings,neuromuscularjitter,long_COVID,disease-state,1,0,0,1,1,neuromuscular jitter
+eds-findings,procollagennproteinase,EDS_other_type,intervention,1,0,0,1,1,procollagen N-proteinase
+pots-findings,neuronalnitricoxidesynthasennos,IBS_gut,disease-state,1,0,0,1,1,Neuronal nitric oxide synthase (nNOS)
+eds-findings,pulmonaryartery,EDS_other_type,disease-state,1,0,0,1,1,pulmonary artery
+eds-findings,prolyl4hydroxylase,EDS_other_type,disease-state,1,0,0,2,1,prolyl 4-hydroxylase
+pots-findings,nirmatrelvirritonavirpaxlovid,long_COVID,intervention,0,0,1,2,1,nirmatrelvir/ritonavir (Paxlovid)
+eds-findings,procollagentypeiii,EDS_other_type,disease-state,0,1,0,1,1,procollagen type III
+pots-findings,nitroglycerine,dysautonomia,disease-state,1,0,0,1,1,nitroglycerine
+pots-findings,postcovid19functionalstatusscalescore,long_COVID,disease-state,1,0,0,1,1,Post-COVID-19 Functional Status scale score
+pots-findings,pupildilationvelocity,dysautonomia,disease-state,0,1,0,1,1,pupil dilation velocity
+eds-findings,lysholmscore,hypermobility_unspecified,intervention,1,0,0,1,1,Lysholm score
+eds-findings,beta13galactosyltransferase6,EDS_other_type,disease-state,0,1,0,1,1,"beta-1,3-galactosyltransferase 6"
+pots-findings,tcells,general,disease-state,0,0,1,1,1,T cells
+pots-findings,telerehabilitation,long_COVID,intervention,1,0,0,1,1,telerehabilitation
+pots-findings,thalamus,fibromyalgia,disease-state,0,1,0,1,1,thalamus
+pots-findings,thiamine,general,disease-state,0,1,0,1,1,Thiamine
+pots-findings,tibiofemoralrotation,EDS_hypermobility,disease-state,1,0,0,1,1,Tibiofemoral rotation
+pots-findings,timesinceinfection,long_COVID,disease-state,0,1,0,1,1,time since infection
+pots-findings,tnf,POTS,disease-state,1,0,0,1,1,TNFα
+eds-findings,benignjointhypermobilitysyndrome,hypermobility_unspecified,disease-state,1,0,0,2,1,benign joint hypermobility syndrome
+pots-findings,sphenopalatineganglion,migraine,intervention,0,1,0,1,1,sphenopalatine ganglion
+eds-findings,beightonscore,general,disease-state,1,0,0,2,1,Beighton score
+eds-findings,beightonscalescore,hypermobility_unspecified,disease-state,1,0,0,2,1,Beighton Scale score
+pots-findings,tofacitinib,general,intervention,0,1,0,1,1,tofacitinib
+pots-findings,topiramate,general,intervention,0,1,0,1,1,topiramate
+eds-findings,ascorbicacid,EDS_other_type,disease-state,0,1,0,1,1,ascorbic acid
+pots-findings,totalbodyfatpercentage,long_COVID,intervention,0,1,0,1,1,total body fat percentage
+eds-findings,arthralgia,hypermobility_unspecified,disease-state,1,0,0,2,1,arthralgia
+eds-findings,chronicpain,EDS_unspecified_or_mixed,disease-state,1,0,0,1,1,chronic pain
+pots-findings,tamsulosin,dysautonomia,intervention,0,1,0,1,1,Tamsulosin
+pots-findings,systolicbloodpressurerecovery,dysautonomia,disease-state,0,1,0,1,1,Systolic blood pressure recovery
+pots-findings,systolicbloodpressure,multiple,disease-state,1,0,0,1,1,Systolic blood pressure
+pots-findings,statins,general,intervention,0,1,0,1,1,statins
+eds-findings,depression,EDS_unspecified_or_mixed,disease-state,1,0,0,1,1,depression
+eds-findings,creatinekinase,EDS_other_type,disease-state,1,0,0,2,1,creatine kinase
+pots-findings,subcutaneousimmunoglobulin,ME_CFS,intervention,1,0,0,1,1,subcutaneous immunoglobulin
+eds-findings,cornea,EDS_unspecified_or_mixed,disease-state,0,1,0,1,1,cornea
+eds-findings,collagentypeiv,EDS_other_type,disease-state,0,1,0,1,1,collagen type IV
+pots-findings,substancep,small_fiber_neuropathy,disease-state,0,1,0,1,1,Substance P
+pots-findings,substantianigra,dysautonomia,disease-state,0,1,0,1,1,Substantia nigra
+pots-findings,subthalamicnucleusdeepbrainstimulation,dysautonomia,intervention,0,0,1,1,1,subthalamic nucleus deep brain stimulation
+pots-findings,sugammadex,MCAS,disease-state,1,0,0,1,1,Sugammadex
+eds-findings,collagentypeiandiii,general,disease-state,1,0,0,1,1,collagen type I and III
+eds-findings,collagentypeialpha1chain,EDS_other_type,disease-state,1,0,0,1,1,collagen type I alpha 1 chain
+pots-findings,sympatheticskinresponseamplitude,dysautonomia,disease-state,0,1,0,1,1,Sympathetic skin response amplitude
+pots-findings,symptomseverityscale,fibromyalgia,disease-state,1,0,0,1,1,Symptom Severity Scale
+pots-findings,systemicvascularresistance,dysautonomia,intervention,1,0,0,4,1,systemic vascular resistance
+pots-findings,totalcholesterol,ME_CFS,disease-state,1,0,0,1,1,Total cholesterol
+pots-findings,totalsleeptime,dysautonomia,disease-state,1,0,0,1,1,Total sleep time
+pots-findings,tpsab1tryptase,MCAS,disease-state,1,0,0,1,1,TPSAB1 (tryptase)
+eds-findings,G:vimentin,EDS_other_type,disease-state,1,0,0,1,1,vimentin
+pots-findings,vasoactiveintestinalpeptidevip,dysautonomia,disease-state,0,1,0,1,1,Vasoactive intestinal peptide (VIP)
+pots-findings,ventriculartachycardia,general,disease-state,1,0,0,1,1,Ventricular tachycardia
+pots-findings,vitaminb12,POTS,disease-state,1,0,0,1,1,Vitamin B12
+eds-findings,G:versican,EDS_other_type,disease-state,0,1,0,1,1,versican
+pots-findings,vitaminb12,dysautonomia,intervention,0,1,0,1,1,Vitamin B12
+pots-findings,vitaminc,general,intervention,1,0,0,3,1,vitamin C
+pots-findings,vitamind,dysautonomia,intervention,1,0,0,1,1,Vitamin D
+eds-findings,G:TNXB,general,disease-state,0,1,0,1,1,TNXB
+pots-findings,vitamind3,long_COVID,intervention,0,1,0,2,1,vitamin D3
+eds-findings,G:PRDM5,EDS_other_type,disease-state,0,1,0,2,1,PRDM5
+eds-findings,G:COL3A1,EDS_unspecified_or_mixed,disease-state,1,0,0,1,1,COL3A1
+pots-findings,vortioxetine,long_COVID,intervention,0,1,0,1,1,vortioxetine
+pots-findings,whitematter,general,disease-state,1,0,0,1,1,white matter
+pots-findings,whitematterlesions,dysautonomia,disease-state,1,0,0,1,1,white matter lesions
+pots-findings,workingmemory,long_COVID,disease-state,0,1,0,1,1,working memory
+pots-findings,vasoactiveintestinalpeptide,migraine,intervention,0,1,0,2,1,vasoactive intestinal peptide
+pots-findings,vagusnerve,migraine,intervention,0,1,0,1,1,vagus nerve
+eds-findings,aorta,multiple,disease-state,1,0,0,1,1,Aorta
+pots-findings,vagusnerve,long_COVID,disease-state,0,1,0,2,1,vagus nerve
+pots-findings,transientreceptorpotentialankyrin1,migraine,intervention,0,1,0,1,1,transient receptor potential ankyrin 1
+eds-findings,aofasscore,hypermobility_unspecified,disease-state,0,1,0,1,1,AOFAS score
+pots-findings,transthyretinttr,dysautonomia,disease-state,1,0,0,1,1,Transthyretin (TTR)
+pots-findings,transthyretinttr,general,disease-state,1,0,0,1,1,Transthyretin (TTR)
+eds-findings,anxietyseverity,hypermobility_unspecified,disease-state,1,0,0,1,1,anxiety severity
+eds-findings,anteriortalofibularligament,hypermobility_unspecified,disease-state,1,0,0,1,1,anterior talofibular ligament
+eds-findings,alpha2icollagenmrna,EDS_other_type,disease-state,0,1,0,1,1,alpha 2(I) collagen mRNA
+pots-findings,type2diabetes,general,disease-state,1,0,0,1,1,Type 2 diabetes
+eds-findings,alpha1antitrypsin,EDS_other_type,disease-state,0,1,0,1,1,alpha-1-antitrypsin
+eds-findings,ageofsymptomonset,hypermobility_unspecified,disease-state,0,1,0,1,1,age of symptom onset
+pots-findings,ubiquinol10,ME_CFS,intervention,1,0,0,1,1,Ubiquinol-10
+pots-findings,ubrogepant,migraine,disease-state,1,0,0,2,1,ubrogepant
+pots-findings,urinarysodiumexcretion,dysautonomia,intervention,1,0,0,1,1,urinary sodium excretion
+pots-findings,vaccinationstatus,long_COVID,intervention,1,0,0,2,1,vaccination status
+pots-findings,vagusnerve,general,intervention,0,1,0,1,1,vagus nerve
+pots-findings,sphingolipids,ME_CFS,disease-state,1,0,0,1,1,sphingolipids
+pots-findings,solublecd14scd14,ME_CFS,disease-state,1,0,0,1,1,soluble CD14 (sCD14)
+eds-findings,lung,EDS_unspecified_or_mixed,disease-state,0,0,1,1,1,lung
+eds-findings,integrinbeta1,general,intervention,0,0,1,1,1,integrin beta-1
+pots-findings,quercetin,general,intervention,0,1,0,1,1,Quercetin
+pots-findings,ramipril,dysautonomia,intervention,1,0,0,1,1,Ramipril
+eds-findings,jointhypermobility,HSD,disease-state,1,0,0,1,1,joint hypermobility
+pots-findings,rasagiline,dysautonomia,intervention,1,0,0,1,1,Rasagiline
+eds-findings,irritablebowelsyndrome,multiple,disease-state,1,0,0,1,1,irritable bowel syndrome
+pots-findings,remdesivir,long_COVID,disease-state,1,0,0,1,1,remdesivir
+eds-findings,irritablebowelsyndrome,HSD,disease-state,1,0,0,1,1,irritable bowel syndrome
+eds-findings,integrinalpha5beta1,EDS_other_type,disease-state,0,1,0,1,1,integrin alpha5beta1
+pots-findings,sodiumbutyrate,general,intervention,1,0,0,1,1,sodium butyrate
+eds-findings,hydroxyproline,general,disease-state,0,1,0,1,1,hydroxyproline
+pots-findings,retinalnervefiberlayerrnflthickness,fibromyalgia,disease-state,0,1,0,1,1,Retinal nerve fiber layer (RNFL) thickness
+pots-findings,rheumatoidfactor,fibromyalgia,disease-state,1,0,0,1,1,rheumatoid factor
+eds-findings,heartratevariability,hEDS,disease-state,0,1,0,2,1,heart rate variability
+eds-findings,glenohumeraljointlaxity,hypermobility_unspecified,disease-state,1,0,0,1,1,glenohumeral joint laxity
+pots-findings,rituximab,general,intervention,0,0,1,3,1,rituximab
+pots-findings,rmssd,autism,disease-state,0,1,0,1,1,RMSSD
+eds-findings,lowerlimbassessmentscore,hEDS,disease-state,0,0,1,1,1,Lower Limb Assessment Score
+eds-findings,lumbarlordosis,hypermobility_unspecified,disease-state,1,0,0,1,1,lumbar lordosis
+pots-findings,pyridostigmine,POTS,disease-state,1,0,0,1,1,Pyridostigmine
+pots-findings,metoprolol,dysautonomia,intervention,1,0,0,1,1,Metoprolol
+pots-findings,posturalorthostatictachycardiasyndrome,POTS,intervention,1,0,0,1,1,Postural orthostatic tachycardia syndrome
+pots-findings,preejectionperiodpep,multiple,intervention,1,0,0,1,1,Pre-ejection period (PEP)
+eds-findings,lung,EDS_other_type,disease-state,0,1,0,1,1,lung
+pots-findings,pressurepainthreshold,migraine,disease-state,0,1,0,1,1,pressure pain threshold
+pots-findings,pressurepainthreshold,multiple,disease-state,0,1,0,1,1,pressure pain threshold
+pots-findings,probiotics,general,intervention,0,1,0,1,1,probiotics
+pots-findings,procalcitonin,dysautonomia,disease-state,1,0,0,1,1,Procalcitonin
+pots-findings,propranolol,general,intervention,0,1,0,1,1,Propranolol
+eds-findings,lumbarlordosis,hypermobility_unspecified,intervention,1,0,0,1,1,lumbar lordosis
+pots-findings,proteingeneproduct95pgp95,small_fiber_neuropathy,disease-state,0,1,0,1,1,protein gene product 9.5 (PGP 9.5)
+pots-findings,psmad23,general,disease-state,1,0,0,1,1,p-Smad2/3
+pots-findings,ptsdsymptoms,long_COVID,disease-state,1,0,0,1,1,PTSD symptoms
+pots-findings,pulmonaryfunction,long_COVID,intervention,1,0,0,1,1,pulmonary function
+pots-findings,pulmonaryfunctiontestsfev1fvcdlco,long_COVID,intervention,1,0,0,1,1,"pulmonary function tests (FEV1, FVC, DLCO)"
+pots-findings,pupildiameter,general,disease-state,1,0,0,1,1,pupil diameter
+eds-findings,generaljointhypermobility,hypermobility_unspecified,disease-state,0,0,1,1,1,general joint hypermobility
+eds-findings,generalizedjointhypermobility,multiple,disease-state,1,0,0,1,1,generalized joint hypermobility
+eds-findings,gastricemptyingtime,hEDS,disease-state,1,0,0,1,1,gastric emptying time
+pots-findings,serotonintransportersertslc6a4,general,intervention,0,1,0,1,1,Serotonin transporter (SERT/SLC6A4)
+pots-findings,sex,EDS_hypermobility,disease-state,1,0,0,1,1,sex
+eds-findings,disordersofgutbraininteraction,multiple,disease-state,1,0,0,1,1,disorders of gut-brain interaction
+pots-findings,sf12mentalhealthcomponentscore,long_COVID,disease-state,0,1,0,1,1,SF-12 mental health component score
+pots-findings,sf36qualityoflifescore,long_COVID,intervention,1,0,0,1,1,SF-36 quality of life score
+pots-findings,shortphysicalperformancebatteryscore,long_COVID,intervention,1,0,0,1,1,Short Physical Performance Battery score
+pots-findings,shoulderjoint,EDS_hypermobility,disease-state,1,0,0,1,1,shoulder joint
+pots-findings,silicone,general,disease-state,1,0,0,1,1,silicone
+pots-findings,sirolimus,dysautonomia,intervention,1,0,0,1,1,sirolimus
+pots-findings,sjgrenssyndrome,general,disease-state,1,0,0,1,1,Sjögren's syndrome
+pots-findings,skinconductanceresponse,autism,disease-state,1,0,0,1,1,skin conductance response
+pots-findings,sleepdisorder,migraine,disease-state,1,0,0,1,1,Sleep disorder
+eds-findings,dermis,EDS_unspecified_or_mixed,disease-state,0,1,0,2,1,dermis
+pots-findings,sleepqualitypsqi,long_COVID,disease-state,1,0,0,1,1,sleep quality (PSQI)
+eds-findings,dermalfibroblast,EDS_other_type,disease-state,1,0,0,1,1,dermal fibroblast
+eds-findings,depression,hypermobility_unspecified,disease-state,1,0,0,1,1,depression
+eds-findings,dizziness,multiple,disease-state,1,0,0,1,1,dizziness
+pots-findings,serotonin,migraine,disease-state,1,0,0,1,1,serotonin
+pots-findings,sampleentropysampen,dysautonomia,disease-state,0,1,0,1,1,Sample Entropy (SampEn)
+eds-findings,easybruising,hypermobility_unspecified,disease-state,1,0,0,1,1,easy bruising
+eds-findings,forwardflexion,hypermobility_unspecified,disease-state,1,0,0,1,1,forward flexion
+eds-findings,fifthfingerhypermobility,hypermobility_unspecified,disease-state,0,1,0,1,1,fifth finger hypermobility
+eds-findings,fibroblast,general,disease-state,0,1,0,1,1,fibroblast
+pots-findings,sarscov2rna,dysautonomia,disease-state,1,0,0,1,1,SARS-CoV-2 RNA
+eds-findings,fatigue,general,disease-state,1,0,0,2,1,fatigue
+pots-findings,sarscov2subgenomicrna,long_COVID,disease-state,1,0,0,1,1,SARS-CoV-2 subgenomic RNA
+eds-findings,factorxiii,EDS_other_type,disease-state,0,1,0,1,1,Factor XIII
+pots-findings,sarscov2viralprotein,long_COVID,disease-state,1,0,0,1,1,SARS-CoV-2 viral protein
+pots-findings,scoliosis,general,disease-state,1,0,0,1,1,scoliosis
+pots-findings,scopaaut,dysautonomia,disease-state,1,0,0,1,1,SCOPA-AUT
+eds-findings,elasticfiber,multiple,disease-state,1,0,0,1,1,elastic fiber
+pots-findings,sdnn,long_COVID,intervention,1,0,0,1,1,SDNN
+pots-findings,sdnnandrmssd,dysautonomia,disease-state,0,1,0,1,1,SDNN and RMSSD
+pots-findings,selenium,fibromyalgia,disease-state,0,1,0,1,1,Selenium
+pots-findings,selfefficacy,IBS_gut,disease-state,0,1,0,1,1,Self-Efficacy
+pots-findings,middlecerebralarterymeanflowvelocity,general,intervention,1,0,0,1,1,Middle cerebral artery mean flow velocity
+pots-findings,G:CRHR2,IBS_gut,disease-state,0,1,0,1,1,CRHR2
+pots-findings,123imibgwashoutrate,dysautonomia,disease-state,1,0,0,1,1,123I-MIBG washout rate
+pots-findings,antihistamines,MCAS,intervention,1,0,0,2,1,Antihistamines
+pots-findings,anxietydisorder,autism,disease-state,0,1,0,1,1,Anxiety disorder
+pots-findings,anxietyanddepression,long_COVID,intervention,0,1,0,1,1,anxiety and depression
+pots-findings,dopaminebetahydroxylase,dysautonomia,disease-state,0,1,0,1,1,dopamine beta-hydroxylase
+pots-findings,dopaminetransporter,dysautonomia,disease-state,0,1,0,1,1,Dopamine transporter
+pots-findings,doxycycline,ME_CFS,intervention,0,1,0,2,1,doxycycline
+pots-findings,antinuclearantibodyana,MCAS,disease-state,1,0,0,1,1,Antinuclear antibody (ANA)
+pots-findings,antinuclearantibodiesana,small_fiber_neuropathy,disease-state,1,0,0,1,1,Antinuclear antibodies (ANA)
+pots-findings,dystrophin,autism,disease-state,0,1,0,1,1,dystrophin
+pots-findings,ebvvcaigg,ME_CFS,disease-state,1,0,0,1,1,EBV-VCA IgG
+pots-findings,electrochemicalskinconductance,multiple,disease-state,1,0,0,1,1,electrochemical skin conductance
+pots-findings,antinuclearantibodiesana,long_COVID,disease-state,1,0,0,2,1,antinuclear antibodies (ANA)
+eds-findings,G:COL1A2,EDS_unspecified_or_mixed,disease-state,0,1,0,1,1,COL1A2
+pots-findings,electrodermalactivity,autism,intervention,1,0,0,1,1,electrodermal activity
+pots-findings,elp1mrna,dysautonomia,disease-state,0,1,0,1,1,ELP1 mRNA
+pots-findings,endoplasmicreticulumstress,EDS_hypermobility,disease-state,1,0,0,1,1,Endoplasmic reticulum stress
+pots-findings,anxietydisorder,fibromyalgia,disease-state,1,0,0,1,1,Anxiety disorder
+pots-findings,aorticrootdiameter,EDS_hypermobility,disease-state,1,0,0,1,1,aortic root diameter
+pots-findings,diastolicdysfunction,long_COVID,disease-state,1,0,0,1,1,Diastolic dysfunction
+pots-findings,delta9tetrahydrocannabinol,fibromyalgia,intervention,0,0,1,1,1,Delta-9-tetrahydrocannabinol
+pots-findings,atomoxetine,general,intervention,0,1,0,2,1,atomoxetine
+pots-findings,cyclosporinea,MCAS,intervention,0,1,0,1,1,Cyclosporine A
+pots-findings,cytomegalovirus,dysautonomia,disease-state,1,0,0,1,1,Cytomegalovirus
+pots-findings,atenolol,dysautonomia,intervention,1,0,0,1,1,Atenolol
+pots-findings,cytomegaloviruscmv,ME_CFS,disease-state,1,0,0,1,1,Cytomegalovirus (CMV)
+pots-findings,aspirin,long_COVID,intervention,1,0,0,1,1,aspirin
+pots-findings,denguevirus,ME_CFS,disease-state,1,0,0,1,1,Dengue virus
+pots-findings,diastolicbloodpressureorthostaticchange,dysautonomia,disease-state,1,0,0,1,1,Diastolic blood pressure (orthostatic change)
+pots-findings,aspirin,MCAS,intervention,0,1,0,1,1,Aspirin
+pots-findings,aquaporin4antibody,general,disease-state,1,0,0,1,1,Aquaporin-4 antibody
+pots-findings,aprepitant,general,intervention,0,1,0,1,1,aprepitant
+pots-findings,depressivesymptoms,fibromyalgia,disease-state,1,0,0,1,1,Depressive symptoms
+pots-findings,diabeticnephropathy,dysautonomia,disease-state,1,0,0,1,1,Diabetic nephropathy
+pots-findings,diastolicbloodpressure,migraine,disease-state,1,0,0,2,1,diastolic blood pressure
+pots-findings,antineuronalantibodies,long_COVID,disease-state,1,0,0,1,1,antineuronal antibodies
+pots-findings,eosinophils,long_COVID,disease-state,0,1,0,1,1,Eosinophils
+pots-findings,attention,long_COVID,disease-state,0,1,0,1,1,attention
+pots-findings,epigeneticageacceleration,long_COVID,disease-state,1,0,0,1,1,Epigenetic age acceleration
+pots-findings,fineparticulatematterpm25,general,disease-state,1,0,0,1,1,fine particulate matter (PM2.5)
+pots-findings,flowmediateddilation,long_COVID,intervention,1,0,0,1,1,flow-mediated dilation
+pots-findings,fludrocortisone,POTS,disease-state,1,0,0,1,1,Fludrocortisone
+pots-findings,fluoxetine,ME_CFS,intervention,0,0,1,2,1,Fluoxetine
+pots-findings,folicacid,fibromyalgia,disease-state,1,0,0,1,1,Folic acid
+pots-findings,folicacid,long_COVID,disease-state,0,1,0,1,1,Folic acid
+pots-findings,age,small_fiber_neuropathy,disease-state,1,0,0,1,1,Age
+pots-findings,age,migraine,intervention,0,1,0,1,1,age
+pots-findings,age,ME_CFS,disease-state,0,1,0,1,1,age
+pots-findings,gadoliniumbasedcontrastagent,general,disease-state,1,0,0,1,1,Gadolinium-based contrast agent
+pots-findings,gammadeltatcells,multiple,disease-state,0,1,0,1,1,gamma delta T cells
+pots-findings,ganglionicacetylcholinereceptoralpha3subunitantibody,dysautonomia,disease-state,1,0,0,1,1,Ganglionic acetylcholine receptor alpha-3 subunit antibody
+pots-findings,adverseevents,migraine,intervention,0,1,0,1,1,adverse events
+pots-findings,gender,general,disease-state,1,0,0,1,1,Gender
+pots-findings,generalizedanxietydisorder,fibromyalgia,disease-state,1,0,0,2,1,generalized anxiety disorder
+pots-findings,fibrinogen,general,disease-state,1,0,0,1,1,Fibrinogen
+pots-findings,fev1fvcratio,long_COVID,intervention,1,0,0,2,1,FEV1/FVC ratio
+pots-findings,fetalhemoglobin,general,disease-state,1,0,0,1,1,Fetal hemoglobin
+pots-findings,alphasynuclein,dysautonomia,intervention,0,1,0,1,1,alpha-synuclein
+pots-findings,antigangliosideantibodies,small_fiber_neuropathy,disease-state,1,0,0,1,1,anti-ganglioside antibodies
+pots-findings,antigangliosideantibodies,general,disease-state,1,0,0,2,1,anti-ganglioside antibodies
+pots-findings,antigangliosideantibodies,dysautonomia,disease-state,0,1,0,3,1,Anti-ganglioside antibodies
+pots-findings,antiflagellinantibody,ME_CFS,disease-state,1,0,0,1,1,anti-flagellin antibody
+pots-findings,anakinra,general,intervention,0,1,0,1,1,anakinra
+pots-findings,alphasynucleinsnca,dysautonomia,disease-state,1,0,0,1,1,alpha-synuclein (SNCA)
+pots-findings,erenumab,migraine,disease-state,1,0,0,1,1,erenumab
+pots-findings,aldosterone,POTS,disease-state,0,1,0,3,1,Aldosterone
+pots-findings,erk12,MCAS,disease-state,1,0,0,1,1,ERK1/2
+pots-findings,alphalipoicacid,fibromyalgia,intervention,0,1,0,1,1,Alpha-Lipoic Acid
+pots-findings,facitfatiguescore,long_COVID,disease-state,1,0,0,1,1,FACIT-Fatigue score
+pots-findings,fatigueimpactscalescore,long_COVID,intervention,0,1,0,1,1,Fatigue Impact Scale score
+pots-findings,fcer1,MCAS,intervention,0,1,0,1,1,FCER1
+pots-findings,fcriib,MCAS,disease-state,1,0,0,1,1,FcγRIIb
+pots-findings,creatinephosphokinase,dysautonomia,disease-state,1,0,0,1,1,Creatine phosphokinase
+pots-findings,autismspectrumquotientscore,autism,disease-state,1,0,0,2,1,Autism Spectrum Quotient score
+pots-findings,glialfibrillaryacidicprotein,general,disease-state,1,0,0,1,1,Glial fibrillary acidic protein
+pots-findings,col3a1mrna,EDS_hypermobility,disease-state,0,1,0,3,1,COL3A1 mRNA
+pots-findings,burnout,long_COVID,disease-state,1,0,0,1,1,burnout
+pots-findings,brainderivedneurotrophicfactorbdnf,fibromyalgia,intervention,1,0,0,1,1,Brain-derived neurotrophic factor (BDNF)
+pots-findings,brainderivedneurotrophicfactor,fibromyalgia,disease-state,0,0,1,1,1,Brain-derived neurotrophic factor
+pots-findings,chronotropicincompetence,ME_CFS,disease-state,1,0,0,1,1,chronotropic incompetence
+pots-findings,cigarettesmoking,long_COVID,disease-state,1,0,0,1,1,cigarette smoking
+pots-findings,botulinumtoxina,general,intervention,0,1,0,1,1,botulinum toxin A
+pots-findings,bonemineraldensity,general,disease-state,0,1,0,1,1,bone mineral density
+pots-findings,ckitkit,MCAS,intervention,0,1,0,1,1,c-Kit (KIT)
+pots-findings,cladribine,general,intervention,1,0,0,1,1,cladribine
+pots-findings,classicalmonocytes,long_COVID,disease-state,0,1,0,1,1,classical monocytes
+pots-findings,clonidine,POTS,intervention,0,1,0,1,1,Clonidine
+pots-findings,clonidine,general,intervention,0,0,1,1,1,clonidine
+pots-findings,cognitivebehavioraltherapy,ME_CFS,intervention,1,0,0,1,1,cognitive behavioral therapy
+pots-findings,cognitivefatigue,long_COVID,intervention,0,1,0,1,1,cognitive fatigue
+pots-findings,bodyweight,small_fiber_neuropathy,disease-state,0,1,0,1,1,Body weight
+pots-findings,chondroitinsulfate,EDS_hypermobility,disease-state,1,0,0,1,1,Chondroitin sulfate
+pots-findings,cholineacetyltransferasechat,dysautonomia,disease-state,0,1,0,1,1,Choline acetyltransferase (ChAT)
+pots-findings,cholineacetyltransferase,general,intervention,0,1,0,1,1,Choline acetyltransferase
+pots-findings,celiprolol,EDS_hypermobility,disease-state,1,0,0,1,1,celiprolol
+pots-findings,carotidplaque,dysautonomia,disease-state,1,0,0,1,1,carotid plaque
+pots-findings,caspase3,MCAS,intervention,0,1,0,1,1,caspase 3
+pots-findings,cardiacoutput,POTS,disease-state,0,1,0,2,1,cardiac output
+pots-findings,cardiacindex,ME_CFS,disease-state,0,1,0,1,1,cardiac index
+pots-findings,cardiacautonomicdysfunction,dysautonomia,disease-state,1,0,0,1,1,Cardiac autonomic dysfunction
+pots-findings,cd63cd203c,MCAS,disease-state,1,0,0,1,1,CD63/CD203c
+pots-findings,candida,ME_CFS,disease-state,1,0,0,1,1,Candida
+pots-findings,cholineacetyltransferase,dysautonomia,disease-state,0,1,0,1,1,Choline acetyltransferase
+pots-findings,cerebralautoregulation,dysautonomia,intervention,1,0,0,1,1,Cerebral autoregulation
+pots-findings,calcitoningenerelatedpeptide,general,intervention,1,0,0,1,1,calcitonin gene-related peptide
+pots-findings,c1sc1r,EDS_hypermobility,disease-state,1,0,0,1,1,C1S/C1R
+pots-findings,c1rc1s,EDS_hypermobility,disease-state,1,0,0,1,1,C1r/C1s
+pots-findings,butyrate,IBS_gut,intervention,1,0,0,1,1,butyrate
+pots-findings,chestctabnormality,long_COVID,disease-state,1,0,0,1,1,chest CT abnormality
+pots-findings,cognitiveimpairment,dysautonomia,disease-state,1,0,0,1,1,Cognitive impairment
+pots-findings,collagentypei,EDS_hypermobility,disease-state,1,0,0,1,1,Collagen type I
+pots-findings,autistictraits,autism,disease-state,1,0,0,1,1,Autistic traits
+pots-findings,bodymassindexbmi,general,disease-state,1,0,0,1,1,Body mass index (BMI)
+pots-findings,coxiellaburnetii,ME_CFS,disease-state,1,0,0,1,1,Coxiella burnetii
+pots-findings,cpeptide,dysautonomia,disease-state,1,0,0,1,1,C-peptide
+pots-findings,craniocervicalinstability,EDS_hypermobility,disease-state,1,0,0,1,1,craniocervical instability
+pots-findings,beightonscore,EDS_hypermobility,intervention,0,1,0,1,1,Beighton Score
+pots-findings,basophil,MCAS,disease-state,0,1,0,1,1,Basophil
+pots-findings,creactiveprotein,POTS,disease-state,1,0,0,1,1,C-reactive protein
+pots-findings,baselinemeanarterialpressure,dysautonomia,disease-state,0,1,0,1,1,Baseline mean arterial pressure
+pots-findings,basalserumtryptase,MCAS,disease-state,1,0,0,1,1,Basal serum tryptase
+pots-findings,baricitinib,general,intervention,0,1,0,1,1,baricitinib
+pots-findings,autonomicnervoussystem,migraine,disease-state,1,0,0,1,1,autonomic nervous system
+pots-findings,creactiveproteincrp,dysautonomia,disease-state,0,1,0,1,1,C-reactive protein (CRP)
+pots-findings,creactiveproteincrp,long_COVID,disease-state,1,0,0,1,1,C-reactive protein (CRP)
+pots-findings,autonomicfailure,dysautonomia,disease-state,1,0,0,1,1,Autonomic failure
+pots-findings,autonomicdysfunctioncompass31,dysautonomia,disease-state,1,0,0,1,1,Autonomic dysfunction (COMPASS-31)
+pots-findings,autoantibodies,ME_CFS,disease-state,1,0,0,1,1,autoantibodies
+pots-findings,covid19vaccinationstatus,long_COVID,disease-state,1,0,0,3,1,COVID-19 vaccination status
+pots-findings,covid19illnessseverity,long_COVID,disease-state,1,0,0,1,1,COVID-19 illness severity
+pots-findings,covid19diseaseseverity,long_COVID,disease-state,1,0,0,1,1,COVID-19 disease severity
+pots-findings,biologicalsex,long_COVID,disease-state,1,0,0,1,1,Biological sex
+pots-findings,combinedaerobicandresistancetraining,dysautonomia,intervention,1,0,0,1,1,combined aerobic and resistance training
+pots-findings,bloodpressure,multiple,disease-state,1,0,0,1,1,blood pressure
+pots-findings,compass31score,dysautonomia,disease-state,1,0,0,1,1,COMPASS-31 score
+pots-findings,complementc1q,ME_CFS,disease-state,1,0,0,1,1,Complement C1q
+pots-findings,bloodpressure,POTS,disease-state,1,0,0,4,1,Blood pressure
+pots-findings,bloodglucose,general,intervention,0,1,0,1,1,Blood glucose
+pots-findings,corticosteroids,dysautonomia,intervention,1,0,0,2,1,Corticosteroids
+pots-findings,cortisolacth,ME_CFS,disease-state,0,1,0,2,1,Cortisol/ACTH
+pots-findings,corticosterone,IBS_gut,intervention,0,1,0,1,1,Corticosterone
+pots-findings,corticosterone,migraine,disease-state,1,0,0,1,1,corticosterone
+pots-findings,cortisol,POTS,disease-state,1,0,0,2,1,Cortisol
+pots-findings,cortisol,autism,intervention,0,1,0,1,1,cortisol
+pots-findings,betablocker,dysautonomia,intervention,0,1,0,1,1,beta-blocker
+pots-findings,benzodiazepines,general,intervention,1,0,0,1,1,benzodiazepines
+pots-findings,generalizedjointhypermobility,EDS_hypermobility,intervention,1,0,0,1,1,generalized joint hypermobility
+pots-findings,adverseevents,migraine,disease-state,1,0,0,1,1,adverse events
+pots-findings,melatoninzinc,ME_CFS,intervention,0,1,0,1,1,Melatonin/Zinc
+pots-findings,G:HLADQB1,general,disease-state,0,1,0,1,1,HLA-DQB1
+pots-findings,G:LAMB4,dysautonomia,disease-state,0,0,1,1,1,LAMB4
+pots-findings,intraepidermalnervefiberdensity,POTS,disease-state,0,1,0,2,1,intraepidermal nerve fiber density
+pots-findings,G:IRF3,MCAS,disease-state,0,0,1,1,1,IRF3
+pots-findings,G:IL8,multiple,disease-state,1,0,0,1,1,IL-8
+pots-findings,intravenousimmunoglobulin,POTS,intervention,0,1,0,2,1,Intravenous immunoglobulin
+pots-findings,G:IL1B,general,intervention,1,0,0,1,1,IL1B
+pots-findings,intravenousimmunoglobulinivig,dysautonomia,intervention,1,0,0,2,1,Intravenous immunoglobulin (IVIG)
+pots-findings,intravenousimmunoglobulinivig,small_fiber_neuropathy,intervention,1,0,0,2,1,Intravenous immunoglobulin (IVIg)
+pots-findings,iq,autism,disease-state,1,0,0,1,1,IQ
+pots-findings,G:IL18,general,disease-state,1,0,0,1,1,IL18
+pots-findings,G:IL10,POTS,disease-state,1,0,0,1,1,IL-10
+pots-findings,ketotifen,general,intervention,0,1,0,1,1,Ketotifen
+pots-findings,koreanmontrealcognitiveassessmentscore,long_COVID,intervention,1,0,0,1,1,Korean-Montreal Cognitive Assessment score
+pots-findings,G:IDO1,general,disease-state,1,0,0,2,1,IDO1
+pots-findings,G:HLAE,multiple,disease-state,1,0,0,1,1,HLA-E
+pots-findings,interleukin6,IBS_gut,intervention,0,1,0,1,1,Interleukin 6
+pots-findings,G:MAP1LC3B,ME_CFS,intervention,1,0,0,1,1,MAP1LC3B
+pots-findings,interleukin10,multiple,disease-state,1,0,0,1,1,Interleukin-10
+pots-findings,G:NLRP3,long_COVID,intervention,0,1,0,1,1,NLRP3
+pots-findings,imatinib,MCAS,intervention,0,1,0,2,1,Imatinib
+pots-findings,immunoglobuline,long_COVID,disease-state,1,0,0,1,1,Immunoglobulin E
+pots-findings,indomethacin,general,intervention,0,1,0,1,1,indomethacin
+pots-findings,indomethacin,migraine,intervention,0,1,0,2,1,indomethacin
+pots-findings,inflammatorymarkers,long_COVID,disease-state,1,0,0,3,1,inflammatory markers
+pots-findings,infliximab,general,intervention,0,1,0,1,1,infliximab
+pots-findings,inspiratorymuscletraining,long_COVID,intervention,1,0,0,1,1,inspiratory muscle training
+pots-findings,G:MFAP4,general,disease-state,0,1,0,1,1,MFAP4
+pots-findings,G:MTHFR,fibromyalgia,disease-state,1,0,0,1,1,MTHFR
+pots-findings,insulinlikegrowthfactori,long_COVID,disease-state,1,0,0,1,1,insulin-like growth factor-I
+pots-findings,interbeatinterval,autism,disease-state,0,1,0,2,1,interbeat interval
+pots-findings,interferonalpha2,long_COVID,disease-state,1,0,0,1,1,interferon-alpha 2
+pots-findings,interferonbeta,long_COVID,intervention,1,0,0,1,1,interferon-beta
+pots-findings,interferonbeta1a,general,intervention,1,0,0,1,1,interferon beta-1a
+pots-findings,G:HLADR,long_COVID,intervention,0,1,0,1,1,HLA-DR
+pots-findings,G:GFAP,long_COVID,disease-state,1,0,0,1,1,GFAP
+pots-findings,il6il8,long_COVID,disease-state,1,0,0,1,1,"IL-6, IL-8"
+pots-findings,lactobacillus,fibromyalgia,disease-state,1,0,0,1,1,Lactobacillus
+pots-findings,longcovidsymptomseverity,long_COVID,disease-state,1,0,0,1,1,long COVID symptom severity
+pots-findings,G:CD57,long_COVID,disease-state,1,0,0,1,1,CD57
+pots-findings,G:CD203c,MCAS,disease-state,0,1,0,2,1,CD203c
+pots-findings,G:C4d,long_COVID,disease-state,1,0,0,1,1,C4d
+pots-findings,magnesium,general,intervention,0,1,0,1,1,Magnesium
+pots-findings,magnesium,migraine,intervention,0,1,0,2,1,magnesium
+pots-findings,G:AEBP1,EDS_hypermobility,disease-state,0,1,0,1,1,AEBP1
+pots-findings,G:ADRA1A,dysautonomia,disease-state,1,0,0,1,1,ADRA1A
+pots-findings,G:ADIPOQ,long_COVID,disease-state,0,1,0,1,1,ADIPOQ
+pots-findings,G:ACE2,dysautonomia,disease-state,0,0,1,1,1,ACE2
+pots-findings,3indoxylsulfate,ME_CFS,disease-state,1,0,0,1,1,3-indoxyl sulfate
+pots-findings,mcp1ccl2,POTS,disease-state,1,0,0,1,1,MCP-1 (CCL2)
+pots-findings,mcp1ccl2,long_COVID,disease-state,1,0,0,1,1,MCP-1/CCL2
+pots-findings,melatonin,ME_CFS,intervention,1,0,0,1,1,Melatonin
+pots-findings,34dihydroxyphenylaceticaciddopac,dysautonomia,disease-state,0,1,0,1,1,"3,4-dihydroxyphenylacetic acid (DOPAC)"
+pots-findings,G:CLOCK,general,disease-state,0,1,0,1,1,CLOCK
+pots-findings,loneliness,general,disease-state,1,0,0,1,1,Loneliness
+pots-findings,G:COL2A1,general,disease-state,0,1,0,1,1,COL2A1
+pots-findings,levodopabenserazide,dysautonomia,intervention,0,1,0,2,1,levodopa/benserazide
+pots-findings,G:FOXP3,MCAS,disease-state,1,0,0,1,1,FOXP3
+pots-findings,leftventricle,general,disease-state,1,0,0,1,1,left ventricle
+pots-findings,leftventricularejectionfraction,EDS_hypermobility,disease-state,0,1,0,1,1,Left ventricular ejection fraction
+pots-findings,G:ELN,general,disease-state,0,1,0,2,1,ELN
+pots-findings,lengthofstay,general,disease-state,1,0,0,1,1,length of stay
+pots-findings,G:DNMT1,dysautonomia,disease-state,0,1,0,1,1,DNMT1
+pots-findings,G:ChAT,dysautonomia,disease-state,1,0,0,1,1,ChAT
+pots-findings,lingualgyrus,migraine,disease-state,1,0,0,1,1,lingual gyrus
+pots-findings,lfhfratio,autism,disease-state,1,0,0,1,1,LF/HF ratio
+pots-findings,lfhfratio,migraine,disease-state,1,0,0,1,1,LF/HF ratio
+pots-findings,G:Caspase3,general,disease-state,1,0,0,1,1,Caspase-3
+pots-findings,G:CYP2D6,general,disease-state,0,1,0,1,1,CYP2D6
+pots-findings,G:CTLA4,general,disease-state,1,0,0,1,1,CTLA-4
+pots-findings,carotidintimamediathickness,migraine,disease-state,1,0,0,1,1,carotid intima-media thickness
+pots-findings,il6tnfalpha,general,intervention,0,1,0,1,1,IL-6/TNF-alpha
+pots-findings,il5,general,intervention,0,1,0,1,1,IL-5
+pots-findings,globalcognitiveperformance,long_COVID,disease-state,0,1,0,1,1,global cognitive performance
+pots-findings,G:TTR,dysautonomia,disease-state,1,0,0,1,1,TTR
+pots-findings,haloperidol,general,intervention,1,0,0,1,1,haloperidol
+pots-findings,G:tryptase,IBS_gut,disease-state,1,0,0,2,1,tryptase
+pots-findings,G:orexin,general,disease-state,0,1,0,1,1,orexin
+pots-findings,G:nNOS,migraine,disease-state,1,0,0,1,1,nNOS
+pots-findings,G:nNOS,general,intervention,0,1,0,1,1,nNOS
+pots-findings,healthrelatedqualityoflifehrqol,long_COVID,intervention,1,0,0,1,1,health-related quality of life (HR-QOL)
+pots-findings,G:eNOS,long_COVID,disease-state,0,1,0,1,1,eNOS
+pots-findings,G:decorin,EDS_hypermobility,disease-state,0,1,0,1,1,decorin
+pots-findings,G:cFos,MCAS,disease-state,1,0,0,1,1,c-Fos
+pots-findings,heartrate,migraine,disease-state,1,0,0,1,1,heart rate
+pots-findings,heartrateduringhutt,long_COVID,disease-state,1,0,0,1,1,Heart rate during HUTT
+pots-findings,heartratehr,dysautonomia,disease-state,1,0,0,1,1,heart rate (HR)
+pots-findings,heartraterecovery,dysautonomia,intervention,1,0,0,2,1,heart rate recovery
+pots-findings,heartraterecoveryat1minute,long_COVID,disease-state,0,1,0,1,1,heart rate recovery at 1 minute
+pots-findings,heartratevariability,IBS_gut,disease-state,0,1,0,1,1,Heart rate variability
+pots-findings,abobloodgroup,long_COVID,disease-state,0,1,0,1,1,ABO blood group
+pots-findings,gutmicrobiome,ME_CFS,disease-state,0,1,0,1,1,Gut microbiome
+pots-findings,ace2tmprss2,general,disease-state,0,0,1,1,1,"ACE2, TMPRSS2"
+pots-findings,adenosinea2breceptor,IBS_gut,intervention,1,0,0,1,1,adenosine A2B receptor
+pots-findings,advancedoxidationproteinproducts,long_COVID,disease-state,1,0,0,1,1,Advanced oxidation protein products
+pots-findings,glutamate,ME_CFS,disease-state,1,0,0,2,1,Glutamate
+pots-findings,adrenergicbaroreflexsensitivitybrsa,migraine,disease-state,0,1,0,1,1,Adrenergic baroreflex sensitivity (BRS-A)
+pots-findings,glutathione,ME_CFS,intervention,1,0,0,1,1,Glutathione
+pots-findings,adiponectin,long_COVID,disease-state,0,1,0,2,1,adiponectin
+pots-findings,glutathione,multiple,disease-state,1,0,0,1,1,Glutathione
+pots-findings,acupuncture,fibromyalgia,intervention,0,1,0,1,1,Acupuncture
+pots-findings,aceinhibitors,general,intervention,0,1,0,1,1,ACE inhibitors
+pots-findings,activitiesofdailyliving,long_COVID,disease-state,0,1,0,1,1,activities of daily living
+pots-findings,gq1bgangliosideantibody,dysautonomia,disease-state,1,0,0,1,1,GQ1b ganglioside antibody
+pots-findings,acth,long_COVID,disease-state,1,0,0,1,1,ACTH
+pots-findings,greymattervolume,fibromyalgia,disease-state,0,1,0,1,1,grey matter volume
+pots-findings,acetylcholinereceptorantibody,long_COVID,disease-state,1,0,0,1,1,acetylcholine receptor antibody
+pots-findings,acetylcarnitine,long_COVID,disease-state,0,1,0,1,1,Acetylcarnitine
+pots-findings,G:ULK1,ME_CFS,intervention,1,0,0,1,1,ULK1
+pots-findings,G:TRPM3,multiple,disease-state,0,1,0,2,1,TRPM3
+pots-findings,G:PHOX2B,dysautonomia,disease-state,0,1,0,2,1,PHOX2B
+pots-findings,G:TREM2,long_COVID,disease-state,1,0,0,1,1,TREM2
+pots-findings,hydrogenwater,ME_CFS,intervention,0,1,0,1,1,hydrogen water
+pots-findings,hydroxychloroquine,general,intervention,1,0,0,2,1,hydroxychloroquine
+pots-findings,hyperbaricoxygentherapy,long_COVID,intervention,1,0,0,1,1,hyperbaric oxygen therapy
+pots-findings,hypergammaglobulinemia,general,disease-state,1,0,0,1,1,hypergammaglobulinemia
+pots-findings,G:RBM24,dysautonomia,intervention,0,0,1,1,1,RBM24
+pots-findings,hypothalamus,ME_CFS,disease-state,1,0,0,1,1,Hypothalamus
+pots-findings,G:RAMP1,migraine,disease-state,1,0,0,1,1,RAMP1
+pots-findings,iga,MCAS,disease-state,0,1,0,1,1,IgA
+pots-findings,iga,ME_CFS,disease-state,0,1,0,1,1,IgA
+pots-findings,G:PMP22,small_fiber_neuropathy,disease-state,0,1,0,2,1,PMP22
+pots-findings,ige,general,intervention,0,1,0,1,1,IgE
+pots-findings,ighv330ighv3303,ME_CFS,disease-state,1,0,0,1,1,"IGHV3-30, IGHV3-30-3"
+pots-findings,G:PI3K,general,intervention,0,1,0,1,1,PI3K
+pots-findings,G:PI3K,MCAS,disease-state,1,0,0,1,1,PI3K
+pots-findings,il1il6tnf,long_COVID,disease-state,1,0,0,1,1,"IL-1β, IL-6, TNFα"
+pots-findings,hydralazine,EDS_hypermobility,intervention,0,1,0,1,1,hydralazine
+pots-findings,G:Relaxin,EDS_hypermobility,disease-state,1,0,0,1,1,Relaxin
+pots-findings,G:S100B,IBS_gut,disease-state,1,0,0,1,1,S100B
+pots-findings,G:TGFB3,general,intervention,1,0,0,1,1,TGFB3
+pots-findings,hemoglobin,POTS,disease-state,0,1,0,2,1,hemoglobin
+pots-findings,heparin,MCAS,intervention,0,1,0,1,1,Heparin
+pots-findings,G:TNF,general,intervention,0,1,0,1,1,TNF
+pots-findings,G:TLR7,long_COVID,disease-state,1,0,0,1,1,TLR7
+pots-findings,G:TLR4,MCAS,intervention,0,1,0,1,1,TLR4
+pots-findings,G:TGFbeta,multiple,disease-state,1,0,0,1,1,TGF-beta
+pots-findings,G:STAT5A,MCAS,intervention,0,1,0,1,1,STAT5A
+pots-findings,hpvvaccine,POTS,intervention,1,0,0,1,1,HPV vaccine
+pots-findings,highfrequencyheartratevariabilityhfhrv,fibromyalgia,disease-state,0,1,0,1,1,High-frequency heart rate variability (HF HRV)
+pots-findings,G:SPTLC1,general,intervention,0,1,0,1,1,SPTLC1
+pots-findings,hit6score,migraine,disease-state,1,0,0,1,1,HIT-6 score
+pots-findings,hiv,dysautonomia,disease-state,1,0,0,1,1,HIV
+pots-findings,G:SCN10A,small_fiber_neuropathy,disease-state,1,0,0,1,1,SCN10A
+pots-findings,hospitalreadmission,long_COVID,disease-state,1,0,0,1,1,hospital readmission
+pots-findings,electrochemicalskinconductanceesc,small_fiber_neuropathy,disease-state,0,1,0,1,1,Electrochemical skin conductance (ESC)
