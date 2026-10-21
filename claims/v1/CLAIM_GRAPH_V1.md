@@ -14,7 +14,7 @@ zoledronic acid. Every one came from an `unverified_model_emitted` id. The POTS 
 this is the concrete demonstration of why they must never drive a join. Restricting to verified ids removed all
 454.
 
-**Numbers.** 44,873 claims (v0 44,974): 1 paper 39,082 · 2 papers 2,726 · 3–4 1,260 · 5–9 557 · 10+ 248 — the
+**Numbers.** 44,873 claims (v0 44,974): 1 paper 40,095 · 2 papers 2,740 · 3–4 1,246 · 5–9 549 · 10+ 243 — the
 shape is unchanged because most entity rows have no verified id, so most spellings still stand alone. 1,313
 contradicted cells (273 with ≥2 papers each side); 817 entities in both corpora. `support_frac_of_condition_papers`
 gives corpus-relative support (supporting papers / papers in that corpus × condition cell): the top EDS claim,
