@@ -1,0 +1,15 @@
+{
+ "name": "authority_prefix_match_v4",
+ "mismatches": {},
+ "n_mismatched_rows": 0,
+ "n_mismatched_ids": 0,
+ "n_rows_checked": 154,
+ "n_ids_checked": 271,
+ "n_undeclared_tag_rows": 0,
+ "n_minting_column_disagreements": 0,
+ "columns_checked": [
+  "hpo_ids_verified",
+  "entity_ontology_id_resolved"
+ ],
+ "ok": true
+}

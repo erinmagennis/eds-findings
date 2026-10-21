@@ -1,0 +1,494 @@
+{
+ "package": "eds-findings-nosology-supplement",
+ "label": "Nosology supplement \u2014 papers PubMed indexes under EDS that the 2017-classification screen excluded: historically classified as EDS (reclassified, e.g. occipital horn syndrome / EDS IX) and adjacent heritable connective-tissue disorders; 1970-2026; each row carries scope_class",
+ "findings": 343,
+ "papers": 45,
+ "tier_source": "t3",
+ "chunk_ids": [
+  150,
+  151
+ ],
+ "n_chunks": 2,
+ "expected_chunk_ids": [
+  150,
+  151
+ ],
+ "chunks_without_rows": [],
+ "chunk_paper_allotment": {
+  "150": 27,
+  "151": 26
+ },
+ "year_range": [
+  1977,
+  2025
+ ],
+ "themes": {
+  "eds_core": {
+   "findings": 343,
+   "papers": 45
+  }
+ },
+ "conditions": {
+  "EDS_other_type": {
+   "findings": 168,
+   "papers": 25
+  },
+  "general": {
+   "findings": 160,
+   "papers": 27
+  },
+  "EDS_unspecified_or_mixed": {
+   "findings": 13,
+   "papers": 4
+  },
+  "multiple": {
+   "findings": 1,
+   "papers": 1
+  },
+  "hypermobility_unspecified": {
+   "findings": 1,
+   "papers": 1
+  }
+ },
+ "evidence_tier": {
+  "case-series": 114,
+  "review/expert-opinion": 86,
+  "case-report": 82,
+  "mechanistic/in-vitro": 35,
+  "case-control": 22,
+  "cohort": 3,
+  "cross-sectional": 1
+ },
+ "finding_type": {
+  "mechanism/biomarker": 195,
+  "diagnostic/screening": 46,
+  "comorbidity": 36,
+  "symptom-burden": 36,
+  "treatment/intervention": 30
+ },
+ "certainty_derived": {
+  "confirmed": 283,
+  "mixed": 34,
+  "hedged": 26
+ },
+ "causal_or_correlational": {
+  "correlational-only": 143,
+  "not-stated": 101,
+  "causal-claim": 99
+ },
+ "provenance_section": {
+  "abstract": 191,
+  "results": 82,
+  "discussion": 56,
+  "introduction": 8,
+  "conclusion": 3,
+  "figure/table": 1,
+  "methods": 1,
+  "title": 1
+ },
+ "entity_kind": {
+  "gene/protein": 171,
+  "anatomical-structure": 46,
+  "chemical/metabolite": 38,
+  "None": 37,
+  "physiological-measure": 24,
+  "other": 23,
+  "cell-type": 4
+ },
+ "fulltext_strata": {
+  "abstract-only": {
+   "papers": 37,
+   "findings": 204,
+   "findings_per_paper": 5.51
+  },
+  "retrieved-fulltext": {
+   "papers": 8,
+   "findings": 139,
+   "findings_per_paper": 17.38
+  }
+ },
+ "findings_per_paper_overall": 7.62,
+ "coverage": {
+  "papers_yielding_of_rostered": {
+   "numerator": 45,
+   "denominator": 53,
+   "pct": 84.91,
+   "basis": "papers with >=1 finding / papers in the frozen roster (all dispatched)"
+  },
+  "rostered_papers_by_fulltext_status": {
+   "abstract-only": 37,
+   "nan": 8,
+   "retrieved-fulltext": 8
+  }
+ },
+ "quote": {
+  "rows_with_quote": 343,
+  "median_chars": 156,
+  "p90": 248,
+  "p99": 363,
+  "max_chars": 399,
+  "over_200": 80,
+  "over_400": 0,
+  "over_600": 0
+ },
+ "grounding": {
+  "rows_with_resolved_id": 54,
+  "id_resolved_frac_all_rows": 0.1574,
+  "entity_rows": 263,
+  "id_resolved_frac_entity_rows": 0.2053,
+  "rows_id_and_authority_label": 54,
+  "verification": {
+   "no_id": 289,
+   "authority_verified": 54
+  },
+  "match_mode": {
+   "None": 289,
+   "exact": 40,
+   "synonym": 14
+  },
+  "id_prefix": {
+   "None": 289,
+   "CHEBI": 28,
+   "UniProt": 17,
+   "UBERON": 5,
+   "CL": 2,
+   "GO": 1,
+   "HP": 1
+  },
+  "ontology_id_source": {
+   "unresolved_nulled": 289,
+   "authority_lookup_ols_chebi_exact": 23,
+   "authority_lookup_uniprot_exact": 9,
+   "authority_lookup_uniprot_synonym": 8,
+   "authority_lookup_ols_chebi_synonym": 5,
+   "authority_lookup_ols_uberon_exact": 4,
+   "authority_lookup_ols_cl_exact": 2,
+   "authority_lookup_ols_uberon_via_go_exact": 1,
+   "authority_lookup_ols_hp_exact": 1,
+   "authority_lookup_ols_uberon_synonym": 1
+  },
+  "id_denotes_entity_rate": {
+   "value": null,
+   "basis": "NOT MEASURED on this package: no adjudicated correspondence sample yet (RUNBOOK stage 5 gate). `id_resolved_frac` is coverage, not correctness."
+  }
+ },
+ "hpo": {
+  "rows_with_verified_hpo": 100,
+  "verification": {
+   "no_hpo": 243,
+   "authority_verified_synonym": 56,
+   "authority_verified_exact": 44
+  },
+  "rows_multi_id": 58
+ },
+ "gene": {
+  "rows_gene_marker": 92,
+  "rows_gene_resolved": 82,
+  "rows_hgnc": 82,
+  "rows_ensembl": 82
+ },
+ "capability_flags": {
+  "cap_entity_kind": {
+   "true": 343,
+   "false": 0,
+   "null": 0
+  },
+  "cap_hpo_verified": {
+   "true": 343,
+   "false": 0,
+   "null": 0
+  },
+  "cap_number_in_quote": {
+   "true": 343,
+   "false": 0,
+   "null": 0
+  },
+  "cap_quote_source_retained": {
+   "true": 343,
+   "false": 0,
+   "null": 0
+  }
+ },
+ "flags": {
+  "query_contamination": {
+   "rows": 0,
+   "papers": 0
+  },
+  "screen_verdict_uncertain": {
+   "rows": 0,
+   "papers": 0
+  },
+  "number_in_quote_true": 89,
+  "number_in_quote_false": 13,
+  "number_in_quote_null_no_number": 241
+ },
+ "fill_rates_pct": {
+  "hpo_verification": 100.0,
+  "source_stream": 100.0,
+  "relation_type": 100.0,
+  "relation_subject": 100.0,
+  "relation_object": 100.0,
+  "provenance_quote": 100.0,
+  "provenance_section": 100.0,
+  "null_or_failed_result": 100.0,
+  "hpo_id_count": 100.0,
+  "evidence_stratum": 100.0,
+  "study_quality": 100.0,
+  "hpo_id_source": 100.0,
+  "ontology_id_source": 100.0,
+  "gene_id_source": 100.0,
+  "gene_resolved": 100.0,
+  "screen_verdict_uncertain": 100.0,
+  "screen_final_verdict": 100.0,
+  "query_contamination": 100.0,
+  "chunk_id": 100.0,
+  "certainty_derived": 100.0,
+  "fetch_note": 100.0,
+  "pmid": 100.0,
+  "fulltext_status": 100.0,
+  "title": 100.0,
+  "year": 100.0,
+  "tier": 100.0,
+  "unit_file": 100.0,
+  "unit_vid": 100.0,
+  "condition": 100.0,
+  "ontology_id_verification": 100.0,
+  "direction": 100.0,
+  "direction_reference": 100.0,
+  "finding_text": 100.0,
+  "cap_quote_source_retained": 100.0,
+  "cap_number_in_quote": 100.0,
+  "cap_hpo_verified": 100.0,
+  "causal_or_correlational": 100.0,
+  "evidence_tier": 100.0,
+  "cap_entity_kind": 100.0,
+  "tier_source": 100.0,
+  "certainty": 100.0,
+  "population_age_group": 100.0,
+  "sex_hormonal": 100.0,
+  "anatomical_system": 100.0,
+  "is_covid_associated": 100.0,
+  "finding_type": 100.0,
+  "hpo_id_count_worker": 100.0,
+  "hpo_id_source_worker": 100.0,
+  "ontology_id_source_worker": 100.0,
+  "scope_span": 100.0,
+  "scope_class": 100.0,
+  "theme": 100.0,
+  "doi": 94.17,
+  "entity_kind": 89.21,
+  "study_type": 77.84,
+  "comparator": 77.84,
+  "entity": 76.68,
+  "historical_type_label": 75.22,
+  "n_participants": 59.77,
+  "limitations_stated": 58.02,
+  "future_direction": 57.73,
+  "phenotype_terms": 54.52,
+  "pathway_or_mechanism": 53.64,
+  "contradicts_or_extends": 52.19,
+  "demographics": 50.73,
+  "eds_type": 50.73,
+  "symptom_correlate": 37.61,
+  "quantitative_detail": 31.78,
+  "number_in_quote": 29.74,
+  "hpo_id_minting_ontology": 29.15,
+  "hpo_labels_verified_worker": 29.15,
+  "hpo_ids_verified_worker": 29.15,
+  "hpo_ids_verified": 29.15,
+  "hpo_labels_verified": 29.15,
+  "gene_marker": 26.82,
+  "ensembl_id": 23.91,
+  "hgnc_id": 23.91,
+  "contact_note": 22.74,
+  "functional_impact": 19.53,
+  "entity_ontology_label": 15.74,
+  "entity_ontology_id_minting_ontology": 15.74,
+  "entity_ontology_id_resolved": 15.74,
+  "ontology_id_match_mode": 15.74,
+  "ontology_id_prefix": 15.74,
+  "effect_size": 13.99,
+  "treatment_class": 9.04,
+  "entity_ontology_id_resolved_worker": 8.16,
+  "entity_ontology_label_worker": 8.16,
+  "adverse_event_note": 4.37,
+  "contradicts_finding_ref": 2.62,
+  "cohort_registry": 1.75,
+  "cohort_name": 1.75,
+  "validated_instrument": 1.46,
+  "is_duplicate_or_preprint_note": 0.87,
+  "dataset_accession": 0.0,
+  "sample_stratum": 0.0,
+  "journal": 0.0
+ },
+ "constant_columns": {
+  "is_covid_associated": "False",
+  "is_duplicate_or_preprint_note": "This is an eLife 'Insight' commentary summarizing a separate primary research article (Xiao, Wan, Fan, Tang & Zhou, 2014, eLife 3:e03191), not a primary data report itself.",
+  "source_stream": "mesh_eds_indexed_excluded_by_screen",
+  "theme": "eds_core",
+  "query_contamination": "False",
+  "screen_final_verdict": "in_scope_supplement",
+  "screen_verdict_uncertain": "False",
+  "tier": "3",
+  "tier_source": "t3",
+  "cap_entity_kind": "True",
+  "cap_hpo_verified": "True",
+  "cap_number_in_quote": "True",
+  "cap_quote_source_retained": "True"
+ },
+ "all_null_columns": [
+  "dataset_accession",
+  "journal",
+  "sample_stratum"
+ ],
+ "verifiability": {
+  "rows_total": 343,
+  "abstract_derived_rows": 204,
+  "fulltext_derived_rows": 139,
+  "source_text_retained": true,
+  "verifiable_rows": 343,
+  "verifiable_share_pct": 100.0,
+  "basis": "all rows: the text handed to the model is retained in gzipped chunk archives"
+ },
+ "quote_census": {
+  "strata": [
+   {
+    "stratum": "abstract-only",
+    "n_rows_with_quote": 204,
+    "n_checked": 203,
+    "n_traceable": 203,
+    "n_untraceable": 0,
+    "n_no_source_text": 1,
+    "traceable_pct": 100.0,
+    "basis": "CENSUS of abstract-only rows with a non-null quote; 203 verified against that paper's own retained source text; 1 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 203,
+     "n_false_positives": 0,
+     "false_positive_pct": 0.0,
+     "basis": "203 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "matcher discriminates"
+    },
+    "untraceable_examples": [],
+    "source": "retained archive (text as handed to the model); roster abstract only as fallback",
+    "n_papers_from_roster_fallback": 1
+   },
+   {
+    "stratum": "full-text (archive-backed)",
+    "n_rows_with_quote": 139,
+    "n_checked": 139,
+    "n_traceable": 139,
+    "n_untraceable": 0,
+    "n_no_source_text": 0,
+    "traceable_pct": 100.0,
+    "basis": "CENSUS of full-text (archive-backed) rows with a non-null quote; 139 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 139,
+     "n_false_positives": 0,
+     "false_positive_pct": 0.0,
+     "basis": "139 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "matcher discriminates"
+    },
+    "untraceable_examples": []
+   },
+   {
+    "stratum": "blocked (fetch failed; extracted from title+abstract)",
+    "n_rows_with_quote": 0,
+    "n_checked": 0,
+    "n_traceable": 0,
+    "n_untraceable": 0,
+    "n_no_source_text": 0,
+    "traceable_pct": null,
+    "basis": "CENSUS of blocked (fetch failed; extracted from title+abstract) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 0,
+     "n_false_positives": 0,
+     "false_positive_pct": null,
+     "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+    },
+    "untraceable_examples": []
+   }
+  ],
+  "n_archive_papers": 51,
+  "coverage": {
+   "n_rows_with_quote": 343,
+   "n_verifiable": 342,
+   "verifiable_pct_of_quote_rows": 99.71,
+   "n_traceable": 342,
+   "traceable_pct_of_verifiable": 100.0,
+   "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+  }
+ },
+ "build_utc": "2026-10-21T16:58:03Z",
+ "source_corpus_version_id": "5199136b-976c-4387-b41b-27dc99e92403",
+ "partition": {
+  "siblings": [
+   "eds-findings-nosology-supplement"
+  ],
+  "this": "eds-findings-nosology-supplement",
+  "note": "single package; no sibling partition claim"
+ },
+ "invariants": {
+  "all_ok": true,
+  "per_check": {
+   "schema_completeness": {
+    "ok": true,
+    "missing": []
+   },
+   "conservation": {
+    "ok": true,
+    "absent_chunks": [],
+    "over_allotment": []
+   },
+   "monotonicity": {
+    "ok": true,
+    "rows": 343,
+    "papers": 45,
+    "prior_rows": 0,
+    "prior_papers": 0
+   },
+   "no_model_emitted_ids": {
+    "ok": true,
+    "violations": {}
+   },
+   "id_provenance": {
+    "ok": true,
+    "id_without_source": {}
+   },
+   "enum_drift": {
+    "ok": true,
+    "flagged": {},
+    "note": "flagged for adjudication, never auto-remapped"
+   },
+   "duplicates": {
+    "ok": true,
+    "fully_identical_rows": 0,
+    "loose_key_groups": 2,
+    "note": "loose>full is expected and NOT a defect; only fully-identical rows are duplicates"
+   },
+   "hpo_multivalue": {
+    "ok": true,
+    "mismatch": 0,
+    "n_with_ids": 100,
+    "n_multi": 58
+   },
+   "authority_prefix_match_v4": {
+    "ok": true,
+    "mismatches": {},
+    "n_mismatched_rows": 0,
+    "n_mismatched_ids": 0,
+    "n_rows_checked": 154,
+    "n_ids_checked": 271,
+    "n_undeclared_tag_rows": 0,
+    "n_minting_column_disagreements": 0,
+    "columns_checked": [
+     "hpo_ids_verified",
+     "entity_ontology_id_resolved"
+    ]
+   }
+  }
+ },
+ "enum_drift": {
+  "total_drifted_rows": 0
+ }
+}

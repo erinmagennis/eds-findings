@@ -1,0 +1,99 @@
+{
+ "schema": "registry-v3 (2026-10-21)",
+ "rows": 22805,
+ "by_corpus_status": {
+  "eds-findings": {
+   "extracted": 3329,
+   "referenced": 1718,
+   "excluded_screen": 1641,
+   "not_extractable": 1631,
+   "dispatched_no_yield": 224
+  },
+  "pots-findings": {
+   "extracted": 11519,
+   "dispatched_no_yield": 2743
+  }
+ },
+ "eds_by_tier_status": {
+  "1": {
+   "extracted": 679,
+   "dispatched_no_yield": 87,
+   "excluded_screen": 61
+  },
+  "2": {
+   "extracted": 2605,
+   "not_extractable": 1503,
+   "excluded_screen": 1085,
+   "dispatched_no_yield": 129
+  },
+  "3": {
+   "extracted": 45,
+   "dispatched_no_yield": 8
+  },
+  "tier5": {
+   "referenced": 1718,
+   "excluded_screen": 495,
+   "not_extractable": 128
+  }
+ },
+ "eds_scope_class": {
+  "None": 5111,
+  "eds_2017": 3289,
+  "mention_only": 95,
+  "eds_historical_reclassified": 33,
+  "adjacent_hctd": 15
+ },
+ "invariants": {
+  "key_unique": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "status_enum": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "one_extraction_per_pmid_per_generation": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "no_reextraction_of_sibling_paper": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "referenced_exists_in_sibling": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "shared_with_consistent": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "reference_only_consistent": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "universe_status_consistent": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "n_findings_by_status": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "partition_within_corpus": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "generation_provenance": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "counts_sum": {
+   "ok": true,
+   "n_violations": 0
+  }
+ },
+ "notes": [
+  "v3 = v2 + nosology supplement: 53 MeSH-indexed EDS papers moved from excluded_screen to tier 3 (45 extracted, 8 dispatched_no_yield; package eds-findings-nosology-supplement-v0); scope_class column added (eds_2017 for all previously extracted rows; mention_only recorded on the 95 MeSH-indexed papers that stay excluded)"
+ ]
+}

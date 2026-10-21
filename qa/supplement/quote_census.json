@@ -1,0 +1,69 @@
+{
+ "strata": [
+  {
+   "stratum": "abstract-only",
+   "n_rows_with_quote": 204,
+   "n_checked": 203,
+   "n_traceable": 203,
+   "n_untraceable": 0,
+   "n_no_source_text": 1,
+   "traceable_pct": 100.0,
+   "basis": "CENSUS of abstract-only rows with a non-null quote; 203 verified against that paper's own retained source text; 1 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 203,
+    "n_false_positives": 0,
+    "false_positive_pct": 0.0,
+    "basis": "203 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "matcher discriminates"
+   },
+   "untraceable_examples": [],
+   "source": "retained archive (text as handed to the model); roster abstract only as fallback",
+   "n_papers_from_roster_fallback": 1
+  },
+  {
+   "stratum": "full-text (archive-backed)",
+   "n_rows_with_quote": 139,
+   "n_checked": 139,
+   "n_traceable": 139,
+   "n_untraceable": 0,
+   "n_no_source_text": 0,
+   "traceable_pct": 100.0,
+   "basis": "CENSUS of full-text (archive-backed) rows with a non-null quote; 139 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 139,
+    "n_false_positives": 0,
+    "false_positive_pct": 0.0,
+    "basis": "139 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "matcher discriminates"
+   },
+   "untraceable_examples": []
+  },
+  {
+   "stratum": "blocked (fetch failed; extracted from title+abstract)",
+   "n_rows_with_quote": 0,
+   "n_checked": 0,
+   "n_traceable": 0,
+   "n_untraceable": 0,
+   "n_no_source_text": 0,
+   "traceable_pct": null,
+   "basis": "CENSUS of blocked (fetch failed; extracted from title+abstract) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 0,
+    "n_false_positives": 0,
+    "false_positive_pct": null,
+    "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+   },
+   "untraceable_examples": []
+  }
+ ],
+ "n_archive_papers": 51,
+ "coverage": {
+  "n_rows_with_quote": 343,
+  "n_verifiable": 342,
+  "verifiable_pct_of_quote_rows": 99.71,
+  "n_traceable": 342,
+  "traceable_pct_of_verifiable": 100.0,
+  "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+ }
+}

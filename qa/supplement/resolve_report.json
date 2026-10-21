@@ -1,0 +1,191 @@
+{
+ "wall_s": 177.0,
+ "distinct_pairs": 88,
+ "routable_pairs": 79,
+ "authority_http_lookups_new": 166,
+ "cache_entries_after": 14551,
+ "cache_loaded": {
+  "loaded": 14385,
+  "upgraded": 0,
+  "retagged": 0,
+  "had_minting_column": true
+ },
+ "entity_rows": {
+  "numerator": 263,
+  "denominator": 343,
+  "pct": 76.68,
+  "basis": "rows carrying a non-null entity"
+ },
+ "entity_id_rows": {
+  "numerator": 54,
+  "denominator": 343,
+  "pct": 15.74,
+  "basis": "ALL rows; coverage not correctness"
+ },
+ "entity_id_rows_of_entity_rows": {
+  "numerator": 54,
+  "denominator": 263,
+  "pct": 20.53,
+  "basis": "rows with an entity name"
+ },
+ "by_entity_kind": {
+  "anatomical-structure": {
+   "authority": "uberon",
+   "rows": {
+    "numerator": 6,
+    "denominator": 46,
+    "pct": 13.04,
+    "basis": "rows with entity_kind=anatomical-structure whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 6,
+    "denominator": 17,
+    "pct": 35.29,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "cell-type": {
+   "authority": "cl",
+   "rows": {
+    "numerator": 2,
+    "denominator": 4,
+    "pct": 50.0,
+    "basis": "rows with entity_kind=cell-type whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 1,
+    "denominator": 1,
+    "pct": 100.0,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "chemical/metabolite": {
+   "authority": "chebi",
+   "rows": {
+    "numerator": 28,
+    "denominator": 38,
+    "pct": 73.68,
+    "basis": "rows with entity_kind=chemical/metabolite whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 11,
+    "denominator": 17,
+    "pct": 64.71,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "gene/protein": {
+   "authority": "uniprot",
+   "rows": {
+    "numerator": 17,
+    "denominator": 171,
+    "pct": 9.94,
+    "basis": "rows with entity_kind=gene/protein whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 4,
+    "denominator": 32,
+    "pct": 12.5,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "other": {
+   "authority": "none (unrouted by design)",
+   "rows": {
+    "numerator": 0,
+    "denominator": 23,
+    "pct": 0.0,
+    "basis": "rows with entity_kind=other whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 0,
+    "denominator": 9,
+    "pct": 0.0,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "physiological-measure": {
+   "authority": "hp",
+   "rows": {
+    "numerator": 1,
+    "denominator": 24,
+    "pct": 4.17,
+    "basis": "rows with entity_kind=physiological-measure whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 1,
+    "denominator": 12,
+    "pct": 8.33,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  }
+ },
+ "source_tags": {
+  "unresolved_nulled": 289,
+  "authority_lookup_ols_chebi_exact": 23,
+  "authority_lookup_uniprot_exact": 9,
+  "authority_lookup_uniprot_synonym": 8,
+  "authority_lookup_ols_chebi_synonym": 5,
+  "authority_lookup_ols_uberon_exact": 4,
+  "authority_lookup_ols_cl_exact": 2,
+  "authority_lookup_ols_uberon_via_go_exact": 1,
+  "authority_lookup_ols_hp_exact": 1,
+  "authority_lookup_ols_uberon_synonym": 1
+ },
+ "minting_ontologies": {
+  "chebi": 28,
+  "uniprot": 17,
+  "uberon": 5,
+  "cl": 2,
+  "go": 1,
+  "hp": 1
+ },
+ "hpo": {
+  "rows_with_phenotype_terms": {
+   "numerator": 187,
+   "denominator": 343,
+   "pct": 54.52,
+   "basis": "rows with >=1 phenotype term name"
+  },
+  "rows_with_verified_hpo": {
+   "numerator": 100,
+   "denominator": 187,
+   "pct": 53.48,
+   "basis": "of rows with phenotype terms"
+  },
+  "distinct_terms": {
+   "numerator": 110,
+   "denominator": 259,
+   "pct": 42.47,
+   "basis": "distinct phenotype term names that resolved at OLS4 hp (exact label or authority synonym)"
+  },
+  "rows_multi_id": 58,
+  "source_tags": {
+   "unresolved_nulled": 243,
+   "authority_lookup_ols_hp_synonym": 56,
+   "authority_lookup_ols_hp_exact": 43,
+   "authority_lookup_ols_hp_via_mpath_exact": 1
+  },
+  "rows_with_imported_term": 1
+ },
+ "gene": {
+  "rows_with_gene_marker": 92,
+  "rows_hgnc": {
+   "numerator": 82,
+   "denominator": 92,
+   "pct": 89.13,
+   "basis": "of rows carrying a gene_marker; MyGene symbol lookup in the worker"
+  }
+ },
+ "worker_vs_stage_agreement": {
+  "rows_both_resolved": 28,
+  "rows_identical_id": 28,
+  "worker_only": 0,
+  "stage_only": 26
+ },
+ "id_denotes_entity_rate": {
+  "value": null,
+  "basis": "NOT MEASURED: needs an adjudicated correspondence sample (RUNBOOK stage 5 rule 1)"
+ },
+ "resolver_version": "condition-corpus-builder/resolver@1"
+}
