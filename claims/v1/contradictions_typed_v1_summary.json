@@ -1,0 +1,25 @@
+{
+ "basis": "every contradicted cell of claim graph v1 (same corpus/entity/condition/reference frame; up and down asserted by disjoint paper sets). For each (up paper, down paper) pair the extractor-recorded comparator, population_age_group, study_type and era (pre-1997 / 1997-2016 / 2017+) are compared; a pair is MATCHED when every stated factor agrees, EXPLAINED when at least one stated factor differs, UNDETERMINED when a factor is unstated on one side and none differs. Papers asserting both directions are excluded from pairs.",
+ "cells": 1313,
+ "by_type": {
+  "explained by factors (every pair differs in a stated factor)": 556,
+  "mostly explained (no matched pair; some pairs undetermined)": 334,
+  "undetermined (factors unstated)": 245,
+  "genuine-disagreement candidate (>=1 matched paper pair)": 178
+ },
+ "pairs_total": 15016,
+ "matched_pairs": 479,
+ "explained_pairs": 10345,
+ "undetermined_pairs": 4192,
+ "factor_differences_across_pairs": {
+  "comparator": 5241,
+  "era": 2248,
+  "design": 8122,
+  "population": 9953
+ },
+ "caveats": [
+  "factors are the extractor's fields and are themselves unaudited; the 25 human-read pairs (first_reads_v1) calibrate whether they are reliable enough for this typing",
+  "'genuine-disagreement candidate' means at least one matched pair exists, not that the cell is a true disagreement; comparator and population vocabularies are coarse (e.g. 'other patient group')",
+  "a matched pair can still differ in assay, tissue or outcome definition, which the row fields do not capture"
+ ]
+}
