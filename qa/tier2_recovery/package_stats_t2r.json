@@ -1,0 +1,618 @@
+{
+ "package": "eds-findings-tier2-recovery",
+ "label": "Tier 2 recovery \u2014 pre-2019 EDS/HSD papers with no abstract in Europe PMC/PubMed whose abstract was recovered from OpenAlex (2026-10-21); unscreened, every row flagged screen_verdict_uncertain",
+ "findings": 896,
+ "papers": 229,
+ "tier_source": "t2",
+ "chunk_ids": [
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166
+ ],
+ "n_chunks": 7,
+ "expected_chunk_ids": [
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166
+ ],
+ "chunks_without_rows": [],
+ "chunk_paper_allotment": {
+  "160": 47,
+  "161": 46,
+  "162": 46,
+  "163": 46,
+  "164": 46,
+  "165": 46,
+  "166": 46
+ },
+ "year_range": [
+  1948,
+  2018
+ ],
+ "themes": {
+  "eds_core": {
+   "findings": 716,
+   "papers": 192
+  },
+  "gjh_trait": {
+   "findings": 130,
+   "papers": 26
+  },
+  "hsd_jhs": {
+   "findings": 47,
+   "papers": 9
+  },
+  "eds_subtype_terms": {
+   "findings": 3,
+   "papers": 2
+  }
+ },
+ "conditions": {
+  "EDS_other_type": {
+   "findings": 318,
+   "papers": 88
+  },
+  "EDS_unspecified_or_mixed": {
+   "findings": 247,
+   "papers": 89
+  },
+  "hypermobility_unspecified": {
+   "findings": 175,
+   "papers": 44
+  },
+  "general": {
+   "findings": 84,
+   "papers": 28
+  },
+  "hEDS": {
+   "findings": 32,
+   "papers": 12
+  },
+  "HSD": {
+   "findings": 22,
+   "papers": 7
+  },
+  "multiple": {
+   "findings": 18,
+   "papers": 10
+  }
+ },
+ "evidence_tier": {
+  "case-report": 445,
+  "review/expert-opinion": 276,
+  "case-series": 121,
+  "cross-sectional": 23,
+  "cohort": 9,
+  "mechanistic/in-vitro": 9,
+  "case-control": 8,
+  "meta-analysis": 5
+ },
+ "finding_type": {
+  "comorbidity": 257,
+  "mechanism/biomarker": 251,
+  "symptom-burden": 161,
+  "diagnostic/screening": 154,
+  "treatment/intervention": 73
+ },
+ "certainty_derived": {
+  "confirmed": 736,
+  "mixed": 97,
+  "hedged": 63
+ },
+ "causal_or_correlational": {
+  "not-stated": 448,
+  "correlational-only": 343,
+  "causal-claim": 105
+ },
+ "provenance_section": {
+  "abstract": 435,
+  "discussion": 165,
+  "results": 110,
+  "introduction": 106,
+  "title": 50,
+  "unknown": 15,
+  "figure/table": 8,
+  "conclusion": 6,
+  "methods": 1
+ },
+ "entity_kind": {
+  "anatomical-structure": 266,
+  "None": 199,
+  "other": 147,
+  "gene/protein": 122,
+  "physiological-measure": 110,
+  "chemical/metabolite": 42,
+  "cell-type": 10
+ },
+ "fulltext_strata": {
+  "abstract-only": {
+   "papers": 229,
+   "findings": 896,
+   "findings_per_paper": 3.91
+  }
+ },
+ "findings_per_paper_overall": 3.91,
+ "coverage": {
+  "papers_yielding_of_rostered": {
+   "numerator": 229,
+   "denominator": 323,
+   "pct": 70.9,
+   "basis": "papers with >=1 finding / papers in the frozen roster (all dispatched)"
+  },
+  "rostered_papers_by_fulltext_status": {
+   "abstract-only": 229,
+   "nan": 94
+  }
+ },
+ "quote": {
+  "rows_with_quote": 896,
+  "median_chars": 142,
+  "p90": 244,
+  "p99": 337,
+  "max_chars": 400,
+  "over_200": 182,
+  "over_400": 0,
+  "over_600": 0
+ },
+ "grounding": {
+  "rows_with_resolved_id": 223,
+  "id_resolved_frac_all_rows": 0.2489,
+  "entity_rows": 552,
+  "id_resolved_frac_entity_rows": 0.404,
+  "rows_id_and_authority_label": 223,
+  "verification": {
+   "no_id": 673,
+   "authority_verified": 223
+  },
+  "match_mode": {
+   "None": 673,
+   "exact": 186,
+   "synonym": 37
+  },
+  "id_prefix": {
+   "None": 673,
+   "UBERON": 138,
+   "HP": 29,
+   "CHEBI": 28,
+   "UniProt": 13,
+   "GO": 7,
+   "CL": 6,
+   "PATO": 2
+  },
+  "ontology_id_source": {
+   "unresolved_nulled": 673,
+   "authority_lookup_ols_uberon_exact": 114,
+   "authority_lookup_ols_chebi_exact": 25,
+   "authority_lookup_ols_uberon_synonym": 23,
+   "authority_lookup_ols_hp_exact": 19,
+   "authority_lookup_uniprot_exact": 12,
+   "authority_lookup_ols_hp_synonym": 10,
+   "authority_lookup_ols_hp_via_go_exact": 6,
+   "authority_lookup_ols_cl_exact": 6,
+   "authority_lookup_ols_chebi_synonym": 2,
+   "authority_lookup_ols_hp_via_pato_exact": 2,
+   "authority_lookup_ols_hp_via_chebi_exact": 1,
+   "authority_lookup_ols_hp_via_uberon_synonym": 1,
+   "authority_lookup_ols_uberon_via_go_exact": 1,
+   "authority_lookup_uniprot_synonym": 1
+  },
+  "id_denotes_entity_rate": {
+   "value": null,
+   "basis": "NOT MEASURED on this package: no adjudicated correspondence sample yet (RUNBOOK stage 5 gate). `id_resolved_frac` is coverage, not correctness."
+  }
+ },
+ "hpo": {
+  "rows_with_verified_hpo": 489,
+  "verification": {
+   "no_hpo": 407,
+   "authority_verified_exact": 289,
+   "authority_verified_synonym": 200
+  },
+  "rows_multi_id": 206
+ },
+ "gene": {
+  "rows_gene_marker": 59,
+  "rows_gene_resolved": 57,
+  "rows_hgnc": 57,
+  "rows_ensembl": 57
+ },
+ "capability_flags": {
+  "cap_entity_kind": {
+   "true": 896,
+   "false": 0,
+   "null": 0
+  },
+  "cap_hpo_verified": {
+   "true": 896,
+   "false": 0,
+   "null": 0
+  },
+  "cap_number_in_quote": {
+   "true": 896,
+   "false": 0,
+   "null": 0
+  },
+  "cap_quote_source_retained": {
+   "true": 896,
+   "false": 0,
+   "null": 0
+  }
+ },
+ "flags": {
+  "query_contamination": {
+   "rows": 0,
+   "papers": 0
+  },
+  "screen_verdict_uncertain": {
+   "rows": 896,
+   "papers": 229
+  },
+  "number_in_quote_true": 160,
+  "number_in_quote_false": 28,
+  "number_in_quote_null_no_number": 708
+ },
+ "fill_rates_pct": {
+  "hpo_verification": 100.0,
+  "tier": 100.0,
+  "relation_subject": 100.0,
+  "relation_object": 100.0,
+  "provenance_quote": 100.0,
+  "provenance_section": 100.0,
+  "null_or_failed_result": 100.0,
+  "hpo_id_count": 100.0,
+  "evidence_stratum": 100.0,
+  "study_quality": 100.0,
+  "hpo_id_source": 100.0,
+  "ontology_id_source": 100.0,
+  "gene_id_source": 100.0,
+  "gene_resolved": 100.0,
+  "screen_verdict_uncertain": 100.0,
+  "screen_final_verdict": 100.0,
+  "query_contamination": 100.0,
+  "chunk_id": 100.0,
+  "certainty_derived": 100.0,
+  "fetch_note": 100.0,
+  "pmid": 100.0,
+  "fulltext_status": 100.0,
+  "title": 100.0,
+  "year": 100.0,
+  "journal": 100.0,
+  "relation_type": 100.0,
+  "unit_file": 100.0,
+  "theme": 100.0,
+  "unit_vid": 100.0,
+  "ontology_id_verification": 100.0,
+  "direction": 100.0,
+  "direction_reference": 100.0,
+  "finding_text": 100.0,
+  "cap_quote_source_retained": 100.0,
+  "cap_number_in_quote": 100.0,
+  "cap_hpo_verified": 100.0,
+  "causal_or_correlational": 100.0,
+  "evidence_tier": 100.0,
+  "cap_entity_kind": 100.0,
+  "condition": 100.0,
+  "tier_source": 100.0,
+  "population_age_group": 100.0,
+  "sex_hormonal": 100.0,
+  "anatomical_system": 100.0,
+  "is_covid_associated": 100.0,
+  "finding_type": 100.0,
+  "hpo_id_count_worker": 100.0,
+  "hpo_id_source_worker": 100.0,
+  "ontology_id_source_worker": 100.0,
+  "scope_class": 100.0,
+  "abstract_source": 100.0,
+  "certainty": 100.0,
+  "source_stream": 100.0,
+  "doi": 95.98,
+  "phenotype_terms": 86.05,
+  "entity_kind": 77.79,
+  "symptom_correlate": 67.97,
+  "entity": 61.61,
+  "study_type": 60.49,
+  "comparator": 60.49,
+  "hpo_ids_verified": 54.58,
+  "hpo_labels_verified": 54.58,
+  "hpo_ids_verified_worker": 54.58,
+  "hpo_id_minting_ontology": 54.58,
+  "hpo_labels_verified_worker": 54.58,
+  "eds_type": 50.22,
+  "n_participants": 43.42,
+  "demographics": 30.69,
+  "functional_impact": 25.78,
+  "entity_ontology_label": 24.89,
+  "entity_ontology_id_minting_ontology": 24.89,
+  "entity_ontology_id_resolved": 24.89,
+  "ontology_id_match_mode": 24.89,
+  "ontology_id_prefix": 24.89,
+  "pathway_or_mechanism": 23.44,
+  "quantitative_detail": 22.43,
+  "number_in_quote": 20.98,
+  "contradicts_or_extends": 16.07,
+  "future_direction": 14.17,
+  "limitations_stated": 13.06,
+  "contact_note": 11.61,
+  "treatment_class": 9.26,
+  "gene_marker": 6.58,
+  "adverse_event_note": 6.47,
+  "ensembl_id": 6.36,
+  "hgnc_id": 6.36,
+  "validated_instrument": 4.69,
+  "effect_size": 4.35,
+  "is_duplicate_or_preprint_note": 4.35,
+  "entity_ontology_label_worker": 3.01,
+  "entity_ontology_id_resolved_worker": 3.01,
+  "contradicts_finding_ref": 2.57,
+  "cohort_registry": 2.23,
+  "cohort_name": 1.45,
+  "dataset_accession": 0.0,
+  "sample_stratum": 0.0
+ },
+ "constant_columns": {
+  "is_covid_associated": "False",
+  "source_stream": "title_only_recovered_openalex",
+  "fulltext_status": "abstract-only",
+  "query_contamination": "False",
+  "screen_final_verdict": "unscreened_recovery",
+  "screen_verdict_uncertain": "True",
+  "tier": "2",
+  "abstract_source": "openalex_abstract_inverted_index",
+  "scope_class": "eds_2017",
+  "tier_source": "t2",
+  "cap_entity_kind": "True",
+  "cap_hpo_verified": "True",
+  "cap_number_in_quote": "True",
+  "cap_quote_source_retained": "True"
+ },
+ "all_null_columns": [
+  "dataset_accession",
+  "sample_stratum"
+ ],
+ "verifiability": {
+  "rows_total": 896,
+  "abstract_derived_rows": 896,
+  "fulltext_derived_rows": 0,
+  "source_text_retained": true,
+  "verifiable_rows": 896,
+  "verifiable_share_pct": 100.0,
+  "basis": "all rows: the text handed to the model is retained in gzipped chunk archives"
+ },
+ "quote_census": {
+  "strata": [
+   {
+    "stratum": "abstract-only",
+    "n_rows_with_quote": 896,
+    "n_checked": 896,
+    "n_traceable": 853,
+    "n_untraceable": 43,
+    "n_no_source_text": 0,
+    "traceable_pct": 95.2,
+    "basis": "CENSUS of abstract-only rows with a non-null quote; 896 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 400,
+     "n_false_positives": 0,
+     "false_positive_pct": 0.0,
+     "basis": "400 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "matcher discriminates"
+    },
+    "untraceable_examples": [
+     {
+      "pmid": "18409203",
+      "quote": "The arthrochalasia type of Ehlers-Danlos syndrome (EDS VIIA and VIIB): the diagnostic value of collagen fibril ultrastructure."
+     },
+     {
+      "pmid": "19012342",
+      "quote": "Absence of apparent disease causing mutations in COL5A3 in 13 patients with hypermobility Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "18828845",
+      "quote": "Vascular type of Ehlers-Danlos syndrome associated with mild haemophilia A."
+     },
+     {
+      "pmid": "19671829",
+      "quote": "Mimics of vasculitis: vascular Ehlers-Danlos syndrome masquerading as polyarteritis nodosa."
+     },
+     {
+      "pmid": "20425843",
+      "quote": "Cytogenetic and array-CGH characterization of a 6q27 deletion in a patient with developmental delay and features of Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "20693885",
+      "quote": "The incidence of iatrogenic injuries of the tracheobronchial tree after elective intubation is probably low, and estimated at 1:20,000 during a 7-yr period surv"
+     },
+     {
+      "pmid": "21077749",
+      "quote": "Both pain and fatigue are important possible determinants of disability in patients with the Ehlers-Danlos syndrome hypermobility type."
+     },
+     {
+      "pmid": "21916827",
+      "quote": "Managing chronic pain in a young adolescent girl with Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "21946467",
+      "quote": "Hemorrhagic bullae of the oral mucosa as an early manifestation of vascular-type ehlers-danlos syndrome."
+     },
+     {
+      "pmid": "21982893",
+      "quote": "Vascular-type Ehlers-Danlos syndrome presenting as recurrent compartment syndrome."
+     },
+     {
+      "pmid": "22328463",
+      "quote": "Cervical dystonia and joint hypermobility syndrome: a dangerous combination."
+     },
+     {
+      "pmid": "22486320",
+      "quote": "Brittle cornea without clinically-evident extraocular findings in an adult harboring a novel homozygous ZNF469 mutation."
+     },
+     {
+      "pmid": "11493805",
+      "quote": "Surgical complications of Ehlers-Danlos syndrome type IV: case report and review of the literature."
+     },
+     {
+      "pmid": "11797148",
+      "quote": "Die Lysylhydoxylase ist beim kyphoskoliotischen Typ betroffen, die Prokollagenprotease beim dermatosparaktischen Typ."
+     },
+     {
+      "pmid": "12508273",
+      "quote": "Combination therapy of DDAVP and conjugated estrogens for a recurrent large subcutaneous hematoma in Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "12508273",
+      "quote": "Combination therapy of DDAVP and conjugated estrogens for a recurrent large subcutaneous hematoma in Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "12508273",
+      "quote": "Combination therapy of DDAVP and conjugated estrogens for a recurrent large subcutaneous hematoma in Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "12746407",
+      "quote": "Mapping of a de novo unequal crossover causing a deletion of the steroid 21-hydroxylase (CYP21A2) gene and a non-functional hybrid tenascin-X (TNXB) gene."
+     },
+     {
+      "pmid": "15202854",
+      "quote": "We have observed that the hair follicles of the skin in patients with EDS are macroscopically more prominent than those of healthy subjects (Fig. 1A, B)."
+     },
+     {
+      "pmid": "15202854",
+      "quote": "Ultrasonography is an established method for non-invasive investigation of the skin, and the images clearly show the epidermal entrance echo, the dermis and the"
+     }
+    ],
+    "source": "retained archive (text as handed to the model); roster abstract only as fallback",
+    "n_papers_from_roster_fallback": 0
+   },
+   {
+    "stratum": "full-text (archive-backed)",
+    "n_rows_with_quote": 0,
+    "n_checked": 0,
+    "n_traceable": 0,
+    "n_untraceable": 0,
+    "n_no_source_text": 0,
+    "traceable_pct": null,
+    "basis": "CENSUS of full-text (archive-backed) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 0,
+     "n_false_positives": 0,
+     "false_positive_pct": null,
+     "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+    },
+    "untraceable_examples": []
+   },
+   {
+    "stratum": "blocked (fetch failed; extracted from title+abstract)",
+    "n_rows_with_quote": 0,
+    "n_checked": 0,
+    "n_traceable": 0,
+    "n_untraceable": 0,
+    "n_no_source_text": 0,
+    "traceable_pct": null,
+    "basis": "CENSUS of blocked (fetch failed; extracted from title+abstract) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 0,
+     "n_false_positives": 0,
+     "false_positive_pct": null,
+     "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+    },
+    "untraceable_examples": []
+   }
+  ],
+  "n_archive_papers": 323,
+  "coverage": {
+   "n_rows_with_quote": 896,
+   "n_verifiable": 896,
+   "verifiable_pct_of_quote_rows": 100.0,
+   "n_traceable": 853,
+   "traceable_pct_of_verifiable": 95.2,
+   "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+  },
+  "title_plus_abstract_recheck": {
+   "n_checked": 896,
+   "n_traceable": 888,
+   "pct": 99.11,
+   "basis": "quotes re-checked against roster title + OpenAlex abstract (the worker saw the title in its prompt; the retained archive holds the abstract only), normalize both sides",
+   "note": "remaining untraceable rows are OpenAlex inverted-index artifacts (stray footnote digits, e.g. 'low 7and') or model paraphrase"
+  }
+ },
+ "build_utc": "2026-10-21T21:50:07Z",
+ "source_corpus_version_id": "b1a5a7a6-b203-405f-9d6c-579a240fa268",
+ "partition": {
+  "siblings": [
+   "eds-findings-tier2-recovery"
+  ],
+  "this": "eds-findings-tier2-recovery",
+  "note": "single package; no sibling partition claim"
+ },
+ "invariants": {
+  "all_ok": true,
+  "per_check": {
+   "schema_completeness": {
+    "ok": true,
+    "missing": []
+   },
+   "conservation": {
+    "ok": true,
+    "absent_chunks": [],
+    "over_allotment": []
+   },
+   "monotonicity": {
+    "ok": true,
+    "rows": 896,
+    "papers": 229,
+    "prior_rows": 0,
+    "prior_papers": 0
+   },
+   "no_model_emitted_ids": {
+    "ok": true,
+    "violations": {}
+   },
+   "id_provenance": {
+    "ok": true,
+    "id_without_source": {}
+   },
+   "enum_drift": {
+    "ok": true,
+    "flagged": {},
+    "note": "flagged for adjudication, never auto-remapped"
+   },
+   "duplicates": {
+    "ok": true,
+    "fully_identical_rows": 0,
+    "loose_key_groups": 0,
+    "note": "loose>full is expected and NOT a defect; only fully-identical rows are duplicates"
+   },
+   "hpo_multivalue": {
+    "ok": true,
+    "mismatch": 0,
+    "n_with_ids": 489,
+    "n_multi": 206
+   },
+   "authority_prefix_match_v4": {
+    "ok": true,
+    "mismatches": {},
+    "n_mismatched_rows": 0,
+    "n_mismatched_ids": 0,
+    "n_rows_checked": 712,
+    "n_ids_checked": 1067,
+    "n_undeclared_tag_rows": 0,
+    "n_minting_column_disagreements": 0,
+    "columns_checked": [
+     "hpo_ids_verified",
+     "entity_ontology_id_resolved"
+    ]
+   }
+  }
+ },
+ "enum_drift": {
+  "total_drifted_rows": 0
+ }
+}

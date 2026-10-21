@@ -1,0 +1,502 @@
+{
+ "package": "eds-findings-tier2-recovery-v0",
+ "tier": "t2",
+ "title": "Tier 2 recovery \u2014 pre-2019 EDS/HSD papers with no abstract in Europe PMC/PubMed whose abstract was recovered from OpenAlex (2026-10-21); unscreened, every row flagged screen_verdict_uncertain \u2014 Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder",
+ "version": "v0",
+ "built_utc": "2026-10-21T21:50:07Z",
+ "dry_run": true,
+ "dry_run_note": "Tier-2 recovery: 323 pre-2019 EDS papers with no abstract in Europe PMC/PubMed whose abstract was recovered from OpenAlex; NOT screened (abstracts did not exist at screen time) \u2014 every row carries screen_verdict_uncertain=true. Well-formedness QA only; fidelity not human-adjudicated.",
+ "creator": {
+  "name": "Magennis, Erin",
+  "orcid": "0009-0007-9013-8052"
+ },
+ "license": {
+  "data": "CC-BY-4.0",
+  "code": "MIT",
+  "provenance_quote": "verbatim source excerpts, copyright of respective publishers; see LICENSE"
+ },
+ "primary_table": "eds-findings-tier2-recovery_findings.parquet",
+ "model_id": "claude-sonnet-5",
+ "condition_enum": [
+  "hEDS",
+  "HSD",
+  "EDS_other_type",
+  "EDS_unspecified_or_mixed",
+  "hypermobility_unspecified",
+  "multiple",
+  "general"
+ ],
+ "condition_semantics": "population",
+ "definitions_version": "eds dry-run v1 (2026-09-30); EDS_hypermobility inherited from CONDITION_BUCKET_DEFINITIONS.md v1 and split",
+ "pinned": {
+  "papers_per_chunk": 50,
+  "fetch_pacing_s": 1.5,
+  "fetch_attempts": 6,
+  "n_inflight": 5,
+  "n_parts_default": 1,
+  "max_attempts": 3,
+  "worker_max_s": 3000,
+  "collect_slice_s": 120,
+  "min_yield": 0.6,
+  "retry_under_yield": false,
+  "stall_min_s": 1500,
+  "warn_blocked": 0.05,
+  "max_blocked": 0.35,
+  "min_ft_chars": 2000,
+  "ft_input_char_cap": 120000,
+  "llm_concurrency": 8,
+  "max_fulltext_per_unit": 12,
+  "watchdog_resplit": true
+ },
+ "config_file": "eds_tier2_recovery.yaml",
+ "area_slug": "eds",
+ "contents": {
+  "findings": 896,
+  "papers": 229,
+  "chunks": 7,
+  "chunk_ids": [
+   160,
+   161,
+   162,
+   163,
+   164,
+   165,
+   166
+  ],
+  "year_range": [
+   1948,
+   2018
+  ],
+  "tier_source": "t2"
+ },
+ "schema": {
+  "n_columns": 96,
+  "columns": [
+   "entity",
+   "entity_kind",
+   "gene_marker",
+   "direction",
+   "direction_reference",
+   "finding_text",
+   "pathway_or_mechanism",
+   "quantitative_detail",
+   "effect_size",
+   "causal_or_correlational",
+   "evidence_tier",
+   "functional_impact",
+   "condition",
+   "eds_type",
+   "population_age_group",
+   "sex_hormonal",
+   "anatomical_system",
+   "is_covid_associated",
+   "finding_type",
+   "treatment_class",
+   "symptom_correlate",
+   "phenotype_terms",
+   "validated_instrument",
+   "adverse_event_note",
+   "certainty",
+   "cohort_registry",
+   "cohort_name",
+   "dataset_accession",
+   "relation_type",
+   "relation_subject",
+   "relation_object",
+   "provenance_quote",
+   "provenance_section",
+   "null_or_failed_result",
+   "contradicts_finding_ref",
+   "evidence_stratum",
+   "study_quality",
+   "study_type",
+   "n_participants",
+   "comparator",
+   "demographics",
+   "is_duplicate_or_preprint_note",
+   "contradicts_or_extends",
+   "limitations_stated",
+   "future_direction",
+   "certainty_derived",
+   "number_in_quote",
+   "pmid",
+   "doi",
+   "title",
+   "year",
+   "journal",
+   "source_stream",
+   "theme",
+   "fulltext_status",
+   "contact_note",
+   "fetch_note",
+   "chunk_id",
+   "query_contamination",
+   "screen_final_verdict",
+   "screen_verdict_uncertain",
+   "sample_stratum",
+   "hgnc_id",
+   "ensembl_id",
+   "gene_resolved",
+   "gene_id_source",
+   "entity_ontology_id_resolved",
+   "entity_ontology_label",
+   "ontology_id_source",
+   "hpo_ids_verified",
+   "hpo_labels_verified",
+   "hpo_id_source",
+   "hpo_id_count",
+   "tier",
+   "unit_file",
+   "unit_vid",
+   "abstract_source",
+   "scope_class",
+   "entity_ontology_id_resolved_worker",
+   "entity_ontology_label_worker",
+   "ontology_id_source_worker",
+   "entity_ontology_id_minting_ontology",
+   "hpo_ids_verified_worker",
+   "hpo_labels_verified_worker",
+   "hpo_id_source_worker",
+   "hpo_id_count_worker",
+   "hpo_id_minting_ontology",
+   "tier_source",
+   "cap_entity_kind",
+   "cap_hpo_verified",
+   "cap_number_in_quote",
+   "cap_quote_source_retained",
+   "ontology_id_verification",
+   "ontology_id_match_mode",
+   "ontology_id_prefix",
+   "hpo_verification"
+  ],
+  "all_null_in_this_package": [
+   "dataset_accession",
+   "sample_stratum"
+  ],
+  "constant_in_this_package": {
+   "is_covid_associated": "False",
+   "source_stream": "title_only_recovered_openalex",
+   "fulltext_status": "abstract-only",
+   "query_contamination": "False",
+   "screen_final_verdict": "unscreened_recovery",
+   "screen_verdict_uncertain": "True",
+   "tier": "2",
+   "abstract_source": "openalex_abstract_inverted_index",
+   "scope_class": "eds_2017",
+   "tier_source": "t2",
+   "cap_entity_kind": "True",
+   "cap_hpo_verified": "True",
+   "cap_number_in_quote": "True",
+   "cap_quote_source_retained": "True"
+  }
+ },
+ "quality": {
+  "invariants_passing": 9,
+  "invariants_total": 9,
+  "invariants_all_ok": true,
+  "failing_checks": [],
+  "id_resolved_frac": 0.2489,
+  "id_denotes_entity_rate": null,
+  "id_provenance": "authority-derived",
+  "quote_verifiable_rows": 896,
+  "quote_verifiable_pct": 100.0,
+  "enum_drift_rows": 0,
+  "quote_census": {
+   "n_rows_with_quote": 896,
+   "n_verifiable": 896,
+   "verifiable_pct_of_quote_rows": 100.0,
+   "n_traceable": 853,
+   "traceable_pct_of_verifiable": 95.2,
+   "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+  },
+  "scientific_fidelity": "UNMEASURED \u2014 all QA verifies well-formedness, not correct interpretation"
+ },
+ "partition": {
+  "siblings": [
+   "eds-findings-tier2-recovery"
+  ],
+  "this": "eds-findings-tier2-recovery",
+  "note": "single package; no sibling partition claim"
+ },
+ "source_corpus_version_id": "b1a5a7a6-b203-405f-9d6c-579a240fa268",
+ "verify": "python code/verify_package.py --self-test",
+ "files": [
+  {
+   "path": ".zenodo.json",
+   "bytes": 1120,
+   "sha256": "beeaf49988446af550e3a15ffbf59a303e091518de58d321ed07fa898eb954f6"
+  },
+  {
+   "path": "CITATION.cff",
+   "bytes": 994,
+   "sha256": "50b99ab02c3031ed9f1273569a7f8d53319cbdeb07b2910c48c792e1ce410fda"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 4615,
+   "sha256": "1dad5d8241ed12b11a90d6626960ab5c4284e66a573205c24906abcbd4f85718"
+  },
+  {
+   "path": "README.md",
+   "bytes": 5338,
+   "sha256": "5d0ed0dbf71c85fe8ce3a219f908cb72fb409e7ea3201fc12ba04a1d430ff061"
+  },
+  {
+   "path": "code/NOSOLOGY.md",
+   "bytes": 3918,
+   "sha256": "8eef8faec4376287deac8228af2b32bc4bf4ddfaec42d3182f5d63147a0baad1"
+  },
+  {
+   "path": "code/REGISTRY.md",
+   "bytes": 10973,
+   "sha256": "ff1de3c7cb10d8f5d823d0d84406a4e8674ab33ed6cd8de095505a1b9ff0b8b2"
+  },
+  {
+   "path": "code/comparator_symmetry_tests.py",
+   "bytes": 5316,
+   "sha256": "737ebfd8ac21cb9bbd4f51a9437e271b582b073b6bab67f3ce1f55d66cab1e02"
+  },
+  {
+   "path": "code/config.py",
+   "bytes": 17346,
+   "sha256": "49a4fa0d2abb36292c6b3947295acf18ca74cdd9456c51dc6dbd7b284ef59393"
+  },
+  {
+   "path": "code/draw.py",
+   "bytes": 10135,
+   "sha256": "525d73c0cec6f21afe682bad8af7862c7152304d338ca5ccace949be09452dfd"
+  },
+  {
+   "path": "code/driver.py",
+   "bytes": 37270,
+   "sha256": "b5c404c0fb398d8abef88983e7f4ead5b24c69b571e9776f4bc0a9ebbb278cc3"
+  },
+  {
+   "path": "code/driver_tests.py",
+   "bytes": 28029,
+   "sha256": "51d9787046fdbd2268ed49f70214ab7dde0d21b29ccc581526a5529513708b8d"
+  },
+  {
+   "path": "code/eds_tier2_recovery.yaml",
+   "bytes": 20529,
+   "sha256": "fc9562f601ad7b543a58a2b092685c8501d18adc486d275ed77c3dcce9547c28"
+  },
+  {
+   "path": "code/helpers.py",
+   "bytes": 10136,
+   "sha256": "c4a612ae1ebdbf5fe3aeb77a26b09cb121ec432efeac1bb438c5e121b1ec17cf"
+  },
+  {
+   "path": "code/invariants.py",
+   "bytes": 5771,
+   "sha256": "870121215e908c5c5fd70024078d452dfa315f21a16f61fca800e17d9fc9c692"
+  },
+  {
+   "path": "code/invariants_ext.py",
+   "bytes": 11359,
+   "sha256": "8b1a35fbaf1d089ea2a5f9f2e5747b525eff499ca410d4a3092029eba756a957"
+  },
+  {
+   "path": "code/normalizer_tests.py",
+   "bytes": 3308,
+   "sha256": "1116b7be6a82c6ec0e9333425bc03bad1090fadb5de5d7409ec3a3b85287ae74"
+  },
+  {
+   "path": "code/pipeline.py",
+   "bytes": 40796,
+   "sha256": "4c7b2b7aa9d8f9654852c777a814db7627b1ba993a4013546a83a9c5ed946232"
+  },
+  {
+   "path": "code/prompt_rendered.txt",
+   "bytes": 8994,
+   "sha256": "090e7441c8936e9619fa43b53b78f0825d1dc3f07599ceadf9222d54de46ce58"
+  },
+  {
+   "path": "code/prompt_template.txt",
+   "bytes": 8395,
+   "sha256": "1c8faf30f98dedecba7571272e30d585b2747af6a93186853078979ec5aae0c6"
+  },
+  {
+   "path": "code/quote_census.py",
+   "bytes": 9517,
+   "sha256": "22730e7b73b41997a4785122147fb35a426e68edca4f1c74962d14854bd4795b"
+  },
+  {
+   "path": "code/quote_trace.py",
+   "bytes": 10109,
+   "sha256": "ffac620f34e7b21622ba4173ae58a314fbfa98f76999796863aa241f85c91a8f"
+  },
+  {
+   "path": "code/registry.py",
+   "bytes": 30678,
+   "sha256": "0b1d6dee85f854c6ae94255d0de9cd4cc18610cfc4949a716e9b08526f9b296b"
+  },
+  {
+   "path": "code/resolution_cache.py",
+   "bytes": 7705,
+   "sha256": "ea9b4a46df8c34647eedcd7290ee6298eab3b24dca2fc57ef6d5847b24d70b99"
+  },
+  {
+   "path": "code/resolver.py",
+   "bytes": 18584,
+   "sha256": "449fd3ff3c62a267cffe061e045e9293969726bf1009760695fd2742ab5ec802"
+  },
+  {
+   "path": "code/scope_rendered.txt",
+   "bytes": 6282,
+   "sha256": "ac770ec6c7249c730f37eb01539501ef27e68e7261b5e7e3971322df5a25d113"
+  },
+  {
+   "path": "code/screen.py",
+   "bytes": 11980,
+   "sha256": "ab92845e51e21d67ebf711d3ff737a6e0ef4432dc903385be4ece76a02b453d9"
+  },
+  {
+   "path": "code/verify_package.py",
+   "bytes": 10385,
+   "sha256": "62dd18bfa8d765161d9cb9f55cfbadfa30682648082f73622efeefc706d63126"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_160_part0of1_fulltext.json.gz",
+   "bytes": 24634,
+   "sha256": "7d73fe0cd4c6f07bca83d184c8f5fb94cbe439f61841cae828e1e83abd801c48"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_161_part0of1_fulltext.json.gz",
+   "bytes": 18964,
+   "sha256": "043d5930af6df8b6c72c6ebec7f59681d77811f17bc6c97328a33434fec201df"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_162_part0of1_fulltext.json.gz",
+   "bytes": 14607,
+   "sha256": "614d9154bcd863d62f709721225ec10abf9f5f5484c5b81cfaed9860560cf64c"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_163_part0of1_fulltext.json.gz",
+   "bytes": 26226,
+   "sha256": "8f66eff2222566edb71c48a52e33998bac4687ee0d3da12d718298110e83acf7"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_164_part0of1_fulltext.json.gz",
+   "bytes": 40057,
+   "sha256": "1855d11b1f6723d8cfe56d7d601084dffc33dbe424781046a387f767013c9eb2"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_165_part0of1_fulltext.json.gz",
+   "bytes": 40750,
+   "sha256": "3faa340382b3260673946897951e7a7c3097f02c50bf5b9b43281053e7b3c424"
+  },
+  {
+   "path": "data/archives/eds_t2r_chunk_166_part0of1_fulltext.json.gz",
+   "bytes": 29646,
+   "sha256": "4aaaaa9b0a8990d0a8c376ef71de2c98119501f54a30190b66c30290e409d109"
+  },
+  {
+   "path": "data/chunk_order.parquet",
+   "bytes": 327538,
+   "sha256": "2697a82f70ae15754c4ebdeb29f5c75ffb102b756be06373097f55a67f2b5413"
+  },
+  {
+   "path": "data/eds-findings-tier2-recovery_findings.csv.gz",
+   "bytes": 211184,
+   "sha256": "a89d9bb11ca9450f6c1b387f63930739485f6cf785596671834aea8f1887b4b8"
+  },
+  {
+   "path": "data/eds-findings-tier2-recovery_findings.parquet",
+   "bytes": 318220,
+   "sha256": "b245ecaf14c6c3bfaf5ab4155ce520cd91c08406051a74f494930e162dd42192"
+  },
+  {
+   "path": "deposit/ZENODO_FORM.md",
+   "bytes": 351,
+   "sha256": "5d257ce0728a674c5c8370b3b4df9e59f992188797a0751cde9f40714eac4fc8"
+  },
+  {
+   "path": "docs/COMPARABILITY.md",
+   "bytes": 11789,
+   "sha256": "6f7498d4fb138a1fd1276cd99cbbb796283c8e41a84d14c6bc3065e3987752f8"
+  },
+  {
+   "path": "docs/DATA_DICTIONARY.md",
+   "bytes": 12213,
+   "sha256": "ca6e845c3c0ad907215646e6268ad3e9efb123bc29953136a55a57b481663910"
+  },
+  {
+   "path": "docs/LIMITATIONS.md",
+   "bytes": 1053,
+   "sha256": "761c88b9b7a0d7f1dcf4ded784ea5ea157688aa5317d65a1907796d0a3d05c20"
+  },
+  {
+   "path": "docs/METHODS.md",
+   "bytes": 5886,
+   "sha256": "2785ddc0da2ecab0175c1851a5dcc191a622be90010ad657f293b1c2e2481ae3"
+  },
+  {
+   "path": "docs/README.md",
+   "bytes": 5338,
+   "sha256": "5d0ed0dbf71c85fe8ce3a219f908cb72fb409e7ea3201fc12ba04a1d430ff061"
+  },
+  {
+   "path": "qa/authority_prefix_check.json",
+   "bytes": 316,
+   "sha256": "d5018b8f2edef6e1005622355f970207cdc92b6f0f9444354c53cf007e861824"
+  },
+  {
+   "path": "qa/build_state.json",
+   "bytes": 1640,
+   "sha256": "6359cfee16daaf5c06ceac29833194aadcf39bf2595aae168d0d3eb0b0e4226e"
+  },
+  {
+   "path": "qa/eds_recall_vs_mesh.json",
+   "bytes": 992,
+   "sha256": "bfed78d2b7cda4fe72412a03f99a729864641d0f6a0c36ea7c96a6318a2c3bdf"
+  },
+  {
+   "path": "qa/invariants.json",
+   "bytes": 930,
+   "sha256": "15b4c89e56c8bbe2df7327fa0bac21f78106fbc6be43956f4b7884ab19c015bf"
+  },
+  {
+   "path": "qa/package_stats.json",
+   "bytes": 17281,
+   "sha256": "96f1443f742ba2981989bfa44de7296bffe76e6bb2e6a1e23e298abbbd27e022"
+  },
+  {
+   "path": "qa/quote_census.json",
+   "bytes": 6744,
+   "sha256": "a3a2106e2095f62ff7de646622d29fe5caba97110d3b70e7b10e42e8dab9d498"
+  },
+  {
+   "path": "qa/resolve_report.json",
+   "bytes": 4972,
+   "sha256": "9f8f02bc5bf010551f9877753c81d722902343b563349e815da69e7e2886474b"
+  },
+  {
+   "path": "qa/wave_0.json",
+   "bytes": 3290,
+   "sha256": "ad02b818871b1a78e509d36c9b218e532a666b6064965597bd334089e50d9163"
+  },
+  {
+   "path": "qa/wave_1.json",
+   "bytes": 2524,
+   "sha256": "d855198a97af8f93beda15c44a9edd3e5c05420cd56883e16ab2df1ac7079073"
+  },
+  {
+   "path": "scope/not_extractable_title_only_before_recovery.csv",
+   "bytes": 775848,
+   "sha256": "0e8f2e7e3a9b9eaf376d2c55447a8c9b0bacac43c4f1df5011fa9683cefa940c"
+  },
+  {
+   "path": "scope/openalex_recovery_probe_1476.csv",
+   "bytes": 66858,
+   "sha256": "af3bc5407288889ab9d335d800c7db73ed3ed3eaae10a790592e87391312901b"
+  },
+  {
+   "path": "scope/recovery_abstracts_rejected_page_scan_11.csv",
+   "bytes": 18312,
+   "sha256": "eb6160a7bb7f16c3f0dff52240d82d1802b4d189e9587fe452b36e1fcf653c62"
+  }
+ ],
+ "n_files": 55,
+ "total_bytes": 2327745
+}

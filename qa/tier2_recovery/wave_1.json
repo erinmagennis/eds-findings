@@ -1,0 +1,157 @@
+{
+ "run_tag": "wave1",
+ "unit_plan": {
+  "164": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "165": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "166": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  }
+ },
+ "chunks_done": [
+  164,
+  165,
+  166
+ ],
+ "deferred_units": [],
+ "dispatch_deadline": 1792619736.976567,
+ "stalled": false,
+ "stall_threshold_s": 1815,
+ "completed_unit_walls_s": [
+  722,
+  722,
+  726
+ ],
+ "chunks_missing": [],
+ "n_done": 3,
+ "n_targets": 3,
+ "gate_log": [
+  {
+   "chunk": 164,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.6522,
+   "findings": 166,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 141968,
+   "retained_fulltext": 0,
+   "n_expected": 46,
+   "archive_file": "eds_t2r_chunk_164_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 40057,
+   "archive_gz_mb": 0.0401,
+   "archive_gz_mib": 0.0382,
+   "archive_compression_ratio": 2.859,
+   "archive_error": null
+  },
+  {
+   "chunk": 166,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.6522,
+   "findings": 126,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 137185,
+   "retained_fulltext": 0,
+   "n_expected": 46,
+   "archive_file": "eds_t2r_chunk_166_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 29646,
+   "archive_gz_mb": 0.0296,
+   "archive_gz_mib": 0.0283,
+   "archive_compression_ratio": 2.994,
+   "archive_error": null
+  },
+  {
+   "chunk": 165,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.8261,
+   "findings": 184,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 169714,
+   "retained_fulltext": 0,
+   "n_expected": 46,
+   "archive_file": "eds_t2r_chunk_165_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 40750,
+   "archive_gz_mb": 0.0408,
+   "archive_gz_mib": 0.0389,
+   "archive_compression_ratio": 2.916,
+   "archive_error": null
+  }
+ ],
+ "guard_violations": [],
+ "enum_violations": [],
+ "ceiling_events": [],
+ "part_files": {
+  "165": [
+   [
+    0,
+    1
+   ]
+  ],
+  "164": [
+   [
+    0,
+    1
+   ]
+  ],
+  "166": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "archives_whole": [],
+ "archive_parts": {
+  "165": [
+   [
+    0,
+    1
+   ]
+  ],
+  "164": [
+   [
+    0,
+    1
+   ]
+  ],
+  "166": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "chunks_without_archive": [],
+ "wall_s": 726
+}

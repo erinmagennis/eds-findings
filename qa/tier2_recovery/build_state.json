@@ -1,0 +1,110 @@
+{
+ "waves": [
+  {
+   "wave": 0,
+   "chunks": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+   ],
+   "chunks_done": [
+    160,
+    161,
+    162,
+    163
+   ],
+   "chunks_missing": [
+    164,
+    165,
+    166
+   ],
+   "deferred_units": [
+    {
+     "chunk": 166,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 165,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 164,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 163,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1599173,
+   "measured_tokens": 391152,
+   "units_ok": 3,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 2168,
+   "findings": 325,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    481,
+    481,
+    602
+   ],
+   "finished_at": "2026-10-21T18:17:29Z"
+  },
+  {
+   "wave": 1,
+   "chunks": [
+    164,
+    165,
+    166
+   ],
+   "chunks_done": [
+    164,
+    165,
+    166
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 683238,
+   "measured_tokens": 448867,
+   "units_ok": 3,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 726,
+   "findings": 476,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    722,
+    722,
+    726
+   ],
+   "finished_at": "2026-10-21T21:42:43Z"
+  }
+ ],
+ "stopped": null,
+ "spent_measured_tokens": 840019,
+ "spent_projected_tokens": 1599173,
+ "notes": [
+  "2026-10-21T21:30:36Z: wave-0 stall (usage cap; ~3.5 h gap) cleared for a re-run of chunks 164-166; chunk 163 had saved before the stall"
+ ]
+}

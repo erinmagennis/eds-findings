@@ -1,0 +1,227 @@
+{
+ "run_tag": "wave0",
+ "unit_plan": {
+  "160": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 47,
+   "max_fulltext_per_unit": 12
+  },
+  "161": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "162": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "163": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "164": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "165": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  },
+  "166": {
+   "n_parts": 1,
+   "expected_fulltext": 0,
+   "papers": 46,
+   "max_fulltext_per_unit": 12
+  }
+ },
+ "chunks_done": [
+  160,
+  161,
+  162,
+  163
+ ],
+ "deferred_units": [
+  {
+   "chunk": 166,
+   "part": [
+    0,
+    1
+   ]
+  },
+  {
+   "chunk": 165,
+   "part": [
+    0,
+    1
+   ]
+  },
+  {
+   "chunk": 164,
+   "part": [
+    0,
+    1
+   ]
+  },
+  {
+   "chunk": 163,
+   "part": [
+    0,
+    1
+   ]
+  }
+ ],
+ "dispatch_deadline": 1792606881.4703958,
+ "stalled": true,
+ "stall_threshold_s": 1503,
+ "completed_unit_walls_s": [
+  481,
+  481,
+  602
+ ],
+ "chunks_missing": [
+  164,
+  165,
+  166
+ ],
+ "n_done": 4,
+ "n_targets": 7,
+ "gate_log": [
+  {
+   "chunk": 160,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.8085,
+   "findings": 132,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 154141,
+   "retained_fulltext": 0,
+   "n_expected": 47,
+   "archive_file": "eds_t2r_chunk_160_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 24634,
+   "archive_gz_mb": 0.0246,
+   "archive_gz_mib": 0.0235,
+   "archive_compression_ratio": 2.941,
+   "archive_error": null
+  },
+  {
+   "chunk": 162,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.6957,
+   "findings": 83,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 112616,
+   "retained_fulltext": 0,
+   "n_expected": 46,
+   "archive_file": "eds_t2r_chunk_162_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 14607,
+   "archive_gz_mb": 0.0146,
+   "archive_gz_mib": 0.0139,
+   "archive_compression_ratio": 2.95,
+   "archive_error": null
+  },
+  {
+   "chunk": 161,
+   "part": [
+    0,
+    1
+   ],
+   "ok": true,
+   "reason": "ok",
+   "yield": 0.6957,
+   "findings": 110,
+   "blocked_frac": 0,
+   "guard_violations": 0,
+   "attempt": 1,
+   "tokens_out": 124395,
+   "retained_fulltext": 0,
+   "n_expected": 46,
+   "archive_file": "eds_t2r_chunk_161_part0of1_fulltext.json.gz",
+   "archive_gz_bytes": 18964,
+   "archive_gz_mb": 0.019,
+   "archive_gz_mib": 0.0181,
+   "archive_compression_ratio": 2.888,
+   "archive_error": null
+  }
+ ],
+ "guard_violations": [],
+ "enum_violations": [],
+ "ceiling_events": [],
+ "part_files": {
+  "163": [
+   [
+    0,
+    1
+   ]
+  ],
+  "160": [
+   [
+    0,
+    1
+   ]
+  ],
+  "161": [
+   [
+    0,
+    1
+   ]
+  ],
+  "162": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "archives_whole": [],
+ "archive_parts": {
+  "163": [
+   [
+    0,
+    1
+   ]
+  ],
+  "160": [
+   [
+    0,
+    1
+   ]
+  ],
+  "161": [
+   [
+    0,
+    1
+   ]
+  ],
+  "162": [
+   [
+    0,
+    1
+   ]
+  ]
+ },
+ "chunks_without_archive": [],
+ "wall_s": 2168
+}

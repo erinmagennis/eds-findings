@@ -1,0 +1,157 @@
+{
+ "strata": [
+  {
+   "stratum": "abstract-only",
+   "n_rows_with_quote": 896,
+   "n_checked": 896,
+   "n_traceable": 853,
+   "n_untraceable": 43,
+   "n_no_source_text": 0,
+   "traceable_pct": 95.2,
+   "basis": "CENSUS of abstract-only rows with a non-null quote; 896 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 400,
+    "n_false_positives": 0,
+    "false_positive_pct": 0.0,
+    "basis": "400 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "matcher discriminates"
+   },
+   "untraceable_examples": [
+    {
+     "pmid": "18409203",
+     "quote": "The arthrochalasia type of Ehlers-Danlos syndrome (EDS VIIA and VIIB): the diagnostic value of collagen fibril ultrastructure."
+    },
+    {
+     "pmid": "19012342",
+     "quote": "Absence of apparent disease causing mutations in COL5A3 in 13 patients with hypermobility Ehlers-Danlos syndrome."
+    },
+    {
+     "pmid": "18828845",
+     "quote": "Vascular type of Ehlers-Danlos syndrome associated with mild haemophilia A."
+    },
+    {
+     "pmid": "19671829",
+     "quote": "Mimics of vasculitis: vascular Ehlers-Danlos syndrome masquerading as polyarteritis nodosa."
+    },
+    {
+     "pmid": "20425843",
+     "quote": "Cytogenetic and array-CGH characterization of a 6q27 deletion in a patient with developmental delay and features of Ehlers-Danlos syndrome."
+    },
+    {
+     "pmid": "20693885",
+     "quote": "The incidence of iatrogenic injuries of the tracheobronchial tree after elective intubation is probably low, and estimated at 1:20,000 during a 7-yr period surv"
+    },
+    {
+     "pmid": "21077749",
+     "quote": "Both pain and fatigue are important possible determinants of disability in patients with the Ehlers-Danlos syndrome hypermobility type."
+    },
+    {
+     "pmid": "21916827",
+     "quote": "Managing chronic pain in a young adolescent girl with Ehlers-Danlos syndrome."
+    },
+    {
+     "pmid": "21946467",
+     "quote": "Hemorrhagic bullae of the oral mucosa as an early manifestation of vascular-type ehlers-danlos syndrome."
+    },
+    {
+     "pmid": "21982893",
+     "quote": "Vascular-type Ehlers-Danlos syndrome presenting as recurrent compartment syndrome."
+    },
+    {
+     "pmid": "22328463",
+     "quote": "Cervical dystonia and joint hypermobility syndrome: a dangerous combination."
+    },
+    {
+     "pmid": "22486320",
+     "quote": "Brittle cornea without clinically-evident extraocular findings in an adult harboring a novel homozygous ZNF469 mutation."
+    },
+    {
+     "pmid": "11493805",
+     "quote": "Surgical complications of Ehlers-Danlos syndrome type IV: case report and review of the literature."
+    },
+    {
+     "pmid": "11797148",
+     "quote": "Die Lysylhydoxylase ist beim kyphoskoliotischen Typ betroffen, die Prokollagenprotease beim dermatosparaktischen Typ."
+    },
+    {
+     "pmid": "12508273",
+     "quote": "Combination therapy of DDAVP and conjugated estrogens for a recurrent large subcutaneous hematoma in Ehlers-Danlos syndrome."
+    },
+    {
+     "pmid": "12508273",
+     "quote": "Combination therapy of DDAVP and conjugated estrogens for a recurrent large subcutaneous hematoma in Ehlers-Danlos syndrome."
+    },
+    {
+     "pmid": "12508273",
+     "quote": "Combination therapy of DDAVP and conjugated estrogens for a recurrent large subcutaneous hematoma in Ehlers-Danlos syndrome."
+    },
+    {
+     "pmid": "12746407",
+     "quote": "Mapping of a de novo unequal crossover causing a deletion of the steroid 21-hydroxylase (CYP21A2) gene and a non-functional hybrid tenascin-X (TNXB) gene."
+    },
+    {
+     "pmid": "15202854",
+     "quote": "We have observed that the hair follicles of the skin in patients with EDS are macroscopically more prominent than those of healthy subjects (Fig. 1A, B)."
+    },
+    {
+     "pmid": "15202854",
+     "quote": "Ultrasonography is an established method for non-invasive investigation of the skin, and the images clearly show the epidermal entrance echo, the dermis and the"
+    }
+   ],
+   "source": "retained archive (text as handed to the model); roster abstract only as fallback",
+   "n_papers_from_roster_fallback": 0
+  },
+  {
+   "stratum": "full-text (archive-backed)",
+   "n_rows_with_quote": 0,
+   "n_checked": 0,
+   "n_traceable": 0,
+   "n_untraceable": 0,
+   "n_no_source_text": 0,
+   "traceable_pct": null,
+   "basis": "CENSUS of full-text (archive-backed) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 0,
+    "n_false_positives": 0,
+    "false_positive_pct": null,
+    "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+   },
+   "untraceable_examples": []
+  },
+  {
+   "stratum": "blocked (fetch failed; extracted from title+abstract)",
+   "n_rows_with_quote": 0,
+   "n_checked": 0,
+   "n_traceable": 0,
+   "n_untraceable": 0,
+   "n_no_source_text": 0,
+   "traceable_pct": null,
+   "basis": "CENSUS of blocked (fetch failed; extracted from title+abstract) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+   "negative_control": {
+    "n_control": 0,
+    "n_false_positives": 0,
+    "false_positive_pct": null,
+    "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+    "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+   },
+   "untraceable_examples": []
+  }
+ ],
+ "n_archive_papers": 323,
+ "coverage": {
+  "n_rows_with_quote": 896,
+  "n_verifiable": 896,
+  "verifiable_pct_of_quote_rows": 100.0,
+  "n_traceable": 853,
+  "traceable_pct_of_verifiable": 95.2,
+  "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+ },
+ "title_plus_abstract_recheck": {
+  "n_checked": 896,
+  "n_traceable": 888,
+  "pct": 99.11,
+  "basis": "quotes re-checked against roster title + OpenAlex abstract (the worker saw the title in its prompt; the retained archive holds the abstract only), normalize both sides",
+  "note": "remaining untraceable rows are OpenAlex inverted-index artifacts (stray footnote digits, e.g. 'low 7and') or model paraphrase"
+ }
+}
