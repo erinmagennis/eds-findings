@@ -1,0 +1,4 @@
+{
+ "note": "45 unit gate records survived in the workspace (waves 0-5, 7-11 of the 2026-10-14..21 runs); records for units run while the workspace was swept, and for workers that finished after a controller interrupt, are absent here \u2014 their stats live in the worker frames and totals in build_state.json.",
+ "units_total": 106
+}

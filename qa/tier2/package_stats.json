@@ -1,0 +1,991 @@
+{
+ "package": "eds-findings-tier2",
+ "label": "Tier 2 \u2014 EDS/HSD literature 1936-2018 (pre-2019; no overlap with pots-findings)",
+ "findings": 15860,
+ "papers": 2605,
+ "tier_source": "t2",
+ "chunk_ids": [
+  30,
+  36,
+  37,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137
+ ],
+ "n_chunks": 102,
+ "expected_chunk_ids": [
+  30,
+  36,
+  37,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137
+ ],
+ "chunks_without_rows": [],
+ "chunk_paper_allotment": {
+  "30": 1,
+  "36": 1,
+  "37": 2,
+  "39": 3,
+  "40": 1,
+  "41": 3,
+  "42": 13,
+  "43": 22,
+  "44": 15,
+  "45": 21,
+  "46": 20,
+  "47": 27,
+  "48": 23,
+  "49": 23,
+  "50": 20,
+  "51": 22,
+  "52": 27,
+  "53": 27,
+  "54": 27,
+  "55": 26,
+  "56": 30,
+  "57": 27,
+  "58": 29,
+  "59": 35,
+  "60": 36,
+  "61": 24,
+  "62": 37,
+  "63": 26,
+  "64": 28,
+  "65": 30,
+  "66": 25,
+  "67": 27,
+  "68": 23,
+  "69": 29,
+  "70": 24,
+  "71": 26,
+  "72": 33,
+  "73": 31,
+  "74": 22,
+  "75": 20,
+  "76": 32,
+  "77": 23,
+  "78": 21,
+  "79": 19,
+  "80": 23,
+  "81": 29,
+  "82": 26,
+  "83": 24,
+  "84": 32,
+  "85": 31,
+  "86": 33,
+  "87": 27,
+  "88": 30,
+  "89": 36,
+  "90": 29,
+  "91": 31,
+  "92": 29,
+  "93": 30,
+  "94": 32,
+  "95": 27,
+  "96": 24,
+  "97": 32,
+  "98": 23,
+  "99": 33,
+  "100": 30,
+  "101": 35,
+  "102": 26,
+  "103": 31,
+  "104": 29,
+  "105": 25,
+  "106": 33,
+  "107": 25,
+  "108": 29,
+  "109": 30,
+  "110": 29,
+  "111": 32,
+  "112": 34,
+  "113": 36,
+  "114": 29,
+  "115": 34,
+  "116": 35,
+  "117": 33,
+  "118": 37,
+  "119": 31,
+  "120": 32,
+  "121": 36,
+  "122": 32,
+  "123": 34,
+  "124": 29,
+  "125": 31,
+  "126": 31,
+  "127": 25,
+  "128": 40,
+  "129": 34,
+  "130": 34,
+  "131": 24,
+  "132": 28,
+  "133": 35,
+  "134": 32,
+  "135": 27,
+  "136": 36,
+  "137": 9
+ },
+ "year_range": [
+  1946,
+  2018
+ ],
+ "themes": {
+  "eds_core": {
+   "findings": 12248,
+   "papers": 2036
+  },
+  "gjh_trait": {
+   "findings": 2259,
+   "papers": 355
+  },
+  "hsd_jhs": {
+   "findings": 1036,
+   "papers": 165
+  },
+  "eds_subtype_terms": {
+   "findings": 317,
+   "papers": 49
+  }
+ },
+ "conditions": {
+  "EDS_other_type": {
+   "findings": 6691,
+   "papers": 1318
+  },
+  "hypermobility_unspecified": {
+   "findings": 2619,
+   "papers": 562
+  },
+  "general": {
+   "findings": 2081,
+   "papers": 481
+  },
+  "EDS_unspecified_or_mixed": {
+   "findings": 2060,
+   "papers": 647
+  },
+  "hEDS": {
+   "findings": 1055,
+   "papers": 198
+  },
+  "multiple": {
+   "findings": 881,
+   "papers": 242
+  },
+  "HSD": {
+   "findings": 473,
+   "papers": 96
+  }
+ },
+ "evidence_tier": {
+  "case-report": 4074,
+  "case-series": 2965,
+  "review/expert-opinion": 2510,
+  "cross-sectional": 2159,
+  "mechanistic/in-vitro": 1771,
+  "case-control": 1237,
+  "cohort": 1030,
+  "RCT": 74,
+  "meta-analysis": 38,
+  "systematic-review/meta-analysis": 2
+ },
+ "finding_type": {
+  "mechanism/biomarker": 6261,
+  "comorbidity": 3534,
+  "diagnostic/screening": 2278,
+  "symptom-burden": 2156,
+  "treatment/intervention": 1631
+ },
+ "certainty_derived": {
+  "confirmed": 13444,
+  "mixed": 1385,
+  "hedged": 1031
+ },
+ "causal_or_correlational": {
+  "correlational-only": 8235,
+  "not-stated": 5106,
+  "causal-claim": 2519
+ },
+ "provenance_section": {
+  "abstract": 10186,
+  "results": 3322,
+  "discussion": 1531,
+  "introduction": 323,
+  "conclusion": 300,
+  "figure/table": 139,
+  "methods": 36,
+  "title": 13,
+  "unknown": 10
+ },
+ "entity_kind": {
+  "gene/protein": 4062,
+  "physiological-measure": 3287,
+  "None": 2554,
+  "other": 2515,
+  "anatomical-structure": 2507,
+  "chemical/metabolite": 810,
+  "cell-type": 110,
+  "pathogen": 13,
+  "protein": 1,
+  "connective-tissue": 1
+ },
+ "fulltext_strata": {
+  "abstract-only": {
+   "papers": 2337,
+   "findings": 11508,
+   "findings_per_paper": 4.92
+  },
+  "retrieved-fulltext": {
+   "papers": 268,
+   "findings": 4352,
+   "findings_per_paper": 16.24
+  }
+ },
+ "findings_per_paper_overall": 6.09,
+ "coverage": {
+  "papers_yielding_of_rostered": {
+   "numerator": 2605,
+   "denominator": 2734,
+   "pct": 95.28,
+   "basis": "papers with >=1 finding / papers in the frozen roster (all dispatched)"
+  },
+  "rostered_papers_by_fulltext_status": {
+   "abstract-only": 2337,
+   "retrieved-fulltext": 268,
+   "nan": 129
+  }
+ },
+ "quote": {
+  "rows_with_quote": 15860,
+  "median_chars": 156,
+  "p90": 266,
+  "p99": 393,
+  "max_chars": 744,
+  "over_200": 4449,
+  "over_400": 144,
+  "over_600": 21
+ },
+ "grounding": {
+  "rows_with_resolved_id": 3134,
+  "id_resolved_frac_all_rows": 0.1976,
+  "entity_rows": 11236,
+  "id_resolved_frac_entity_rows": 0.2789,
+  "rows_id_and_authority_label": 3134,
+  "verification": {
+   "no_id": 12726,
+   "authority_verified": 3134
+  },
+  "match_mode": {
+   "None": 12726,
+   "exact": 2577,
+   "synonym": 557
+  },
+  "id_prefix": {
+   "None": 12726,
+   "UBERON": 1228,
+   "HP": 677,
+   "UniProt": 634,
+   "CHEBI": 476,
+   "CL": 57,
+   "GO": 49,
+   "NCBITaxon": 9,
+   "PATO": 4
+  },
+  "ontology_id_source": {
+   "unresolved_nulled": 12726,
+   "authority_lookup_ols_uberon_exact": 956,
+   "authority_lookup_ols_hp_exact": 578,
+   "authority_lookup_uniprot_exact": 503,
+   "authority_lookup_ols_chebi_exact": 415,
+   "authority_lookup_ols_uberon_synonym": 269,
+   "authority_lookup_uniprot_synonym": 131,
+   "authority_lookup_ols_hp_synonym": 99,
+   "authority_lookup_ols_cl_exact": 55,
+   "authority_lookup_ols_chebi_synonym": 55,
+   "authority_lookup_ols_hp_via_go_exact": 26,
+   "authority_lookup_ols_uberon_via_go_exact": 22,
+   "authority_lookup_ols_ncbitaxon_exact": 8,
+   "authority_lookup_ols_hp_via_chebi_exact": 6,
+   "authority_lookup_ols_hp_via_pato_exact": 4,
+   "authority_lookup_ols_hp_via_uberon_exact": 3,
+   "authority_lookup_ols_cl_synonym": 2,
+   "authority_lookup_ols_cl_via_go_exact": 1,
+   "authority_lookup_ols_ncbitaxon_synonym": 1
+  },
+  "id_denotes_entity_rate": {
+   "value": null,
+   "basis": "NOT MEASURED on this package: no adjudicated correspondence sample yet (RUNBOOK stage 5 gate). `id_resolved_frac` is coverage, not correctness."
+  }
+ },
+ "hpo": {
+  "rows_with_verified_hpo": 7317,
+  "verification": {
+   "no_hpo": 8543,
+   "authority_verified_exact": 5016,
+   "authority_verified_synonym": 2301
+  },
+  "rows_multi_id": 2407
+ },
+ "gene": {
+  "rows_gene_marker": 2225,
+  "rows_gene_resolved": 2110,
+  "rows_hgnc": 2110,
+  "rows_ensembl": 2093
+ },
+ "capability_flags": {
+  "cap_entity_kind": {
+   "true": 15860,
+   "false": 0,
+   "null": 0
+  },
+  "cap_hpo_verified": {
+   "true": 15860,
+   "false": 0,
+   "null": 0
+  },
+  "cap_number_in_quote": {
+   "true": 15860,
+   "false": 0,
+   "null": 0
+  },
+  "cap_quote_source_retained": {
+   "true": 15860,
+   "false": 0,
+   "null": 0
+  }
+ },
+ "flags": {
+  "query_contamination": {
+   "rows": 40,
+   "papers": 8
+  },
+  "screen_verdict_uncertain": {
+   "rows": 1527,
+   "papers": 295
+  },
+  "number_in_quote_true": 5295,
+  "number_in_quote_false": 608,
+  "number_in_quote_null_no_number": 9957
+ },
+ "fill_rates_pct": {
+  "pmid": 100.0,
+  "null_or_failed_result": 100.0,
+  "study_quality": 100.0,
+  "certainty_derived": 100.0,
+  "title": 100.0,
+  "year": 100.0,
+  "source_stream": 100.0,
+  "theme": 100.0,
+  "fulltext_status": 100.0,
+  "fetch_note": 100.0,
+  "chunk_id": 100.0,
+  "query_contamination": 100.0,
+  "screen_final_verdict": 100.0,
+  "screen_verdict_uncertain": 100.0,
+  "gene_resolved": 100.0,
+  "gene_id_source": 100.0,
+  "ontology_id_source": 100.0,
+  "hpo_id_source": 100.0,
+  "hpo_id_count": 100.0,
+  "tier": 100.0,
+  "unit_file": 100.0,
+  "unit_vid": 100.0,
+  "ontology_id_source_worker": 100.0,
+  "hpo_id_source_worker": 100.0,
+  "hpo_id_count_worker": 100.0,
+  "tier_source": 100.0,
+  "cap_entity_kind": 100.0,
+  "cap_hpo_verified": 100.0,
+  "cap_number_in_quote": 100.0,
+  "cap_quote_source_retained": 100.0,
+  "ontology_id_verification": 100.0,
+  "evidence_stratum": 100.0,
+  "hpo_verification": 100.0,
+  "provenance_section": 100.0,
+  "condition": 100.0,
+  "finding_type": 100.0,
+  "is_covid_associated": 100.0,
+  "relation_type": 100.0,
+  "anatomical_system": 100.0,
+  "relation_subject": 100.0,
+  "sex_hormonal": 100.0,
+  "certainty": 100.0,
+  "population_age_group": 100.0,
+  "evidence_tier": 100.0,
+  "causal_or_correlational": 100.0,
+  "finding_text": 100.0,
+  "direction": 100.0,
+  "relation_object": 100.0,
+  "provenance_quote": 100.0,
+  "direction_reference": 99.99,
+  "journal": 99.28,
+  "doi": 87.82,
+  "entity_kind": 83.9,
+  "phenotype_terms": 76.07,
+  "entity": 70.84,
+  "study_type": 64.21,
+  "comparator": 64.21,
+  "symptom_correlate": 56.31,
+  "n_participants": 50.52,
+  "eds_type": 48.68,
+  "hpo_id_minting_ontology": 46.13,
+  "hpo_labels_verified": 46.13,
+  "hpo_ids_verified": 46.13,
+  "hpo_labels_verified_worker": 46.13,
+  "hpo_ids_verified_worker": 46.13,
+  "demographics": 42.82,
+  "quantitative_detail": 39.21,
+  "number_in_quote": 37.22,
+  "future_direction": 36.41,
+  "limitations_stated": 28.79,
+  "contradicts_or_extends": 28.59,
+  "pathway_or_mechanism": 25.69,
+  "contact_note": 23.46,
+  "functional_impact": 22.73,
+  "entity_ontology_label": 19.76,
+  "entity_ontology_id_minting_ontology": 19.76,
+  "ontology_id_prefix": 19.76,
+  "ontology_id_match_mode": 19.76,
+  "entity_ontology_id_resolved": 19.76,
+  "effect_size": 19.01,
+  "validated_instrument": 14.77,
+  "gene_marker": 14.03,
+  "hgnc_id": 13.3,
+  "ensembl_id": 13.2,
+  "treatment_class": 10.68,
+  "adverse_event_note": 4.75,
+  "cohort_registry": 3.51,
+  "entity_ontology_label_worker": 2.94,
+  "entity_ontology_id_resolved_worker": 2.94,
+  "cohort_name": 2.65,
+  "contradicts_finding_ref": 2.59,
+  "dataset_accession": 0.33,
+  "is_duplicate_or_preprint_note": 0.23,
+  "sample_stratum": 0.0
+ },
+ "constant_columns": {
+  "is_covid_associated": "False",
+  "source_stream": "europepmc",
+  "tier": "2",
+  "tier_source": "t2",
+  "cap_entity_kind": "True",
+  "cap_hpo_verified": "True",
+  "cap_number_in_quote": "True",
+  "cap_quote_source_retained": "True"
+ },
+ "all_null_columns": [
+  "sample_stratum"
+ ],
+ "verifiability": {
+  "rows_total": 15860,
+  "abstract_derived_rows": 11508,
+  "fulltext_derived_rows": 4352,
+  "source_text_retained": true,
+  "verifiable_rows": 15860,
+  "verifiable_share_pct": 100.0,
+  "basis": "all rows: the text handed to the model is retained in gzipped chunk archives"
+ },
+ "quote_census": {
+  "strata": [
+   {
+    "stratum": "abstract-only",
+    "n_rows_with_quote": 11508,
+    "n_checked": 11507,
+    "n_traceable": 11487,
+    "n_untraceable": 20,
+    "n_no_source_text": 1,
+    "traceable_pct": 99.83,
+    "basis": "CENSUS of abstract-only rows with a non-null quote; 11507 verified against that paper's own retained source text; 1 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 400,
+     "n_false_positives": 0,
+     "false_positive_pct": 0.0,
+     "basis": "400 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "matcher discriminates"
+    },
+    "untraceable_examples": [
+     {
+      "pmid": "547956",
+      "quote": "The Ehlers-Danlos syndrome causing lacerations in tendons and muscles."
+     },
+     {
+      "pmid": "2095499",
+      "quote": "Preoperative preparation includes measures for vertebral column mobilization as well as pharmacotherapy with retabolil in combination with ascorbic acid, calcet"
+     },
+     {
+      "pmid": "2187969",
+      "quote": "Recurrent temporomandibular joint subluxation and facial ecchymosis leading to diagnosis of Ehlers-Danlos syndrome: report of surgical management and review of "
+     },
+     {
+      "pmid": "8986271",
+      "quote": "Examination of skin by scanning electron microscopy showed frayed collagen fibrils."
+     },
+     {
+      "pmid": "10410441",
+      "quote": "Aneurysms and hypermobility in a 45-year-old woman."
+     },
+     {
+      "pmid": "10462025",
+      "quote": "...is the first published report of a patient with Ehlers-Danlos syndrome undergoing surgical treatment for an ACF."
+     },
+     {
+      "pmid": "10473568",
+      "quote": "The genomic organization of beta4Gal-T7 was different from previous beta4-Gal-Ts."
+     },
+     {
+      "pmid": "11903337",
+      "quote": "Periodic limb movements were much more reported in EDS (67%, p < 0.02) than in Marfan (27%, p = 0.25) compared to controls (8%)."
+     },
+     {
+      "pmid": "11903337",
+      "quote": "Periodic limb movements were much more reported in EDS (67%, p < 0.02) than in Marfan (27%, p = 0.25) compared to controls (8%)."
+     },
+     {
+      "pmid": "17014025",
+      "quote": "He had a history of bruising easily and skin lesions since childhood."
+     },
+     {
+      "pmid": "18440937",
+      "quote": "Marfanoid hypermobility syndrome and skeletal abnormalities in a rare case of torsion of wandering spleen."
+     },
+     {
+      "pmid": "19695909",
+      "quote": "Successful endovascular repair of acute type B aortic dissection in undiagnosed Ehlers-Danlos syndrome type IV."
+     },
+     {
+      "pmid": "19751346",
+      "quote": "Due to uncontrollable uterine contractions, beta 2-stimulants were administered during 18 to 29 weeks of gestation to prevent uterine rupture."
+     },
+     {
+      "pmid": "26497932",
+      "quote": "Cervical artery dissections and type A aortic dissection in a family with a novel missense COL3A1 mutation of vascular type Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "26708925",
+      "quote": "Severe back pain (\u22657 NRS) was more frequent in EDS patients with vertebral fractures as compared to those without fractures (60% vs. 28%; p=0.04)."
+     },
+     {
+      "pmid": "27413024",
+      "quote": "Dilated aortic root and severe aortic regurgitation causing dilated cardiomyopathy in classic Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "27990838",
+      "quote": "Multiple perforation of small-intestine diverticula in a patient with Ehlers-Danlos syndrome."
+     },
+     {
+      "pmid": "28077691",
+      "quote": "The EDS population had a mean (s.d.) age of 34.9 (18.6) years and comprised 73.9% females and 26.1% males."
+     },
+     {
+      "pmid": "28306228",
+      "quote": "identify and create care team...centralize management at centers of excellence (experience) when feasible"
+     },
+     {
+      "pmid": "28986003",
+      "quote": "were taking more prescription medications (8 vs 5.5, p=0.030)"
+     }
+    ],
+    "source": "retained archive (text as handed to the model); roster abstract only as fallback",
+    "n_papers_from_roster_fallback": 1
+   },
+   {
+    "stratum": "full-text (archive-backed)",
+    "n_rows_with_quote": 4352,
+    "n_checked": 4352,
+    "n_traceable": 4322,
+    "n_untraceable": 30,
+    "n_no_source_text": 0,
+    "traceable_pct": 99.31,
+    "basis": "CENSUS of full-text (archive-backed) rows with a non-null quote; 4352 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 400,
+     "n_false_positives": 0,
+     "false_positive_pct": 0.0,
+     "basis": "400 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "matcher discriminates"
+    },
+    "untraceable_examples": [
+     {
+      "pmid": "21699676",
+      "quote": "Approximately 80% of patients with EDS-IV have experienced at least one complication by the age of 40 years."
+     },
+     {
+      "pmid": "21765833",
+      "quote": "The incidence of all types of EDS in pregnancy is estimated at 1 in 15,000."
+     },
+     {
+      "pmid": "22235340",
+      "quote": "The distribution of Zic+ cells in the meninges was comparable between Col3a1+/+ and Col3a1\u2212/\u2212 brains in all stages evaluated, including the regions with neurona"
+     },
+     {
+      "pmid": "22235340",
+      "quote": "Col3a1\u2212/\u2212 usually results in perinatal lethality of an unknown etiology, with only 5% of mice reaching adulthood [16]."
+     },
+     {
+      "pmid": "22253749",
+      "quote": "TGF-\u03b2 is decreased in the absence of biglycan... Student's t-test. P = 0.004 for biglycan knockout; P = 0.46 for decorin knockout."
+     },
+     {
+      "pmid": "23971021",
+      "quote": "Increased pain intensity and decreased quality of life were reported in children with Joint Hypermobility Syndrome (JHS)."
+     },
+     {
+      "pmid": "24418783",
+      "quote": "Freeman et al. reported a high major complication rate (22%) and mortality rate (5.6%) in 18 vEDS patients examined by cerebral angiography,"
+     },
+     {
+      "pmid": "24839575",
+      "quote": "Amongst the more common conditions associated with EDS-HT are Arnold-Chiari type I malformation, dysphonia, and dolichocolon."
+     },
+     {
+      "pmid": "24891686",
+      "quote": "Histopathology of caf\u00e9 \u2013au-lait macule showed increased melanin in the basal layer with macromelanosomes confined to dermo-epidermal junction, without cellular "
+     },
+     {
+      "pmid": "25126564",
+      "quote": "Sulf1\u2212/\u2212 mice exhibit no apparent abnormalities [185]."
+     },
+     {
+      "pmid": "25126564",
+      "quote": "On the other hand, Sulf2\u2212/\u2212 mice have a smaller body size and mass [185, 192]."
+     },
+     {
+      "pmid": "25126564",
+      "quote": "Sulf1\u2212/\u2212 mice exhibit no apparent abnormalities [185]."
+     },
+     {
+      "pmid": "25126564",
+      "quote": "On the other hand, Sulf2\u2212/\u2212 mice have a smaller body size and mass [185, 192]."
+     },
+     {
+      "pmid": "25492414",
+      "quote": "6 (0\u20136)6 (3\u20136)0.07 6 (0\u20136)6 (3\u20136)0.018*"
+     },
+     {
+      "pmid": "26056559",
+      "quote": "His cranial magnetic resonance imaging (MRI) revealed several ovoid-shaped periventricular lesions located perpendicular to the ventricle, which is consistent w"
+     },
+     {
+      "pmid": "27377649",
+      "quote": "Bipolar disorder was diagnosed in 15 (0.9 %) vs. 56 (0.3 %) comparison individuals (RR 2.7, 95 % CI 1.5\u20134.7)."
+     },
+     {
+      "pmid": "29930596",
+      "quote": "A m\u00e9dia de idade dos pacientes que foram a \u00f3bito foi de 31 anos (de 5 meses at\u00e9 53 anos)2-4."
+     },
+     {
+      "pmid": "28286774",
+      "quote": "Accordingly, it seems reasonable that exercise-based rehabilitation may be effective in the medium- and long-term treatment of POTS and related conditions with "
+     },
+     {
+      "pmid": "28558742",
+      "quote": "...and more often females (GJH/GJHS 77% or 76% vs 47% in NGJH; p < 0.001) than participants with NGJH (Table 1)."
+     },
+     {
+      "pmid": "28617417",
+      "quote": "Next-generation sequencing for a set of selected genes ... identified the common mutation c.362dupC p.(Glu122Argfs*7) in FKBP14."
+     }
+    ]
+   },
+   {
+    "stratum": "blocked (fetch failed; extracted from title+abstract)",
+    "n_rows_with_quote": 0,
+    "n_checked": 0,
+    "n_traceable": 0,
+    "n_untraceable": 0,
+    "n_no_source_text": 0,
+    "traceable_pct": null,
+    "basis": "CENSUS of blocked (fetch failed; extracted from title+abstract) rows with a non-null quote; 0 verified against that paper's own retained source text; 0 excluded for no available source text (denominator is n_checked)",
+    "negative_control": {
+     "n_control": 0,
+     "n_false_positives": 0,
+     "false_positive_pct": null,
+     "basis": "0 quotes matched against a DIFFERENT paper's retained text (seed 11); a working matcher reports ~0%",
+     "verdict": "NO CONTROL POSSIBLE (<2 papers with source text in this stratum) - rate reported WITHOUT a control; do not cite it alone"
+    },
+    "untraceable_examples": []
+   }
+  ],
+  "n_archive_papers": 2733,
+  "coverage": {
+   "n_rows_with_quote": 15860,
+   "n_verifiable": 15859,
+   "verifiable_pct_of_quote_rows": 99.99,
+   "n_traceable": 15809,
+   "traceable_pct_of_verifiable": 99.68,
+   "basis": "verifiable = a row whose own source text was retained and could be re-read; the Tier-3 ceiling was the abstract-only stratum alone (11.51% of rows), because body text was discarded"
+  }
+ },
+ "build_utc": "2026-10-21T12:34:21Z",
+ "source_corpus_version_id": "8b90e50f-122c-4610-996f-43ac8cf4b756",
+ "partition": {
+  "siblings": [
+   "eds-findings-tier2"
+  ],
+  "this": "eds-findings-tier2",
+  "note": "single package; no sibling partition claim"
+ },
+ "invariants": {
+  "all_ok": true,
+  "per_check": {
+   "schema_completeness": {
+    "ok": true,
+    "missing": []
+   },
+   "conservation": {
+    "ok": true,
+    "absent_chunks": [],
+    "over_allotment": []
+   },
+   "monotonicity": {
+    "ok": true,
+    "rows": 15860,
+    "papers": 2605,
+    "prior_rows": 0,
+    "prior_papers": 0
+   },
+   "no_model_emitted_ids": {
+    "ok": true,
+    "violations": {}
+   },
+   "id_provenance": {
+    "ok": true,
+    "id_without_source": {}
+   },
+   "enum_drift": {
+    "ok": true,
+    "flagged": {
+     "evidence_tier": {
+      "systematic-review/meta-analysis": 2
+     }
+    },
+    "note": "flagged for adjudication, never auto-remapped"
+   },
+   "duplicates": {
+    "ok": true,
+    "fully_identical_rows": 0,
+    "loose_key_groups": 46,
+    "note": "loose>full is expected and NOT a defect; only fully-identical rows are duplicates"
+   },
+   "hpo_multivalue": {
+    "ok": true,
+    "mismatch": 0,
+    "n_with_ids": 7317,
+    "n_multi": 2407
+   },
+   "authority_prefix_match_v4": {
+    "ok": true,
+    "mismatches": {},
+    "n_mismatched_rows": 0,
+    "n_mismatched_ids": 0,
+    "n_rows_checked": 10451,
+    "n_ids_checked": 14441,
+    "n_undeclared_tag_rows": 0,
+    "n_minting_column_disagreements": 0,
+    "columns_checked": [
+     "hpo_ids_verified",
+     "entity_ontology_id_resolved"
+    ]
+   }
+  }
+ },
+ "enum_drift": {
+  "evidence_tier": {
+   "systematic-review/meta-analysis": 2
+  },
+  "total_drifted_rows": 2
+ }
+}

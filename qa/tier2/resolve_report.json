@@ -1,0 +1,235 @@
+{
+ "wall_s": 0.9,
+ "distinct_pairs": 4259,
+ "routable_pairs": 3462,
+ "authority_http_lookups_new": 0,
+ "cache_entries_after": 14385,
+ "cache_loaded": {
+  "loaded": 14385,
+  "upgraded": 0,
+  "retagged": 0,
+  "had_minting_column": true
+ },
+ "entity_rows": {
+  "numerator": 11236,
+  "denominator": 15860,
+  "pct": 70.84,
+  "basis": "rows carrying a non-null entity"
+ },
+ "entity_id_rows": {
+  "numerator": 3134,
+  "denominator": 15860,
+  "pct": 19.76,
+  "basis": "ALL rows; coverage not correctness"
+ },
+ "entity_id_rows_of_entity_rows": {
+  "numerator": 3134,
+  "denominator": 11236,
+  "pct": 27.89,
+  "basis": "rows with an entity name"
+ },
+ "by_entity_kind": {
+  "anatomical-structure": {
+   "authority": "uberon",
+   "rows": {
+    "numerator": 1247,
+    "denominator": 2507,
+    "pct": 49.74,
+    "basis": "rows with entity_kind=anatomical-structure whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 320,
+    "denominator": 821,
+    "pct": 38.98,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "cell-type": {
+   "authority": "cl",
+   "rows": {
+    "numerator": 58,
+    "denominator": 110,
+    "pct": 52.73,
+    "basis": "rows with entity_kind=cell-type whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 20,
+    "denominator": 57,
+    "pct": 35.09,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "chemical/metabolite": {
+   "authority": "chebi",
+   "rows": {
+    "numerator": 470,
+    "denominator": 810,
+    "pct": 58.02,
+    "basis": "rows with entity_kind=chemical/metabolite whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 161,
+    "denominator": 348,
+    "pct": 46.26,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "gene/protein": {
+   "authority": "uniprot",
+   "rows": {
+    "numerator": 634,
+    "denominator": 4062,
+    "pct": 15.61,
+    "basis": "rows with entity_kind=gene/protein whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 100,
+    "denominator": 835,
+    "pct": 11.98,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "other": {
+   "authority": "none (unrouted by design)",
+   "rows": {
+    "numerator": 0,
+    "denominator": 2515,
+    "pct": 0.0,
+    "basis": "rows with entity_kind=other whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 0,
+    "denominator": 796,
+    "pct": 0.0,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "pathogen": {
+   "authority": "ncbitaxon",
+   "rows": {
+    "numerator": 9,
+    "denominator": 13,
+    "pct": 69.23,
+    "basis": "rows with entity_kind=pathogen whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 5,
+    "denominator": 8,
+    "pct": 62.5,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "physiological-measure": {
+   "authority": "hp",
+   "rows": {
+    "numerator": 716,
+    "denominator": 3287,
+    "pct": 21.78,
+    "basis": "rows with entity_kind=physiological-measure whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 112,
+    "denominator": 1393,
+    "pct": 8.04,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  },
+  "protein": {
+   "authority": "none (unrouted by design)",
+   "rows": {
+    "numerator": 0,
+    "denominator": 1,
+    "pct": 0.0,
+    "basis": "rows with entity_kind=protein whose entity name resolved"
+   },
+   "distinct_names": {
+    "numerator": 0,
+    "denominator": 1,
+    "pct": 0.0,
+    "basis": "distinct entity names of this kind that resolved"
+   }
+  }
+ },
+ "source_tags": {
+  "unresolved_nulled": 12726,
+  "authority_lookup_ols_uberon_exact": 956,
+  "authority_lookup_ols_hp_exact": 578,
+  "authority_lookup_uniprot_exact": 503,
+  "authority_lookup_ols_chebi_exact": 415,
+  "authority_lookup_ols_uberon_synonym": 269,
+  "authority_lookup_uniprot_synonym": 131,
+  "authority_lookup_ols_hp_synonym": 99,
+  "authority_lookup_ols_cl_exact": 55,
+  "authority_lookup_ols_chebi_synonym": 55,
+  "authority_lookup_ols_hp_via_go_exact": 26,
+  "authority_lookup_ols_uberon_via_go_exact": 22,
+  "authority_lookup_ols_ncbitaxon_exact": 8,
+  "authority_lookup_ols_hp_via_chebi_exact": 6,
+  "authority_lookup_ols_hp_via_pato_exact": 4,
+  "authority_lookup_ols_hp_via_uberon_exact": 3,
+  "authority_lookup_ols_cl_synonym": 2,
+  "authority_lookup_ols_cl_via_go_exact": 1,
+  "authority_lookup_ols_ncbitaxon_synonym": 1
+ },
+ "minting_ontologies": {
+  "uberon": 1228,
+  "hp": 677,
+  "uniprot": 634,
+  "chebi": 476,
+  "cl": 57,
+  "go": 49,
+  "ncbitaxon": 9,
+  "pato": 4
+ },
+ "hpo": {
+  "rows_with_phenotype_terms": {
+   "numerator": 12064,
+   "denominator": 15860,
+   "pct": 76.07,
+   "basis": "rows with >=1 phenotype term name"
+  },
+  "rows_with_verified_hpo": {
+   "numerator": 7317,
+   "denominator": 12064,
+   "pct": 60.65,
+   "basis": "of rows with phenotype terms"
+  },
+  "distinct_terms": {
+   "numerator": 1381,
+   "denominator": 7092,
+   "pct": 19.47,
+   "basis": "distinct phenotype term names that resolved at OLS4 hp (exact label or authority synonym)"
+  },
+  "rows_multi_id": 2407,
+  "source_tags": {
+   "unresolved_nulled": 8543,
+   "authority_lookup_ols_hp_exact": 4987,
+   "authority_lookup_ols_hp_synonym": 2296,
+   "authority_lookup_ols_hp_via_mpath_exact": 27,
+   "authority_lookup_ols_hp_via_mpath_synonym": 4,
+   "authority_lookup_ols_hp_via_pato_exact": 2,
+   "authority_lookup_ols_hp_via_uberon_synonym": 1
+  },
+  "rows_with_imported_term": 34
+ },
+ "gene": {
+  "rows_with_gene_marker": 2225,
+  "rows_hgnc": {
+   "numerator": 2110,
+   "denominator": 2225,
+   "pct": 94.83,
+   "basis": "of rows carrying a gene_marker; MyGene symbol lookup in the worker"
+  }
+ },
+ "worker_vs_stage_agreement": {
+  "rows_both_resolved": 467,
+  "rows_identical_id": 466,
+  "worker_only": 0,
+  "stage_only": 2667
+ },
+ "id_denotes_entity_rate": {
+  "value": null,
+  "basis": "NOT MEASURED: needs an adjudicated correspondence sample (RUNBOOK stage 5 rule 1)"
+ },
+ "resolver_version": "condition-corpus-builder/resolver@1"
+}

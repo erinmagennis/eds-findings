@@ -1,0 +1,58 @@
+{
+ "findings": 15860,
+ "papers": 2605,
+ "pmids_not_in_roster": 0,
+ "rows_with_wrong_chunk_id": 0,
+ "papers_yielding": 2605,
+ "roster_papers": 2734,
+ "yield_rate": 0.9528,
+ "rows_without_quote": 0,
+ "tier_values": [
+  2
+ ],
+ "duplicate_rows_exact": 0,
+ "units_in_table": 106,
+ "units_expected": 106,
+ "yield_by_decade": {
+  "1940": {
+   "papers": 1,
+   "yielding": 1,
+   "rate": 1.0
+  },
+  "1960": {
+   "papers": 3,
+   "yielding": 3,
+   "rate": 1.0
+  },
+  "1970": {
+   "papers": 84,
+   "yielding": 79,
+   "rate": 0.94
+  },
+  "1980": {
+   "papers": 305,
+   "yielding": 289,
+   "rate": 0.948
+  },
+  "1990": {
+   "papers": 493,
+   "yielding": 476,
+   "rate": 0.966
+  },
+  "2000": {
+   "papers": 661,
+   "yielding": 629,
+   "rate": 0.952
+  },
+  "2010": {
+   "papers": 1187,
+   "yielding": 1128,
+   "rate": 0.95
+  }
+ },
+ "yield_fulltext_expected": 0.989,
+ "yield_abstract_only": 0.949,
+ "yield_uncertain_flagged": 0.868,
+ "gate_log_units_with_counts": 45,
+ "gate_log_findings_sum": 7442
+}

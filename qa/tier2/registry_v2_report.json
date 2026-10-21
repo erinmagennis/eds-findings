@@ -1,0 +1,88 @@
+{
+ "schema": "registry-v2 (2026-10-21)",
+ "rows": 22805,
+ "by_corpus_status": {
+  "eds-findings": {
+   "extracted": 3284,
+   "referenced": 1718,
+   "excluded_screen": 1694,
+   "not_extractable": 1631,
+   "dispatched_no_yield": 216
+  },
+  "pots-findings": {
+   "extracted": 11519,
+   "dispatched_no_yield": 2743
+  }
+ },
+ "eds_by_tier_status": {
+  "1": {
+   "extracted": 679,
+   "dispatched_no_yield": 87,
+   "excluded_screen": 61
+  },
+  "2": {
+   "extracted": 2605,
+   "not_extractable": 1503,
+   "excluded_screen": 1125,
+   "dispatched_no_yield": 129
+  },
+  "tier5": {
+   "referenced": 1718,
+   "excluded_screen": 508,
+   "not_extractable": 128
+  }
+ },
+ "invariants": {
+  "inv_counts_sum": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_generation_provenance": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_key_unique": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_n_findings_by_status": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_no_reextraction_of_sibling_paper": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_one_extraction_per_pmid_per_generation": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_partition_within_corpus": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_reference_only_consistent": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_referenced_exists_in_sibling": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_shared_with_consistent": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_status_enum": {
+   "ok": true,
+   "n_violations": 0
+  },
+  "inv_universe_status_consistent": {
+   "ok": true,
+   "n_violations": 0
+  }
+ },
+ "notes": [
+  "v2 closes every pre-2019 EDS paper: extracted 2,605 / no-yield 129 / excluded_screen 1,125 / not_extractable 1,503 (tier '2'); Tier-1 rows unchanged; registry invariants 12/12."
+ ]
+}

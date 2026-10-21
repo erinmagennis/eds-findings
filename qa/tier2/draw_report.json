@@ -1,0 +1,21 @@
+{
+ "universe_papers": 5362,
+ "by_decade": {
+  "1930": 8,
+  "1940": 39,
+  "1950": 125,
+  "1960": 245,
+  "1970": 395,
+  "1980": 607,
+  "1990": 881,
+  "2000": 1179,
+  "2010": 1883
+ },
+ "by_theme": {
+  "eds_core": 3781,
+  "gjh_trait": 1048,
+  "eds_subtype_terms": 301,
+  "hsd_jhs": 232
+ },
+ "source": "Tier-5 universe draw (Europe PMC) restricted to year <= 2018; registry v1 'planned' rows"
+}

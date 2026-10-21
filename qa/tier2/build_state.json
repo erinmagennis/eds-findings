@@ -1,0 +1,1234 @@
+{
+ "tier": 2,
+ "waves": [
+  {
+   "wave": 0,
+   "chunks": [
+    30,
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "chunks_done": [
+    30,
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 422158,
+   "measured_tokens": 349688,
+   "units_ok": 10,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 695,
+   "findings": 286,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    241,
+    240,
+    240,
+    240,
+    361,
+    241,
+    361,
+    361,
+    454,
+    334
+   ],
+   "finished_at": "2026-10-14T08:54:57Z"
+  },
+  {
+   "wave": 1,
+   "chunks": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+   ],
+   "chunks_done": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 1214318,
+   "measured_tokens": 1072048,
+   "units_ok": 10,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1007,
+   "findings": 974,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    362,
+    362,
+    482,
+    482,
+    603,
+    361,
+    481,
+    481,
+    524,
+    404
+   ],
+   "finished_at": "2026-10-14T09:11:44Z"
+  },
+  {
+   "wave": 2,
+   "chunks": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+   ],
+   "chunks_done": [
+    57,
+    58,
+    59,
+    60,
+    61
+   ],
+   "chunks_missing": [
+    62,
+    63,
+    64,
+    65,
+    66
+   ],
+   "deferred_units": [
+    {
+     "chunk": 66,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 65,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 64,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 63,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 62,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1470447,
+   "measured_tokens": 766973,
+   "units_ok": 5,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 2168,
+   "findings": 661,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    481,
+    481,
+    481,
+    481,
+    601
+   ],
+   "finished_at": "2026-10-14T09:47:52Z"
+  },
+  {
+   "wave": 2,
+   "attempt": 2,
+   "chunks": [
+    62,
+    63,
+    64,
+    65,
+    66
+   ],
+   "chunks_done": [
+    62,
+    63,
+    64,
+    65,
+    66
+   ],
+   "units_ok": 5,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "measured_tokens": 648537,
+   "findings": 746,
+   "note": "controller interrupted by the orchestrator at the user's request (usage window ending) after dispatch; the 5 workers finished and saved on their own; chunk 63 tokens not captured (worker stats not collected before the interrupt)"
+  },
+  {
+   "wave": 3,
+   "chunks": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+   ],
+   "chunks_done": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 1338093,
+   "measured_tokens": 1355287,
+   "units_ok": 10,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1046,
+   "findings": 1182,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    481,
+    481,
+    481,
+    481,
+    602,
+    481,
+    481,
+    481,
+    564,
+    444
+   ],
+   "finished_at": "2026-10-19T01:40:19Z"
+  },
+  {
+   "wave": 4,
+   "chunks": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86
+   ],
+   "chunks_done": [
+    77,
+    78,
+    79,
+    80
+   ],
+   "chunks_missing": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86
+   ],
+   "deferred_units": [
+    {
+     "chunk": 82,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 81,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 80,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 79,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 77,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 83,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 84,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 85,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 86,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1292211,
+   "measured_tokens": 90345,
+   "units_ok": 1,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1925,
+   "findings": 76,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    361
+   ],
+   "finished_at": "2026-10-19T02:12:24Z"
+  },
+  {
+   "wave": 4,
+   "chunks": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86
+   ],
+   "chunks_done": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 866425,
+   "measured_tokens": 960481,
+   "units_ok": 6,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1108,
+   "findings": 936,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    481,
+    601,
+    721,
+    721,
+    721,
+    627
+   ],
+   "finished_at": "2026-10-19T03:48:54Z"
+  },
+  {
+   "wave": 5,
+   "chunks": [
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+   ],
+   "chunks_done": [
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 1589953,
+   "measured_tokens": 1606995,
+   "units_ok": 10,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1377,
+   "findings": 1520,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    601,
+    601,
+    601,
+    601,
+    841,
+    601,
+    601,
+    601,
+    775,
+    535
+   ],
+   "finished_at": "2026-10-19T04:11:50Z"
+  },
+  {
+   "wave": 6,
+   "chunks": [
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+   ],
+   "chunks_done": [
+    97,
+    98,
+    99,
+    100,
+    101
+   ],
+   "chunks_missing": [
+    102,
+    103,
+    104,
+    105,
+    106
+   ],
+   "deferred_units": [
+    {
+     "chunk": 106,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 105,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 104,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 103,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 102,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1939551,
+   "measured_tokens": 956674,
+   "units_ok": 5,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 2524,
+   "findings": 794,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    481,
+    601,
+    601,
+    721,
+    721
+   ],
+   "finished_at": "2026-10-19T04:53:54Z"
+  },
+  {
+   "wave": 6,
+   "chunks": [
+    102,
+    103,
+    104,
+    105,
+    106
+   ],
+   "chunks_done": [],
+   "chunks_missing": [
+    102,
+    103,
+    104,
+    105,
+    106
+   ],
+   "deferred_units": [
+    {
+     "chunk": 106,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 105,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 104,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 103,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 102,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1004112,
+   "measured_tokens": 0,
+   "units_ok": 0,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1562,
+   "findings": 0,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [],
+   "finished_at": "2026-10-19T05:19:56Z"
+  },
+  {
+   "wave": "6 (final, chunks 102-109)",
+   "chunks_done": [
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+   ],
+   "measured_tokens": 1391605,
+   "units_ok": 7,
+   "n_gate_fail": 0,
+   "note": "controller interrupted by the orchestrator at the user's request after dispatch; the 4 remaining workers finished and saved on their own"
+  },
+  {
+   "wave": 7,
+   "chunks": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "chunks_done": [
+    110,
+    111,
+    113,
+    114
+   ],
+   "chunks_missing": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "deferred_units": [
+    {
+     "chunk": 118,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 117,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 116,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 115,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 112,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 118,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 119,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 2669094,
+   "measured_tokens": 881816,
+   "units_ok": 4,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 3008,
+   "findings": 768,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    601,
+    722,
+    722,
+    842
+   ],
+   "finished_at": "2026-10-19T17:12:10Z"
+  },
+  {
+   "wave": 7,
+   "chunks": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "chunks_done": [],
+   "chunks_missing": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "deferred_units": [
+    {
+     "chunk": 118,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 117,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 116,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 115,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 112,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 118,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 119,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1737924,
+   "measured_tokens": 0,
+   "units_ok": 0,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1563,
+   "findings": 0,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [],
+   "finished_at": "2026-10-19T17:38:14Z"
+  },
+  {
+   "wave": 7,
+   "chunks": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "chunks_done": [],
+   "chunks_missing": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "deferred_units": [
+    {
+     "chunk": 118,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 117,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 116,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 115,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 112,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 118,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 119,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1737924,
+   "measured_tokens": 0,
+   "units_ok": 0,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 1564,
+   "findings": 0,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [],
+   "finished_at": "2026-10-19T18:04:17Z"
+  },
+  {
+   "wave": 8,
+   "chunks": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+   ],
+   "chunks_done": [
+    112,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 2983694,
+   "measured_tokens": 2868595,
+   "units_ok": 12,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 2582,
+   "findings": 2557,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    722,
+    843,
+    963,
+    1084,
+    482,
+    1565,
+    723,
+    602,
+    964,
+    602,
+    842,
+    1015
+   ],
+   "finished_at": "2026-10-19T20:41:30Z"
+  },
+  {
+   "wave": 9,
+   "chunks": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133
+   ],
+   "chunks_done": [
+    124,
+    125,
+    126,
+    127
+   ],
+   "chunks_missing": [
+    128,
+    129,
+    130,
+    131,
+    132,
+    133
+   ],
+   "deferred_units": [
+    {
+     "chunk": 129,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 129,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 128,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 128,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 133,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 130,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 130,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 131,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 131,
+     "part": [
+      1,
+      2
+     ]
+    },
+    {
+     "chunk": 132,
+     "part": [
+      0,
+      2
+     ]
+    },
+    {
+     "chunk": 132,
+     "part": [
+      1,
+      2
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 2752961,
+   "measured_tokens": 1029029,
+   "units_ok": 5,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 4576,
+   "findings": 859,
+   "chunks_without_archive": [],
+   "ceiling_events": 5,
+   "unit_walls_s": [
+    602,
+    722,
+    722,
+    722,
+    1083
+   ],
+   "finished_at": "2026-10-19T21:57:46Z"
+  },
+  {
+   "wave": 9,
+   "chunks": [
+    128,
+    129,
+    130,
+    131,
+    132,
+    133
+   ],
+   "chunks_done": [],
+   "chunks_missing": [
+    128,
+    129,
+    130,
+    131,
+    132,
+    133
+   ],
+   "deferred_units": [
+    {
+     "chunk": 132,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 131,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 130,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 129,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 128,
+     "part": [
+      0,
+      1
+     ]
+    },
+    {
+     "chunk": 133,
+     "part": [
+      0,
+      1
+     ]
+    }
+   ],
+   "stalled": true,
+   "projected_tokens": 1644837,
+   "measured_tokens": 0,
+   "units_ok": 0,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 483,
+   "findings": 0,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [],
+   "finished_at": "2026-10-19T22:05:49Z"
+  },
+  {
+   "wave": "10 (final, chunks 128-135)",
+   "chunks_done": [
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135
+   ],
+   "measured_tokens": 1975916,
+   "units_ok": 7,
+   "n_gate_fail": 0,
+   "note": "controller interrupted at the user's request after dispatch; 4 workers finished and saved on their own; chunk 137 never dispatched"
+  },
+  {
+   "wave": 11,
+   "chunks": [
+    137
+   ],
+   "chunks_done": [
+    137
+   ],
+   "chunks_missing": [],
+   "deferred_units": [],
+   "stalled": false,
+   "projected_tokens": 109263,
+   "measured_tokens": 112779,
+   "units_ok": 1,
+   "n_gate_fail": 0,
+   "guard_violations": 0,
+   "wall_s": 697,
+   "findings": 112,
+   "chunks_without_archive": [],
+   "ceiling_events": 0,
+   "unit_walls_s": [
+    697
+   ],
+   "finished_at": "2026-10-21T11:46:04Z"
+  }
+ ],
+ "stopped": null,
+ "spent_measured_tokens": 16066768,
+ "spent_projected_tokens": 12672024,
+ "pilot": {
+  "chunks": [
+   136,
+   56
+  ],
+  "measured_tokens": 634575,
+  "findings": 516,
+  "units": 3
+ },
+ "notes": [
+  "2026-10-14T09:50:24Z: stall stop from wave 2 cleared by the orchestrator for a re-run of the 5 deferred units (chunks 62-66); nothing was saved by the stopped workers",
+  "2026-10-19T01:22:53Z: resumed by user ('continue'); pause flag cleared",
+  "2026-10-19T03:30:26Z: wave-4 stall stop cleared for re-run; 4 chunks had saved before the stall",
+  "stall stop in wave 6 cleared for one re-run",
+  "2026-10-19T09:52:39Z: wave-6 double stall (~05:35Z) cleared for a probe re-run after a 4 h gap",
+  "2026-10-19T16:22:02Z: resumed by user for the final chunks; pause flag cleared",
+  "stall stop in wave 7 cleared for re-run 1",
+  "stall stop in wave 7 cleared for re-run 2",
+  "2026-10-19T19:58:28Z: wave-7 triple stall (workers never started) cleared for one probe with the first-turn check",
+  "stall in wave 9 after partial progress; one re-run",
+  "2026-10-20T23:51:44Z: resumed by user for the final 9 chunks",
+  "2026-10-21T11:34:26Z: resumed for chunk 137"
+ ],
+ "progress": {
+  "chunks_saved": 101,
+  "chunks_total": 102,
+  "papers_covered": 2725,
+  "papers_total": 2734,
+  "remaining_chunk_ids": [
+   137
+  ],
+  "as_of": "2026-10-21T00:30:15Z"
+ }
+}
