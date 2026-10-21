@@ -47,3 +47,11 @@ papers the EDS registry records as `referenced` (shared, not re-extracted).
 
 With 1–5 approved, the connections ledger per CONNECTIONS_DESIGN.md can be computed from claims_v1: shared claims (same entity, direction, reference
 frame, joinable bucket), discordant claims, and entity-only connections — each with support on both sides and the era span.
+
+## Decisions (2026-10-21, user)
+
+1. Default join = coarse — **approved**.
+2. Vascular-EDS rows in the POTS bucket — **stratify, not remove**: connection queries report the POTS `EDS_hypermobility` bucket in strata (hypermobile/HSD, vascular, classical, unspecified) by the keyword rule, carried as provisional; no row is removed from any table.
+3. Era carried on every cross-corpus comparison — **approved**.
+4. hEDS strictness — **pool by default with a `criteria_era` column** (`heds_2017`, `eds_ht_villefranche` 1997–2016, `eds_iii_berlin` pre-1997); reporting splits by era for population-descriptive claims (prevalence, symptom frequency, comorbidity, severity) and pools for mechanistic/biomarker claims. Pre-2017 type III is included wherever the question is not criteria-sensitive.
+5. Nosology-supplement rows join on entity only — **approved**.
