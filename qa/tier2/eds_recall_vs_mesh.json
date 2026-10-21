@@ -1,0 +1,21 @@
+{
+ "basis": "PubMed esearch 2026-10-21: \"Ehlers-Danlos Syndrome\"[MeSH Terms] = 4,142 PMIDs (3,104 dated <=2018, 1,075 >=2019); compared against the EDS paper registry v2 (all statuses) and the POTS corpus paper set",
+ "mesh_total": 4142,
+ "in_eds_registry_or_pots": 4140,
+ "in_neither": [
+  "42878823",
+  "42883872"
+ ],
+ "by_registry_status": {
+  "extracted": 1871,
+  "not_extractable": 1360,
+  "referenced": 654,
+  "excluded_screen": 148,
+  "dispatched_no_yield": 107
+ },
+ "note": "recall of the EDS literature as PubMed indexes it is 4,140/4,142 (99.95%); the binding constraint is not discovery but text availability: 1,360 MeSH-indexed EDS papers (32.8%) have neither abstract nor full text through Europe PMC/PubMed and are recorded not_extractable; 148 MeSH-indexed papers were excluded by the population screen and are listed for human review (audits/mesh_indexed_but_excluded_148.csv); 107 were dispatched and yielded nothing.",
+ "excluded_by_tier": {
+  "2": 123,
+  "tier5": 25
+ }
+}
