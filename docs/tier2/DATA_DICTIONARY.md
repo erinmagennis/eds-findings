@@ -1,6 +1,6 @@
 # DATA_DICTIONARY
 
-Primary table `data/eds-findings-tier2_findings.parquet` (15860 rows x 94 columns). Columns marked *harmonization* were APPENDED at packaging time from pipeline columns for the verifier contract; no pipeline column was mutated.
+Primary table `data/eds-findings-tier2_findings.parquet` (15860 rows x 95 columns). Columns marked *harmonization* were APPENDED at packaging time from pipeline columns for the verifier contract; no pipeline column was mutated.
 
 | column | fill % | description |
 |---|---:|---|
@@ -89,6 +89,7 @@ Primary table `data/eds-findings-tier2_findings.parquet` (15860 rows x 94 column
 | `hpo_id_source_worker` | 100.0 | see SCHEMA.md |
 | `hpo_id_count_worker` | 100.0 | see SCHEMA.md |
 | `hpo_id_minting_ontology` | 46.13 | see SCHEMA.md |
+| `scope_class` | 100.0 | see SCHEMA.md |
 | `tier_source` | 100.0 | harmonization: `t<tier>` from config.tier.number |
 | `cap_entity_kind` | 100.0 | harmonization: table carries `entity_kind` |
 | `cap_hpo_verified` | 100.0 | harmonization: table carries `hpo_ids_verified` |

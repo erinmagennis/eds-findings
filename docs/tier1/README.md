@@ -1,6 +1,6 @@
-# eds-findings-v0 — Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder
+# eds-findings-v0.1 — Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder
 
-> **Tier 1 (2019-2026) build of eds-findings v0: model-extracted, not human-adjudicated; 1,718 papers shared with pots-findings are referenced via the registry (qa/paper_registry_v1.parquet) and not re-extracted here.**
+> **EDS findings, Tier 1 (2019-2026), v0.1 = v0 data unchanged plus: scope_class column (all rows eds_2017), NOSOLOGY.md (condition follows the 2017 International Classification of the EDS; papers under earlier classifications and adjacent heritable connective-tissue disorders are in the nosology-supplement package with scope_class), registry v4, MeSH recall check, fidelity-judge calibration report and the blank audit worksheets. Well-formedness QA only; scientific fidelity has not been human-adjudicated (audit open).**
 
 **7,101 machine-extracted findings from 679 papers** (Tier 1 — EDS/HSD core literature 2019-2026 (papers not already extracted in pots-findings); chunks [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]; years 2019–2026; source stream Europe PMC; extraction model `claude-sonnet-5`).
 

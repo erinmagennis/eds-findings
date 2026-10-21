@@ -1,6 +1,6 @@
-# eds-findings-tier2-v0 — Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder
+# eds-findings-tier2-v0.1 — Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder
 
-> **Tier-2 (pre-2019) EDS findings, first build; well-formedness QA only — scientific fidelity of extracted findings has not been human-adjudicated.**
+> **EDS findings, Tier 2 (pre-2019), v0.1 = v0 data unchanged plus: scope_class column (all rows eds_2017), NOSOLOGY.md (condition follows the 2017 International Classification of the EDS; historical type numerals are mapped in NOSOLOGY.md and preserved verbatim in quotes; reclassified and adjacent disorders are in the nosology-supplement package), registry v4, MeSH recall check, extra verification passes (byte-identical rebuild, fresh-fetch census, id correspondence), fidelity-judge calibration and blank audit worksheets. Well-formedness QA only; scientific fidelity has not been human-adjudicated (audit open).**
 
 **15,860 machine-extracted findings from 2,605 papers** (Tier 2 — EDS/HSD literature 1936-2018 (pre-2019; no overlap with pots-findings); chunks [30, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]; years 1946–2018; source stream Europe PMC; extraction model `claude-sonnet-5`).
 

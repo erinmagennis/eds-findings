@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this data, cite it and cite the source papers for any finding that matters to your work."
+type: dataset
+title: "eds-findings-v0.1 — Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder"
+version: "v0.1"
+date-released: "2026-10-21"
+license: CC-BY-4.0
+repository-code: "https://github.com/PLACEHOLDER/eds-findings"
+authors:
+  - family-names: "Magennis"
+    given-names: "Erin"
+    orcid: "https://orcid.org/0009-0007-9013-8052"
+abstract: "7101 machine-extracted findings from 679 papers on Ehlers-Danlos syndromes (all 2017-classification types) and hypermobility spectrum disorder. EDS findings, Tier 1 (2019-2026), v0.1 = v0 data unchanged plus: scope_class column (all rows eds_2017), NOSOLOGY.md (condition follows the 2017 International Classification of the EDS; papers under earlier classifications and adjacent heritable connective-tissue disorders are in the nosology-supplement package with scope_class), registry v4, MeSH recall check, fidelity-judge calibration report and the blank audit worksheets. Well-formedness QA only; scientific fidelity has not been human-adjudicated (audit open). Scientific fidelity is unmeasured."
