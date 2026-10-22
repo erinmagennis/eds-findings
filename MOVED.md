@@ -9,4 +9,4 @@ POTS-specific material that used to live in this repository now lives in
 | `benchmarks/` (POTS model-emitted identifier benchmark, v1.2 plan) | `pots-findings/benchmarks/` |
 | `packages/pots-v1.2/` (build record) | `pots-findings/releases/v1.2/` |
 
-Cross-corpus material (claims/, the condition crosswalk, nosology) stays here until a separate claims repository exists.
+Cross-corpus working material (claims/, the condition crosswalk, nosology) stays here for now.

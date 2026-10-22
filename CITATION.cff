@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "EDS and Hypermobility Literature Findings"
+message: "If you use this dataset, please cite it and the original papers behind any finding you rely on."
+type: dataset
+authors:
+  - family-names: "Magennis"
+    given-names: "Erin"
+version: "2026-10-22"
+date-released: "2026-10-22"
+license: CC-BY-4.0
+repository-code: "https://github.com/erinmagennis/eds-findings"
+keywords: [ehlers-danlos, hypermobility, dysautonomia, research-findings, open-data]
+abstract: >-
+  24,200 structured research findings machine-extracted from 3,558 papers on the Ehlers-Danlos syndromes and
+  hypermobility spectrum disorder, published 1946 to 2026, in four packages: eds-findings-v0.1 (7,101 findings),
+  eds-findings-tier2-v0.1 (15,860), eds-findings-nosology-supplement-v0 (343)
+  and eds-findings-tier2-recovery-v0 (896). Every row carries a verbatim source quote and
+  the diagnostic era. Scientific fidelity has not yet been checked by a human reader. Verbatim quoted text remains
+  the copyright of its authors and publishers.
+references:
+  - type: software
+    title: "condition-findings-builder"
+    authors:
+      - family-names: "Magennis"
+        given-names: "Erin"
+    repository-code: "https://github.com/erinmagennis/condition-findings-builder"
