@@ -1,7 +1,7 @@
 # eds-findings
 
 Machine-extracted research findings from the Ehlers-Danlos syndromes and hypermobility spectrum disorder literature,
-1936 to 2026, with a verbatim source quote on every row. 24,200 findings from 3,558 papers, released as
+published 1946 to 2026, with a verbatim source quote on every row. 24,200 findings from 3,558 papers, released as
 four self-contained data packages. Built with [condition-findings-builder](https://github.com/erinmagennis/condition-findings-builder).
 Project index: [condition-findings](https://github.com/erinmagennis/condition-findings).
 
@@ -13,7 +13,7 @@ on a finding.
 | package | what it covers | findings | papers | status |
 |---|---|---:|---:|---|
 | `eds-findings-v0.1` | 2019 to 2026 | 7,101 | 679 | verifier PASS |
-| `eds-findings-tier2-v0.1` | 1936 to 2018 | 15,860 | 2,605 | verifier PASS |
+| `eds-findings-tier2-v0.1` | 1946 to 2018 (the search window opened in 1936; no extractable paper predates 1946) | 15,860 | 2,605 | verifier PASS |
 | `eds-findings-nosology-supplement-v0` | papers indexed under EDS in MeSH that the screen excluded: historical EDS types later reclassified, adjacent heritable connective tissue disorders. Every row carries `scope_class` | 343 | 45 | verifier PASS |
 | `eds-findings-tier2-recovery-v0` | pre-2019 papers whose abstract had to be recovered from OpenAlex; rows are flagged `screen_verdict_uncertain` | 896 | 229 | verifier PASS |
 
