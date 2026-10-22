@@ -1,6 +1,6 @@
 # eds-findings v0 — build report (Tier 1, 2019–2026)
 
-Built 2026-10-07/08 with `condition-corpus-builder` v13 (`config/eds.yaml`), model `claude-sonnet-5`.
+Built 2026-10-07/08 with `condition-findings-builder` v13 (`config/eds.yaml`), model `claude-sonnet-5`.
 Package: `eds-findings-v0.tar.gz` (111 files, 8.00 MB compressed / 10.45 MB unpacked; measured on the shipped artifact c8926a5d) — verifier PASS (19/19 headline numbers re-derived, 6/6 planted regressions, 109/109 checksums verified).
 **Every number below is well-formedness. Scientific fidelity is unmeasured** (no human scoring; `id_denotes_entity_rate` not measured).
 
@@ -70,4 +70,4 @@ Finding types: mechanism/biomarker 2,355 · comorbidity 1,474 · treatment/inter
 
 ## 7. Artifacts
 
-`eds-findings-v0.tar.gz` · `eds_findings_resolved.parquet` (7,101 rows) · `eds_findings_merged_raw.parquet` · `paper_registry_v1.parquet` + `registry_v1_report.json` · `eds_tier1_roster_v3.parquet` + excluded / not-extractable lists · `screen_eds_tier1_final.csv` · `build_state.json`, `wave_2..5.json`, gate logs · `quote_census.json`, `invariants.json`, `resolve_report.json`, `resolution_cache.parquet` · `CONNECTIONS_DESIGN.md` · `condition-corpus-builder.tar.gz` v13 · `EDS_RESUME.md`.
+`eds-findings-v0.tar.gz` · `eds_findings_resolved.parquet` (7,101 rows) · `eds_findings_merged_raw.parquet` · `paper_registry_v1.parquet` + `registry_v1_report.json` · `eds_tier1_roster_v3.parquet` + excluded / not-extractable lists · `screen_eds_tier1_final.csv` · `build_state.json`, `wave_2..5.json`, gate logs · `quote_census.json`, `invariants.json`, `resolve_report.json`, `resolution_cache.parquet` · `CONNECTIONS_DESIGN.md` · `condition-findings-builder.tar.gz` v13 · `EDS_RESUME.md`.

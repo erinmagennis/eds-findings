@@ -1,6 +1,6 @@
 # METHODS
 
-Method repository: `condition-corpus-builder` (pipeline generation: Tier-4 code made condition-agnostic; config `config/eds_tier2_recovery.yaml`).
+Method repository: `condition-findings-builder` (pipeline generation: Tier-4 code made condition-agnostic; config `config/eds_tier2_recovery.yaml`).
 
 **Extraction model (literal id): `claude-sonnet-5`** — max_tokens full text 32000, abstract 8000, screen 2000.
 

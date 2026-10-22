@@ -1,7 +1,7 @@
 # eds-findings — EDS/HSD literature findings corpus (working repository)
 
 Grounded, provenance-traced findings extracted from the Ehlers-Danlos / hypermobility literature, built with the
-`condition-corpus-builder` method repo (sibling folder). Two tiers:
+`condition-findings-builder` method repo (sibling folder). Two tiers:
 
 | tier | window | package | findings | papers | status |
 |---|---|---|---:|---:|---|
@@ -20,5 +20,5 @@ human scoring. Do not read marker claims off these tables before that.
 Layout: `reports/` build reports, design notes, resume spec · `qa/tier{1,2}/` QA outputs · `scope/tier{1,2}/` screening
 lists · `docs/tier{1,2}/` package docs · `packages/` package README/MANIFEST/CHECKSUMS (tarballs in the artifact store,
 see `ARTIFACTS.md`) · `data/` findings tables, rosters, registry, resolution cache · `audits/` fidelity and exclusion
-worksheets. Reproduce a package: `condition-corpus-builder/build_packages.py --area-config config/eds*.yaml …`
+worksheets. Reproduce a package: `condition-findings-builder/build_packages.py --area-config config/eds*.yaml …`
 (exact commands in the reports).

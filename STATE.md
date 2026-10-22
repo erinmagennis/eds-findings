@@ -4,7 +4,7 @@ For anyone receiving these files. Every number below is read from a saved QA fil
 
 ## What these are
 
-Findings extracted from the biomedical literature by a pinned language model (`claude-sonnet-5`) under a fixed prompt, one row per finding, each row carrying a **verbatim provenance quote** from the paper, the paper's PMID, a condition (population) bucket, direction, evidence tier, and — where an authority confirmed it — ontology identifiers (UniProt, ChEBI, HPO, UBERON, CL, NCBITaxon) with the authority's own label. Two corpora, built with the same method repository (`condition-corpus-builder`):
+Findings extracted from the biomedical literature by a pinned language model (`claude-sonnet-5`) under a fixed prompt, one row per finding, each row carrying a **verbatim provenance quote** from the paper, the paper's PMID, a condition (population) bucket, direction, evidence tier, and — where an authority confirmed it — ontology identifiers (UniProt, ChEBI, HPO, UBERON, CL, NCBITaxon) with the authority's own label. Two corpora, built with the same method repository (`condition-findings-builder`):
 
 - **pots-findings v1.1** — 148,186 findings / 11,519 papers (2019–2026), 16 condition buckets (POTS, ME/CFS, long COVID, MCAS, dysautonomia, SFN, fibromyalgia, migraine, IBS, autism, EDS/hypermobility, …); five packages (t1 36,067 rows, t2 70,441, t3 26,032, t4 15,646). **v1.2 in preparation** (see "Known defects").
 - **eds-findings** — four packages, 24,200 findings / 3,558 papers, no paper in more than one package; combined in `eds_findings_all_tiers.parquet`:
@@ -49,4 +49,4 @@ python code/verify_package.py --self-test
 ```
 
 ## Cite
-Magennis, E. (2026). *<package name>* [Data set]. See `CITATION.cff` in each package. Method: `condition-corpus-builder` (sibling repository).
+Magennis, E. (2026). *<package name>* [Data set]. See `CITATION.cff` in each package. Method: `condition-findings-builder` (sibling repository).
