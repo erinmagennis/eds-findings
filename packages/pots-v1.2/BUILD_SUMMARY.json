@@ -1,5 +1,5 @@
 {
- "build_utc": "2026-10-22T11:06:25Z",
+ "build_utc": "2026-10-22T12:15:40Z",
  "version": "v1.2",
  "corpus": {
   "vsum": 39637,
@@ -16,35 +16,35 @@
    "findings": 36067,
    "papers": 3129,
    "n_files": 53,
-   "tarball_bytes": 33608826
+   "tarball_bytes": 33586883
   },
   "tier2a": {
    "findings": 36611,
    "papers": 3123,
    "n_files": 56,
-   "tarball_bytes": 22898775
+   "tarball_bytes": 22883365
   },
   "tier2b": {
    "findings": 33830,
    "papers": 2589,
    "n_files": 56,
-   "tarball_bytes": 20462870
+   "tarball_bytes": 20448613
   },
   "tier3": {
    "findings": 26032,
    "papers": 1587,
    "n_files": 60,
-   "tarball_bytes": 16745338
+   "tarball_bytes": 16745358
   },
   "tier4": {
    "findings": 15646,
    "papers": 1091,
    "n_files": 58,
-   "tarball_bytes": 10503653
+   "tarball_bytes": 10503659
   }
  },
  "repo_files": 301,
- "repo_bytes": 113652560,
+ "repo_bytes": 113627091,
  "dtype_fix": true,
  "annotations": {
   "tier1": [

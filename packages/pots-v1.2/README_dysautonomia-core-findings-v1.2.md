@@ -23,7 +23,7 @@ Of the 4,373 rows that carried a model-emitted id in v1.1: **2,385 denoted their
 `authority_verified_retrospective` with the match mode recorded (compound_partial 110, exact 1,255, exact_relaxed 398, synonym 622); **1,161 ids were replaced** by the id the
 entity name resolves to (exact label or authority synonym; `ontology_id_source` says so); **827 were withheld** (`id_withheld_unverified_v1.2`:
 the id denoted a different entity and the name did not resolve). The original model id is preserved on every affected row in
-`ontology_id_v11_model_emitted`. Nothing else changed: no row was added or removed and no other column was edited.
+`ontology_id_v11_model_emitted`; on replaced rows `entity_ontology_label` / `ontology_label_final` carry the NEW id's label, fetched by id from the authority. Nothing else changed: no row was added or removed and no other column was edited.
 
 Measured on this package's full population: **54.5% of the model-emitted ids denoted their entity**; the
 rest existed but pointed at a neighbouring gene, a related compound or a sibling concept — near-miss assignment, not fabrication.
@@ -358,5 +358,5 @@ one prompt; pool those two freely.
 
 ---
 
-Built 2026-10-22T11:06:25Z from harmonized corpus `f0b86f9a-f688-48c4-a08f-94e946afb9af`.
+Built 2026-10-22T12:15:40Z from harmonized corpus `f0b86f9a-f688-48c4-a08f-94e946afb9af`.
 Data CC BY 4.0. Machine-extracted research information — **not medical advice.**
