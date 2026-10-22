@@ -1,24 +1,58 @@
-# eds-findings — EDS/HSD literature findings corpus (working repository)
+# eds-findings
 
-Grounded, provenance-traced findings extracted from the Ehlers-Danlos / hypermobility literature, built with the
-`condition-findings-builder` method repo (sibling folder). Two tiers:
+Machine-extracted research findings from the Ehlers-Danlos syndromes and hypermobility spectrum disorder literature,
+1936 to 2026, with a verbatim source quote on every row. 24,200 findings from 3,558 papers, released as
+four self-contained data packages. Built with [condition-findings-builder](https://github.com/erinmagennis/condition-findings-builder).
+Project index: [condition-findings](https://github.com/erinmagennis/condition-findings).
 
-| tier | window | package | findings | papers | status |
-|---|---|---|---:|---:|---|
-| 1 | 2019–2026 | eds-findings-v0 | 7,101 | 679 | shipped 2026-10-08; verifier PASS |
-| 2 | 1936–2018 (extractable 1946–2018) | eds-findings-tier2-v0 | 15,860 | 2,605 | shipped 2026-10-21; verifier PASS |
+This is machine-extracted research information, not medical advice. Read and cite the original paper before relying
+on a finding.
 
-Combined table: `data/eds_findings_all_tiers.parquet` (22,961 rows / 3,284 papers, `tier` column). Paper registry across
-EDS and POTS: `data/paper_registry_v2.parquet` (shared papers are referenced, never re-extracted).
+## Packages
 
-**What is and is not claimed.** All QA to date is well-formedness: quotes trace to their papers (census 99.55% / 99.68%,
-fresh-fetch 99.58%, wrong-paper controls 0%), identifiers come from authorities with exact-label or authority-synonym
-agreement, counts conserve, packages rebuild byte-identically. Whether findings faithfully state what the papers found
-is **not yet measured** — the fidelity audit is open (`audits/`, see `reports/EDS_TIER2_BUILD_REPORT.md` §7b) and awaits
-human scoring. Do not read marker claims off these tables before that.
+| package | what it covers | findings | papers | status |
+|---|---|---:|---:|---|
+| `eds-findings-v0.1` | 2019 to 2026 | 7,101 | 679 | verifier PASS |
+| `eds-findings-tier2-v0.1` | 1936 to 2018 | 15,860 | 2,605 | verifier PASS |
+| `eds-findings-nosology-supplement-v0` | papers indexed under EDS in MeSH that the screen excluded: historical EDS types later reclassified, adjacent heritable connective tissue disorders. Every row carries `scope_class` | 343 | 45 | verifier PASS |
+| `eds-findings-tier2-recovery-v0` | pre-2019 papers whose abstract had to be recovered from OpenAlex; rows are flagged `screen_verdict_uncertain` | 896 | 229 | verifier PASS |
 
-Layout: `reports/` build reports, design notes, resume spec · `qa/tier{1,2}/` QA outputs · `scope/tier{1,2}/` screening
-lists · `docs/tier{1,2}/` package docs · `packages/` package README/MANIFEST/CHECKSUMS (tarballs in the artifact store,
-see `ARTIFACTS.md`) · `data/` findings tables, rosters, registry, resolution cache · `audits/` fidelity and exclusion
-worksheets. Reproduce a package: `condition-findings-builder/build_packages.py --area-config config/eds*.yaml …`
-(exact commands in the reports).
+Each package has a `README.md`, `docs/` (methods, data dictionary, limitations), `qa/`, `CHECKSUMS.sha256` and the code
+that built it, and `code/verify_package.py --self-test` re-checks it end to end. The package tarballs are not stored in
+this repository; `packages/<name>/` holds each package's README, MANIFEST, CITATION and checksums, and `ARTIFACTS.md`
+says where the tarballs are.
+
+The diagnosis itself changed in 1997 (Villefranche) and 2017 (international classification). Every row carries
+`criteria_era` and the EDS type as the paper stated it; `docs/NOSOLOGY.md` in the packages explains how the old and new
+names map and when they should not be pooled.
+
+## What has been checked, and what has not
+
+Checked by machine, with negative controls:
+- every quote traces to its paper (Tier 2 fresh-fetch census: 1,414 of 1,420 rows, wrong-paper control 0 of 400)
+- every entity identifier comes from an authority lookup on the entity name (exact label or authority synonym);
+  names that did not match were left without an identifier, never guessed
+- counts conserve across rosters, registry and packages; packages rebuild byte-identically
+- extraction tier agrees with the publication type recorded by Europe PMC on 98.85% of rows
+
+Not yet checked: whether each finding states what its paper found. A 200-finding fidelity sample and its worksheet
+are in `audits/`; the human read is open. Until it is done, scientific fidelity is unmeasured and marker claims
+should not be read off these tables.
+
+## Layout
+
+- `packages/` package metadata per release
+- `docs/` package documentation per tier
+- `qa/` QA outputs, paper registry reports, independent tests
+- `scope/` screening lists and verdicts
+- `audits/` fidelity sample, calibration report, exclusion audit, synonym candidates
+- `claims/` cross-corpus claim graph over EDS and POTS (machine-derived; waits on the human reads)
+- `data/` findings tables, rosters, registry, resolution cache
+- `reports/` build reports and the resume specification
+
+## Citation and licence
+
+Derived structured data: CC BY 4.0. Verbatim quotes remain the copyright of their authors and publishers and are not
+licensed by this project. Each package carries a `CITATION.cff`.
+
+Credit: Erin Magennis.
