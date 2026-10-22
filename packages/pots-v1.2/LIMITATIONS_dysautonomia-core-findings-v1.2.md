@@ -60,8 +60,11 @@ paper's Results section has a quote nobody can verify without re-fetching the pa
 traceability is 94–99% with 0% wrong-paper false positives in every stratum. The extraction
 was sound; the evidence was thrown away.
 
-It is recoverable: a 97-paper stratified pilot re-fetched **97/97** from Europe PMC at
-98.65% traceability. Roughly 2.3 hours for ~6,200 papers at the pinned pacing.
+**The v1.1 retrofit recovered most of it, with a weaker guarantee.** Every paper's source was re-fetched from
+Europe PMC and every quote re-checked: 35,949 of 36,067 rows (99.67%) now have a checkable source,
+full-text quotes trace at 97.43%, wrong-paper control 0/400. Weaker because it checks
+Europe PMC's text *today*, not the bytes the model read, and because the fetched text is not shipped (LICENSE) —
+so it is not reproducible offline the way Tier 4's retained archive is. `annotations/quote_retrofit_*.parquet`
 
 ## 4. Yield depends on full-text availability, not on the literature
 
@@ -148,7 +151,8 @@ rate — but a control proves the instrument is not random, not that it is right
 2026-09-16 (`annotations/CONDITION_BUCKET_DEFINITIONS.md` v1), after extraction. A stratified census of
 the `MCAS` bucket found ~69% of its papers study mast-cell biology with no MCAS population and ~5% study
 mastocytosis, a different disease. The shipped column is not edited; `annotations/condition_annotations.parquet`
-records a per-paper verdict against the definitions (this package has no `MCAS`-labelled rows). The
+records a per-paper verdict against the definitions. In this package: 9 papers `in_bucket`,
+4 `bucket_violation`, 77 `NEEDS_HUMAN` — all classifier-derived and unconfirmed. The
 other buckets have not been censused and may carry the same defect at an unknown rate. Eight of the
 thirteen bucket definitions are provisional.
 
@@ -159,6 +163,14 @@ did not decode Europe PMC text before extraction. They match their source under 
 which normalizes both sides symmetrically (`code/comparator_symmetry_tests.py`, 8 cases); a naive substring
 check against a clean copy of the paper will miss them. This is a presentation defect, not a fabrication,
 and it is not repaired in place.
+
+## 12. Verifiability was retrofitted, not retained
+
+Section 3 above describes the shipped data: 18.12% of rows verifiable. The 2026-09-16 retrofit
+re-fetched source text and lifted that to 99.67% (`annotations/quote_retrofit_tier1.parquet`,
+README §Annotations). The retrofit checked quotes against Europe PMC's *current* text, not the text the model
+read; the retained-archive guarantee Tier 4 has is not reproducible here. Stratify on `retrofit_source_depth`
+before quoting any traceability rate from it.
 
 ## What would most improve this package
 

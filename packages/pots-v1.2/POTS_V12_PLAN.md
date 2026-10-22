@@ -14,17 +14,19 @@ Estimated: ~2 h of careful editing and verification; zero model spend. Not attem
 **Until then:** the STATE document and every v1.1 README say the model-emitted ids must not be used for joins; the benchmark parquet gives any reader the per-id verdict today.
 
 
-## Build record — v1.2 packages (built 2026-10-22T05:45:56Z)
+## Build record — v1.2 packages (final build 2026-10-22T11:06:25Z)
 
-Built with `build_packages.py --docs-revision v1.2` from `findings_all_tiers_v1.2.parquet`; built twice with `--build-utc` pinned, tarballs byte-identical; `verify_package.py --self-test` PASS and `shasum -c CHECKSUMS.sha256` clean for all five. Docs regenerated from per-package counts (README "What changed in v1.2", METHODS identifier grounding, LIMITATIONS §2, quickstart). v1.1 prose kept as history. Builder commit `0b5bdc4` (condition-corpus-builder); build record commit `30fd31b` (eds-findings/packages/pots-v1.2/).
+Built with `build_packages.py --docs-revision v1.2` from `findings_all_tiers_v1.2.parquet` and the v1.1 annotation tables (the first build of the day shipped the annotation files under tier-prefixed names and was discarded; the final build is file-for-file a superset of v1.1 minus `REBUILD_REPORT.md`, plus `annotations/POTS_MODEL_ID_BENCHMARK.md/.json`). Built twice with `--build-utc` pinned, tarballs byte-identical; `verify_package.py --self-test` PASS and `shasum -c CHECKSUMS.sha256` clean for all five. Docs regenerated from per-package counts; v1.1 prose kept as history. Builder commit `0b5bdc4` (condition-corpus-builder).
 
 | package | findings | papers | authority_verified | authority_verified_retrospective | id_withheld_unverified_v1.2 | no_id | sha256 (tarball) |
 |---|---|---|---|---|---|---|---|
-| comorbid-conditions-findings-a-v1.2 | 36,611 | 3,123 | 0 | 5,721 | 995 | 29,895 | `af5f185a487bc3e6…` |
-| comorbid-conditions-findings-b-v1.2 | 33,830 | 2,589 | 0 | 4,788 | 785 | 28,257 | `f7433f6212bdb6c0…` |
-| dysautonomia-core-findings-v1.2 | 36,067 | 3,129 | 0 | 3,546 | 827 | 31,694 | `12d8b2a30301ab39…` |
-| migraine-hypermobility-findings-v1.2 | 15,646 | 1,091 | 1,614 | 0 | 0 | 14,032 | `900195d08b4e0b02…` |
-| postviral-autism-findings-v1.2 | 26,032 | 1,587 | 4,113 | 0 | 0 | 21,919 | `23b762d7e649921e…` |
+| comorbid-conditions-findings-a-v1.2 | 36,611 | 3,123 | 0 | 5,721 | 995 | 29,895 | `0171f92b41bf3177…` |
+| comorbid-conditions-findings-b-v1.2 | 33,830 | 2,589 | 0 | 4,788 | 785 | 28,257 | `12a49c8f18a371f6…` |
+| dysautonomia-core-findings-v1.2 | 36,067 | 3,129 | 0 | 3,546 | 827 | 31,694 | `73fb1c1b56c47074…` |
+| migraine-hypermobility-findings-v1.2 | 15,646 | 1,091 | 1,614 | 0 | 0 | 14,032 | `04029716a96f5151…` |
+| postviral-autism-findings-v1.2 | 26,032 | 1,587 | 4,113 | 0 | 0 | 21,919 | `355e60be9fc96d31…` |
 | **total** | **148,186** | — | **5,727** | **14,055** | **2,607** | **125,797** | |
 
-Tier 3/4 packages are unchanged in data (their ids were resolver-derived from the start); they are rebuilt only so that the five packages share one version and one `pots-findings` repo bundle.
+Released into the user's `pots/` repo on branch `release/v1.2`: commit `e22d119` (packages v1.1, dated 2026-09-23 = bundle build date, tag `v1.1`) then `1df50c6` (packages v1.2, tag `v1.2`; README section, CHANGELOG.md, About-page verification note). Not pushed — the user pushes/merges.
+
+Tier 3/4 packages are unchanged in data (their ids were resolver-derived from the start); rebuilt only so the five share one version and one `pots-findings` repo bundle.

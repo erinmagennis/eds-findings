@@ -1,5 +1,5 @@
 {
- "build_utc": "2026-10-22T05:45:56Z",
+ "build_utc": "2026-10-22T11:06:25Z",
  "version": "v1.2",
  "corpus": {
   "vsum": 39637,
@@ -16,100 +16,100 @@
    "findings": 36067,
    "papers": 3129,
    "n_files": 53,
-   "tarball_bytes": 33606464
+   "tarball_bytes": 33608826
   },
   "tier2a": {
    "findings": 36611,
    "papers": 3123,
    "n_files": 56,
-   "tarball_bytes": 22895792
+   "tarball_bytes": 22898775
   },
   "tier2b": {
    "findings": 33830,
    "papers": 2589,
    "n_files": 56,
-   "tarball_bytes": 20460227
+   "tarball_bytes": 20462870
   },
   "tier3": {
    "findings": 26032,
    "papers": 1587,
    "n_files": 60,
-   "tarball_bytes": 16742124
+   "tarball_bytes": 16745338
   },
   "tier4": {
    "findings": 15646,
    "papers": 1091,
    "n_files": 58,
-   "tarball_bytes": 10502141
+   "tarball_bytes": 10503653
   }
  },
  "repo_files": 301,
- "repo_bytes": 113614439,
+ "repo_bytes": 113652560,
  "dtype_fix": true,
  "annotations": {
   "tier1": [
+   "COMPARATOR_GATE.json",
+   "CONDITION_ANNOTATIONS_README.md",
+   "CONDITION_BUCKET_DEFINITIONS.md",
    "POTS_MODEL_ID_BENCHMARK.json",
    "POTS_MODEL_ID_BENCHMARK.md",
-   "tier1_COMPARATOR_GATE.json",
-   "tier1_CONDITION_ANNOTATIONS_README.md",
-   "tier1_CONDITION_BUCKET_DEFINITIONS.md",
-   "tier1_RETROFIT_REPORT.md",
-   "tier1_condition_annotations.csv",
-   "tier1_condition_annotations.parquet",
-   "tier1_quote_retrofit_tier1.parquet",
-   "tier1_retrofit_fetch_log.parquet",
-   "tier1_retrofit_summary.json"
+   "RETROFIT_REPORT.md",
+   "condition_annotations.csv",
+   "condition_annotations.parquet",
+   "quote_retrofit_tier1.parquet",
+   "retrofit_fetch_log.parquet",
+   "retrofit_summary.json"
   ],
   "tier2a": [
+   "COMPARATOR_GATE.json",
+   "CONDITION_ANNOTATIONS_README.md",
+   "CONDITION_BUCKET_DEFINITIONS.md",
    "POTS_MODEL_ID_BENCHMARK.json",
    "POTS_MODEL_ID_BENCHMARK.md",
-   "tier2a_COMPARATOR_GATE.json",
-   "tier2a_CONDITION_ANNOTATIONS_README.md",
-   "tier2a_CONDITION_BUCKET_DEFINITIONS.md",
-   "tier2a_RETROFIT_REPORT.md",
-   "tier2a_condition_annotations.csv",
-   "tier2a_condition_annotations.parquet",
-   "tier2a_quote_retrofit_tier2a.parquet",
-   "tier2a_retrofit_fetch_log.parquet",
-   "tier2a_retrofit_summary.json"
+   "RETROFIT_REPORT.md",
+   "condition_annotations.csv",
+   "condition_annotations.parquet",
+   "quote_retrofit_tier2a.parquet",
+   "retrofit_fetch_log.parquet",
+   "retrofit_summary.json"
   ],
   "tier2b": [
+   "COMPARATOR_GATE.json",
+   "CONDITION_ANNOTATIONS_README.md",
+   "CONDITION_BUCKET_DEFINITIONS.md",
    "POTS_MODEL_ID_BENCHMARK.json",
    "POTS_MODEL_ID_BENCHMARK.md",
-   "tier2b_COMPARATOR_GATE.json",
-   "tier2b_CONDITION_ANNOTATIONS_README.md",
-   "tier2b_CONDITION_BUCKET_DEFINITIONS.md",
-   "tier2b_RETROFIT_REPORT.md",
-   "tier2b_condition_annotations.csv",
-   "tier2b_condition_annotations.parquet",
-   "tier2b_quote_retrofit_tier2b.parquet",
-   "tier2b_retrofit_fetch_log.parquet",
-   "tier2b_retrofit_summary.json"
+   "RETROFIT_REPORT.md",
+   "condition_annotations.csv",
+   "condition_annotations.parquet",
+   "quote_retrofit_tier2b.parquet",
+   "retrofit_fetch_log.parquet",
+   "retrofit_summary.json"
   ],
   "tier3": [
+   "COMPARATOR_GATE.json",
+   "CONDITION_ANNOTATIONS_README.md",
+   "CONDITION_BUCKET_DEFINITIONS.md",
    "POTS_MODEL_ID_BENCHMARK.json",
    "POTS_MODEL_ID_BENCHMARK.md",
-   "tier3_COMPARATOR_GATE.json",
-   "tier3_CONDITION_ANNOTATIONS_README.md",
-   "tier3_CONDITION_BUCKET_DEFINITIONS.md",
-   "tier3_RETROFIT_REPORT.md",
-   "tier3_condition_annotations.csv",
-   "tier3_condition_annotations.parquet",
-   "tier3_quote_retrofit_tier3.parquet",
-   "tier3_retrofit_fetch_log.parquet",
-   "tier3_retrofit_summary.json"
+   "RETROFIT_REPORT.md",
+   "condition_annotations.csv",
+   "condition_annotations.parquet",
+   "quote_retrofit_tier3.parquet",
+   "retrofit_fetch_log.parquet",
+   "retrofit_summary.json"
   ],
   "tier4": [
+   "COMPARATOR_GATE.json",
+   "CONDITION_ANNOTATIONS_README.md",
+   "CONDITION_BUCKET_DEFINITIONS.md",
    "POTS_MODEL_ID_BENCHMARK.json",
    "POTS_MODEL_ID_BENCHMARK.md",
-   "tier4_COMPARATOR_GATE.json",
-   "tier4_CONDITION_ANNOTATIONS_README.md",
-   "tier4_CONDITION_BUCKET_DEFINITIONS.md",
-   "tier4_RETROFIT_REPORT.md",
-   "tier4_condition_annotations.csv",
-   "tier4_condition_annotations.parquet",
-   "tier4_retrofit_fetch_log.parquet",
-   "tier4_retrofit_summary.json"
+   "RETROFIT_REPORT.md",
+   "condition_annotations.csv",
+   "condition_annotations.parquet",
+   "retrofit_fetch_log.parquet",
+   "retrofit_summary.json"
   ]
  },
  "dois": {}

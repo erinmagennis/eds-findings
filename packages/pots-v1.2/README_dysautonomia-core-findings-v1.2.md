@@ -42,7 +42,7 @@ The v1.1 figure quoted below was an adjudicated SAMPLE and is kept for the recor
 4. **Scientific fidelity is UNMEASURED.**
    Everything verified in `qa/` is well-formedness: quotes trace to source, identifiers carry authority provenance, invariants hold. **Nobody has checked that the extracted science is correctly interpreted.** That needs a human reader — an LLM adjudicator shares the extractor's blind spots. Treat every row as a pointer to a paper you should read, not as a fact.
 5. **`condition` is a coarse POPULATION bucket, and the `MCAS` bucket is mostly not MCAS.**
-   `condition` means the patient population the paper studied — not a diagnosis, not a mechanism-relevance tag. Its bucket definitions were written down only on 2026-09-16 (`annotations/CONDITION_BUCKET_DEFINITIONS.md`). A stratified census of the 1,083 `MCAS`-labelled papers corpus-wide projects ~69% study mast-cell biology with no mast-cell-disorder population, ~10% MCAS as defined, ~5% mastocytosis (a distinct clonal neoplasm). The shipped column is unchanged; `annotations/condition_annotations.parquet` (pmid-keyed) carries a per-paper verdict, all classifier-derived and `human_confirmed == False`. This package carries no `MCAS`-labelled rows, but the same caveat applies to every bucket.
+   `condition` means the patient population the paper studied — not a diagnosis, not a mechanism-relevance tag. Its bucket definitions were written down only on 2026-09-16 (`annotations/CONDITION_BUCKET_DEFINITIONS.md`). A stratified census of the 1,083 `MCAS`-labelled papers corpus-wide projects ~69% study mast-cell biology with no mast-cell-disorder population, ~10% MCAS as defined, ~5% mastocytosis (a distinct clonal neoplasm). The shipped column is unchanged; `annotations/condition_annotations.parquet` (pmid-keyed) carries a per-paper verdict, all classifier-derived and `human_confirmed == False`. In this package 90 papers (231 rows) carry `condition == 'MCAS'`: 9 verified `in_bucket`, 4 `bucket_violation`, 77 unassessed.
 
 ---
 
@@ -122,6 +122,12 @@ The unverifiable remainder is a **retention** failure, not an extraction failure
 source text is available, traceability across the corpus measures 94–99% with **0%
 wrong-paper false positives in every stratum**. The body text was simply discarded after
 extraction. `qa/` carries the census with its negative control.
+
+**v1.1 retrofit:** the source of every paper in this package was re-fetched from Europe PMC and every quote
+re-checked — **35,949 of 36,067 rows (99.67%) now have a checkable source**; full-text quotes trace at
+97.43% (27,390/28,113), wrong-paper control 0/400.
+This checks Europe PMC's *current* text, not the bytes the model read, and the text is not shipped; the figure above
+is the shipped-source figure. Row-level results: `annotations/quote_retrofit_*.parquet` (see the Annotations section).
 
 ### Ontology grounding
 
@@ -285,17 +291,46 @@ its numerator, denominator and basis. They are covered by `MANIFEST.json` and `C
 
 | file | rows | keyed on | what it is |
 |---|---:|---|---|
+| `annotations/COMPARATOR_GATE.json` | — | — | Regression gate run before the retrofit: the shipped comparator reproduces Tier 4's 99.09% and is entity-code symmetric (42/42). |
+| `annotations/CONDITION_ANNOTATIONS_README.md` | — | — | Schema and coverage of condition_annotations, and how to join it. |
+| `annotations/CONDITION_BUCKET_DEFINITIONS.md` | — | — | v1 written definitions of the `condition` buckets (MCAS decided; others provisional) and the MCAS census that prompted them. |
 | `annotations/POTS_MODEL_ID_BENCHMARK.json` | — | see file | additive annotation table |
 | `annotations/POTS_MODEL_ID_BENCHMARK.md` | — | see file | additive annotation table |
-| `annotations/tier1_COMPARATOR_GATE.json` | — | see file | additive annotation table |
-| `annotations/tier1_CONDITION_ANNOTATIONS_README.md` | — | see file | additive annotation table |
-| `annotations/tier1_CONDITION_BUCKET_DEFINITIONS.md` | — | see file | additive annotation table |
-| `annotations/tier1_RETROFIT_REPORT.md` | — | see file | additive annotation table |
-| `annotations/tier1_condition_annotations.csv` | 1,083 | see file | additive annotation table |
-| `annotations/tier1_condition_annotations.parquet` | 1,083 | see file | additive annotation table |
-| `annotations/tier1_quote_retrofit_tier1.parquet` | 36,067 | see file | additive annotation table |
-| `annotations/tier1_retrofit_fetch_log.parquet` | 10,428 | see file | additive annotation table |
-| `annotations/tier1_retrofit_summary.json` | — | see file | additive annotation table |
+| `annotations/RETROFIT_REPORT.md` | — | — | The retrofit report: deviations, per-stratum rates with controls, itemised permanent losses, untraceable examples. |
+| `annotations/condition_annotations.csv` | 1,083 | `pmid` | CSV twin of condition_annotations.parquet. |
+| `annotations/condition_annotations.parquet` | 1,083 | `pmid` | Per-paper verdict on the `condition == 'MCAS'` bucket under population-studied semantics (`in_bucket` / `bucket_violation` / `NEEDS_HUMAN`), classifier-derived, none human-confirmed. |
+| `annotations/quote_retrofit_tier1.parquet` | 36,067 | `row_idx` = 0-based row of `data/<pkg>_findings.parquet` (+ `pmid`, `quote_sha1` as checks) | Per-row quote traceability against source text re-fetched from Europe PMC on 2026-09-16, with source depth, fetch status and the wrong-paper control. Null `retrofit_traceable` means no source exists today. |
+| `annotations/retrofit_fetch_log.parquet` | 10,428 | `pmid` | One row per Tier 1–3 paper attempted in the retrofit: abstract/full-text availability, PMCID, HTTP outcome, fetch date. |
+| `annotations/retrofit_summary.json` | — | — | Machine-readable retrofit numbers for all four Tier 1–3 packages, every rate with numerator, denominator and basis. |
+
+### Quote source retrofit (2026-09-16)
+
+The body text this tier was extracted from was discarded after extraction, so the `quotes verifiable`
+figure above (18.12%) is what the shipped data alone supports. On 2026-09-16 the
+source text of every paper was re-fetched from Europe PMC at the pinned pacing and every quote re-checked
+with the shipped comparator (`code/quote_trace.py`, `code/retrofit_census.py`). The fetched text is
+**not** shipped (see LICENSE); the row-level result is `annotations/quote_retrofit_tier1.parquet`.
+
+| | rows | of | rate | basis |
+|---|---:|---:|---:|---|
+| verifiable before | 6,536 | 36,067 | 18.12% | shipped data: abstract-derived rows only |
+| verifiable after | 35,949 | 36,067 | 99.67% | rows whose own re-fetched source exists |
+| traceable, full-text rows vs re-fetched full text | 27,390 | 28,113 | 97.43% | control 0/400 wrong-paper false positives |
+| traceable, abstract-stratum rows vs re-fetched abstract | 6,001 | 6,465 | 92.82% | control 0/400 |
+| traceable, all verifiable rows | 33,393 | 35,949 | 92.89% | **stratify on `retrofit_source_depth × fulltext_status` before quoting** |
+
+118 rows have no source in Europe PMC today (neither abstract nor body) and stay unverifiable. 1,371 full-text rows whose body could not be re-fetched were checked against the abstract only and trace at ≈0% for source-depth reasons, not because the quote is wrong. Europe PMC's *current* text was used, so a
+paper revised since extraction registers as untraceable. Traceability is well-formedness, not correctness:
+a traceable quote can still support a misread finding.
+
+### Condition bucket annotations
+
+`annotations/condition_annotations.parquet` covers the 90 papers (231 rows) in this
+package labelled `condition == 'MCAS'`: **9 `in_bucket`, 4 `bucket_violation`**
+(0 mastocytosis, 0 mast-cell biology without a disorder population,
+4 neither), **77 `NEEDS_HUMAN`**. Verdicts are classifier-derived against
+`CONDITION_BUCKET_DEFINITIONS.md` v1 under population-studied semantics and none is human-confirmed.
+Other buckets are not yet censused. See `annotations/CONDITION_ANNOTATIONS_README.md`.
 
 ---
 
@@ -323,5 +358,5 @@ one prompt; pool those two freely.
 
 ---
 
-Built 2026-10-22T05:45:56Z from harmonized corpus `f0b86f9a-f688-48c4-a08f-94e946afb9af`.
+Built 2026-10-22T11:06:25Z from harmonized corpus `f0b86f9a-f688-48c4-a08f-94e946afb9af`.
 Data CC BY 4.0. Machine-extracted research information — **not medical advice.**
